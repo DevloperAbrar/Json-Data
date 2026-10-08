@@ -743,10 +743,10 @@
         "question_image_url": "NEEDS_IMAGE",
         "question_text": "A long straight wire of circular cross-section with radius $'a'$ carries a steady current $I$. The current $I$ is uniformly distributed across this cross-section. The plot of magnitude of magnetic field $B$ with distance $r$ from the centre of the wire is given by (see options with graphs):",
         "options": [
-          { "key": "1", "text": "Graph showing B increasing linearly for $r < a$, then decreasing as $1/r$ for $r > a$", "image_url": "NEEDS_IMAGE" },
-          { "key": "2", "text": "Graph showing B decreasing from $r=0$", "image_url": "NEEDS_IMAGE" },
-          { "key": "3", "text": "Graph showing B starting at $B_0$ at $r=0$ and decreasing to $B_0/e$ at $r=a$", "image_url": "NEEDS_IMAGE" },
-          { "key": "4", "text": "Graph showing B constant inside then decreasing outside", "image_url": "NEEDS_IMAGE" }
+          { "key": "1", "text": "Graph showing B increasing linearly for $r < a$, then decreasing as $1/r$ for $r > a$", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473209/Screenshot_2026-06-15-02-56-29-31_e2d5b3f32b79de1d45acd1fad96fbb0f_ifhmzl.jpg" },
+          { "key": "2", "text": "Graph showing B decreasing from $r=0$", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473209/Screenshot_2026-06-15-02-56-45-79_e2d5b3f32b79de1d45acd1fad96fbb0f_uuwj5l.jpg" },
+          { "key": "3", "text": "Graph showing B starting at $B_0$ at $r=0$ and decreasing to $B_0/e$ at $r=a$", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473209/Screenshot_2026-06-15-02-56-57-22_e2d5b3f32b79de1d45acd1fad96fbb0f_tgj2ey.jpg" },
+          { "key": "4", "text": "Graph showing B constant inside then decreasing outside", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473209/Screenshot_2026-06-15-02-57-15-64_e2d5b3f32b79de1d45acd1fad96fbb0f_zqvvts.jpg" }
         ],
         "correct_answer": { "type": "single", "value": "1", "value_range": null },
         "solution_text": "Inside wire ($r < a$): Using Ampere's law, enclosed current $= I \\cdot \\dfrac{r^2}{a^2}$\n$B_{in} \\cdot 2\\pi r = \\mu_0 I \\dfrac{r^2}{a^2} \\Rightarrow B_{in} = \\dfrac{\\mu_0 I r}{2\\pi a^2}$ (linear in $r$)\n\nOutside wire ($r > a$): $B_{out} = \\dfrac{\\mu_0 I}{2\\pi r}$ (inversely proportional to $r$)\n\nSo B increases linearly from 0 to $r=a$, then decreases as $1/r$. This is graph (1).",
@@ -790,7 +790,7 @@
         "topic": "Potential energy of charge configurations",
         "difficulty": "Hard",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473210/Screenshot_2026-06-15-02-57-48-73_e2d5b3f32b79de1d45acd1fad96fbb0f_eauh1o.jpg",
         "question_text": "In Configuration (1), four identical charges $q_0$ are kept at corners A, B, C, D of a square of side length $'a'$. In Configuration (2), the same charges are shifted to midpoints G, E, H, F of the square. If $K = \\dfrac{1}{4\\pi\\varepsilon_0}$, the difference between the potential energies of configuration (2) and (1) is given by:",
         "options": [
           { "key": "1", "text": "$\\dfrac{Kq_0^2}{a}(4\\sqrt{2}-2)$", "image_url": null },
@@ -868,10 +868,10 @@
         "question_image_url": "NEEDS_IMAGE",
         "question_text": "Which of the following figure represents the relation between Celsius and Fahrenheit temperatures? (See graphs in options)",
         "options": [
-          { "key": "1", "text": "Graph (1)", "image_url": "NEEDS_IMAGE" },
-          { "key": "2", "text": "Graph (2)", "image_url": "NEEDS_IMAGE" },
-          { "key": "3", "text": "Graph (3)", "image_url": "NEEDS_IMAGE" },
-          { "key": "4", "text": "Graph (4)", "image_url": "NEEDS_IMAGE" }
+          { "key": "1", "text": "Graph (1)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473209/Screenshot_2026-06-15-02-58-59-63_e2d5b3f32b79de1d45acd1fad96fbb0f_mgd6lv.jpg" },
+          { "key": "2", "text": "Graph (2)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473209/Screenshot_2026-06-15-02-59-23-10_e2d5b3f32b79de1d45acd1fad96fbb0f_qgt71x.jpg" },
+          { "key": "3", "text": "Graph (3)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473210/Screenshot_2026-06-15-02-59-39-23_e2d5b3f32b79de1d45acd1fad96fbb0f_jx9civ.jpg" },
+          { "key": "4", "text": "Graph (4)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473210/Screenshot_2026-06-15-02-59-51-59_e2d5b3f32b79de1d45acd1fad96fbb0f_cxuay4.jpg" }
         ],
         "correct_answer": { "type": "single", "value": "2", "value_range": null },
         "solution_text": "$C = \\dfrac{F - 32}{9} \\times 5 \\Rightarrow C = \\dfrac{5F}{9} - \\dfrac{160}{9}$\n\nThis is a linear equation with positive slope ($m = \\dfrac{5}{9} > 0$).\n\nC-intercept: $F = 0 \\Rightarrow C = -\\dfrac{160}{9} \\approx -17.8°C$ (negative)\nF-intercept: $C = 0 \\Rightarrow F = 32°F$ (positive)\n\nSo the line passes through $(F=32, C=0)$ and $(F=0, C=-17.8)$. The line has positive slope with C-intercept negative and F-intercept positive, which matches graph (2).",
@@ -890,7 +890,7 @@
         "topic": "Amperian loop — current enclosed by rotating charges",
         "difficulty": "Hard",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473210/Screenshot_2026-06-15-03-00-19-67_e2d5b3f32b79de1d45acd1fad96fbb0f_xsjp49.jpg",
         "question_text": "N equally spaced charges each of value $q$, are placed on a circle of radius $R$. The circle rotates about its axis with an angular velocity $\\omega$. A bigger Amperian loop $B$ encloses the whole circle whereas a smaller Amperian loop $A$ encloses a small segment. The difference between enclosed currents, $I_A - I_B$, for the given Amperian loops is:",
         "options": [
           { "key": "1", "text": "$\\dfrac{N^2}{2\\pi}q\\omega$", "image_url": null },
@@ -940,7 +940,7 @@
         "topic": "Cyclic process — work done / heat exchanged",
         "difficulty": "Medium",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473210/Screenshot_2026-06-15-03-00-41-27_e2d5b3f32b79de1d45acd1fad96fbb0f_ruhvym.jpg",
         "question_text": "The magnitude of heat exchanged by a system for the given cyclic process ABCA (as shown in figure with elliptical path on P-V diagram) is (in SI unit):",
         "options": [
           { "key": "1", "text": "$10\\pi$", "image_url": null },
@@ -990,7 +990,7 @@
         "topic": "Logic gates — output analysis",
         "difficulty": "Easy",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473213/Screenshot_2026-06-15-03-01-28-55_e2d5b3f32b79de1d45acd1fad96fbb0f_emcdot.jpg",
         "question_text": "The output of the circuit (NAND gate followed by NOT gate) is low (zero) for which of the following input combinations?\n(A) X = 0, Y = 0\n(B) X = 0, Y = 1\n(C) X = 1, Y = 0\n(D) X = 1, Y = 1\n\nChoose the correct answer:",
         "options": [
           { "key": "1", "text": "(A), (C) and (D) only", "image_url": null },
@@ -1093,10 +1093,10 @@
         "question_image_url": "NEEDS_IMAGE",
         "question_text": "A particle oscillates along the x-axis according to the law, $x(t) = x_0 \\sin^2\\!\\left(\\dfrac{t}{2}\\right)$ where $x_0 = 1$ m. The kinetic energy (K) of the particle as a function of $x$ is correctly represented by the graph:",
         "options": [
-          { "key": "1", "text": "Graph (1) — parabola opening downward, max at x=1/2", "image_url": "NEEDS_IMAGE" },
-          { "key": "2", "text": "Graph (2)", "image_url": "NEEDS_IMAGE" },
-          { "key": "3", "text": "Graph (3)", "image_url": "NEEDS_IMAGE" },
-          { "key": "4", "text": "Graph (4)", "image_url": "NEEDS_IMAGE" }
+          { "key": "1", "text": "Graph (1) — parabola opening downward, max at x=1/2", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473214/Screenshot_2026-06-15-03-01-53-03_e2d5b3f32b79de1d45acd1fad96fbb0f_ziwxct.jpg" },
+          { "key": "2", "text": "Graph (2)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473215/Screenshot_2026-06-15-03-02-06-78_e2d5b3f32b79de1d45acd1fad96fbb0f_yl17hl.jpg" },
+          { "key": "3", "text": "Graph (3)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473215/Screenshot_2026-06-15-03-02-23-96_e2d5b3f32b79de1d45acd1fad96fbb0f_xcp5nk.jpg" },
+          { "key": "4", "text": "Graph (4)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473216/Screenshot_2026-06-15-03-02-38-35_e2d5b3f32b79de1d45acd1fad96fbb0f_xgc8qm.jpg" }
         ],
         "correct_answer": { "type": "single", "value": "1", "value_range": null },
         "solution_text": "$x = x_0\\sin^2(t/2) = x_0 \\cdot \\dfrac{1-\\cos t}{2}$\n\nThis is SHM about $x_0/2$ with amplitude $x_0/2$.\n\nLet $u = x - x_0/2$: motion is $u = -\\dfrac{x_0}{2}\\cos t$, amplitude $A = x_0/2 = 0.5$ m.\n\n$\\dot{x} = \\dfrac{x_0}{2}\\sin t$\n\n$v = \\dot{x} = \\dfrac{x_0}{2}\\sin t$\n\n$\\sin^2 t = 1 - \\cos^2 t = 1 - \\left(\\dfrac{2x}{x_0} - 1\\right)^2$\n\n$KE = \\dfrac{1}{2}mv^2 = \\dfrac{1}{2}m \\cdot \\dfrac{x_0^2}{4}\\sin^2 t = \\dfrac{mx_0^2}{8}\\left[1 - \\left(\\dfrac{2x}{x_0}-1\\right)^2\\right]$\n\nThis is a downward parabola in $x$, maximum at $x = x_0/2 = 1/2$, zero at $x=0$ and $x=x_0=1$.\nThis matches graph (1).",
@@ -1115,7 +1115,7 @@
         "topic": "Young's double slit with polarizers",
         "difficulty": "Hard",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473216/Screenshot_2026-06-15-03-03-16-44_e2d5b3f32b79de1d45acd1fad96fbb0f_it4fjj.jpg",
         "question_text": "In a Young's double slit experiment, three polarizers are kept as shown in the figure. The transmission axes of $P_1$ and $P_2$ are orthogonal to each other. The polarizer $P_3$ covers both the slits with its transmission axis at 45° to those of $P_1$ and $P_2$. An unpolarized light of wavelength $\\lambda$ and intensity $I_0$ is incident on $P_1$ and $P_2$. The intensity at a point after $P_3$ where the path difference between the light waves from $s_1$ and $s_2$ is $\\dfrac{\\lambda}{3}$, is:",
         "options": [
           { "key": "1", "text": "$\\dfrac{I_0}{2}$", "image_url": null },
@@ -1160,7 +1160,7 @@
         "topic": "Conical pendulum — tension",
         "difficulty": "Medium",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473217/Screenshot_2026-06-15-03-03-35-78_e2d5b3f32b79de1d45acd1fad96fbb0f_qvsevo.jpg",
         "question_text": "A string of length $L$ is fixed at one end and carries a mass $M$ at the other end. The mass makes $\\left(\\dfrac{3}{\\pi}\\right)$ rotations per second about the vertical axis passing through the end of the string as shown. The tension in the string is _____ $ML$.",
         "options": null,
         "correct_answer": { "type": "numerical", "value": "36", "value_range": { "min": 36, "max": 36 } },
@@ -1265,7 +1265,7 @@
         "topic": "First order reaction — half life and graphs",
         "difficulty": "Medium",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473217/Screenshot_2026-06-15-03-03-56-09_e2d5b3f32b79de1d45acd1fad96fbb0f_hmu2mn.jpg",
         "question_text": "Given below are two statements:\n**Statement(I):** The graph of $t_{1/2}$ vs $[R]_0$ (horizontal line) is valid for first order reaction.\n**Statement(II):** The graph of $\\log\\dfrac{[R]_0}{[R]}$ vs time with slope $= \\dfrac{k}{2.303}$ is valid for first order reaction.\n\nChoose the correct answer:",
         "options": [
           { "key": "1", "text": "Both Statement I and Statement II are false", "image_url": null },
@@ -1290,7 +1290,7 @@
         "topic": "Aromatic amines — conversion to para-bromoaniline",
         "difficulty": "Hard",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473218/Screenshot_2026-06-15-03-04-21-00_e2d5b3f32b79de1d45acd1fad96fbb0f_o7mo43.jpg",
         "question_text": "For the reaction: Aniline $\\to$ para-Bromoaniline (major product), the correct order of set of reagents for the above conversion is:",
         "options": [
           { "key": "1", "text": "$\\text{Br}_2|\\text{FeBr}_3, \\text{H}_2\\text{O}(\\Delta), \\text{NaOH}$", "image_url": null },
@@ -1340,7 +1340,7 @@
         "topic": "Hybridization — sp and sp² carbon count",
         "difficulty": "Medium",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473220/Screenshot_2026-06-15-03-04-36-27_e2d5b3f32b79de1d45acd1fad96fbb0f_d6vonb.jpg",
         "question_text": "In the given structure, number of sp and sp² hybridized carbon atoms present respectively are: (Structure contains conjugated system with C=O, C≡C, C=C, and C≡N groups)",
         "options": [
           { "key": "1", "text": "3 and 6", "image_url": null },
@@ -1443,10 +1443,10 @@
         "question_image_url": "NEEDS_IMAGE",
         "question_text": "For the reaction $\\text{H}_2(g) + \\text{I}_2(g) \\rightleftharpoons 2\\text{HI}(g)$, attainment of equilibrium is predicted correctly by:",
         "options": [
-          { "key": "1", "text": "Graph (1)", "image_url": "NEEDS_IMAGE" },
-          { "key": "2", "text": "Graph (2)", "image_url": "NEEDS_IMAGE" },
-          { "key": "3", "text": "Graph (3)", "image_url": "NEEDS_IMAGE" },
-          { "key": "4", "text": "Graph (4)", "image_url": "NEEDS_IMAGE" }
+          { "key": "1", "text": "Graph (1)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473220/Screenshot_2026-06-15-03-04-53-58_e2d5b3f32b79de1d45acd1fad96fbb0f_ucfl7r.jpg" },
+          { "key": "2", "text": "Graph (2)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473220/Screenshot_2026-06-15-03-05-04-19_e2d5b3f32b79de1d45acd1fad96fbb0f_xvtvh4.jpg" },
+          { "key": "3", "text": "Graph (3)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473221/Screenshot_2026-06-15-03-05-23-50_e2d5b3f32b79de1d45acd1fad96fbb0f_jmuxny.jpg" },
+          { "key": "4", "text": "Graph (4)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473222/Screenshot_2026-06-15-03-05-37-56_e2d5b3f32b79de1d45acd1fad96fbb0f_gpncdc.jpg" }
         ],
         "correct_answer": { "type": "single", "value": "2", "value_range": null },
         "solution_text": "Starting with $\\text{H}_2$ and $\\text{I}_2$ only:\n- $[\\text{H}_2]$ and $[\\text{I}_2]$ decrease until equilibrium\n- $[\\text{HI}]$ increases until equilibrium\n- At equilibrium, all concentrations become constant\n\nSince $K_c$ for this reaction is large (~54 at room temperature), HI concentration at equilibrium is higher than H₂ and I₂.\n\nGraph (2) correctly shows $[\\text{H}_2]$ and $[\\text{I}_2]$ decreasing from top and $[\\text{HI}]$ increasing from bottom, then all leveling off, with HI concentration higher than H₂ and I₂ at equilibrium.",
@@ -1640,7 +1640,7 @@
         "topic": "Named reactions — aldehyde synthesis",
         "difficulty": "Medium",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473223/Screenshot_2026-06-15-03-06-33-68_e2d5b3f32b79de1d45acd1fad96fbb0f_kclmlp.jpg",
         "question_text": "Match List-I with List-II:\n\n**List-I:**\n(A) RCN $\\xrightarrow{(i)\\text{SnCl}_2,\\text{HCl}}{(ii)\\text{H}_3\\text{O}^+}$ RCHO\n(B) PhCOCl $\\xrightarrow{\\text{H}_2/\\text{Pd-BaSO}_4}$ PhCHO\n(C) PhCH₃ $\\xrightarrow{(i)\\text{CrO}_2\\text{Cl}_2,\\text{CS}_2}{(ii)\\text{H}_3\\text{O}^+}$ PhCHO\n(D) Ph-H $\\xrightarrow{(i)\\text{CO, HCl}}{(ii)\\text{anhydrous AlCl}_3/\\text{CuCl}}$ PhCHO\n\n**List-II:**\n(I) Etard reaction\n(II) Gattermann-Koch reaction\n(III) Rosenmund reduction\n(IV) Stephen reaction\n\nChoose the correct answer:",
         "options": [
           { "key": "1", "text": "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)", "image_url": null },
@@ -1665,13 +1665,13 @@
         "topic": "SN2 reaction — AgCN product",
         "difficulty": "Medium",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473903/Screenshot_2026-06-15-03-21-30-86_e2d5b3f32b79de1d45acd1fad96fbb0f_xj60sk.jpg",
         "question_text": "The structure of the major product formed in the following reaction is: (1-Iodo-3-chloro-5-bromo benzene derivative reacts with AgCN)",
         "options": [
-          { "key": "1", "text": "Product with CN attached to benzene ring (ArCN)", "image_url": "NEEDS_IMAGE" },
-          { "key": "2", "text": "Product with NC (isocyanide) attached via CH₂ group", "image_url": "NEEDS_IMAGE" },
-          { "key": "3", "text": "Product with CN attached via CH₂ group", "image_url": "NEEDS_IMAGE" },
-          { "key": "4", "text": "Product with CN attached to ring, Cl replaced", "image_url": "NEEDS_IMAGE" }
+          { "key": "1", "text": "Product with CN attached to benzene ring (ArCN)", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473224/Screenshot_2026-06-15-03-07-55-21_e2d5b3f32b79de1d45acd1fad96fbb0f_pifpao.jpg" },
+          { "key": "2", "text": "Product with NC (isocyanide) attached via CH₂ group", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473224/Screenshot_2026-06-15-03-08-08-25_e2d5b3f32b79de1d45acd1fad96fbb0f_nqctmz.jpg" },
+          { "key": "3", "text": "Product with CN attached via CH₂ group", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473224/Screenshot_2026-06-15-03-08-18-69_e2d5b3f32b79de1d45acd1fad96fbb0f_asmlvn.jpg" },
+          { "key": "4", "text": "Product with CN attached to ring, Cl replaced", "image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473225/Screenshot_2026-06-15-03-08-31-84_e2d5b3f32b79de1d45acd1fad96fbb0f_dxwejc.jpg" }
         ],
         "correct_answer": { "type": "single", "value": "2", "value_range": null },
         "solution_text": "The substrate has a –CH₂Cl (benzyl chloride) group. AgCN is an ambident nucleophile.\n\nWith alkyl halides, AgCN reacts via silver coordination: Ag⁺ assists ionization and CN⁻ attacks through carbon (as isocyanide, –NC) since AgCN is covalent (Ag bonded to N of CN).\n\nSo benzyl chloride + AgCN → benzyl isocyanide (–CH₂–NC) is the major product.\n\nThe major product has the –NC group attached to the CH₂ group → option (2).",
@@ -1690,7 +1690,7 @@
         "topic": "Nucleobases — structures",
         "difficulty": "Medium",
         "has_question_image": true,
-        "question_image_url": "NEEDS_IMAGE",
+        "question_image_url": "https://res.cloudinary.com/doml2k0fp/image/upload/v1781473225/Screenshot_2026-06-15-03-08-57-91_e2d5b3f32b79de1d45acd1fad96fbb0f_bv4dat.jpg",
         "question_text": "Match List-I with List-II (nucleobases and their structures):\n\n**List-I:** (A) Adenine, (B) Cytosine, (C) Thymine, (D) Uracil\n\n**List-II:** (I) Pyrimidine with =O and NH (uracil structure), (II) Pyrimidine with CH₃ and two =O (thymine), (III) Purine with NH₂ (adenine), (IV) Pyrimidine with NH₂ and =O (cytosine)\n\nChoose the correct answer:",
         "options": [
           { "key": "1", "text": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)", "image_url": null },
