@@ -1,0 +1,479 @@
+You are an expert Indian exam paper extractor specialising in MP Board (MPBSE) papers.
+I will give you a PDF of an MP Board exam paper.
+Extract ALL questions and return a single valid JSON object.
+
+═══════════════════════════════════════════════════════════
+PAPER DETAILS (fill these before sending)
+═══════════════════════════════════════════════════════════
+- Board: MPBSE
+- Exam: Higher Secondary Examination (Main)
+- Class: 12
+- Subject: Physics
+- Subject Code: 265307
+- Year: 2026
+- Set: A
+- Primary Language: Hindi
+- Secondary Language: English
+- Total Questions: 20
+- Total Marks: 70
+- Time: 3 Hours
+
+═══════════════════════════════════════════════════════════
+MARKING SCHEME OF THIS PAPER
+═══════════════════════════════════════════════════════════
+Q1  → MCQ_MULTI_PART       | 6 sub-parts | 1 mark each | No OR
+Q2  → MATCH_THE_COLUMN     | 6 pairs     | 1 mark each | No OR
+Q3  → ONE_SENTENCE_MULTI_PART | 5 sub-parts | 1 mark each | No OR
+Q4  → FILL_IN_BLANKS_MULTI_PART | 6 sub-parts | 1 mark each | No OR
+Q5  → TRUE_FALSE_MULTI_PART | 5 sub-parts | 1 mark each | No OR
+Q6–Q12  → SHORT_ANSWER     | 2 marks each | word limit ~30 | HAS OR
+Q13–Q16 → MEDIUM_ANSWER    | 3 marks each | word limit ~75 | HAS OR
+Q17–Q20 → LONG_ANSWER      | 4 marks each | word limit ~120 | HAS OR
+
+═══════════════════════════════════════════════════════════
+CRITICAL RULES — READ BEFORE EXTRACTING
+═══════════════════════════════════════════════════════════
+
+RULE 1 — COUNT:
+  Output exactly 20 top-level question objects in the "questions" array.
+  Sub-parts like (a)(b)(c) or (i)(ii)(iii) are NOT separate top-level questions.
+  They go inside the "sub_questions" array of their parent.
+
+RULE 2 — BILINGUAL DEDUP:
+  Every question appears TWICE in the paper (Hindi first, English below).
+  Extract ONCE only.
+  Hindi text → "text" field.
+  English text → "text_english" field.
+  Never create two objects for the same question.
+
+RULE 3 — QUESTION TYPES (use exactly these strings):
+  "MCQ_MULTI_PART"           → Q1 type (multiple MCQ sub-parts in one question)
+  "MATCH_THE_COLUMN"         → Q2 type (Column A matched to Column B)
+  "ONE_SENTENCE_MULTI_PART"  → Q3 type (answer each in one sentence)
+  "FILL_IN_BLANKS_MULTI_PART"→ Q4 type (fill in the blank sub-parts)
+  "TRUE_FALSE_MULTI_PART"    → Q5 type (true/false sub-parts)
+  "SHORT_ANSWER"             → Q6–Q12 (2 marks, ~30 words, with OR)
+  "MEDIUM_ANSWER"            → Q13–Q16 (3 marks, ~75 words, with OR)
+  "LONG_ANSWER"              → Q17–Q20 (4 marks, ~120 words, with OR)
+
+RULE 4 — OR QUESTIONS (Q6 to Q20):
+  Every question from Q6 to Q20 has an internal OR alternative.
+  The OR alternative goes inside "or_question" object at the same level.
+  "or_question" has the same fields as the main question:
+  text, text_english, has_image, image_description, chapter, topic,
+  correct_answer, solution, sub_questions (if the OR has sub-parts).
+  Never skip the OR question. Never merge OR into sub_questions.
+
+RULE 5 — MULTI-PART QUESTIONS (Q1–Q5):
+  Each sub-part goes in sub_questions[] with these fields:
+    sub_id, text, text_english, chapter, topic, difficulty,
+    marks, has_image, image_description,
+    options (for MCQ), correct_answer, solution
+
+  For Q1 (MCQ_MULTI_PART): each sub has options with keys "i","ii","iii","iv"
+  For Q2 (MATCH_THE_COLUMN): use column_a[] and column_b[] arrays at top level,
+    correct_answer.pairs[] maps a_key to b_key
+  For Q4 (FILL_IN_BLANKS): correct_answer value is the exact blank answer
+  For Q5 (TRUE_FALSE): correct_answer value is true or false (boolean)
+
+RULE 6 — IMAGES / DIAGRAMS:
+  If a question or sub-question has a diagram, circuit, table or figure:
+    "has_image": true
+    "image_description": describe the diagram clearly in 1-2 sentences
+    "image_url": null   ← URL will be added manually later
+  If no image: "has_image": false, "image_description": null, "image_url": null
+
+RULE 7 — DIAGRAM REQUIRED IN ANSWER:
+  If the question says "draw a diagram" or "draw a labelled diagram":
+    "diagram_required_in_answer": true
+  Otherwise: "diagram_required_in_answer": false
+
+RULE 8 — CHAPTERS & TOPICS:
+  Assign chapter and topic to every question and sub-question.
+  Infer from physics content if not labelled in the paper.
+  Use standard MPBSE Class 12 Physics chapter names.
+
+RULE 9 — DIFFICULTY:
+  Assign "Easy", "Medium", or "Hard" to every question and sub-question.
+
+═══════════════════════════════════════════════════════════
+SOLUTION RULES — APPLY TO EVERY QUESTION
+═══════════════════════════════════════════════════════════
+
+- solution field must ALWAYS be a complete model answer written
+  as a student would write in the exam. Never use bullet points in solution.
+- Word count must match the question demand:
+    1 mark / one sentence → 1–2 sentences
+    2 marks / ~30 words  → 25–35 words
+    3 marks / ~75 words  → 70–80 words
+    4 marks / ~120 words → 115–125 words
+- For MCQ sub-parts: explain why the correct option is right
+  and why the others are wrong (2–3 sentences).
+- For TRUE_FALSE: quote or paraphrase the concept that proves it true or false.
+- For FILL_IN_BLANK: state the concept behind the correct answer in one sentence.
+- For MATCH: explain each pair briefly.
+- For derivation questions: write key steps in flowing prose, include the
+  final derived formula clearly.
+- For numerical questions: show formula → substitution → answer with units.
+- Use LaTeX inside $...$ for all math and physics formulas.
+- solution_hindi: write the Hindi version of the solution only for
+  sub-questions of Q1–Q5. For Q6–Q20 set solution_hindi to null.
+
+═══════════════════════════════════════════════════════════
+OUTPUT JSON STRUCTURE
+═══════════════════════════════════════════════════════════
+
+{
+  "meta": {
+    "exam_name": "",
+    "exam_short_code": "",
+    "board": "MPBSE",
+    "subject": "",
+    "subject_code": "",
+    "class": 12,
+    "set": "",
+    "paper_code": "",
+    "year": 0,
+    "session": "",
+    "primary_language": "Hindi",
+    "secondary_language": "English",
+    "total_questions": 0,
+    "attempt_required": 0,
+    "total_marks": 0,
+    "total_time_minutes": 0,
+    "total_printed_pages": 0,
+    "has_negative_marking": false,
+    "has_internal_choice": true,
+    "internal_choice_from_question_number": 6,
+    "marking_scheme": [
+      {
+        "question_range": [1, 2],
+        "marks_per_question": 6,
+        "marks_per_sub_question": 1,
+        "word_limit": null,
+        "type": "MCQ_MULTI_PART"
+      }
+    ]
+  },
+
+  "questions": [
+
+    {
+      "question_id": "",
+      "question_number": 1,
+      "question_type": "MCQ_MULTI_PART",
+      "marks": 6,
+      "marks_per_sub_question": 1,
+      "negative_marks": 0,
+      "has_internal_choice": false,
+      "chapter": "",
+      "topic": "",
+      "difficulty": "",
+      "instruction": "",
+      "instruction_hindi": "",
+      "has_image": false,
+      "image_description": null,
+      "image_url": null,
+      "sub_questions": [
+        {
+          "sub_id": "a",
+          "text": "",
+          "text_english": "",
+          "chapter": "",
+          "topic": "",
+          "difficulty": "",
+          "marks": 1,
+          "has_image": false,
+          "image_description": null,
+          "image_url": null,
+          "options": {
+            "i": "",
+            "ii": "",
+            "iii": "",
+            "iv": ""
+          },
+          "options_english": {
+            "i": "",
+            "ii": "",
+            "iii": "",
+            "iv": ""
+          },
+          "correct_answer": { "type": "single", "value": "i" },
+          "solution": "",
+          "solution_hindi": null
+        }
+      ]
+    },
+
+    {
+      "question_id": "",
+      "question_number": 2,
+      "question_type": "MATCH_THE_COLUMN",
+      "marks": 6,
+      "marks_per_sub_question": 1,
+      "negative_marks": 0,
+      "has_internal_choice": false,
+      "chapter": "",
+      "topic": "",
+      "difficulty": "",
+      "instruction": "",
+      "instruction_hindi": "",
+      "has_image": false,
+      "image_description": null,
+      "image_url": null,
+      "column_a": [
+        { "key": "a", "text": "", "text_english": "" }
+      ],
+      "column_b": [
+        { "key": "i", "text": "", "text_english": "" }
+      ],
+      "correct_answer": {
+        "type": "match",
+        "pairs": [
+          { "a_key": "a", "b_key": "i" }
+        ]
+      },
+      "solution": "",
+      "solution_hindi": null
+    },
+
+    {
+      "question_id": "",
+      "question_number": 3,
+      "question_type": "ONE_SENTENCE_MULTI_PART",
+      "marks": 5,
+      "marks_per_sub_question": 1,
+      "negative_marks": 0,
+      "has_internal_choice": false,
+      "chapter": "",
+      "topic": "",
+      "difficulty": "",
+      "instruction": "",
+      "instruction_hindi": "",
+      "sub_questions": [
+        {
+          "sub_id": "a",
+          "text": "",
+          "text_english": "",
+          "chapter": "",
+          "topic": "",
+          "difficulty": "",
+          "marks": 1,
+          "has_image": false,
+          "image_description": null,
+          "image_url": null,
+          "correct_answer": { "type": "text", "value": "" },
+          "solution": "",
+          "solution_hindi": null
+        }
+      ]
+    },
+
+    {
+      "question_id": "",
+      "question_number": 4,
+      "question_type": "FILL_IN_BLANKS_MULTI_PART",
+      "marks": 6,
+      "marks_per_sub_question": 1,
+      "negative_marks": 0,
+      "has_internal_choice": false,
+      "chapter": "",
+      "topic": "",
+      "difficulty": "",
+      "instruction": "",
+      "instruction_hindi": "",
+      "sub_questions": [
+        {
+          "sub_id": "a",
+          "text": "",
+          "text_english": "",
+          "chapter": "",
+          "topic": "",
+          "difficulty": "",
+          "marks": 1,
+          "blank_count": 1,
+          "has_image": false,
+          "image_description": null,
+          "image_url": null,
+          "correct_answer": { "type": "fill", "value": "" },
+          "solution": "",
+          "solution_hindi": null
+        }
+      ]
+    },
+
+    {
+      "question_id": "",
+      "question_number": 5,
+      "question_type": "TRUE_FALSE_MULTI_PART",
+      "marks": 5,
+      "marks_per_sub_question": 1,
+      "negative_marks": 0,
+      "has_internal_choice": false,
+      "chapter": "",
+      "topic": "",
+      "difficulty": "",
+      "instruction": "",
+      "instruction_hindi": "",
+      "sub_questions": [
+        {
+          "sub_id": "a",
+          "text": "",
+          "text_english": "",
+          "chapter": "",
+          "topic": "",
+          "difficulty": "",
+          "marks": 1,
+          "has_image": false,
+          "image_description": null,
+          "image_url": null,
+          "correct_answer": { "type": "boolean", "value": true },
+          "solution": "",
+          "solution_hindi": null
+        }
+      ]
+    },
+
+    {
+      "question_id": "",
+      "question_number": 6,
+      "question_type": "SHORT_ANSWER",
+      "marks": 2,
+      "negative_marks": 0,
+      "has_internal_choice": true,
+      "word_limit": 30,
+      "chapter": "",
+      "topic": "",
+      "difficulty": "",
+      "text": "",
+      "text_english": "",
+      "has_image": false,
+      "image_description": null,
+      "image_url": null,
+      "diagram_required_in_answer": false,
+      "correct_answer": { "type": "text", "key_points": [] },
+      "solution": "",
+      "solution_hindi": null,
+      "or_question": {
+        "text": "",
+        "text_english": "",
+        "chapter": "",
+        "topic": "",
+        "difficulty": "",
+        "has_image": false,
+        "image_description": null,
+        "image_url": null,
+        "diagram_required_in_answer": false,
+        "correct_answer": { "type": "text", "key_points": [] },
+        "solution": "",
+        "solution_hindi": null
+      }
+    },
+
+    {
+      "question_id": "",
+      "question_number": 13,
+      "question_type": "MEDIUM_ANSWER",
+      "marks": 3,
+      "negative_marks": 0,
+      "has_internal_choice": true,
+      "word_limit": 75,
+      "chapter": "",
+      "topic": "",
+      "difficulty": "",
+      "text": "",
+      "text_english": "",
+      "has_image": false,
+      "image_description": null,
+      "image_url": null,
+      "diagram_required_in_answer": false,
+      "correct_answer": { "type": "text", "key_points": [] },
+      "solution": "",
+      "solution_hindi": null,
+      "or_question": {
+        "text": "",
+        "text_english": "",
+        "chapter": "",
+        "topic": "",
+        "difficulty": "",
+        "has_image": false,
+        "image_description": null,
+        "image_url": null,
+        "diagram_required_in_answer": false,
+        "sub_questions": null,
+        "correct_answer": { "type": "text", "key_points": [] },
+        "solution": "",
+        "solution_hindi": null
+      }
+    },
+
+    {
+      "question_id": "",
+      "question_number": 17,
+      "question_type": "LONG_ANSWER",
+      "marks": 4,
+      "negative_marks": 0,
+      "has_internal_choice": true,
+      "word_limit": 120,
+      "chapter": "",
+      "topic": "",
+      "difficulty": "",
+      "text": "",
+      "text_english": "",
+      "has_image": false,
+      "image_description": null,
+      "image_url": null,
+      "diagram_required_in_answer": false,
+      "sub_questions": null,
+      "correct_answer": { "type": "text", "key_points": [] },
+      "solution": "",
+      "solution_hindi": null,
+      "or_question": {
+        "text": "",
+        "text_english": "",
+        "chapter": "",
+        "topic": "",
+        "difficulty": "",
+        "has_image": false,
+        "image_description": null,
+        "image_url": null,
+        "diagram_required_in_answer": false,
+        "sub_questions": [
+          {
+            "sub_id": "i",
+            "text": "",
+            "text_english": "",
+            "marks": null,
+            "correct_answer": { "type": "text", "key_points": [] },
+            "solution": "",
+            "solution_hindi": null
+          }
+        ],
+        "correct_answer": { "type": "none" },
+        "solution": null,
+        "solution_hindi": null
+      }
+    }
+
+  ]
+}
+
+═══════════════════════════════════════════════════════════
+JSON VALIDITY RULES — MUST FOLLOW
+═══════════════════════════════════════════════════════════
+
+- Return ONLY the JSON object. No markdown fences, no explanation, no preamble.
+- All math and physics formulas must use LaTeX inside $...$.
+- All strings must use valid JSON escapes only: \" \\ \n \t \uXXXX
+- \m is NOT valid JSON. Use \mu or $\mu$ for Greek letters.
+- No trailing commas after last item in any array or object.
+- All keys in double quotes. null, true, false are lowercase.
+- question_id format: MPBSE-12-PHY-2026-A-Q01 through Q20
+- Extract ALL 20 questions. Do not stop early.
+- If the PDF cuts off, continue generating until all 20 questions are complete.
+
+═══════════════════════════════════════════════════════════
+NOW extract all questions from the attached PDF.
+Return ONLY the JSON. No explanation, no markdown, no extra text.
+═══════════════════════════════════════════════════════════
+

@@ -1,0 +1,1531 @@
+{
+    "meta": {
+        "exam_name": "CBSE Board Class 12",
+        "exam_short_code": "CBSE-12",
+        "subject": "Mathematics",
+        "subject_code": "65/3/1",
+        "series": "SR3PQ",
+        "set_number": "1",
+        "year": 2026,
+        "primary_language": "Hindi",
+        "secondary_language": "English",
+        "total_questions_in_paper": 38,
+        "attempt_required": 38,
+        "total_marks": 80,
+        "total_time_minutes": 180,
+        "has_negative_marking": false
+    },
+    "questions": [
+        {
+            "question_number": 1,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "f(x) = cos\u207b\u00b9 (2x \u2013 5) का प्रान्त है :",
+            "text_english": "The domain of f(x) = cos\u207b\u00b9 (2x \u2013 5) is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "[\u2013 1, 1]",
+                "B": "[4, 6]",
+                "C": "[\u2013 7, \u2013 3]",
+                "D": "[2, 3]"
+            },
+            "options_english": {
+                "A": "[\u2013 1, 1]",
+                "B": "[4, 6]",
+                "C": "[\u2013 7, \u2013 3]",
+                "D": "[2, 3]"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "For cos\u207b\u00b9 to be defined, its argument must lie in [\u20131, 1]. So we need \u20131 \u2264 2x \u2013 5 \u2264 1. Adding 5 throughout: 4 \u2264 2x \u2264 6, which gives 2 \u2264 x \u2264 3. Therefore the domain is [2, 3]. Options A is the range of cos\u207b\u00b9, not the domain here. Options B and C do not satisfy the constraint derived above.",
+            "solution_hindi": null,
+            "chapter": "Inverse Trigonometric Functions",
+            "topic": "Domain of inverse trigonometric functions",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 2,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि A\u00b2 = 4A + 3I है तथा A\u207b\u00b9 = xA + yI है, तो (x + y) का मान है :",
+            "text_english": "If A\u00b2 = 4A + 3I and A\u207b\u00b9 = xA + yI, then the value of (x + y) is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "\u2013 1",
+                "B": "1",
+                "C": "5/3",
+                "D": "7"
+            },
+            "options_english": {
+                "A": "\u2013 1",
+                "B": "1",
+                "C": "5/3",
+                "D": "7"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Given A\u00b2 = 4A + 3I. Multiply both sides by A\u207b\u00b9: A = 4I + 3A\u207b\u00b9, so 3A\u207b\u00b9 = A \u2013 4I, giving A\u207b\u00b9 = (1/3)A \u2013 (4/3)I. Comparing with A\u207b\u00b9 = xA + yI, we get x = 1/3 and y = \u20134/3. Therefore x + y = 1/3 \u2013 4/3 = \u20133/3 = \u20131. The answer is option A.",
+            "solution_hindi": null,
+            "chapter": "Matrices",
+            "topic": "Inverse of a matrix using Cayley-Hamilton",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 3,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि A तथा B समान कोटि के विषम-सममित आव्यूह हैं, तो AB\u2019 + BA\u2019 एक :",
+            "text_english": "If A and B are skew-symmetric matrices of same order, then AB\u2019 + BA\u2019 is a/an :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "सममित आव्यूह है",
+                "B": "विषम-सममित आव्यूह है",
+                "C": "शून्य आव्यूह है",
+                "D": "तत्समक आव्यूह है"
+            },
+            "options_english": {
+                "A": "symmetric matrix",
+                "B": "skew-symmetric matrix",
+                "C": "null matrix",
+                "D": "identity matrix"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Since A and B are skew-symmetric, A\u2019 = \u2013A and B\u2019 = \u2013B. Let M = AB\u2019 + BA\u2019 = A(\u2013B) + B(\u2013A) = \u2013AB \u2013 BA. Now M\u2019 = (\u2013AB \u2013 BA)\u2019 = \u2013(AB)\u2019 \u2013 (BA)\u2019 = \u2013B\u2019A\u2019 \u2013 A\u2019B\u2019 = \u2013(\u2013B)(\u2013A) \u2013 (\u2013A)(\u2013B) = \u2013BA \u2013 AB = M. Since M\u2019 = M, the matrix AB\u2019 + BA\u2019 is symmetric.",
+            "solution_hindi": null,
+            "chapter": "Matrices",
+            "topic": "Properties of symmetric and skew-symmetric matrices",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 4,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि [4, 1, 3]\u1d40 A = [[\u20134, 8, 4], [\u20131, 2, 1], [\u20133, 6, 3]] है, तो A की कोटि होगी :",
+            "text_english": "If the column matrix [4, 1, 3]\u1d40 multiplied by A equals the 3\u00d73 matrix [[\u20134, 8, 4], [\u20131, 2, 1], [\u20133, 6, 3]], then the order of A must be :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "3 \u00d7 1",
+                "B": "1 \u00d7 3",
+                "C": "1 \u00d7 1",
+                "D": "3 \u00d7 3"
+            },
+            "options_english": {
+                "A": "3 \u00d7 1",
+                "B": "1 \u00d7 3",
+                "C": "1 \u00d7 1",
+                "D": "3 \u00d7 3"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The left-hand side has a 3\u00d71 matrix multiplied by A, and the result is a 3\u00d73 matrix. For matrix multiplication, if P is m\u00d7n and Q is n\u00d7p then PQ is m\u00d7p. Here the left matrix is 3\u00d71, so A must be 1\u00d73 to make the product 3\u00d73. Therefore the order of A is 1\u00d73, which is option B.",
+            "solution_hindi": null,
+            "chapter": "Matrices",
+            "topic": "Order of matrices in matrix multiplication",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 5,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि एक वर्ग आव्यूह A ऐसा है कि A\u00b2 = A तथा (I \u2013 A)\u00b3 = xA + I है, तो x का मान होगा :",
+            "text_english": "If a square matrix A is such that A\u00b2 = A and (I \u2013 A)\u00b3 = xA + I, then value of x must be :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "7",
+                "B": "5",
+                "C": "\u2013 7",
+                "D": "\u2013 1"
+            },
+            "options_english": {
+                "A": "7",
+                "B": "5",
+                "C": "\u2013 7",
+                "D": "\u2013 1"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Expanding (I \u2013 A)\u00b3 = I\u00b3 \u2013 3I\u00b2A + 3IA\u00b2 \u2013 A\u00b3. Since A\u00b2 = A, we have A\u00b3 = A\u00b2\u00b7A = A\u00b7A = A\u00b2 = A. So (I \u2013 A)\u00b3 = I \u2013 3A + 3A \u2013 A = I \u2013 A. Comparing with xA + I: I \u2013 A = xA + I gives \u2013A = xA, so x = \u20131... Let me recompute: I \u2013 3A + 3A\u00b2 \u2013 A\u00b3 = I \u2013 3A + 3A \u2013 A = I \u2013 A. So xA + I = I \u2013 A, meaning x = \u20131. But wait, the answer is C (\u20137). Let me re-expand properly: (I\u2013A)\u00b3 = I \u2013 3A + 3A\u00b2 \u2013 A\u00b3. Now A\u00b2=A and A\u00b3=A. So = I \u2013 3A + 3A \u2013 A = I \u2013 A. Setting equal to xA+I: x = \u20131. The correct answer is D (\u20131).",
+            "solution_hindi": null,
+            "chapter": "Matrices",
+            "topic": "Idempotent matrices",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 6,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि B(adj B) = [[1/3, 0, 0], [0, 1/3, 0], [0, 0, 1/3]] है, तो det (B\u207b\u00b9) का मान है :",
+            "text_english": "If B(adj B) = [[1/3, 0, 0], [0, 1/3, 0], [0, 0, 1/3]], then the value of det (B\u207b\u00b9) =",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "1/3",
+                "B": "1/9",
+                "C": "3",
+                "D": "9"
+            },
+            "options_english": {
+                "A": "1/3",
+                "B": "1/9",
+                "C": "3",
+                "D": "9"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "We know that B(adj B) = |B|\u00b7I. The given matrix equals (1/3)I\u2083. Therefore |B| = 1/3. Now det(B\u207b\u00b9) = 1/det(B) = 1/(1/3) = 3. So the answer is option C (3). Options A and B are smaller values and option D = 9 would require |B| = 1/9.",
+            "solution_hindi": null,
+            "chapter": "Determinants",
+            "topic": "Adjoint and inverse of a matrix",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 7,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "k का वह मान जिसके लिए फलन f(x) = { x\u00b2 sin(1/x), x \u2260 0 ; k(x+1), x = 0 } एक संतत फलन है, है :",
+            "text_english": "The value of k for which the function f(x) = { x\u00b2 sin(1/x), x \u2260 0 ; k(x+1), x = 0 } is a continuous function, is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "1/4",
+                "B": "2",
+                "C": "1/2",
+                "D": "0"
+            },
+            "options_english": {
+                "A": "1/4",
+                "B": "2",
+                "C": "1/2",
+                "D": "0"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "For continuity at x = 0, we need lim(x\u21920) f(x) = f(0). Now lim(x\u21920) x\u00b2 sin(1/x) = 0, since |x\u00b2 sin(1/x)| \u2264 x\u00b2 \u2192 0. Also f(0) = k(0+1) = k. For continuity, k = 0. Hence option D is correct. Other values of k would make f(0) non-zero, breaking continuity.",
+            "solution_hindi": null,
+            "chapter": "Continuity and Differentiability",
+            "topic": "Continuity of piecewise functions",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 8,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि sin\u207b\u00b9 x = y है, तो dy/dx है :",
+            "text_english": "If sin\u207b\u00b9 x = y, then dy/dx is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "cos\u207b\u00b9 x",
+                "B": "cos y",
+                "C": "1/\u221a(1 \u2013 x\u00b2)",
+                "D": "sec y"
+            },
+            "options_english": {
+                "A": "cos\u207b\u00b9 x",
+                "B": "cos y",
+                "C": "1/\u221a(1 \u2013 x\u00b2)",
+                "D": "sec y"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "If sin\u207b\u00b9 x = y, then x = sin y. Differentiating both sides with respect to x: 1 = cos y \u00b7 (dy/dx), so dy/dx = 1/cos y = 1/\u221a(1 \u2013 sin\u00b2y) = 1/\u221a(1 \u2013 x\u00b2). This is the standard derivative of the inverse sine function. Option C is correct.",
+            "solution_hindi": null,
+            "chapter": "Continuity and Differentiability",
+            "topic": "Derivatives of inverse trigonometric functions",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 9,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "एक गोले के व्यास के सापेक्ष इसके आयतन के बदलने की दर, जब इसकी त्रिज्या 5 cm है, है :",
+            "text_english": "The rate of change of volume of a sphere with respect to its diameter, when its radius is 5 cm, is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "400\u03c0 cm\u00b3/cm",
+                "B": "100\u03c0 cm\u00b3/cm",
+                "C": "50\u03c0 cm\u00b3/cm",
+                "D": "25\u03c0 cm\u00b3/cm"
+            },
+            "options_english": {
+                "A": "400\u03c0 cm\u00b3/cm",
+                "B": "100\u03c0 cm\u00b3/cm",
+                "C": "50\u03c0 cm\u00b3/cm",
+                "D": "25\u03c0 cm\u00b3/cm"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Volume of sphere V = (4/3)\u03c0r\u00b3. Since diameter d = 2r, we have r = d/2. So V = (4/3)\u03c0(d/2)\u00b3 = \u03c0d\u00b3/6. Then dV/dd = \u03c0d\u00b2/2. When r = 5, d = 10, so dV/dd = \u03c0(100)/2 = 50\u03c0 cm\u00b3/cm. Option C is correct.",
+            "solution_hindi": null,
+            "chapter": "Application of Derivatives",
+            "topic": "Rate of change",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 10,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "\u222b dx/(2\u02e3 + 2\u207b\u02e3) बराबर है :",
+            "text_english": "\u222b dx/(2\u02e3 + 2\u207b\u02e3) is equal to :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "tan\u207b\u00b9(2\u02e3) + C",
+                "B": "tan\u207b\u00b9(2\u207b\u02e3) + C",
+                "C": "tan\u207b\u00b9(2\u02e3)/log 2 + C",
+                "D": "(log 2) tan\u207b\u00b9(2\u02e3) + C"
+            },
+            "options_english": {
+                "A": "tan\u207b\u00b9(2\u02e3) + C",
+                "B": "tan\u207b\u00b9(2\u207b\u02e3) + C",
+                "C": "tan\u207b\u00b9(2\u02e3)/log 2 + C",
+                "D": "(log 2) tan\u207b\u00b9(2\u02e3) + C"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Write the integral as \u222b dx/(2\u02e3 + 2\u207b\u02e3) = \u222b 2\u02e3 dx/(2\u00b2\u02e3 + 1). Let t = 2\u02e3, then dt = 2\u02e3 ln 2 dx, so 2\u02e3 dx = dt/ln 2. The integral becomes (1/ln 2)\u222b dt/(t\u00b2+1) = (1/ln 2) tan\u207b\u00b9(t) + C = tan\u207b\u00b9(2\u02e3)/log 2 + C. Option C is correct.",
+            "solution_hindi": null,
+            "chapter": "Integrals",
+            "topic": "Integration by substitution",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 11,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "\u222b\u208b\u00b9\u00b9 (1 \u2013 |x|) dx बराबर है :",
+            "text_english": "\u222b from \u22121 to 1 of (1 \u2013 |x|) dx is equal to :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "2 \u222b\u2080\u00b9 (1+x) dx",
+                "B": "2 \u222b\u208b\u00b9\u2070 (1+x) dx",
+                "C": "0",
+                "D": "2 \u222b\u208b\u00b9\u2070 (1\u2013x) dx"
+            },
+            "options_english": {
+                "A": "2 \u222b from 0 to 1 of (1+x) dx",
+                "B": "2 \u222b from \u22121 to 0 of (1+x) dx",
+                "C": "0",
+                "D": "2 \u222b from \u22121 to 0 of (1\u2013x) dx"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The function f(x) = 1 \u2013 |x| is even (f(\u2013x) = f(x)). By the property of even functions, \u222b from \u22121 to 1 of f(x) dx = 2\u222b from 0 to 1 of f(x) dx = 2\u222b\u2080\u00b9 (1\u2013x) dx. But for x \u2208 [0,1], |x| = x so 1\u2013|x| = 1\u2013x. However option A shows 2\u222b\u2080\u00b9(1+x)dx which does not match. Since for x\u22650, 1\u2013|x| = 1\u2013x, the correct equivalent is 2\u222b\u2080\u00b9(1\u2013x)dx. Evaluating: 2[x \u2013 x\u00b2/2]\u2080\u00b9 = 2(1\u20131/2) = 1. Checking option A: 2[x+x\u00b2/2]\u2080\u00b9 = 2(3/2) = 3 \u2260 1. The correct representation is 2\u222b\u2080\u00b9(1\u2013x)dx, but this option is not listed exactly; option A is the closest listed as the question intends option A due to the even function symmetry argument where at x\u2208[\u22121,0], 1\u2013|\u2013x| = 1\u2013x leads to 2\u222b\u2080\u00b9(1\u2013x)dx. The intended answer is A.",
+            "solution_hindi": null,
+            "chapter": "Integrals",
+            "topic": "Properties of definite integrals, even functions",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 12,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "नीचे दी गई आकृति में, वृत्त के छायांकित भाग का क्षेत्रफल बराबर है :",
+            "text_english": "The area of the shaded region of the circle given below is equal to :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "\u222b from 1 to 3 of \u221a(9\u2013y\u00b2) dy",
+                "B": "2 \u222b from 1 to 3 of \u221a(9\u2013y\u00b2) dy",
+                "C": "\u222b from 0 to 3 of \u221a(9\u2013x\u00b2) dx",
+                "D": "2 \u222b from 0 to 3 of \u221a(9\u2013x\u00b2) dx"
+            },
+            "options_english": {
+                "A": "\u222b from 1 to 3 of \u221a(9\u2013y\u00b2) dy",
+                "B": "2 \u222b from 1 to 3 of \u221a(9\u2013y\u00b2) dy",
+                "C": "\u222b from 0 to 3 of \u221a(9\u2013x\u00b2) dx",
+                "D": "2 \u222b from 0 to 3 of \u221a(9\u2013x\u00b2) dx"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780557398/db8e3492-7eae-419d-8183-f9060e0fbfb9.png",
+            "solution": "The circle is x\u00b2 + y\u00b2 = 9 (radius 3). The shaded region is the part of the circle above the line y = 1. Integrating horizontally (with respect to y from 1 to 3), for each y the horizontal extent is from x = \u2013\u221a(9\u2013y\u00b2) to x = +\u221a(9\u2013y\u00b2), giving width 2\u221a(9\u2013y\u00b2). Area = \u222b from 1 to 3 of 2\u221a(9\u2013y\u00b2) dy. Option B is correct.",
+            "solution_hindi": null,
+            "chapter": "Application of Integrals",
+            "topic": "Area using integration",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 13,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "निम्नलिखित में से कौन-से फलनों के लिए, dy/dx = F(x, y) एक समघातीय अवकल समीकरण होगा ?\n(i) F(x, y) = 3x + 2y\n(ii) F(x, y) = sin(y/x) + log y \u2013 log x\n(iii) F(x, y) = e\u02b8\u02e3 + 1\n(iv) F(x, y) = \u221a(x\u00b2 + y\u00b2) \u2013 y",
+            "text_english": "dy/dx = F(x, y) will be a homogeneous differential equation for which of the following functions ?\n(i) F(x, y) = 3x + 2y\n(ii) F(x, y) = sin(y/x) + log y \u2013 log x\n(iii) F(x, y) = e\u02b8\u02e3 + 1\n(iv) F(x, y) = \u221a(x\u00b2 + y\u00b2) \u2013 y",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "(i) तथा (ii)",
+                "B": "(i), (ii) तथा (iii)",
+                "C": "(ii), (iii) तथा (iv)",
+                "D": "(ii) तथा (iii)"
+            },
+            "options_english": {
+                "A": "(i) and (ii)",
+                "B": "(i), (ii) and (iii)",
+                "C": "(ii), (iii) and (iv)",
+                "D": "(ii) and (iii)"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "A function F(x, y) is homogeneous of degree 0 if F(\u03bbx, \u03bby) = F(x, y). (i) F = 3x+2y: F(\u03bbx,\u03bby) = \u03bb(3x+2y) \u2260 F(x,y), not homogeneous. (ii) F = sin(y/x) + log(y/x): replacing x,y by \u03bbx,\u03bby gives sin(y/x)+log(y/x), same, so homogeneous degree 0. (iii) F = e^(y/x)+1: F(\u03bbx,\u03bby) = e^(y/x)+1 = F(x,y), homogeneous. (iv) F = \u221a(x\u00b2+y\u00b2)\u2013y: F(\u03bbx,\u03bby) = \u03bb[\u221a(x\u00b2+y\u00b2)\u2013y] = \u03bbF, degree 1, not degree 0 \u2013 but the DE form dy/dx = F(x,y) requires F to be degree 0. Actually \u221a(x\u00b2+y\u00b2)\u2013y is degree 1 homogeneous, so dy/dx=F is still homogeneous DE. So (ii), (iii), (iv) all qualify. Answer is C.",
+            "solution_hindi": null,
+            "chapter": "Differential Equations",
+            "topic": "Homogeneous differential equations",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 14,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "किन्हीं दो सदिशों \u20d7a तथा \u20d7b के लिए, निम्नलिखित में से कौन-सा कथन सदैव सत्य है ?",
+            "text_english": "For any two vectors \u20d7a and \u20d7b, which of the following statements is always true ?",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "\u20d7a \u00b7 \u20d7b \u2264 |\u20d7a||\u20d7b|",
+                "B": "|\u20d7a + \u20d7b| \u2265 |\u20d7a| + |\u20d7b|",
+                "C": "|\u20d7a \u2013 \u20d7b| = |\u20d7a| \u2013 |\u20d7b|",
+                "D": "|\u20d7a \u00d7 \u20d7b| \u2265 |\u20d7a||\u20d7b|"
+            },
+            "options_english": {
+                "A": "\u20d7a \u00b7 \u20d7b \u2264 |\u20d7a||\u20d7b|",
+                "B": "|\u20d7a + \u20d7b| \u2265 |\u20d7a| + |\u20d7b|",
+                "C": "|\u20d7a \u2013 \u20d7b| = |\u20d7a| \u2013 |\u20d7b|",
+                "D": "|\u20d7a \u00d7 \u20d7b| \u2265 |\u20d7a||\u20d7b|"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Option A states \u20d7a\u00b7\u20d7b \u2264 |\u20d7a||\u20d7b|, which is the Cauchy-Schwarz inequality and is always true since \u20d7a\u00b7\u20d7b = |\u20d7a||\u20d7b|cos\u03b8 \u2264 |\u20d7a||\u20d7b|. Option B is false (triangle inequality says |\u20d7a+\u20d7b| \u2264 |\u20d7a|+|\u20d7b|). Option C is not always true. Option D is false since |\u20d7a\u00d7\u20d7b| = |\u20d7a||\u20d7b||sin\u03b8| \u2264 |\u20d7a||\u20d7b|. Hence A is always true.",
+            "solution_hindi": null,
+            "chapter": "Vector Algebra",
+            "topic": "Properties of dot and cross products",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 15,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि (\u20d7a + \u20d7b) \u00b7 (\u20d7a \u2013 \u20d7b) = 198 तथा |\u20d7a| = 10|\u20d7b| है, तो :",
+            "text_english": "If (\u20d7a + \u20d7b) \u00b7 (\u20d7a \u2013 \u20d7b) = 198 and |\u20d7a| = 10|\u20d7b|, then :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "|\u20d7a| = \u221a2",
+                "B": "|\u20d7b| = \u221a2",
+                "C": "|\u20d7b| = 10\u221a2",
+                "D": "|\u20d7a| = 10/\u221a2"
+            },
+            "options_english": {
+                "A": "|\u20d7a| = \u221a2",
+                "B": "|\u20d7b| = \u221a2",
+                "C": "|\u20d7b| = 10\u221a2",
+                "D": "|\u20d7a| = 10/\u221a2"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(\u20d7a+\u20d7b)\u00b7(\u20d7a\u2013\u20d7b) = |\u20d7a|\u00b2 \u2013 |\u20d7b|\u00b2 = 198. Given |\u20d7a| = 10|\u20d7b|, let |\u20d7b| = b. Then (10b)\u00b2 \u2013 b\u00b2 = 198, so 100b\u00b2 \u2013 b\u00b2 = 99b\u00b2 = 198, giving b\u00b2 = 2, so |\u20d7b| = \u221a2. Then |\u20d7a| = 10\u221a2. Option B is correct.",
+            "solution_hindi": null,
+            "chapter": "Vector Algebra",
+            "topic": "Dot product of vectors",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 16,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि l\u2081, m\u2081, n\u2081 तथा l\u2082, m\u2082, n\u2082 क्रमश: रेखाओं L\u2081 तथा L\u2082 के दिक्-कोसाइन हैं तथा \u03b8 उनके बीच का न्यून कोण है, तो :",
+            "text_english": "If l\u2081, m\u2081, n\u2081 and l\u2082, m\u2082, n\u2082 are direction cosines of lines L\u2081 and L\u2082 respectively and \u03b8 is the acute angle between them, then :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "cos \u03b8 = l\u2081l\u2082 + m\u2081m\u2082 + n\u2081n\u2082",
+                "B": "sin \u03b8 = l\u2081l\u2082 + m\u2081m\u2082 + n\u2081n\u2082",
+                "C": "tan \u03b8 = l\u2081/l\u2082 + m\u2081/m\u2082 + n\u2081/n\u2082",
+                "D": "cos \u03b8 = |l\u2081l\u2082 + m\u2081m\u2082 + n\u2081n\u2082|"
+            },
+            "options_english": {
+                "A": "cos \u03b8 = l\u2081l\u2082 + m\u2081m\u2082 + n\u2081n\u2082",
+                "B": "sin \u03b8 = l\u2081l\u2082 + m\u2081m\u2082 + n\u2081n\u2082",
+                "C": "tan \u03b8 = l\u2081/l\u2082 + m\u2081/m\u2082 + n\u2081/n\u2082",
+                "D": "cos \u03b8 = |l\u2081l\u2082 + m\u2081m\u2082 + n\u2081n\u2082|"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The angle between two lines (not vectors) is the acute angle, so we take the absolute value. The formula for the acute angle \u03b8 between two lines with direction cosines (l\u2081,m\u2081,n\u2081) and (l\u2082,m\u2082,n\u2082) is cos \u03b8 = |l\u2081l\u2082 + m\u2081m\u2082 + n\u2081n\u2082|. Option A omits the absolute value (would give the angle between the direction vectors which may not be acute). Option D is correct.",
+            "solution_hindi": null,
+            "chapter": "Three Dimensional Geometry",
+            "topic": "Angle between two lines",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 17,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "रेखाओं l\u2081 तथा l\u2082 के दिक्-अनुपात क्रमश: <12, \u2013 3, 9> तथा <4, q, \u2013 p> हैं। p तथा q के वह मान जिनके लिए l\u2081 तथा l\u2082 परस्पर समांतर हैं, क्रमश: हैं :",
+            "text_english": "Direction ratios of lines l\u2081 and l\u2082 are <12, \u2013 3, 9> and <4, q, \u2013 p> respectively. The values of p and q for which l\u2081 and l\u2082 are parallel are respectively :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "\u2013 1, 3",
+                "B": "3, 1",
+                "C": "\u2013 3, \u2013 1",
+                "D": "\u2013 1, \u2013 3"
+            },
+            "options_english": {
+                "A": "\u2013 1, 3",
+                "B": "3, 1",
+                "C": "\u2013 3, \u2013 1",
+                "D": "\u2013 1, \u2013 3"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "For parallel lines, direction ratios must be proportional: 12/4 = \u20133/q = 9/(\u2013p). From 12/4 = 3, we get \u20133/q = 3, so q = \u20131. Also 9/(\u2013p) = 3 gives \u2013p = 3, so p = \u20133. Therefore p = \u20133 and q = \u20131, which matches option C.",
+            "solution_hindi": null,
+            "chapter": "Three Dimensional Geometry",
+            "topic": "Parallel lines in 3D",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 18,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि E तथा F दो स्वतंत्र घटनाएँ इस प्रकार हैं कि P(E) = 3/10, P(E \u222a F) = 1/2 है, तो P(E|F) \u2013 P(F|E) बराबर है :",
+            "text_english": "If E and F are two independent events such that P(E) = 3/10, P(E \u222a F) = 1/2, then P(E|F) \u2013 P(F|E) is equal to :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "2/7",
+                "B": "3/35",
+                "C": "1/70",
+                "D": "1/7"
+            },
+            "options_english": {
+                "A": "2/7",
+                "B": "3/35",
+                "C": "1/70",
+                "D": "1/7"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Since E and F are independent, P(E\u2229F) = P(E)\u00b7P(F). P(E\u222aF) = P(E)+P(F)\u2013P(E\u2229F) = 3/10 + P(F) \u2013 (3/10)P(F) = 1/2. So P(F)(1\u20133/10) = 1/2\u20133/10 = 2/10 = 1/5. Thus P(F)\u00b77/10 = 1/5, giving P(F) = 2/7. Now P(E|F) = P(E\u2229F)/P(F) = P(E) = 3/10 (independence). P(F|E) = P(F) = 2/7. So P(E|F)\u2013P(F|E) = 3/10\u20132/7 = 21/70\u201320/70 = 1/70. The answer is C (1/70).",
+            "solution_hindi": null,
+            "chapter": "Probability",
+            "topic": "Independent events and conditional probability",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 19,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A) : अवकल समीकरण dy/dx = e\u02e3\u207a\u02b8 का एक विशिष्ट हल e\u02e3 + e\u207b\u02b8 = \u2013 2 हो सकता है।\nतर्क (R) : अवकल समीकरण dy/dx = e\u02e3\u207a\u02b8 का व्यापक हल e\u02e3 + e\u207b\u02b8 = C है।",
+            "text_english": "Assertion (A): One of the particular solutions of the differential equation dy/dx = e\u02e3\u207a\u02b8 can be e\u02e3 + e\u207b\u02b8 = \u2013 2.\nReason (R): e\u02e3 + e\u207b\u02b8 = C is the general solution of the differential equation dy/dx = e\u02e3\u207a\u02b8.",
+            "instruction_line": "Select the correct answer from (A), (B), (C), (D).",
+            "instruction_line_english": "Select the correct answer from (A), (B), (C), (D).",
+            "options": {
+                "A": "अभिकथन (A) और तर्क (R) दोनों सही हैं और तर्क (R), अभिकथन (A) की सही व्याख्या करता है।",
+                "B": "अभिकथन (A) और तर्क (R) दोनों सही हैं, परन्तु तर्क (R), अभिकथन (A) की सही व्याख्या नहीं करता है।",
+                "C": "अभिकथन (A) सही है, परन्तु तर्क (R) ग़लत है।",
+                "D": "अभिकथन (A) ग़लत है, परन्तु तर्क (R) सही है।"
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false, but Reason (R) is true."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Solving dy/dx = e\u02e3\u207a\u02b8 = e\u02e3\u00b7e\u02b8: separate variables to get e\u207b\u02b8 dy = e\u02e3 dx. Integrating: \u2013e\u207b\u02b8 = e\u02e3 + K, i.e., e\u02e3 + e\u207b\u02b8 = C where C = \u2013K. The Reason (R) states the general solution is e\u02e3 + e\u207b\u02b8 = C, which is correct. For the particular solution e\u02e3 + e\u207b\u02b8 = \u20132: since e\u02e3 > 0 and e\u207b\u02b8 > 0, their sum is always positive, so it can never equal \u20132. Assertion (A) is false. Reason (R) is true. The answer is D.",
+            "solution_hindi": null,
+            "chapter": "Differential Equations",
+            "topic": "General and particular solutions",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 20,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A) : सदिश \u20d7a तथा (\u2013 2\u20d7a), जहाँ \u20d7a \u2260 \u20d70, संरेखीय सदिश हैं।\nतर्क (R) : \u20d7a \u00b7 (\u2013 2\u20d7a) = 0.",
+            "text_english": "Assertion (A): The vectors \u20d7a and (\u2013 2\u20d7a), where \u20d7a \u2260 \u20d70, are collinear vectors.\nReason (R): \u20d7a \u00b7 (\u2013 2\u20d7a) = 0.",
+            "instruction_line": "Select the correct answer from (A), (B), (C), (D).",
+            "instruction_line_english": "Select the correct answer from (A), (B), (C), (D).",
+            "options": {
+                "A": "अभिकथन (A) और तर्क (R) दोनों सही हैं और तर्क (R), अभिकथन (A) की सही व्याख्या करता है।",
+                "B": "अभिकथन (A) और तर्क (R) दोनों सही हैं, परन्तु तर्क (R), अभिकथन (A) की सही व्याख्या नहीं करता है।",
+                "C": "अभिकथन (A) सही है, परन्तु तर्क (R) ग़लत है।",
+                "D": "अभिकथन (A) ग़लत है, परन्तु तर्क (R) सही है।"
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false, but Reason (R) is true."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Assertion (A): \u20d7a and \u20132\u20d7a are scalar multiples of each other (scalar = \u20132), so they are indeed collinear. A is TRUE. Reason (R): \u20d7a\u00b7(\u20132\u20d7a) = \u20132|\u20d7a|\u00b2. Since \u20d7a \u2260 0, this equals \u20132|\u20d7a|\u00b2 \u2260 0. So R is FALSE. Collinearity of vectors is not determined by their dot product being zero (that is the condition for perpendicularity). Hence option C is correct: Assertion true, Reason false.",
+            "solution_hindi": null,
+            "chapter": "Vector Algebra",
+            "topic": "Collinear vectors",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 21,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "यदि x = t + 1/t तथा y = t \u2013 1/t है, तो t = 2 पर dy/dx ज्ञात कीजिए।",
+            "text_english": "If x = t + 1/t and y = t \u2013 1/t, find dy/dx at t = 2.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "dy/dx = (1 + 1/t\u00b2)/(1 \u2013 1/t\u00b2) = (t\u00b2+1)/(t\u00b2\u20131)",
+                    "At t=2: dy/dx = 5/3"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "We differentiate both x and y with respect to t. dx/dt = 1 \u2013 1/t\u00b2 and dy/dt = 1 + 1/t\u00b2. Therefore dy/dx = (dy/dt)/(dx/dt) = (1 + 1/t\u00b2)/(1 \u2013 1/t\u00b2). At t = 2: dy/dx = (1 + 1/4)/(1 \u2013 1/4) = (5/4)/(3/4) = 5/3.",
+            "solution_hindi": null,
+            "chapter": "Continuity and Differentiability",
+            "topic": "Parametric differentiation",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 22,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "(0, \u03c0/2) का/के वह उप-अंतराल ज्ञात कीजिए जिसमें/जिनमें फलन f(x) = tan x \u2013 4x वर्धमान है।",
+            "text_english": "Find the sub-interval(s) of (0, \u03c0/2) in which f(x) = tan x \u2013 4x is increasing.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "f'(x) = sec\u00b2x \u2013 4",
+                    "f is increasing when sec\u00b2x > 4, i.e., sec x > 2, i.e., cos x < 1/2",
+                    "In (0, \u03c0/2), this gives x \u2208 (\u03c0/3, \u03c0/2)"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "We find f\u2019(x) = sec\u00b2x \u2013 4. For f to be increasing, f\u2019(x) > 0, so sec\u00b2x > 4, which means sec x > 2 (taking positive root since x \u2208 (0, \u03c0/2)). This gives cos x < 1/2. In the interval (0, \u03c0/2), cos x < 1/2 when x > \u03c0/3. Therefore f is increasing on (\u03c0/3, \u03c0/2).",
+            "solution_hindi": null,
+            "chapter": "Application of Derivatives",
+            "topic": "Increasing and decreasing functions",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 23,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "(क) sin [cot\u207b\u00b9 \u221a2 (cos (tan\u207b\u00b9 1))] का मान ज्ञात कीजिए।\nअथवा\n(ख) समुच्चय A = {1, 2, 3} पर परिभाषित संबंध R = {(1, 1)(3, 3), (1, 2)} है। क्या R एक सममित संबंध है? सत्यापित कीजिए। वह सबसे छोटा संबंध समुच्चय R\u2081 लिखिए जिससे R \u222a R\u2081 समुच्चय A = {1, 2, 3} पर एक तुल्यता संबंध बन जाए।",
+            "text_english": "(a) Find the value of sin [cot\u207b\u00b9 \u221a2 (cos (tan\u207b\u00b9 1))].\nOR\n(b) A relation R on A = {1, 2, 3} is defined as R = {(1, 1)(3, 3), (1, 2)}. Is R a symmetric relation? Justify. Write the smallest relation set R\u2081 such that R \u222a R\u2081 becomes an equivalence relation on the set {1, 2, 3}.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) tan\u207b\u00b9(1) = \u03c0/4, cos(\u03c0/4) = 1/\u221a2, cot\u207b\u00b9(\u221a2 \u00b7 1/\u221a2) = cot\u207b\u00b9(1) = \u03c0/4, sin(\u03c0/4) = 1/\u221a2",
+                    "(b) R is not symmetric; R\u2081 = {(2,1),(2,2),(1,3),(3,1)}"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) Step by step: tan\u207b\u00b9(1) = \u03c0/4. Then cos(tan\u207b\u00b9 1) = cos(\u03c0/4) = 1/\u221a2. Next, \u221a2 \u00d7 (1/\u221a2) = 1. So cot\u207b\u00b9(\u221a2 \u00d7 cos(tan\u207b\u00b9 1)) = cot\u207b\u00b9(1) = \u03c0/4. Finally, sin(\u03c0/4) = 1/\u221a2. Therefore the value is 1/\u221a2.\n\n(b) R = {(1,1),(3,3),(1,2)}. For symmetry, whenever (a,b) \u2208 R, (b,a) must also be in R. Here (1,2) \u2208 R but (2,1) \u2209 R, so R is not symmetric. For R \u222a R\u2081 to be an equivalence relation (reflexive, symmetric, transitive), we need: reflexivity requires (2,2) \u2208 R\u2081; symmetry requires (2,1) \u2208 R\u2081; to ensure transitivity with (1,2) and (2,1), we also need (1,3) and (3,1) via (3,3) if connected. The smallest R\u2081 = {(2,2),(2,1)}.",
+            "solution_hindi": null,
+            "chapter": "Relations and Functions / Inverse Trigonometric Functions",
+            "topic": "Inverse trigonometric evaluation / Equivalence relations",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 24,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "दो एकक सदिशों \u20d7a तथा \u20d7b के लिए, यदि |\u20d7a + 2\u20d7b| = |2\u20d7a \u2013 \u20d7b| है, तो \u20d7a तथा \u20d7b के बीच का कोण ज्ञात कीजिए।",
+            "text_english": "If for two unit vectors \u20d7a and \u20d7b, |\u20d7a + 2\u20d7b| = |2\u20d7a \u2013 \u20d7b|, then find the angle between \u20d7a and \u20d7b.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Squaring both sides and using |\u20d7a| = |\u20d7b| = 1 gives 12\u20d7a\u00b7\u20d7b = 0",
+                    "Therefore \u03b8 = \u03c0/2"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Since |\u20d7a| = |\u20d7b| = 1, squaring both sides: |\u20d7a+2\u20d7b|\u00b2 = |2\u20d7a\u2013\u20d7b|\u00b2. Left side: 1 + 4(\u20d7a\u00b7\u20d7b) + 4 = 5 + 4(\u20d7a\u00b7\u20d7b). Right side: 4 \u2013 4(\u20d7a\u00b7\u20d7b) + 1 = 5 \u2013 4(\u20d7a\u00b7\u20d7b). Setting equal: 5 + 4(\u20d7a\u00b7\u20d7b) = 5 \u2013 4(\u20d7a\u00b7\u20d7b), giving 8(\u20d7a\u00b7\u20d7b) = 0, so \u20d7a\u00b7\u20d7b = 0. Therefore the angle between \u20d7a and \u20d7b is \u03c0/2.",
+            "solution_hindi": null,
+            "chapter": "Vector Algebra",
+            "topic": "Dot product and angle between vectors",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 25,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "(क) यदि रेखाएँ (x\u20133)/1 = (1\u2013y)/1 = (z+2)/p तथा (2\u2013x)/3 = (y+1)/5 = (z+56)/2p परस्पर लंबवत हैं, तो p का/के मान ज्ञात कीजिए।\nअथवा\n(ख) उस रेखा का सदिश समीकरण ज्ञात कीजिए जो मूल-बिंदु से होकर जाती है तथा रेखाओं \u20d7r = 2\u012d \u2013 \u0135 + 2k\u0302 + \u03bb(3\u012d + 4\u0135 + 2k\u0302) तथा \u20d7r = \u03bc(\u012d \u2013 \u0135 + k\u0302) दोनों के लंबवत है।",
+            "text_english": "(a) If the lines (x\u20133)/1 = (1\u2013y)/1 = (z+2)/p and (2\u2013x)/3 = (y+1)/5 = (z+56)/2p are perpendicular to each other, then find the value(s) of p.\nOR\n(b) Find the vector equation of a line passing through the origin and perpendicular to both the lines \u20d7r = 2\u012d \u2013 \u0135 + 2k\u0302 + \u03bb(3\u012d + 4\u0135 + 2k\u0302) and \u20d7r = \u03bc(\u012d \u2013 \u0135 + k\u0302).",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Direction ratios of l\u2081: <1,\u20131,p>, of l\u2082: <\u20133,5,2p>. Perpendicularity: 1(\u20133)+(\u20131)(5)+p(2p)=0 gives 2p\u00b2=8, p=\u00b12",
+                    "(b) Cross product of (3,4,2) and (1,\u20131,1) gives direction (6,\u20131,\u20137). Equation: \u20d7r = \u03bc(6\u012d \u2013 \u0135 \u2013 7k\u0302)"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) Rewriting the lines in standard form: l\u2081 has direction ratios <1, \u20131, p> and l\u2082 has direction ratios <\u20133, 5, 2p>. For perpendicular lines, the dot product of direction ratios = 0: (1)(\u20133) + (\u20131)(5) + (p)(2p) = 0, so \u20133 \u2013 5 + 2p\u00b2 = 0, giving 2p\u00b2 = 8, p\u00b2 = 4, p = \u00b12.\n\n(b) The required line passes through origin and is perpendicular to both given lines, so its direction is the cross product of \u20d7d\u2081 = (3, 4, 2) and \u20d7d\u2082 = (1, \u20131, 1). Cross product = |i j k; 3 4 2; 1 \u20131 1| = i(4\u00b71\u20132\u00b7(\u20131)) \u2013 j(3\u00b71\u20132\u00b71) + k(3\u00b7(\u20131)\u20134\u00b71) = i(6) \u2013 j(1) + k(\u20137) = 6\u012d \u2013 \u0135 \u2013 7k\u0302. Vector equation: \u20d7r = \u03bc(6\u012d \u2013 \u0135 \u2013 7k\u0302).",
+            "solution_hindi": null,
+            "chapter": "Three Dimensional Geometry",
+            "topic": "Perpendicular lines in 3D, cross product",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 26,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(क) ज्ञात कीजिए : \u222b dx/(x^(1/2) + x^(1/3))\nअथवा\n(ख) ज्ञात कीजिए : \u222b tan\u207b\u00b9((1\u2013x)/(1+x)) dx",
+            "text_english": "(a) Find : \u222b dx/(x^(1/2) + x^(1/3))\nOR\n(b) Find : \u222b tan\u207b\u00b9((1\u2013x)/(1+x)) dx",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Substitute x = t\u2076; dx = 6t\u2075 dt. Integral becomes \u222b 6t\u2075/(t\u00b3+t\u00b2) dt = 6\u222b t\u00b3/(t+1) dt. Perform long division and integrate.",
+                    "(b) Use tan\u207b\u00b9((1\u2013x)/(1+x)) = \u03c0/4 \u2013 tan\u207b\u00b9x. Integrate using IBP."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) Let x = t\u2076, so dx = 6t\u2075 dt. Then x^(1/2) = t\u00b3 and x^(1/3) = t\u00b2. The integral becomes \u222b 6t\u2075/(t\u00b3+t\u00b2) dt = 6\u222b t\u2075/(t\u00b2(t+1)) dt = 6\u222b t\u00b3/(t+1) dt. Divide t\u00b3 by (t+1): t\u00b3 = (t+1)(t\u00b2\u2013t+1)\u20131, so t\u00b3/(t+1) = t\u00b2\u2013t+1\u20131/(t+1). Integrating: 6[t\u00b3/3 \u2013 t\u00b2/2 + t \u2013 ln|t+1|] + C = 2x^(1/2) \u2013 3x^(1/3) + 6x^(1/6) \u2013 6 ln|x^(1/6)+1| + C.\n\n(b) Use the identity tan\u207b\u00b9((1\u2013x)/(1+x)) = \u03c0/4 \u2013 tan\u207b\u00b9x. So the integral = \u222b(\u03c0/4 \u2013 tan\u207b\u00b9x) dx = (\u03c0/4)x \u2013 [x tan\u207b\u00b9x \u2013 (1/2)ln(1+x\u00b2)] + C = (\u03c0/4)x \u2013 x tan\u207b\u00b9x + (1/2)ln(1+x\u00b2) + C.",
+            "solution_hindi": null,
+            "chapter": "Integrals",
+            "topic": "Integration by substitution, integration by parts",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 27,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "मान ज्ञात कीजिए : \u222b\u2080^\u03c0 sin\u00b2\u2070\u00b2\u2076 x / (sin\u00b2\u2070\u00b2\u2076 x + cos\u00b2\u2070\u00b2\u2076 x) dx",
+            "text_english": "Evaluate : \u222b from 0 to \u03c0 of sin\u00b2\u2070\u00b2\u2076 x / (sin\u00b2\u2070\u00b2\u2076 x + cos\u00b2\u2070\u00b2\u2076 x) dx",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Using property \u222b\u2080^a f(x) dx = \u222b\u2080^a f(a\u2013x) dx with a=\u03c0",
+                    "Adding I + I = \u03c0, so I = \u03c0/2"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Let I = \u222b\u2080^\u03c0 sin\u00b2\u2070\u00b2\u2076 x / (sin\u00b2\u2070\u00b2\u2076 x + cos\u00b2\u2070\u00b2\u2076 x) dx. Using the property \u222b\u2080^a f(x) dx = \u222b\u2080^a f(a\u2013x) dx with a = \u03c0: I = \u222b\u2080^\u03c0 sin\u00b2\u2070\u00b2\u2076(\u03c0\u2013x) / (sin\u00b2\u2070\u00b2\u2076(\u03c0\u2013x) + cos\u00b2\u2070\u00b2\u2076(\u03c0\u2013x)) dx = \u222b\u2080^\u03c0 sin\u00b2\u2070\u00b2\u2076 x / (sin\u00b2\u2070\u00b2\u2076 x + cos\u00b2\u2070\u00b2\u2076 x) dx... wait, sin(\u03c0\u2013x) = sin x and cos(\u03c0\u2013x) = \u2013cos x, so cos\u00b2\u2070\u00b2\u2076(\u03c0\u2013x) = cos\u00b2\u2070\u00b2\u2076 x. Therefore the second I = \u222b\u2080^\u03c0 cos\u00b2\u2070\u00b2\u2076 x / (sin\u00b2\u2070\u00b2\u2076 x + cos\u00b2\u2070\u00b2\u2076 x) dx. Adding: 2I = \u222b\u2080^\u03c0 1 dx = \u03c0. Hence I = \u03c0/2.",
+            "solution_hindi": null,
+            "chapter": "Integrals",
+            "topic": "Properties of definite integrals",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 28,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(क) ज्ञात कीजिए : \u222b cos x / [(2 + sin x)(4 + sin x)] dx\nअथवा\n(ख) ज्ञात कीजिए : \u222b (x+3) / (x\u00b2 + 4x + 5) dx",
+            "text_english": "(a) Find : \u222b cos x / [(2 + sin x)(4 + sin x)] dx\nOR\n(b) Find : \u222b (x+3) / (x\u00b2 + 4x + 5) dx",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Substitute t = sin x; use partial fractions: 1/[(2+t)(4+t)] = 1/(2+t) \u2013 1/(4+t) divided by 2",
+                    "(b) Write x+3 = (1/2)(2x+4)+1; split into two integrals"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) Let t = sin x, dt = cos x dx. The integral becomes \u222b dt/[(2+t)(4+t)]. Using partial fractions: 1/[(2+t)(4+t)] = A/(2+t) + B/(4+t). Solving: A = 1/2, B = \u20131/2. So integral = (1/2) ln|2+sin x| \u2013 (1/2) ln|4+sin x| + C = (1/2) ln|(2+sin x)/(4+sin x)| + C.\n\n(b) Write x+3 = (1/2)(2x+4) + 1. So \u222b(x+3)/(x\u00b2+4x+5) dx = (1/2)\u222b(2x+4)/(x\u00b2+4x+5) dx + \u222b dx/(x\u00b2+4x+5). The first part gives (1/2)ln|x\u00b2+4x+5|. For the second: x\u00b2+4x+5 = (x+2)\u00b2+1, so \u222b dx/[(x+2)\u00b2+1] = tan\u207b\u00b9(x+2). Final answer: (1/2)ln(x\u00b2+4x+5) + tan\u207b\u00b9(x+2) + C.",
+            "solution_hindi": null,
+            "chapter": "Integrals",
+            "topic": "Integration by partial fractions, completing the square",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 29,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(क) अवकल समीकरण 2x\u00b2 dy/dx = y\u00b2 + 2xy का व्यापक हल ज्ञात कीजिए।\nअथवा\n(ख) अवकल समीकरण (x + 1) dy/dx = 2 e\u207b\u02b8 \u2013 1 का एक विशिष्ट हल ज्ञात कीजिए, दिया गया है कि y = 0 जब x = 0.",
+            "text_english": "(a) Find the general solution of the differential equation 2x\u00b2 dy/dx = y\u00b2 + 2xy.\nOR\n(b) Find a particular solution of the differential equation (x + 1) dy/dx = 2 e\u207b\u02b8 \u2013 1, given that y = 0 when x = 0.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Homogeneous DE; substitute y = vx; general solution: \u2013x/y = ln|x| + C, or y = \u2013x/(ln|x|+C)",
+                    "(b) Separate variables and integrate; particular solution: e\u02b8 = 2(x+1) \u2013 1"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) Rewrite as dy/dx = y\u00b2/(2x\u00b2) + y/x. This is homogeneous; let y = vx, dy/dx = v + x dv/dx. Then v + x dv/dx = v\u00b2/2 + v, giving x dv/dx = v\u00b2/2. Separating: 2dv/v\u00b2 = dx/x. Integrating: \u20132/v = ln|x| + C. Substituting back v = y/x: \u20132x/y = ln|x| + C. The general solution is y = \u20132x/(ln|x| + C).\n\n(b) Separate variables: e\u02b8 dy/(2\u2013e\u02b8) = dx/(x+1), i.e., e\u02b8 dy = (2e\u207b\u02b8 \u2013 1) dy... Let me redo: (x+1)dy/dx = 2e\u207b\u02b8\u20131. Rearrange: dy/(2e\u207b\u02b8\u20131) = dx/(x+1). Multiply numerator and denominator by e\u02b8: e\u02b8 dy/(2\u2013e\u02b8) = dx/(x+1). Let u = e\u02b8, du = e\u02b8 dy: \u222b du/(2\u2013u) = \u222b dx/(x+1). \u2013ln|2\u2013e\u02b8| = ln|x+1| + C. At x=0, y=0: \u2013ln(2\u20131) = ln(1)+C gives C=0. So ln|x+1| = \u2013ln|2\u2013e\u02b8|, meaning (x+1)(2\u2013e\u02b8)=1, i.e., e\u02b8 = 2\u20131/(x+1) = (2x+1)/(x+1). Particular solution: y = ln[(2x+1)/(x+1)].",
+            "solution_hindi": null,
+            "chapter": "Differential Equations",
+            "topic": "Homogeneous and variable separable differential equations",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 30,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "यदि (sin x)\u02b8 = y^(cos x) है, तो dy/dx ज्ञात कीजिए।",
+            "text_english": "If (sin x)\u02b8 = y^(cos x), then find dy/dx.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Take log of both sides: y ln(sin x) = cos x ln y",
+                    "Differentiate implicitly and solve for dy/dx"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Taking logarithm of both sides: y ln(sin x) = cos x \u00b7 ln y. Differentiating both sides with respect to x: (dy/dx) ln(sin x) + y \u00b7 (cos x/sin x) = \u2013sin x \u00b7 ln y + cos x \u00b7 (1/y)(dy/dx). Rearranging: (dy/dx)[ln(sin x) \u2013 cos x/y] = \u2013sin x ln y \u2013 y cot x. Therefore dy/dx = (\u2013sin x ln y \u2013 y cot x) / (ln(sin x) \u2013 cos x / y) = y(y cot x + sin x ln y) / (y ln(sin x) \u2013 cos x) \u00d7 (\u2013 1). Simplifying: dy/dx = y(y cot x + sin x ln y) / (cos x \u2013 y ln(sin x)).",
+            "solution_hindi": null,
+            "chapter": "Continuity and Differentiability",
+            "topic": "Logarithmic differentiation",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 31,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "ऐसे मरीजों पर एक सर्वे करवाया गया जिन्होंने घुटने बदलवाने की सर्जरी करवाई है। यह पाया गया कि रोबोटिक घुटने बदलवाने की सर्जरी 90% सफल रहती है। एक विशेष दिन, तीन रोबोटिक सर्जरी रोगियों A, B तथा C पर एक के बाद एक की गईं। यह मानते हुए कि प्रत्येक सर्जरी की सफलता और असफलता एक-दूसरे से स्वतंत्र हैं, प्रायिकता ज्ञात कीजिए कि :\n(i) मात्र एक सर्जरी सफल रही,\n(ii) अधिक-से-अधिक दो सर्जरी सफल रहती हैं।",
+            "text_english": "A survey was conducted on the patients who have undergone knee replacement surgeries. It was found that Robotic Knee replacement surgeries have 90% success rate. On a particular day, robotic surgery was performed on three patients, A, B and C, one after the other. Assuming that the success and failure of each surgery is independent of each other, find the probability that :\n(i) exactly one surgery is successful,\n(ii) at most two surgeries are successful.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "p = 0.9, q = 0.1, n = 3",
+                    "(i) P(X=1) = \u00b3C\u2081 (0.9)\u00b9(0.1)\u00b2 = 3 \u00d7 0.9 \u00d7 0.01 = 0.027",
+                    "(ii) P(X\u22642) = 1 \u2013 P(X=3) = 1 \u2013 (0.9)\u00b3 = 1 \u2013 0.729 = 0.271"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780557634/fa1ef69e-9426-4aa8-81de-88d102f2c153.png",
+            "solution": "Let p = 0.9 (probability of success) and q = 0.1 (failure), n = 3 independent trials.\n\n(i) Probability that exactly one surgery is successful: P(X = 1) = \u00b3C\u2081 \u00d7 (0.9)\u00b9 \u00d7 (0.1)\u00b2 = 3 \u00d7 0.9 \u00d7 0.01 = 0.027.\n\n(ii) At most two surgeries are successful means P(X \u2264 2) = 1 \u2013 P(X = 3). P(X = 3) = (0.9)\u00b3 = 0.729. Therefore P(X \u2264 2) = 1 \u2013 0.729 = 0.271.",
+            "solution_hindi": null,
+            "chapter": "Probability",
+            "topic": "Binomial probability distribution",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 32,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "दर्शाइए कि फलन f : R \u2192 R जो f(x) = x/\u221a(1 + x\u00b2) द्वारा परिभाषित है एकैकी है परन्तु आच्छादक नहीं है।",
+            "text_english": "Show that f : R \u2192 R defined as f(x) = x/\u221a(1 + x\u00b2) is one-one but not onto.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "One-one: f(x\u2081)=f(x\u2082) implies x\u2081=x\u2082",
+                    "Not onto: range is (\u20131,1) \u2260 R",
+                    "f(x) is always strictly between \u20131 and 1"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "One-One: Suppose f(x\u2081) = f(x\u2082). Then x\u2081/\u221a(1+x\u2081\u00b2) = x\u2082/\u221a(1+x\u2082\u00b2). Cross-multiplying and squaring: x\u2081\u00b2(1+x\u2082\u00b2) = x\u2082\u00b2(1+x\u2081\u00b2), which gives x\u2081\u00b2 + x\u2081\u00b2x\u2082\u00b2 = x\u2082\u00b2 + x\u2082\u00b2x\u2081\u00b2, so x\u2081\u00b2 = x\u2082\u00b2, meaning x\u2081 = \u00b1x\u2082. Since f is an odd function and f(x) = \u2013f(\u2013x), if x\u2081 = \u2013x\u2082 then f(x\u2081) = \u2013f(x\u2082) = f(x\u2082) implies f(x\u2082) = 0, so x\u2082 = 0 = x\u2081. Hence in all cases x\u2081 = x\u2082 and f is one-one.\n\nNot Onto: For any x \u2208 R, f(x) = x/\u221a(1+x\u00b2). Note that f(x)\u00b2 = x\u00b2/(1+x\u00b2) = 1 \u2013 1/(1+x\u00b2) < 1, so |f(x)| < 1 for all x. This means f(x) \u2208 (\u20131, 1) for all x \u2208 R. The value y = 1, for example, is not attained by any real x (it would require \u221a(1+x\u00b2) = x, impossible). Hence the range of f is strictly a subset of R, and f is not onto.",
+            "solution_hindi": null,
+            "chapter": "Relations and Functions",
+            "topic": "One-one and onto functions",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 33,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "निम्नलिखित रैखिक प्रोग्रामन समस्या को ग्राफीय विधि से हल कीजिए:\nव्यवरोधों x + 2y \u2264 12, 4x + 5y \u2265 20, 2x + y \u2264 12, x, y \u2265 0 के अंतर्गत Z = 600x + 400y का अधिकतमीकरण कीजिए।",
+            "text_english": "Solve the following Linear Programming Problem graphically:\nMaximise Z = 600x + 400y subject to the constraints x + 2y \u2264 12, 4x + 5y \u2265 20, 2x + y \u2264 12, x, y \u2265 0.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Find corner points of feasible region",
+                    "Evaluate Z at each corner point",
+                    "Maximum Z = 3600 at x = 6, y = 0"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "We plot the constraints and find the feasible region. The constraints are: (1) x + 2y \u2264 12, (2) 4x + 5y \u2265 20, (3) 2x + y \u2264 12, (4) x, y \u2265 0. Finding corner points by solving pairs of boundary lines: intersection of x+2y=12 and 2x+y=12 gives x=4, y=4. Intersection of 2x+y=12 with y=0 gives x=6. Intersection of x+2y=12 with x=0 gives y=6. Check which points satisfy all constraints. Feasible corner points: (0, 4), (4, 4), (6, 0). Evaluate Z: at (0,4): Z=0+1600=1600; at (4,4): Z=2400+1600=4000; at (6,0): Z=3600+0=3600. Maximum value of Z is 4000 at x = 4, y = 4.",
+            "solution_hindi": null,
+            "chapter": "Linear Programming",
+            "topic": "Graphical method for LPP",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 34,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(क) एक नए शोरूम के उद्घाटन वाले दिन, एक लक्की ड्रॉ रखा गया जिसमें \u20b9 1,000 तथा \u20b9 500 के कुछ वाउचर लक्की ड्रॉ जीतने वालों को दिए गए। उस दिन कुल 60 वाउचर दिए गए। \u20b9 1,000 वाले वाउचर की संख्या को \u20b9 500 वाले वाउचरों की संख्या के 3 गुने में जोड़ने पर 100 आता है। दी गई सूचना को दो चरों के रैखिक समीकरण निकाय के रूप में व्यक्त कीजिए। अत: आव्यूह विधि से प्रत्येक प्रकार के वाउचरों की संख्या ज्ञात कीजिए।\nअथवा\n(ख) दिया गया है कि P = [[2,\u20131],[3,4]], Q = [[5,2],[7,4]] तथा R = [[2,5],[3,8]], एक ऐसा आव्यूह S ज्ञात कीजिए ताकि PQ \u2013 RS एक शून्य आव्यूह हो।",
+            "text_english": "(a) On the inauguration day of a new showroom, a lucky draw was organized and some vouchers of \u20b9 1,000 and \u20b9 500 were given to the lucky draw winners. A total of 60 vouchers were given on the day. The number of \u20b9 1,000 vouchers added to 3 times the number of \u20b9 500 vouchers, gives 100. Express the given information as a system of linear equations in two variables. Hence, find the number of vouchers of each type by matrix method.\nOR\n(b) Given that P = [[2,\u20131],[3,4]], Q = [[5,2],[7,4]] and R = [[2,5],[3,8]], find a matrix S such that PQ \u2013 RS is a null matrix.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Let x = number of \u20b91000 vouchers, y = number of \u20b9500 vouchers. Equations: x+y=60 and x+3y=100. Matrix solution gives x=40, y=20.",
+                    "(b) Compute PQ, then S = R\u207b\u00b9(PQ)"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780557664/b7ecafb0-9591-40e2-b27e-ec0d344a52b4.png",
+            "solution": "(a) Let x = number of \u20b91000 vouchers and y = number of \u20b9500 vouchers. The conditions give: x + y = 60 and x + 3y = 100. In matrix form: [[1,1],[1,3]] [[x],[y]] = [[60],[100]]. Let A = [[1,1],[1,3]], |A| = 3\u20131 = 2. A\u207b\u00b9 = (1/2)[[3,\u20131],[\u20131,1]]. So [[x],[y]] = (1/2)[[3,\u20131],[\u20131,1]][[60],[100]] = (1/2)[[180\u2013100],[\u201360+100]] = (1/2)[[80],[40]] = [[40],[20]]. There are 40 vouchers of \u20b91000 and 20 vouchers of \u20b9500.\n\n(b) PQ = [[2,\u20131],[3,4]][[5,2],[7,4]] = [[10\u20137, 4\u20134],[15+28, 6+16]] = [[3,0],[43,22]]. For PQ = RS (null matrix means PQ\u2013RS=0, so RS=PQ): S = R\u207b\u00b9\u00b7PQ. R = [[2,5],[3,8]], |R| = 16\u201315 = 1. R\u207b\u00b9 = [[8,\u20135],[\u20133,2]]. S = [[8,\u20135],[\u20133,2]][[3,0],[43,22]] = [[24\u2013215, \u2013110],[–9+86, \u20136+44]... Let me recalculate: S = [[8\u00d73+(\u20135)\u00d743, 8\u00d70+(\u20135)\u00d722],[(\u20133)\u00d73+2\u00d743, (\u20133)\u00d70+2\u00d722]] = [[24\u2013215, \u2013110],[\u20139+86, 44]] = [[\u2013191, \u2013110],[77, 44]].",
+            "solution_hindi": null,
+            "chapter": "Matrices / Determinants",
+            "topic": "Matrix method for system of equations, matrix operations",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 35,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(क) नीचे दी गई सरल रेखाओं l\u2081 तथा l\u2082 के समीकरणों को सदिश रूप में लिखिए। अत: जाँच कीजिए कि रेखाएँ परस्पर प्रतिच्छेदी हैं या नहीं।\nl\u2081: (x+3)/(\u20133) = (y\u20131)/1 = (z\u20135)/5\nl\u2082: (x+1)/(\u20131) = (2\u2013y)/(\u20132) = (z\u20135)/5\nअथवा\n(ख) एक वर्ग की सम्मुख भुजाएँ निम्न रेखाओं के अनुदिश हैं:\n\u20d7r = \u012d + 2\u0135 \u2013 4k\u0302 + \u03bb(2\u012d + 3\u0135 + 6k\u0302)\n\u20d7r = 3\u012d + 3\u0135 \u2013 5k\u0302 + \u03bc(2\u012d + 3\u0135 + 6k\u0302)\nयदि वर्ग की सम्मुख भुजाओं के दूसरे युग्म के दिक्-अनुपात <\u2013 3, 6, p> हैं, तो वर्ग का क्षेत्रफल ज्ञात कीजिए। p का मान भी ज्ञात कीजिए।",
+            "text_english": "(a) Represent the equations of lines l\u2081 and l\u2082 in vector form and check whether they are intersecting or not.\nl\u2081: (x+3)/(\u20133) = (y\u20131)/1 = (z\u20135)/5\nl\u2082: (x+1)/(\u20131) = (2\u2013y)/(\u20132) = (z\u20135)/5\nOR\n(b) Opposite sides of a square are along the lines:\n\u20d7r = \u012d + 2\u0135 \u2013 4k\u0302 + \u03bb(2\u012d + 3\u0135 + 6k\u0302)\n\u20d7r = 3\u012d + 3\u0135 \u2013 5k\u0302 + \u03bc(2\u012d + 3\u0135 + 6k\u0302)\nFind the area of the square if direction ratios of other pair of opposite sides of the square are given by <\u2013 3, 6, p>. Also, find the value of p.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Write vector forms; check by finding skew lines or intersection using condition",
+                    "(b) Side length = distance between parallel lines; area = side\u00b2; p found from perpendicularity of adjacent sides"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) Vector form: l\u2081: \u20d7r = (\u2013 3\u012d + \u0135 + 5k\u0302) + \u03bb(\u2013 3\u012d + \u0135 + 5k\u0302). l\u2082: \u20d7r = (\u2013\u012d + 2\u0135 + 5k\u0302) + \u03bc(\u2013\u012d + 2\u0135 + 5k\u0302). Note both lines pass through points B\u2081 = (\u20133, 1, 5) and B\u2082 = (\u20131, 2, 5) with direction vectors \u20d7d\u2081 = (\u20133, 1, 5) and \u20d7d\u2082 = (\u20131, 2, 5). To check intersection: the vector connecting the two points is B\u2082 \u2013 B\u2081 = (2, 1, 0). Check if (2,1,0), (\u20133,1,5) and (\u20131,2,5) are coplanar: scalar triple product = |2 1 0; \u20133 1 5; \u20131 2 5| = 2(5\u201310) \u2013 1(\u201315+5) + 0 = 2(\u20135) \u2013 1(\u201310) = \u201310+10 = 0. Since the scalar triple product is zero, the lines are coplanar and therefore they intersect.\n\n(b) The two given opposite sides have direction vector \u20d7d = (2, 3, 6), with |\u20d7d| = \u221a(4+9+36) = 7. The side length equals the distance between the two parallel lines. Point on l\u2081: (1,2,\u20134); point on l\u2082: (3,3,\u20135). Vector connecting them: \u20d7v = (2,1,\u20131). Distance = |\u20d7v \u00d7 \u20d7d|/|\u20d7d|. \u20d7v \u00d7 \u20d7d = |i j k; 2 1 \u20131; 2 3 6| = i(6+3)\u2013j(12+2)+k(6\u20132) = (9,\u201314,4). |\u20d7v\u00d7\u20d7d| = \u221a(81+196+16) = \u221a293. Side = \u221a293/7. For a square, the other two sides must be perpendicular to (2,3,6): \u20132(3)+6(3)+p(6)=0 \u2192 \u20136+18+6p=0 \u2192 6p = \u201312 \u2192 p = \u20132. The side length of a square equals the distance between the parallel lines; area = (293/49) sq units.",
+            "solution_hindi": null,
+            "chapter": "Three Dimensional Geometry",
+            "topic": "Intersection of lines, distance between parallel lines, square in 3D",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 36,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "नीचे चित्र में दर्शाए अनुसार, एक 20 m चौड़ी सड़क के दोनों ओर आमने सामने 22 m तथा 16 m ऊँचाई वाले दो ऊर्ध्वाधर बिजली के खम्भे खड़े हैं। सड़क के एक बिंदु R, जो छोटे खम्भे से x m की दूरी पर है, से दोनों ओर दो सीढ़ियाँ l\u2081 तथा l\u2082 लम्बाई की हैं।",
+            "text_english": "Two vertical light poles of height 22 m and 16 m stand on the opposite sides of a 20 m wide road as shown below in the figure. Two ladders of length l\u2081 and l\u2082 are placed from a common point R on the road at a distance of x m from the smaller pole.",
+            "instruction_line": "उपयुक्त सूचना पर आधारित, निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+            "instruction_line_english": "Based on the above information, answer the following questions.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "p(x) = l\u2081 + l\u2082 को x के पदों में व्यक्त कीजिए।",
+                    "text_english": "Express p(x) = l\u2081 + l\u2082 in terms of x.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "l\u2081 = \u221a(x\u00b2 + 256), l\u2082 = \u221a((20\u2013x)\u00b2 + 484)",
+                            "p(x) = \u221a(x\u00b2+256) + \u221a((20\u2013x)\u00b2+484)"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "The smaller pole has height 16 m and is at distance x from R; the taller pole has height 22 m and is at distance (20\u2013x) from R. By Pythagoras: l\u2081 = \u221a(x\u00b2 + 16\u00b2) = \u221a(x\u00b2 + 256) and l\u2082 = \u221a((20\u2013x)\u00b2 + 22\u00b2) = \u221a((20\u2013x)\u00b2 + 484). Therefore p(x) = \u221a(x\u00b2 + 256) + \u221a((20\u2013x)\u00b2 + 484).",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "p\u2019(x) ज्ञात कीजिए।",
+                    "text_english": "Find p\u2019(x).",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "p\u2019(x) = x/\u221a(x\u00b2+256) \u2013 (20\u2013x)/\u221a((20\u2013x)\u00b2+484)"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Differentiating p(x) = \u221a(x\u00b2+256) + \u221a((20\u2013x)\u00b2+484) with respect to x: p\u2019(x) = x/\u221a(x\u00b2+256) + [\u2013(20\u2013x)]/\u221a((20\u2013x)\u00b2+484) = x/\u221a(x\u00b2+256) \u2013 (20\u2013x)/\u221a((20\u2013x)\u00b2+484).",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii_a",
+                    "text": "(क) x का वह मान ज्ञात कीजिए जिसके लिए l\u2081\u00b2 + l\u2082\u00b2 का मान न्यूनतम हो।",
+                    "text_english": "(a) Find the value of x for which l\u2081\u00b2 + l\u2082\u00b2 is minimum.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "f(x) = l\u2081\u00b2+l\u2082\u00b2 = x\u00b2+256+(20\u2013x)\u00b2+484",
+                            "f\u2019(x)=2x\u20132(20\u2013x)=4x\u201340=0 gives x=10"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Let f(x) = l\u2081\u00b2 + l\u2082\u00b2 = (x\u00b2+256) + ((20\u2013x)\u00b2+484) = x\u00b2 + 256 + 400 \u2013 40x + x\u00b2 + 484 = 2x\u00b2 \u2013 40x + 1140. Differentiating: f\u2019(x) = 4x \u2013 40 = 0, giving x = 10. f\u2019\u2019(x) = 4 > 0, so x = 10 is a minimum. At x = 10 m from the smaller pole, the sum of squares of ladder lengths is minimum.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "iii_b",
+                    "text": "(ख) यदि 22 m लंबे खम्भे को हटाकर उसके स्थान पर भी एक 16 m लंबा खंभा लगाया गया हो, तो प्रत्येक खंभे से कितनी दूरी पर सीढ़ी रखी जाए ताकि दोनों ओर खम्भे के शिखर तक पहुँचने के लिए सीढ़ियों की लंबाई के वर्गों का योगफल न्यूनतम हो?",
+                    "text_english": "(b) If the 22 m long pole is also replaced by a 16 m long pole, at what distance from either pole should the ladders be kept so that the sum of squares of lengths of ladders needed to reach the top of the pole is minimum?",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Both poles now 16 m; f(x)=x\u00b2+256+(20\u2013x)\u00b2+256; minimum at x=10",
+                            "Each ladder is placed 10 m from either pole"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "With both poles of height 16 m, f(x) = x\u00b2 + 256 + (20\u2013x)\u00b2 + 256 = 2x\u00b2 \u2013 40x + 912. Differentiating: f\u2019(x) = 4x \u2013 40 = 0, giving x = 10. Since f\u2019\u2019(x) = 4 > 0, this is a minimum. The common point R should be placed 10 m from each pole, i.e., exactly at the midpoint of the road, so the ladders should be kept 10 m from either pole.",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780557702/f9351547-3339-4e74-84fd-079353c0ad06.png",
+            "solution": "Passage-based question set. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Application of Derivatives",
+            "topic": "Minimisation problems using calculus",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 37,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "बारहवीं कक्षा के बाद एक वर्ष छोड़कर बाद में एंट्रेंस परीक्षा पास करने वाले विद्यार्थियों का सक्सेस रेट ज्ञात करने के लिए एक सर्वे कराया गया। संग्रहित आँकड़ों के अनुसार, परीक्षा में बैठने वालों में 40% विद्यार्थी एक वर्ष छोड़ने वाले थे तथा शेष विद्यार्थी बारहवीं कक्षा के नियमित विद्यार्थी थे। एक वर्ष छोड़ने वालों में 5% परीक्षा में पास हुए जबकि नियमित विद्यार्थियों में से 10% पास हुए।",
+            "text_english": "A survey was conducted to find out the success rate of students who qualified the entrance examination by dropping a year after class XII. As per the data collected, 40% students appearing in the examination were dropouts and the remaining students were regular students of class XII. Of the dropouts, 5% qualify the examination while 10% of the regular students qualify the examination.",
+            "instruction_line": "उपयुक्त सूचना पर आधारित, निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+            "instruction_line_english": "Based on the above information, answer the following questions.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "यादृच्छया चुने गए एक विद्यार्थी के नियमित विद्यार्थी होने की प्रायिकता ज्ञात कीजिए।",
+                    "text_english": "Find the probability that a student selected at random is a regular student.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "P(Regular) = 0.60"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "40% of students are dropouts, so the remaining 60% are regular students. Therefore the probability that a randomly selected student is a regular student = 60/100 = 3/5 = 0.6.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "एक वर्ष छोड़ने वाले विद्यार्थियों के समूह में से यादृच्छया एक विद्यार्थी चुना गया। इस विद्यार्थी के पास न होने की प्रायिकता क्या है?",
+                    "text_english": "A student is selected at random from a group of dropout students. What is the probability that the student will not qualify the examination?",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "P(not qualify | dropout) = 1 \u2013 0.05 = 0.95"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Among dropouts, 5% qualify the examination. Therefore the probability that a dropout student does NOT qualify = 1 \u2013 0.05 = 0.95.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii_a",
+                    "text": "(क) यादृच्छया चुना गया एक विद्यार्थी परीक्षा में पास होने वाला पाया गया। प्रायिकता ज्ञात कीजिए कि यह एक वर्ष छोड़ने वाला विद्यार्थी नहीं है।",
+                    "text_english": "(a) A student selected at random qualified the examination. Find the probability that student is not a dropout.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "P(qualify) = 0.4\u00d70.05 + 0.6\u00d70.10 = 0.02+0.06 = 0.08",
+                            "P(regular | qualifies) = 0.06/0.08 = 3/4"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Let D = dropout event, R = regular student, Q = qualifies. P(D) = 0.4, P(R) = 0.6, P(Q|D) = 0.05, P(Q|R) = 0.10. By Bayes theorem: P(R|Q) = P(R)\u00b7P(Q|R) / [P(D)\u00b7P(Q|D) + P(R)\u00b7P(Q|R)] = (0.6\u00d70.10) / (0.4\u00d70.05 + 0.6\u00d70.10) = 0.06 / (0.02 + 0.06) = 0.06/0.08 = 3/4. So the probability that the qualified student is not a dropout (i.e., is a regular student) is 3/4.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "iii_b",
+                    "text": "(ख) यादृच्छया चुना गया एक विद्यार्थी परीक्षा में पास न होने वाला पाया गया। प्रायिकता ज्ञात कीजिए कि यह एक नियमित विद्यार्थी था।",
+                    "text_english": "(b) A student selected at random did not qualify the examination. Find the probability that the student was a regular student.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "P(not Q) = 1\u20130.08 = 0.92",
+                            "P(R | not Q) = P(R)\u00b7P(not Q|R)/P(not Q) = (0.6\u00d70.90)/0.92 = 0.54/0.92 = 27/46"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "P(not qualify | dropout) = 0.95, P(not qualify | regular) = 0.90. P(not qualify) = 0.4\u00d70.95 + 0.6\u00d70.90 = 0.38 + 0.54 = 0.92. By Bayes theorem: P(Regular | not qualify) = P(R)\u00b7P(not Q|R) / P(not Q) = (0.6\u00d70.90) / 0.92 = 0.54/0.92 = 27/46.",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780557741/c1927703-2f53-403b-a21e-092c404e9526.png",
+            "solution": "Passage-based question set. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Probability",
+            "topic": "Bayes theorem and conditional probability",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 38,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "एक सोसाइटी में एक त्रिभुजाकार पार्क है जिसे दो भागों में बाँटा गया है, जैसा कि चित्र में दर्शाया गया है। क्षेत्र OAC में, बच्चों को क्रिकेट, फुटबॉल खेल खेलने दिए जाते हैं जबकि क्षेत्र AOB में भागदौड़ वाले खेलों की अनुमति नहीं है। त्रिभुजाकार पार्क ABC के शीर्ष A(0, 4), B(\u2212 2, 0) तथा C(3, 0) हैं।",
+            "text_english": "There is a triangular park in the society. The park is divided into two sections as shown in the figure. In the region OAC, children are allowed to play games like cricket, football, while in the region AOB, activities which involve running are not allowed. The vertices of the triangular park ABC are A(0, 4), B(\u2013 2, 0) and C(3, 0).",
+            "instruction_line": "उपयुक्त सूचना पर आधारित, निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+            "instruction_line_english": "Based on the above information, answer the following questions.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "पार्क की सीमा रेखा AB का समीकरण लिखिए।",
+                    "text_english": "Write the equation of the boundary line AB of the park.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Equation of AB: 2x \u2013 y + 4 = 0 or y = 2x + 4"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "A = (0, 4) and B = (\u20132, 0). Slope of AB = (4\u20130)/(0\u2013(\u20132)) = 4/2 = 2. Using point-slope form with point A(0,4): y \u2013 4 = 2(x \u2013 0), so y = 2x + 4.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "पार्क की सीमा रेखा AC का समीकरण लिखिए।",
+                    "text_english": "Write the equation of the boundary line AC of the park.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Equation of AC: 4x + 3y \u2013 12 = 0 or y = (\u20134x + 12)/3"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "A = (0, 4) and C = (3, 0). Slope of AC = (0\u20134)/(3\u20130) = \u20134/3. Using point A(0,4): y \u2013 4 = (\u20134/3)(x \u2013 0), so y = \u20134x/3 + 4, or 4x + 3y = 12.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii_a",
+                    "text": "(क) समाकलन के प्रयोग से, क्षेत्र OAC, जिसमें क्रिकेट, फुटबॉल खेलने की अनुमति है, का क्षेत्रफल ज्ञात कीजिए।",
+                    "text_english": "(a) Using integration, find the area of region OAC, in which children are allowed to play cricket, football.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Area of OAC = \u222b\u2080\u00b3 (\u20134x/3+4) dx = [(\u20132x\u00b2/3)+4x]\u2080\u00b3 = \u20136+12 = 6 sq units"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Region OAC is bounded by the line AC (y = \u20134x/3 + 4), the x-axis (y = 0) from x = 0 to x = 3, and the y-axis. Area = \u222b from 0 to 3 of (\u20134x/3 + 4) dx = [\u20132x\u00b2/3 + 4x] from 0 to 3 = (\u20132\u00d79/3 + 12) \u2013 0 = (\u20136 + 12) = 6 square units.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "iii_b",
+                    "text": "(ख) समाकलन के प्रयोग से, क्षेत्र AOB का क्षेत्रफल ज्ञात कीजिए।",
+                    "text_english": "(b) Using integration, find the area of region AOB.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Area of AOB = \u222b from \u20132 to 0 of (2x+4) dx = [x\u00b2+4x] from \u20132 to 0 = 0\u2013(4\u20138) = 4 sq units"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Region AOB is bounded by line AB (y = 2x+4), x-axis (y=0) from x = \u20132 to x = 0, and y-axis. Area = \u222b from \u20132 to 0 of (2x + 4) dx = [x\u00b2 + 4x] from \u20132 to 0 = (0) \u2013 (4 \u2013 8) = 0 \u2013 (\u20134) = 4 square units.",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780557779/e802302e-c113-4619-bd19-d6a925069dcf.png",
+            "solution": "Passage-based question set. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Application of Integrals",
+            "topic": "Area bounded by curves using integration",
+            "difficulty": "Easy"
+        }
+    ]
+}

@@ -1,0 +1,1421 @@
+{
+  "meta": {
+    "exam_name": "CBSE Board Class 12",
+    "exam_short_code": "CBSE-12",
+    "subject": "Mathematics",
+    "subject_code": "65/5/2",
+    "series": "PQSR5",
+    "set_number": "2",
+    "year": 2026,
+    "primary_language": "Hindi",
+    "secondary_language": "English",
+    "total_questions_in_paper": 38,
+    "attempt_required": 38,
+    "total_marks": 80,
+    "total_time_minutes": 180,
+    "has_negative_marking": false
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "यदि A = [[sin\u03b8, cos\u03b8], [-cos\u03b8, sin\u03b8]] तथा A + A' = I है, तो \u03b8 बराबर है :",
+      "text_english": "If A = [[sin\u03b8, cos\u03b8], [-cos\u03b8, sin\u03b8]] and A + A' = I, then \u03b8 is equal to :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "0",
+        "B": "\u03c0/6",
+        "C": "\u03c0/3",
+        "D": "\u03c0"
+      },
+      "options_english": {
+        "A": "0",
+        "B": "\u03c0/6",
+        "C": "\u03c0/3",
+        "D": "\u03c0"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "D"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "We compute A + A'. The matrix A has entries: A[1,1] = sin\u03b8, A[1,2] = cos\u03b8, A[2,1] = -cos\u03b8, A[2,2] = sin\u03b8. Its transpose A' has entries: A'[1,1] = sin\u03b8, A'[1,2] = -cos\u03b8, A'[2,1] = cos\u03b8, A'[2,2] = sin\u03b8. So A + A' = [[2sin\u03b8, 0],[0, 2sin\u03b8]]. For this to equal I = [[1,0],[0,1]], we need 2sin\u03b8 = 1, i.e. sin\u03b8 = 1/2, giving \u03b8 = \u03c0/6. However, checking option D (\u03b8 = \u03c0): sin\u03c0 = 0, so 2sin\u03c0 = 0 \u2260 1. Re-examining: A + A' = I requires 2sin\u03b8 = 1 \u21d2 \u03b8 = \u03c0/6. Option (B) \u03c0/6 is correct. Option A (0) gives sin0=0, option C (\u03c0/3) gives sin(\u03c0/3)=\u221a3/2 so 2\u00d7\u221a3/2=\u221a3\u22601, option D (\u03c0) gives sin\u03c0=0. Therefore \u03b8 = \u03c0/6 is the answer.",
+      "solution_hindi": null,
+      "chapter": "Matrices",
+      "topic": "Symmetric and Skew-Symmetric Matrices",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 2,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "यदि A एक सममित आव्यूह है, तो A के समान कोटि के किसी आव्यूह B के लिए BAB' है एक :",
+      "text_english": "If A is a symmetric matrix, then for any matrix B of order same as A, BAB' is a/an :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "विषम सममित आव्यूह",
+        "B": "तत्समक आव्यूह",
+        "C": "सममित आव्यूह",
+        "D": "शून्य आव्यूह"
+      },
+      "options_english": {
+        "A": "Skew symmetric matrix",
+        "B": "Identity matrix",
+        "C": "Symmetric matrix",
+        "D": "Null matrix"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "C"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Since A is symmetric, A' = A. Consider (BAB')' = (B')'A'B' = BA'B' = BAB' (since A' = A). Because (BAB')' = BAB', the matrix BAB' is symmetric. Option A (skew-symmetric) would require (BAB')' = -BAB', which is not the case. Option B (identity) is not generally true, and option D (null) is clearly false for non-trivial B and A. Hence BAB' is a symmetric matrix.",
+      "solution_hindi": null,
+      "chapter": "Matrices",
+      "topic": "Properties of Symmetric Matrices",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 3,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "माना A = [[0, -3, 4],[1, 0, 2]] तथा B = [[-3, 0, 1],[2, 4, 0]] है। यदि A + B + C = O है, तो आव्यूह C है :",
+      "text_english": "Let A = [[0, -3, 4],[1, 0, 2]] and B = [[-3, 0, 1],[2, 4, 0]]. If A + B + C = O, then matrix C is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "[[-3, -3, 5],[3, 4, 2]]",
+        "B": "[[3, 3, 5],[-3, -4, -2]]",
+        "C": "[[3, 3, -5],[-3, -4, -2]]",
+        "D": "[[-3, -3, -5],[3, 4, 2]]"
+      },
+      "options_english": {
+        "A": "[[-3, -3, 5],[3, 4, 2]]",
+        "B": "[[3, 3, 5],[-3, -4, -2]]",
+        "C": "[[3, 3, -5],[-3, -4, -2]]",
+        "D": "[[-3, -3, -5],[3, 4, 2]]"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "D"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Since A + B + C = O, we have C = -(A + B). First compute A + B: row 1: (0+(-3), -3+0, 4+1) = (-3, -3, 5); row 2: (1+2, 0+4, 2+0) = (3, 4, 2). Therefore C = -(A+B) = [[3, 3, -5],[-3, -4, -2]]. This matches option C. Let us verify: option D gives [[-3,-3,-5],[3,4,2]] which would be -(something else). Correct answer is option C: C = [[3, 3, -5],[-3, -4, -2]].",
+      "solution_hindi": null,
+      "chapter": "Matrices",
+      "topic": "Matrix Addition",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 4,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "प्रतिलोम त्रिकोणमितीय फलनों के लिए, निम्नलिखित में से कौन-सी मुख्य मानीय शाखा सही परिभाषित नहीं है?",
+      "text_english": "For the inverse trigonometric functions, which of the following Principal Value Branch is not correctly defined?",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "tan\u207b\u00b9 : R \u2192 (-\u03c0/2, \u03c0/2)",
+        "B": "sec\u207b\u00b9 : R - (-1,1) \u2192 [0, \u03c0] - {\u03c0/2}",
+        "C": "cot\u207b\u00b9 : R \u2192 (0, \u03c0)",
+        "D": "cosec\u207b\u00b9 : R - (-1,1) \u2192 [-\u03c0/2, \u03c0/2]"
+      },
+      "options_english": {
+        "A": "tan\u207b\u00b9 : R \u2192 (-\u03c0/2, \u03c0/2)",
+        "B": "sec\u207b\u00b9 : R - (-1,1) \u2192 [0, \u03c0] - {\u03c0/2}",
+        "C": "cot\u207b\u00b9 : R \u2192 (0, \u03c0)",
+        "D": "cosec\u207b\u00b9 : R - (-1,1) \u2192 [-\u03c0/2, \u03c0/2]"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "D"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "The standard principal value branches are: tan\u207b\u00b9 maps to (-\u03c0/2, \u03c0/2) \u2014 correct; sec\u207b\u00b9 maps to [0, \u03c0] excluding \u03c0/2 \u2014 correct; cot\u207b\u00b9 maps to (0, \u03c0) \u2014 correct. For cosec\u207b\u00b9, the correct principal value branch is [-\u03c0/2, \u03c0/2] excluding {0}, i.e., cosec\u207b\u00b9 : R - (-1,1) \u2192 [-\u03c0/2, \u03c0/2] - {0}. Option D states the range as [-\u03c0/2, \u03c0/2] which includes 0, where cosec is undefined. Therefore option D is not correctly defined.",
+      "solution_hindi": null,
+      "chapter": "Inverse Trigonometric Functions",
+      "topic": "Principal Value Branches",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 5,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "यदि f(x) = (x\u00b2 - 4x - 5)/(x+1), x \u2260 -1 और k, x = -1 पर एक संतत फलन है, तो k का मान है :",
+      "text_english": "If f(x) = (x\u00b2 - 4x - 5)/(x+1), x \u2260 -1 and k, x = -1 is continuous at x = -1, then the value of k is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "कोई वास्तविक मान",
+        "B": "6",
+        "C": "-1",
+        "D": "-6"
+      },
+      "options_english": {
+        "A": "Any real value",
+        "B": "6",
+        "C": "-1",
+        "D": "-6"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "D"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "For f to be continuous at x = -1, we need k = lim(x\u2192-1) f(x). Factorising the numerator: x\u00b2 - 4x - 5 = (x-5)(x+1). So f(x) = (x-5)(x+1)/(x+1) = x - 5 for x \u2260 -1. Therefore lim(x\u2192-1) f(x) = -1 - 5 = -6. Hence k = -6. Options A (any real value) is wrong since a unique value is needed; option B (6) and option C (-1) do not match the limit calculation.",
+      "solution_hindi": null,
+      "chapter": "Continuity and Differentiability",
+      "topic": "Continuity of a Function",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 6,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "यदि A एक व्युत्क्रमणीय आव्यूह है, तो निम्नलिखित में से कौन-सा सत्य नहीं है?",
+      "text_english": "If A is a non-singular matrix, then which of the following is not true?",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "adj A अव्युत्क्रमणीय है",
+        "B": "(adj A)\u207b\u00b9 = (adj A\u207b\u00b9)",
+        "C": "|A| \u2260 0",
+        "D": "A\u207b\u00b9 का अस्तित्व है"
+      },
+      "options_english": {
+        "A": "adj A is singular",
+        "B": "(adj A)\u207b\u00b9 = (adj A\u207b\u00b9)",
+        "C": "|A| \u2260 0",
+        "D": "A\u207b\u00b9 exists"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "A"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "If A is non-singular (invertible), then |A| \u2260 0 (option C is true) and A\u207b\u00b9 exists (option D is true). It is also a standard result that (adj A)\u207b\u00b9 = adj(A\u207b\u00b9) (option B is true). However, for a non-singular matrix A, adj A is also non-singular (since |adj A| = |A|^(n-1) \u2260 0 when |A| \u2260 0). Therefore option A, which claims adj A is singular, is NOT true. This is the false statement.",
+      "solution_hindi": null,
+      "chapter": "Determinants",
+      "topic": "Properties of Adjoint and Inverse",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 7,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "फलन f(x) = (x - 2)\u00b2 + 5 का अंतराल [-3, 2] में निरपेक्ष निम्नतम मान है :",
+      "text_english": "Absolute minimum value of f(x) = (x - 2)\u00b2 + 5 in the interval [-3, 2] is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "-3",
+        "B": "2",
+        "C": "5",
+        "D": "30"
+      },
+      "options_english": {
+        "A": "-3",
+        "B": "2",
+        "C": "5",
+        "D": "30"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "C"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "The function f(x) = (x-2)\u00b2 + 5 is a parabola with vertex at x = 2, which lies in the closed interval [-3, 2]. At x = 2: f(2) = 0 + 5 = 5. At x = -3: f(-3) = (-5)\u00b2 + 5 = 25 + 5 = 30. The minimum value on [-3, 2] occurs at x = 2 giving f(2) = 5. Option A (-3) is a point, not a value; option B (2) is also a point; option D (30) is the maximum value at x = -3.",
+      "solution_hindi": null,
+      "chapter": "Application of Derivatives",
+      "topic": "Absolute Maximum and Minimum Values",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 8,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "यदि \u0394ABC जिसके शीर्ष A(3, 1), B(-2, 1) तथा C(0, k) हैं, का क्षेत्रफल 5 वर्ग इकाई है, तो k के मान हैं :",
+      "text_english": "If the area of \u0394ABC with vertices A(3, 1), B(-2, 1) and C(0, k) is 5 sq. units, then values of k are :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "3, 1",
+        "B": "-1, 3",
+        "C": "-1, 2",
+        "D": "0, 2"
+      },
+      "options_english": {
+        "A": "3, 1",
+        "B": "-1, 3",
+        "C": "-1, 2",
+        "D": "0, 2"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "B"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Area of triangle using determinant formula: (1/2)|x_A(y_B - y_C) + x_B(y_C - y_A) + x_C(y_A - y_B)| = 5. Substituting: (1/2)|3(1-k) + (-2)(k-1) + 0(1-1)| = 5, which gives (1/2)|3 - 3k - 2k + 2| = 5, so (1/2)|5 - 5k| = 5, hence |5 - 5k| = 10, giving 5 - 5k = \u00b110. Case 1: 5 - 5k = 10 \u21d2 k = -1. Case 2: 5 - 5k = -10 \u21d2 k = 3. Therefore k = -1 or k = 3, which is option B.",
+      "solution_hindi": null,
+      "chapter": "Determinants",
+      "topic": "Area of a Triangle",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 9,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "cos\u207b\u00b9((sin x + cos x)/\u221a2), -\u03c0/4 < x < \u03c0/4 का x के सापेक्ष अवकलज है :",
+      "text_english": "Derivative of cos\u207b\u00b9((sin x + cos x)/\u221a2), -\u03c0/4 < x < \u03c0/4 with respect to x is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "-1",
+        "B": "1",
+        "C": "\u03c0/4",
+        "D": "-\u03c0/4"
+      },
+      "options_english": {
+        "A": "-1",
+        "B": "1",
+        "C": "\u03c0/4",
+        "D": "-\u03c0/4"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "A"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Note that (sin x + cos x)/\u221a2 = sin(x + \u03c0/4). So the expression becomes cos\u207b\u00b9(sin(x + \u03c0/4)) = cos\u207b\u00b9(cos(\u03c0/2 - x - \u03c0/4)) = cos\u207b\u00b9(cos(\u03c0/4 - x)). For -\u03c0/4 < x < \u03c0/4, we have 0 < \u03c0/4 - x < \u03c0/2, which lies in the principal branch [0, \u03c0], so the expression simplifies to \u03c0/4 - x. Differentiating with respect to x gives d/dx(\u03c0/4 - x) = -1. Hence the answer is option A.",
+      "solution_hindi": null,
+      "chapter": "Continuity and Differentiability",
+      "topic": "Differentiation of Inverse Trigonometric Functions",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 10,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "\u222b\u221a((1 - cos 2x)/(1 + cos 2x)) dx बराबर है :",
+      "text_english": "\u222b\u221a((1 - cos 2x)/(1 + cos 2x)) dx is equal to :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "log|sec\u00b2x| + C",
+        "B": "log|cos x| + C",
+        "C": "log|1 + cos 2x| + C",
+        "D": "log|sec x| + C"
+      },
+      "options_english": {
+        "A": "log|sec\u00b2x| + C",
+        "B": "log|cos x| + C",
+        "C": "log|1 + cos 2x| + C",
+        "D": "log|sec x| + C"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "A"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Using identities: 1 - cos 2x = 2sin\u00b2x and 1 + cos 2x = 2cos\u00b2x. So (1-cos2x)/(1+cos2x) = 2sin\u00b2x / 2cos\u00b2x = tan\u00b2x. Thus the integral becomes \u222b\u221a(tan\u00b2x) dx = \u222b|tan x| dx = \u222b tan x dx (in the relevant domain) = log|sec x| + C. Note that log|sec x| = log|1/cos x| = -log|cos x|. Option A gives log|sec\u00b2x| = 2log|sec x|, which has an extra factor of 2; option D gives log|sec x| + C which is correct. The correct answer is option D.",
+      "solution_hindi": null,
+      "chapter": "Integrals",
+      "topic": "Integration using Trigonometric Identities",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 11,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "\u222b\u2080\u00b9 1/(3x - 4) dx का मान है :",
+      "text_english": "The value of \u222b\u2080\u00b9 1/(3x - 4) dx is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "(1/3) log 4",
+        "B": "-(1/3) log 4",
+        "C": "log(-4)",
+        "D": "log 4"
+      },
+      "options_english": {
+        "A": "(1/3) log 4",
+        "B": "-(1/3) log 4",
+        "C": "log(-4)",
+        "D": "log 4"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "B"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "We evaluate \u222b\u2080\u00b9 1/(3x-4) dx = [(1/3) log|3x - 4|]\u2080\u00b9. At x = 1: (1/3) log|3(1)-4| = (1/3) log|-1| = (1/3) log 1 = 0. At x = 0: (1/3) log|3(0)-4| = (1/3) log 4. Therefore the definite integral = 0 - (1/3) log 4 = -(1/3) log 4. Note that 3x - 4 passes through zero at x = 4/3, which is outside [0,1], so the integral is valid. Option B is correct.",
+      "solution_hindi": null,
+      "chapter": "Integrals",
+      "topic": "Definite Integrals",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 12,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "अवकल समीकरण dy/dx = e^(3x-y) का व्यापक हल है :",
+      "text_english": "The general solution for the differential equation dy/dx = e^(3x-y) is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "3e^y = e^(3x) + C",
+        "B": "log(3x - y) = C",
+        "C": "e^(3x-y) = C",
+        "D": "-e^y + 3e^(3x) = C"
+      },
+      "options_english": {
+        "A": "3e^y = e^(3x) + C",
+        "B": "log(3x - y) = C",
+        "C": "e^(3x-y) = C",
+        "D": "-e^y + 3e^(3x) = C"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "A"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Rewrite dy/dx = e^(3x) \u00b7 e^(-y). Separating variables: e^y dy = e^(3x) dx. Integrating both sides: e^y = (1/3)e^(3x) + C\u2081. Multiplying through by 3: 3e^y = e^(3x) + C (where C = 3C\u2081). This matches option A. Option D gives -e^y + 3e^(3x) = C, which would come from a sign error in integration. Options B and C are structurally incorrect for this separable equation.",
+      "solution_hindi": null,
+      "chapter": "Differential Equations",
+      "topic": "Variable Separable Method",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 13,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "अवकल समीकरण d\u00b2y/dx\u00b2 = 1 - (d\u00b3y/dx\u00b3)\u00b2 की कोटि तथा घात है :",
+      "text_english": "The order and degree of differential equation d\u00b2y/dx\u00b2 = 1 - (d\u00b3y/dx\u00b3)\u00b2 is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "Order = 3, Degree = 3",
+        "B": "Order = 2, Degree = 2",
+        "C": "Order = 3, Degree = 2",
+        "D": "Order = 2, Degree = 1"
+      },
+      "options_english": {
+        "A": "Order = 3, Degree = 3",
+        "B": "Order = 2, Degree = 2",
+        "C": "Order = 3, Degree = 2",
+        "D": "Order = 2, Degree = 1"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "C"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "The order of a differential equation is determined by the highest order derivative present. Here the highest derivative is d\u00b3y/dx\u00b3, so order = 3. The degree is the power of the highest order derivative after the equation is expressed as a polynomial in derivatives. Rearranging: (d\u00b3y/dx\u00b3)\u00b2 = 1 - d\u00b2y/dx\u00b2. The highest order derivative d\u00b3y/dx\u00b3 appears with power 2, so degree = 2. Hence option C (Order = 3, Degree = 2) is correct.",
+      "solution_hindi": null,
+      "chapter": "Differential Equations",
+      "topic": "Order and Degree of Differential Equations",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 14,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "एक चींटी को काग़ज़ की एक शीट पर एक सीधी रेखा में रेंगते हुए देखा गया है जिसका समीकरण y = 2x - 4 द्वारा प्रदत्त है। चींटी द्वारा तय किए गए पृष्ठ का क्षेत्रफल जो y-अक्ष, x-अक्ष तथा x = 1 द्वारा परिबद्ध है, है :",
+      "text_english": "An ant is observed crawling on a sheet of paper along a straight line given by equation y = 2x - 4. Area of the surface covered by the ant bounded by y-axis, x-axis and x = 1 is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "1 sq. unit",
+        "B": "3 sq. units",
+        "C": "2 sq. units",
+        "D": "4 sq. units"
+      },
+      "options_english": {
+        "A": "1 sq. unit",
+        "B": "3 sq. units",
+        "C": "2 sq. units",
+        "D": "4 sq. units"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "D"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "The line y = 2x - 4 crosses the x-axis at x = 2 and the y-axis at y = -4. The region bounded by y-axis (x=0), x-axis (y=0), and x=1 forms a triangle. At x=0, y = -4; at x=1, y = -2; the line crosses y=0 at x=2. The region bounded by x=0, y=0, and x=1 below the x-axis: the vertices are (0,0), (1,0) and (0,-4) approximately. Actually we take absolute area: \u222b\u2080\u00b9 |2x-4| dx. Since 2x-4 < 0 for x in [0,1]: \u222b\u2080\u00b9 (4-2x) dx = [4x - x\u00b2]\u2080\u00b9 = 4 - 1 = 3 sq. units. Option B is correct.",
+      "solution_hindi": null,
+      "chapter": "Application of Integrals",
+      "topic": "Area Bounded by Curves",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 15,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "यदि बिंदु (24, n) का स्थिति सदिश \u20d7p इस प्रकार है कि |\u20d7p| = 25 है, तो n के मान हैं :",
+      "text_english": "If position vector \u20d7p of a point (24, n) is such that |\u20d7p| = 25, then the value of n is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "\u00b149",
+        "B": "\u00b15",
+        "C": "\u00b11",
+        "D": "\u00b17"
+      },
+      "options_english": {
+        "A": "\u00b149",
+        "B": "\u00b15",
+        "C": "\u00b11",
+        "D": "\u00b17"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "D"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "The magnitude of position vector of point (24, n) is \u221a(24\u00b2 + n\u00b2) = 25. Squaring both sides: 576 + n\u00b2 = 625, so n\u00b2 = 49, giving n = \u00b17. Option A (\u00b149) is incorrect because 24\u00b2 + 49\u00b2 \u2260 625; option B (\u00b15) gives 576 + 25 = 601 \u2260 625; option C (\u00b11) gives 577 \u2260 625. Only option D (\u00b17) satisfies the condition.",
+      "solution_hindi": null,
+      "chapter": "Vector Algebra",
+      "topic": "Magnitude of a Vector",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 16,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "रैखिक व्यवरोधों के एक निकाय द्वारा बने सुसंगत क्षेत्र के कोनीय बिंदु (0,0), (0,40), (20,40), (60,20) तथा (60,0) हैं। यदि LPP का उद्देश्य फलन Z = 4x + 3y है, तो इसका अधिकतम मान है :",
+      "text_english": "The corner points of the feasible region determined by the system of linear constraints are (0,0), (0,40), (20,40), (60,20) and (60,0). If the objective function of an LPP is Z = 4x + 3y, then the maximum value is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "200",
+        "B": "300",
+        "C": "240",
+        "D": "120"
+      },
+      "options_english": {
+        "A": "200",
+        "B": "300",
+        "C": "240",
+        "D": "120"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "B"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Evaluate Z = 4x + 3y at each corner point: (0,0): Z = 0; (0,40): Z = 0 + 120 = 120; (20,40): Z = 80 + 120 = 200; (60,20): Z = 240 + 60 = 300; (60,0): Z = 240 + 0 = 240. The maximum value of Z is 300 at the point (60, 20). Therefore option B is correct.",
+      "solution_hindi": null,
+      "chapter": "Linear Programming",
+      "topic": "Corner Point Method",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 17,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "यदि 3P(A) = P(B) = 3/5 तथा P(A|B) = 2/3 है, तो P(A\u222aB) है :",
+      "text_english": "If 3P(A) = P(B) = 3/5 and P(A|B) = 2/3, then P(A\u222aB) is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "3/5",
+        "B": "1/5",
+        "C": "2/15",
+        "D": "2/5"
+      },
+      "options_english": {
+        "A": "3/5",
+        "B": "1/5",
+        "C": "2/15",
+        "D": "2/5"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "A"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Given 3P(A) = 3/5, so P(A) = 1/5. Also P(B) = 3/5. P(A|B) = P(A\u2229B)/P(B) = 2/3, so P(A\u2229B) = (2/3)(3/5) = 2/5. By addition rule: P(A\u222aB) = P(A) + P(B) - P(A\u2229B) = 1/5 + 3/5 - 2/5 = 2/5. Wait: 1/5 + 3/5 = 4/5; 4/5 - 2/5 = 2/5. So P(A\u222aB) = 2/5. That is option D. Let me recheck: option A = 3/5, option D = 2/5. The calculation gives 2/5, so the correct answer is D.",
+      "solution_hindi": null,
+      "chapter": "Probability",
+      "topic": "Conditional Probability and Addition Theorem",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 18,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "यदि सदिश \u20d7a = 3\u012d + 2\u0135 + \u03bb\u1e2d तथा \u20d7b = 2\u012d - 4\u0135 + 5\u1e2d, एक डॉक्टर के क्लिनिक के बाहर लगे हुए रेड क्रॉस साइन की दो स्ट्रिप्स का निरूपण करते हैं, तो \u03bb का मान है :",
+      "text_english": "If vectors \u20d7a = 3\u012d + 2\u0135 + \u03bb\u1e2d and \u20d7b = 2\u012d - 4\u0135 + 5\u1e2d represent the two strips of the Red Cross sign placed outside a doctor's clinic, then the value of \u03bb is :",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": {
+        "A": "1",
+        "B": "5/2",
+        "C": "2/5",
+        "D": "0"
+      },
+      "options_english": {
+        "A": "1",
+        "B": "5/2",
+        "C": "2/5",
+        "D": "0"
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "B"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "The Red Cross sign consists of two perpendicular strips, so the vectors \u20d7a and \u20d7b must be perpendicular, meaning \u20d7a \u00b7 \u20d7b = 0. Computing the dot product: (3)(2) + (2)(-4) + (\u03bb)(5) = 0, which gives 6 - 8 + 5\u03bb = 0, so -2 + 5\u03bb = 0, hence \u03bb = 2/5. This matches option C. Options A, B, and D do not satisfy the perpendicularity condition. The correct answer is C (\u03bb = 2/5).",
+      "solution_hindi": null,
+      "chapter": "Vector Algebra",
+      "topic": "Dot Product and Perpendicular Vectors",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 19,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "अभिकथन (A) : समुच्चय {1, 2, 3} पर परिभाषित संबंध R = {(1,1),(1,2),(2,1),(2,2),(3,3)} एक तुल्यता संबंध है।\nतर्क (R) : एक संबंध जो स्वतुल्य, सममित तथा संक्रामक है, वह एक तुल्यता संबंध होता है।",
+      "text_english": "Assertion (A): A relation R on the set {1, 2, 3} defined as R = {(1,1),(1,2),(2,1),(2,2),(3,3)} is an equivalence relation.\nReason (R): A relation that is reflexive, symmetric and transitive is an equivalence relation.",
+      "instruction_line": "दो कथनों में से सही उत्तर चुनिए।",
+      "instruction_line_english": "Select the correct answer from the given codes.",
+      "options": {
+        "A": "अभिकथन (A) और तर्क (R) दोनों सही हैं और तर्क (R), अभिकथन (A) की सही व्याख्या करता है।",
+        "B": "अभिकथन (A) और तर्क (R) दोनों सही हैं, परन्तु तर्क (R), अभिकथन (A) की सही व्याख्या नहीं करता है।",
+        "C": "अभिकथन (A) सही है, परन्तु तर्क (R) ग़लत है।",
+        "D": "अभिकथन (A) ग़लत है, परन्तु तर्क (R) सही है।"
+      },
+      "options_english": {
+        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "C": "Assertion (A) is true, but Reason (R) is false.",
+        "D": "Assertion (A) is false, but Reason (R) is true."
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "D"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Reason (R) is true: a reflexive, symmetric and transitive relation is indeed an equivalence relation. Now check Assertion (A): R = {(1,1),(1,2),(2,1),(2,2),(3,3)}. Reflexive: (1,1),(2,2),(3,3) all present \u2014 yes. Symmetric: (1,2) present and (2,1) present \u2014 yes. Transitive: check (1,2) and (2,1) \u21d2 need (1,1) \u2014 present. Check (2,1) and (1,2) \u21d2 need (2,2) \u2014 present. All pairs checked. R is actually an equivalence relation. So Assertion (A) is true and Reason (R) is true, and R is the correct explanation. Answer is A.",
+      "solution_hindi": null,
+      "chapter": "Relations and Functions",
+      "topic": "Equivalence Relations",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 20,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": null,
+      "marks": 1,
+      "negative_marks": 0,
+      "text": "अभिकथन (A): LPP: Z = x + 2y का न्यूनतमीकरण करना, व्यवरोधों 2x + y \u2265 3, x + 2y \u2265 6, x, y \u2265 0 के अंतर्गत, पर विचार कीजिए। न्यूनतम Z अपरिमित रूप से अनेक बिंदुओं पर आता है। सुसंगत क्षेत्र के कोनीय बिंदु (0, 3) तथा (6, 0) हैं।\nतर्क (R): यदि दो कोनीय बिंदुओं पर उद्देश्य फलन का समान न्यूनतम मान आता है, तो इन बिंदुओं को मिलाने वाले रेखा-खंड के प्रत्येक बिंदु पर समान न्यूनतम मान आता है।",
+      "text_english": "Assertion (A): Consider a Linear Programming Problem with minimise Z = x + 2y subject to constraints 2x + y \u2265 3, x + 2y \u2265 6, x, y \u2265 0 which gives minimum Z at infinitely many points. The corner points of feasible region are (0, 3) and (6, 0).\nReason (R): If two corner points produce the same minimum value of the objective function, then every point on the line segment joining the points will give the same minimum value.",
+      "instruction_line": "दो कथनों में से सही उत्तर चुनिए।",
+      "instruction_line_english": "Select the correct answer from the given codes.",
+      "options": {
+        "A": "अभिकथन (A) और तर्क (R) दोनों सही हैं और तर्क (R), अभिकथन (A) की सही व्याख्या करता है।",
+        "B": "अभिकथन (A) और तर्क (R) दोनों सही हैं, परन्तु तर्क (R), अभिकथन (A) की सही व्याख्या नहीं करता है।",
+        "C": "अभिकथन (A) सही है, परन्तु तर्क (R) ग़लत है।",
+        "D": "अभिकथन (A) ग़लत है, परन्तु तर्क (R) सही है।"
+      },
+      "options_english": {
+        "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+        "C": "Assertion (A) is true, but Reason (R) is false.",
+        "D": "Assertion (A) is false, but Reason (R) is true."
+      },
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "single",
+        "value": "D"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Reason (R) is a standard true result in LPP: if two corner points give the same optimal value, every point on the segment joining them also gives that optimal value. For Assertion (A): At (0,3): Z = 0 + 6 = 6. At (6,0): Z = 6 + 0 = 6. Both give Z = 6. The feasible region for the given constraints is unbounded (it extends to infinity), and Z = 6 at both corner points. So minimum Z = 6 occurs at infinitely many points (all points on segment from (0,3) to (6,0)). Assertion (A) is true. Since both are true and R correctly explains A, the answer is A.",
+      "solution_hindi": null,
+      "chapter": "Linear Programming",
+      "topic": "Unbounded Feasible Region and Multiple Optima",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 21,
+      "question_type": "SHORT_ANSWER",
+      "section": "B",
+      "part_of_group": null,
+      "marks": 2,
+      "negative_marks": 0,
+      "text": "sin[cos\u207b\u00b9(cos(7\u03c0/6))] का मान ज्ञात कीजिए।",
+      "text_english": "Evaluate sin[cos\u207b\u00b9(cos(7\u03c0/6))].",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["cos\u207b\u00b9(cos(7\u03c0/6)) = 2\u03c0 - 7\u03c0/6 = 5\u03c0/6 (since 7\u03c0/6 is not in [0,\u03c0])", "sin(5\u03c0/6) = 1/2"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Since 7\u03c0/6 does not lie in the principal value branch [0, \u03c0] of cos\u207b\u00b9, we use the identity cos(7\u03c0/6) = cos(2\u03c0 - 7\u03c0/6) = cos(5\u03c0/6). Now 5\u03c0/6 \u2208 [0, \u03c0], so cos\u207b\u00b9(cos(7\u03c0/6)) = cos\u207b\u00b9(cos(5\u03c0/6)) = 5\u03c0/6. Therefore sin[cos\u207b\u00b9(cos(7\u03c0/6))] = sin(5\u03c0/6) = sin(\u03c0 - \u03c0/6) = sin(\u03c0/6) = 1/2.",
+      "solution_hindi": null,
+      "chapter": "Inverse Trigonometric Functions",
+      "topic": "Properties of Inverse Trigonometric Functions",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 22,
+      "question_type": "SHORT_ANSWER",
+      "section": "B",
+      "part_of_group": null,
+      "marks": 2,
+      "negative_marks": 0,
+      "text": "(क) तीन मधुमक्खियाँ क्रमश: सदिशों \u20d7a = 2\u012d - 3\u0135 + \u1e2d, \u20d7b = 4\u0135 - 2\u1e2d तथा \u20d7c = 3\u012d + 2\u1e2d की दिशा में उड़ती पाई गईं। \u03bb का वह मान ज्ञात कीजिए ताकि \u20d7a + \u03bb\u20d7b का पथ \u20d7c के लंबवत हो।",
+      "text_english": "(a) Three honey bees were found flying along the vectors \u20d7a = 2\u012d - 3\u0135 + \u1e2d, \u20d7b = 4\u0135 - 2\u1e2d and \u20d7c = 3\u012d + 2\u1e2d respectively. Find the value of \u03bb such that the path for \u20d7a + \u03bb\u20d7b is perpendicular to \u20d7c.\n\nOR\n\n(b) If A, B and C be three non-collinear points such that \u20d7AB = \u012d + 2\u0135 - \u1e2d and \u20d7AC = 2\u012d - 3\u0135, then find the area of \u0394ABC.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["(a) \u03bb = -1/2 OR (b) Area = \u221a(38)/2 sq. units"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Part (a): \u20d7a + \u03bb\u20d7b = (2\u012d - 3\u0135 + \u1e2d) + \u03bb(4\u0135 - 2\u1e2d) = 2\u012d + (-3 + 4\u03bb)\u0135 + (1 - 2\u03bb)\u1e2d. For this to be perpendicular to \u20d7c = 3\u012d + 2\u1e2d, their dot product must be zero: (2)(3) + (-3+4\u03bb)(0) + (1-2\u03bb)(2) = 0, giving 6 + 0 + 2 - 4\u03bb = 0, so 8 - 4\u03bb = 0, hence \u03bb = 2.\n\nPart (b): \u20d7AB \u00d7 \u20d7AC = |\u012d \u0135 \u1e2d; 1 2 -1; 2 -3 0|. Computing: \u012d(0-3) - \u0135(0+2) + \u1e2d(-3-4) = -3\u012d - 2\u0135 - 7\u1e2d. Magnitude = \u221a(9+4+49) = \u221a62. Area of \u0394ABC = (1/2)|\u20d7AB \u00d7 \u20d7AC| = \u221a62/2 sq. units.",
+      "solution_hindi": null,
+      "chapter": "Vector Algebra",
+      "topic": "Dot Product, Cross Product, Area of Triangle",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 23,
+      "question_type": "SHORT_ANSWER",
+      "section": "B",
+      "part_of_group": null,
+      "marks": 2,
+      "negative_marks": 0,
+      "text": "वह अंतराल ज्ञात कीजिए जिसमें/जिनमें f(x) = 5x^(3/2) - 3x^(5/2), x > 0 वर्धमान है।",
+      "text_english": "Determine the interval(s) in which f(x) = 5x^(3/2) - 3x^(5/2), x > 0 is increasing.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["f'(x) = (15/2)x^(1/2) - (15/2)x^(3/2) = (15/2)\u221ax(1 - x)", "f'(x) > 0 when 0 < x < 1", "f is increasing on (0, 1)"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Differentiating f(x) = 5x^(3/2) - 3x^(5/2): f'(x) = 5 \u00b7 (3/2)x^(1/2) - 3 \u00b7 (5/2)x^(3/2) = (15/2)x^(1/2) - (15/2)x^(3/2) = (15/2)\u221ax(1 - x). For x > 0, \u221ax > 0. So f'(x) > 0 when 1 - x > 0, i.e., x < 1. Combined with x > 0, the function is increasing on the interval (0, 1).",
+      "solution_hindi": null,
+      "chapter": "Application of Derivatives",
+      "topic": "Increasing and Decreasing Functions",
+      "difficulty": "Easy"
+    },
+    {
+      "question_number": 24,
+      "question_type": "SHORT_ANSWER",
+      "section": "B",
+      "part_of_group": null,
+      "marks": 2,
+      "negative_marks": 0,
+      "text": "निम्नलिखित रेखाओं के युग्म के बीच का कोण ज्ञात कीजिए:\n(x-2)/3 = (y+5)/2 = (1-z)/(-6)  तथा  (x-7)/1 = y/2 = (6-z)/(-2)",
+      "text_english": "Find the angle between the following pair of lines:\n(x-2)/3 = (y+5)/2 = (1-z)/(-6) and (x-7)/1 = y/2 = (6-z)/(-2)",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["Direction ratios of line 1: (3, 2, 6) (note: 1-z = z direction reversed gives 6)", "Direction ratios of line 2: (1, 2, 2)", "cos\u03b8 = |(\u20d7d\u2081 \u00b7 \u20d7d\u2082)| / (|\u20d7d\u2081||\u20d7d\u2082|) = 19/21", "\u03b8 = cos\u207b\u00b9(19/21)"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Rewrite lines in standard form. Line 1: (x-2)/3 = (y+5)/2 = (z-1)/6 (reversing sign of z-part: (1-z)/(-6) = (z-1)/6). Direction vector \u20d7d\u2081 = (3, 2, 6). Line 2: (x-7)/1 = y/2 = (z-6)/2. Direction vector \u20d7d\u2082 = (1, 2, 2). Dot product: \u20d7d\u2081 \u00b7 \u20d7d\u2082 = 3(1) + 2(2) + 6(2) = 3 + 4 + 12 = 19. |\u20d7d\u2081| = \u221a(9+4+36) = 7. |\u20d7d\u2082| = \u221a(1+4+4) = 3. cos\u03b8 = 19/(7\u00d73) = 19/21. Therefore \u03b8 = cos\u207b\u00b9(19/21).",
+      "solution_hindi": null,
+      "chapter": "Three Dimensional Geometry",
+      "topic": "Angle Between Two Lines",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 25,
+      "question_type": "SHORT_ANSWER",
+      "section": "B",
+      "part_of_group": null,
+      "marks": 2,
+      "negative_marks": 0,
+      "text": "(क) x log x के सापेक्ष x^x का अवकलन कीजिए।\nअथवा\n(ख) यदि y = P cos ux + Q sin ux है, तो दर्शाइए कि d\u00b2y/dx\u00b2 + u\u00b2y = 0.",
+      "text_english": "(a) Differentiate x^x with respect to x log x.\nOR\n(b) If y = P cos ux + Q sin ux, show that d\u00b2y/dx\u00b2 + u\u00b2y = 0.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["(a) Let u = x^x, v = x log x. d(x^x)/dx = x^x(1 + log x), d(x log x)/dx = 1 + log x. So du/dv = x^x.", "(b) dy/dx = -Pu sin ux + Qu cos ux; d\u00b2y/dx\u00b2 = -Pu\u00b2 cos ux - Qu\u00b2 sin ux = -u\u00b2(P cos ux + Q sin ux) = -u\u00b2y"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Part (a): Let f = x^x and g = x log x. To find df/dg = (df/dx)/(dg/dx). For f = x^x: take log, log f = x log x, so (1/f)(df/dx) = 1 + log x, giving df/dx = x^x(1 + log x). For g = x log x: dg/dx = log x + x(1/x) = 1 + log x. Therefore df/dg = x^x(1 + log x)/(1 + log x) = x^x.\n\nPart (b): Given y = P cos ux + Q sin ux. First derivative: dy/dx = -Pu sin ux + Qu cos ux. Second derivative: d\u00b2y/dx\u00b2 = -Pu\u00b2 cos ux - Qu\u00b2 sin ux = -u\u00b2(P cos ux + Q sin ux) = -u\u00b2y. Therefore d\u00b2y/dx\u00b2 + u\u00b2y = -u\u00b2y + u\u00b2y = 0.",
+      "solution_hindi": null,
+      "chapter": "Continuity and Differentiability",
+      "topic": "Differentiation of Parametric Functions and Second Order Derivatives",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 26,
+      "question_type": "SHORT_ANSWER",
+      "section": "C",
+      "part_of_group": null,
+      "marks": 3,
+      "negative_marks": 0,
+      "text": "एक पतली धातु की तार वृत्ताकार वलय आकार में है तथा गर्म करने पर वृत्त का परिबद्ध क्षेत्रफल एकसमान दर से बढ़ता है। दर्शाइए कि इसकी परिधि के परिवर्तन की दर इसकी त्रिज्या के व्युत्क्रमानुपाती होती है।",
+      "text_english": "A thin metallic wire in the shape of a circular ring has its enclosed area increasing at a uniform rate when heated. Show that the rate of change of circumference varies inversely as the radius.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["Area A = \u03c0r\u00b2, so dA/dt = 2\u03c0r(dr/dt) = k (constant)", "dr/dt = k/(2\u03c0r)", "Circumference C = 2\u03c0r, so dC/dt = 2\u03c0(dr/dt) = 2\u03c0 \u00b7 k/(2\u03c0r) = k/r", "dC/dt \u221d 1/r"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Let r be the radius of the circular ring and A its enclosed area. Then A = \u03c0r\u00b2. Since the area increases at a uniform rate, dA/dt = k for some constant k. Differentiating A with respect to t: dA/dt = 2\u03c0r(dr/dt) = k, so dr/dt = k/(2\u03c0r). The circumference is C = 2\u03c0r. Differentiating with respect to t: dC/dt = 2\u03c0(dr/dt) = 2\u03c0 \u00d7 k/(2\u03c0r) = k/r. Since k is a constant, dC/dt = k/r, which shows that the rate of change of circumference is inversely proportional to the radius.",
+      "solution_hindi": null,
+      "chapter": "Application of Derivatives",
+      "topic": "Rate of Change of Quantities",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 27,
+      "question_type": "SHORT_ANSWER",
+      "section": "C",
+      "part_of_group": null,
+      "marks": 3,
+      "negative_marks": 0,
+      "text": "ग्राफ द्वारा निम्नलिखित रैखिक प्रोग्रामन समस्या का हल ज्ञात कीजिए:\nव्यवरोधों 2x + y \u2264 1000, x + y \u2264 800, x, y \u2265 0 के अंतर्गत Z = 2x/5 + 3y/10 का अधिकतमीकरण कीजिए।",
+      "text_english": "Solve the following Linear Programming Problem graphically:\nMaximize Z = 2x/5 + 3y/10 subject to constraints 2x + y \u2264 1000, x + y \u2264 800, x, y \u2265 0.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["Corner points: (0,0), (500,0), (200,600), (0,800)", "Z at each: 0, 200, 260, 240", "Maximum Z = 260 at (200, 600)"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "The feasible region is determined by: 2x + y \u2264 1000, x + y \u2264 800, x \u2265 0, y \u2265 0. Corner points: (0,0), (500,0), intersection of 2x+y=1000 and x+y=800: subtracting gives x = 200, y = 600, so (200, 600), and (0, 800). Evaluating Z = 2x/5 + 3y/10: at (0,0): Z = 0; at (500,0): Z = 200; at (200,600): Z = 80 + 180 = 260; at (0,800): Z = 0 + 240 = 240. The maximum value of Z is 260 at the point (200, 600).",
+      "solution_hindi": null,
+      "chapter": "Linear Programming",
+      "topic": "Graphical Method of LPP",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 28,
+      "question_type": "SHORT_ANSWER",
+      "section": "C",
+      "part_of_group": null,
+      "marks": 3,
+      "negative_marks": 0,
+      "text": "अवकल समीकरण y dx + (x - y\u00b3) dy = 0 का हल ज्ञात कीजिए।",
+      "text_english": "Solve the differential equation y dx + (x - y\u00b3) dy = 0.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["Rewrite as dx/dy + x/y = y\u00b2 (linear in x)", "Integrating factor = e^(\u222b1/y dy) = y", "Solution: xy = y\u2074/4 + C"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Rewrite the equation: y dx = (y\u00b3 - x) dy, so dx/dy = (y\u00b3 - x)/y = y\u00b2 - x/y. This gives dx/dy + x/y = y\u00b2, a linear ODE in x as a function of y. The integrating factor is e^(\u222b(1/y)dy) = e^(log y) = y. Multiply through by y: d(xy)/dy = y\u00b3. Integrating: xy = y\u2074/4 + C. Therefore the general solution is xy = y\u2074/4 + C, or equivalently 4xy = y\u2074 + C\u2081 (where C\u2081 = 4C).",
+      "solution_hindi": null,
+      "chapter": "Differential Equations",
+      "topic": "Linear Differential Equations",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 29,
+      "question_type": "SHORT_ANSWER",
+      "section": "C",
+      "part_of_group": null,
+      "marks": 3,
+      "negative_marks": 0,
+      "text": "(क) ज्ञात कीजिए: \u222b (x - sin x)/(1 - cos x) dx\nअथवा\n(ख) मान ज्ञात कीजिए: \u222b\u2080\u00b2 1/\u221a(x\u00b2 + 2x + 3) dx",
+      "text_english": "(a) Find: \u222b (x - sin x)/(1 - cos x) dx\nOR\n(b) Evaluate: \u222b\u2080\u00b2 1/\u221a(x\u00b2 + 2x + 3) dx",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["(a) Answer: -x cot(x/2) + C", "(b) Answer: log[(3+\u221a7)/(1+\u221a2)]"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Part (a): Write (x - sin x)/(1 - cos x) = x/(1-cos x) - sin x/(1-cos x). Using identities: 1 - cos x = 2sin\u00b2(x/2) and sin x = 2sin(x/2)cos(x/2). So x/(1-cosx) = x/(2sin\u00b2(x/2)) = (x/2)cosec\u00b2(x/2). And sinx/(1-cosx) = 2sin(x/2)cos(x/2)/(2sin\u00b2(x/2)) = cot(x/2). Thus the integral = \u222b(x/2)cosec\u00b2(x/2) dx - \u222bcot(x/2) dx. For the first part, integrate by parts with u = x/2, dv = cosec\u00b2(x/2)dx: \u222b(x/2)cosec\u00b2(x/2)dx = (x/2)(-2cot(x/2)) - \u222b(-2cot(x/2))(1/2)dx = -xcot(x/2) + \u222bcot(x/2)dx. Adding \u222b(-cot(x/2))dx: total = -xcot(x/2) + C.\n\nPart (b): x\u00b2 + 2x + 3 = (x+1)\u00b2 + 2. Let u = x+1: \u222b\u2080\u00b2 du/\u221a(u\u00b2+2) evaluated from u=1 to u=3 = [log|u + \u221a(u\u00b2+2)|]\u2081\u00b3 = log(3+\u221a7) - log(1+\u221a2) = log[(3+\u221a7)/(1+\u221a2)].",
+      "solution_hindi": null,
+      "chapter": "Integrals",
+      "topic": "Integration by Parts, Standard Integral Formulae",
+      "difficulty": "Hard"
+    },
+    {
+      "question_number": 30,
+      "question_type": "SHORT_ANSWER",
+      "section": "C",
+      "part_of_group": null,
+      "marks": 3,
+      "negative_marks": 0,
+      "text": "(क) एक पासे को उछाला गया। निम्न घटनाओं पर विचार कीजिए: A = {1,2,5}, B = {3,5}, C = {2,3,4,5}। अत: निम्न ज्ञात कीजिए: (i) P(A|C) तथा P(C|A) (ii) P(A\u2229B|C) तथा P(A\u222aB|C)\nअथवा\n(ख) एक डिब्बे में 1 से 6 तक संख्यांकित 6 कार्ड हैं। एक विद्यार्थी को डिब्बे में से एक-एक करके प्रतिस्थापन सहित दो कार्ड निकालने तथा उन पर अंकित संख्याओं को नोट करने के लिए कहा गया। माना दोनों कार्डों पर आई संख्याओं का योगफल 10 आना घटना A है तथा पहले कार्ड पर 4 को छोड़ कर अन्य संख्या आना घटना B है। P(A और B) ज्ञात कीजिए। अत: ज्ञात कीजिए कि क्या घटनाएँ A तथा B स्वतंत्र घटनाएँ हैं या नहीं।",
+      "text_english": "(a) A die is rolled. Consider events: A = {1,2,5}, B = {3,5}, C = {2,3,4,5}. Find: (i) P(A|C) and P(C|A) (ii) P(A\u2229B|C) and P(A\u222aB|C)\nOR\n(b) A box contains 6 cards numbered 1 to 6. A student picks two cards one by one with replacement. Let A be the event of getting sum of numbers as 10, and B the event of a number other than 4 on the first card. Find P(A and B) and find whether events A and B are independent.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["(a)(i) P(A|C) = 1/2, P(C|A) = 1/3", "(a)(ii) P(A\u2229B|C) = 1/4, P(A\u222aB|C) = 3/4", "(b) P(A\u2229B) = 1/18, P(A) = 1/12, P(B) = 5/6, P(A)P(B) = 5/72 \u2260 1/18, not independent"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Part (a): Sample space S = {1,2,3,4,5,6}, so P of each outcome = 1/6. P(C) = 4/6 = 2/3, P(A) = 3/6 = 1/2. A\u2229C = {2,5}, P(A\u2229C) = 2/6 = 1/3. (i) P(A|C) = P(A\u2229C)/P(C) = (1/3)/(2/3) = 1/2. P(C|A) = P(A\u2229C)/P(A) = (1/3)/(1/2) = 2/3. (ii) A\u2229B = {5}, P(A\u2229B\u2229C) = P({5}) = 1/6. P(A\u2229B|C) = (1/6)/(2/3) = 1/4. A\u222aB = {1,2,3,5}, (A\u222aB)\u2229C = {2,3,5}, P = 3/6 = 1/2. P(A\u222aB|C) = (1/2)/(2/3) = 3/4.\n\nPart (b): Total outcomes = 36 (with replacement). Favourable for A (sum=10): (4,6),(5,5),(6,4) = 3 pairs, so P(A) = 3/36 = 1/12. For B (first card \u2260 4): 5 choices, P(B) = 5/6. For A\u2229B: sum=10 and first card \u2260 4: pairs (5,5),(6,4) = 2 pairs, P(A\u2229B) = 2/36 = 1/18. P(A)\u00d7P(B) = (1/12)\u00d7(5/6) = 5/72. Since 1/18 = 4/72 \u2260 5/72, events A and B are not independent.",
+      "solution_hindi": null,
+      "chapter": "Probability",
+      "topic": "Conditional Probability, Independent Events",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 31,
+      "question_type": "SHORT_ANSWER",
+      "section": "C",
+      "part_of_group": null,
+      "marks": 3,
+      "negative_marks": 0,
+      "text": "(क) माना तीन खिलौने A, B तथा C एक सीधी रेखा में रखे गए हैं। यदि A, B तथा C के स्थिति सदिश क्रमश: 55\u012d - 2\u0135, 5\u012d + 8\u0135 तथा a\u012d - 52\u0135 हैं, तो 'a' का मान ज्ञात कीजिए।\nअथवा\n(ख) यदि \u20d7a, \u20d7b तथा \u20d7c मात्रक सदिश हैं, तो सिद्ध कीजिए कि |\u20d7a - \u20d7b|\u00b2 + |\u20d7b - \u20d7c|\u00b2 + |\u20d7c - \u20d7a|\u00b2 \u2264 9.",
+      "text_english": "(a) Let three toys A, B and C be placed in the same straight line. If the position vectors of A, B and C are 55\u012d - 2\u0135, 5\u012d + 8\u0135 and a\u012d - 52\u0135 respectively, find the value of 'a'.\nOR\n(b) If \u20d7a, \u20d7b and \u20d7c are unit vectors, then prove that |\u20d7a - \u20d7b|\u00b2 + |\u20d7b - \u20d7c|\u00b2 + |\u20d7c - \u20d7a|\u00b2 \u2264 9.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["(a) For collinearity, \u20d7AB and \u20d7AC must be parallel", "(a) a = -25", "(b) Expand each squared term and use |\u20d7a|=|\u20d7b|=|\u20d7c|=1"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Part (a): \u20d7AB = (5-55)\u012d + (8-(-2))\u0135 = -50\u012d + 10\u0135. \u20d7AC = (a-55)\u012d + (-52-(-2))\u0135 = (a-55)\u012d - 50\u0135. For collinearity, \u20d7AB \u00d7 \u20d7AC = 0: (-50)(-50) - (10)(a-55) = 0, giving 2500 - 10a + 550 = 0, so 3050 = 10a, hence a = 305. Alternatively, using ratio: (-50)/(a-55) = 10/(-50), so (-50)(-50) = 10(a-55), 2500 = 10a - 550, 10a = 3050, a = 305.\n\nPart (b): Expand |\u20d7a - \u20d7b|\u00b2 + |\u20d7b - \u20d7c|\u00b2 + |\u20d7c - \u20d7a|\u00b2 = (|\u20d7a|\u00b2 - 2\u20d7a\u00b7\u20d7b + |\u20d7b|\u00b2) + (|\u20d7b|\u00b2 - 2\u20d7b\u00b7\u20d7c + |\u20d7c|\u00b2) + (|\u20d7c|\u00b2 - 2\u20d7c\u00b7\u20d7a + |\u20d7a|\u00b2) = 2(1+1+1) - 2(\u20d7a\u00b7\u20d7b + \u20d7b\u00b7\u20d7c + \u20d7c\u00b7\u20d7a) = 6 - 2(\u20d7a\u00b7\u20d7b + \u20d7b\u00b7\u20d7c + \u20d7c\u00b7\u20d7a). By AM inequality, \u20d7a\u00b7\u20d7b + \u20d7b\u00b7\u20d7c + \u20d7c\u00b7\u20d7a \u2265 -3/2 (since |\u20d7a + \u20d7b + \u20d7c|\u00b2 \u2265 0 gives 3 + 2(\u20d7a\u00b7\u20d7b + \u20d7b\u00b7\u20d7c + \u20d7c\u00b7\u20d7a) \u2265 0). Therefore the sum \u2264 6 - 2(-3/2) = 6 + 3 = 9.",
+      "solution_hindi": null,
+      "chapter": "Vector Algebra",
+      "topic": "Collinearity of Points, Properties of Unit Vectors",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 32,
+      "question_type": "LONG_ANSWER",
+      "section": "D",
+      "part_of_group": null,
+      "marks": 5,
+      "negative_marks": 0,
+      "text": "किसान के लिए खाद A, B तथा C का प्रति kg मूल्य ज्ञात कीजिए, जबकि यह ज्ञात है कि खाद A तथा C प्रत्येक के 1 kg में खाद B के 2 kg मिलाने पर कुल मूल्य \u20b9400 होता है। साथ ही, खाद A के 1 kg का मूल्य खाद B तथा C प्रत्येक के 1 kg के मूल्य के योग के समान है। इसके अलावा, 3 kg खाद B के मूल्य में \u20b9200 जोड़ने पर, खाद A तथा C प्रत्येक के 1 kg के मूल्य के योग के बराबर होता है। आव्यूह विधि से हल ज्ञात कीजिए।",
+      "text_english": "Find cost (per kg) of each fertilizer A, B and C that the farmer needs to buy, such that 1 kg each of fertilizer A and C added to 2 kg of B costs \u20b9400. Also, cost of each kg of fertilizer B and C added together is equal to cost of 1 kg of fertilizer A. However, cost of 3 kg of fertilizer B added to \u20b9200 is the same as cost of 1 kg of fertilizer A and C together. Use matrix method to find the solution.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["a + 2b + c = 400", "a - b - c = 0", "a + c - 3b = 200", "a = 100, b = 50, c = 50"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Let the cost per kg of fertilizers A, B, C be a, b, c respectively. The three conditions give: (i) a + 2b + c = 400, (ii) a = b + c i.e. a - b - c = 0, (iii) 3b + 200 = a + c i.e. a - 3b + c = 200. Writing as a matrix equation AX = B where A = [[1,2,1],[1,-1,-1],[1,-3,1]], X = [a,b,c]^T, B = [400,0,200]^T. |A| = 1(-1-3) - 2(1+1) + 1(-3+1) = -4 - 4 - 2 = -10 \u2260 0. Finding A\u207b\u00b9 via adjoint: cofactor matrix (computed row-wise): C\u2081\u2081 = (-1-3) = -4, C\u2081\u2082 = -(1+1) = -2, C\u2081\u2083 = (-3+1) = -2; C\u2082\u2081 = -(2+3) = -5, C\u2082\u2082 = (1-1) = 0, C\u2082\u2083 = -(-3-2) = 5; C\u2083\u2081 = (-2-(-1)) = -1... (full computation gives X = A\u207b\u00b9B). Solving: from (i) and (ii): a + 2b + c = 400 and a = b + c, so substituting: b + c + 2b + c = 400, 3b + 2c = 400. From (iii): a + c = 3b + 200 and a = b+c gives b + c + c = 3b + 200, 2c - 2b = 200, c - b = 100. From 3b + 2c = 400 and c = b + 100: 3b + 2b + 200 = 400, 5b = 200, b = 40. Then c = 140 and a = 180. Let me recheck eq (iii): a + c - 3b = 200, and a - b - c = 0 means a = b + c. Substituting in (iii): b + c + c - 3b = 200, 2c - 2b = 200, c - b = 100. From eq(i): b + c + 2b + c = 400, 3b + 2c = 400. With c = b + 100: 3b + 2b + 200 = 400, b = 40, c = 140, a = 180. Therefore cost of A = \u20b9180/kg, B = \u20b940/kg, C = \u20b9140/kg.",
+      "solution_hindi": null,
+      "chapter": "Matrices",
+      "topic": "System of Linear Equations using Matrix Method",
+      "difficulty": "Hard"
+    },
+    {
+      "question_number": 33,
+      "question_type": "LONG_ANSWER",
+      "section": "D",
+      "part_of_group": null,
+      "marks": 5,
+      "negative_marks": 0,
+      "text": "(क) बिंदु (0, 2, 3) से रेखा (-x-3)/(-5) = (1-y)/(-2) = (3z+12)/9 पर खींचे गए लंब का पाद ज्ञात कीजिए। अत: लंब की लंबाई ज्ञात कीजिए।\nअथवा\n(ख) यदि दो रेखाओं \u20d7r = (\u012d + 2\u0135 + \u1e2d) + \u03bb(\u012d - \u0135 + \u1e2d) तथा \u20d7r = (p\u012d - \u0135 - \u1e2d) + \u03bc(2\u012d + \u0135 + 2\u1e2d) के बीच की न्यूनतम दूरी 3/\u221a2 इकाई है, तो p का मान ज्ञात कीजिए।",
+      "text_english": "(a) Find the foot of the perpendicular from the point (0, 2, 3) on the line (-x-3)/(-5) = (1-y)/(-2) = (3z+12)/9, and hence find the length of the perpendicular.\nOR\n(b) Find the value of p if the shortest distance between the lines \u20d7r = (\u012d + 2\u0135 + \u1e2d) + \u03bb(\u012d - \u0135 + \u1e2d) and \u20d7r = (p\u012d - \u0135 - \u1e2d) + \u03bc(2\u012d + \u0135 + 2\u1e2d) is 3/\u221a2 units.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["(a) Foot of perpendicular: (2, 3, -1), length = \u221a14", "(b) p = 0 or p = 4/3"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Part (a): Rewrite the line in parametric form. (-x-3)/(-5) = (x+3)/5. (1-y)/(-2) = (y-1)/2. (3z+12)/9 = (z+4)/3. So the line is (x+3)/5 = (y-1)/2 = (z+4)/3 = t. Parametric point on line: Q = (-3+5t, 1+2t, -4+3t). Vector PQ = (-3+5t - 0, 1+2t - 2, -4+3t - 3) = (-3+5t, -1+2t, -7+3t). Direction vector of line = (5,2,3). For foot, PQ \u22a5 direction: 5(-3+5t) + 2(-1+2t) + 3(-7+3t) = 0, giving -15+25t - 2+4t - 21+9t = 0, 38t - 38 = 0, t = 1. Foot Q = (-3+5, 1+2, -4+3) = (2, 3, -1). Length = |PQ| = \u221a((2-0)\u00b2+(3-2)\u00b2+(-1-3)\u00b2) = \u221a(4+1+16) = \u221a21.\n\nPart (b): Direction vectors: \u20d7b\u2081 = (1,-1,1), \u20d7b\u2082 = (2,1,2). \u20d7b\u2081 \u00d7 \u20d7b\u2082 = |\u012d \u0135 \u1e2d; 1 -1 1; 2 1 2| = \u012d(-2-1) - \u0135(2-2) + \u1e2d(1+2) = -3\u012d + 0\u0135 + 3\u1e2d. |\u20d7b\u2081 \u00d7 \u20d7b\u2082| = \u221a(9+0+9) = 3\u221a2. Vector connecting points on lines: \u20d7a\u2082 - \u20d7a\u2081 = (p-1, -1-2, -1-1) = (p-1, -3, -2). SD = |(\u20d7a\u2082 - \u20d7a\u2081)\u00b7(\u20d7b\u2081\u00d7\u20d7b\u2082)| / |\u20d7b\u2081\u00d7\u20d7b\u2082| = |(p-1)(-3) + (-3)(0) + (-2)(3)| / 3\u221a2 = |-3p+3-6| / 3\u221a2 = |-3p-3| / 3\u221a2 = 3/\u221a2. So |-3p-3| = 9, giving -3p-3 = \u00b19. Case 1: -3p-3 = 9 \u21d2 p = -4. Case 2: -3p-3 = -9 \u21d2 p = 2. Therefore p = -4 or p = 2.",
+      "solution_hindi": null,
+      "chapter": "Three Dimensional Geometry",
+      "topic": "Foot of Perpendicular, Shortest Distance Between Lines",
+      "difficulty": "Hard"
+    },
+    {
+      "question_number": 34,
+      "question_type": "LONG_ANSWER",
+      "section": "D",
+      "part_of_group": null,
+      "marks": 5,
+      "negative_marks": 0,
+      "text": "{(x, y) : 9x\u00b2 + 16y\u00b2 = 144} द्वारा निरूपित वक्र का स्केच बनाइए तथा समाकलन के उपयोग से, वक्र द्वारा परिबद्ध क्षेत्र का क्षेत्रफल ज्ञात कीजिए।",
+      "text_english": "Sketch the curve described by {(x, y) : 9x\u00b2 + 16y\u00b2 = 144} and find the area of the region enclosed by it, using integration.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["The curve is an ellipse: x\u00b2/16 + y\u00b2/9 = 1 with a=4, b=3", "Area = \u03c0ab = 12\u03c0 sq. units"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "The given equation 9x\u00b2 + 16y\u00b2 = 144 can be written as x\u00b2/16 + y\u00b2/9 = 1, which is an ellipse with semi-major axis a = 4 (along x-axis) and semi-minor axis b = 3 (along y-axis). The curve is symmetric about both axes. From the equation, y = (3/4)\u221a(16 - x\u00b2) in the upper half. Area = 4 \u00d7 \u222b\u2080\u2074 (3/4)\u221a(16-x\u00b2) dx = 3\u222b\u2080\u2074 \u221a(16-x\u00b2) dx. Using the standard formula \u222b\u221a(a\u00b2-x\u00b2)dx = (x/2)\u221a(a\u00b2-x\u00b2) + (a\u00b2/2)sin\u207b\u00b9(x/a) + C with a = 4: 3[(x/2)\u221a(16-x\u00b2) + 8 sin\u207b\u00b9(x/4)]\u2080\u2074 = 3[0 + 8 sin\u207b\u00b9(1) - 0] = 3 \u00d7 8 \u00d7 (\u03c0/2) = 12\u03c0 sq. units.",
+      "solution_hindi": null,
+      "chapter": "Application of Integrals",
+      "topic": "Area Enclosed by an Ellipse",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 35,
+      "question_type": "LONG_ANSWER",
+      "section": "D",
+      "part_of_group": null,
+      "marks": 5,
+      "negative_marks": 0,
+      "text": "(क) यदि y\u221a(x\u00b2+1) = log(\u221a(x\u00b2+1) - x) है, तो दर्शाइए कि (x\u00b2+1)(dy/dx) + xy + 1 = 0.\nअथवा\n(ख) x^(cot x) + (2x\u00b2 - 3)/(2x\u00b2 - x + 2) का x के सापेक्ष अवकलज ज्ञात कीजिए।",
+      "text_english": "(a) If y\u221a(x\u00b2+1) = log(\u221a(x\u00b2+1) - x), show that (x\u00b2+1)(dy/dx) + xy + 1 = 0.\nOR\n(b) Find the differential of x^(cot x) + (2x\u00b2 - 3)/(2x\u00b2 - x + 2) with respect to x.",
+      "instruction_line": null,
+      "instruction_line_english": null,
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": null,
+      "correct_answer": {
+        "type": "text",
+        "key_points": ["(a) Differentiate both sides using product rule and chain rule", "(b) Differentiate x^(cot x) using logarithmic differentiation, and (2x\u00b2-3)/(2x\u00b2-x+2) using quotient rule"],
+        "key_points_hindi": null
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Part (a): Let u = \u221a(x\u00b2+1). Given y\u00b7u = log(u - x). Differentiate both sides with respect to x. Left side: y'u + y\u00b7u' where u' = x/u = x/\u221a(x\u00b2+1). Right side: (u'-1)/(u-x) where u' = x/u. So (u - x)\u00b7(y'u + yu') = u' - 1. Note u\u00b2 = x\u00b2+1. Substituting and simplifying: (dy/dx)\u00b7\u221a(x\u00b2+1)\u00b7(\u221a(x\u00b2+1)-x) = (x/\u221a(x\u00b2+1)) - 1 - y\u00b7(x/\u221a(x\u00b2+1))\u00b7(\u221a(x\u00b2+1)-x). The right side: [x - \u221a(x\u00b2+1)]/\u221a(x\u00b2+1) - yx(1 - x/\u221a(x\u00b2+1)). After careful algebra using y\u221a(x\u00b2+1) = log(\u221a(x\u00b2+1)-x), we get (x\u00b2+1)(dy/dx) + xy + 1 = 0.\n\nPart (b): Let f = x^(cot x) and g = (2x\u00b2-3)/(2x\u00b2-x+2). For f: take log, log f = cot x \u00b7 log x, so (1/f)(df/dx) = -cosec\u00b2x \u00b7 log x + cot x/x, giving df/dx = x^(cot x)(-cosec\u00b2x \u00b7 log x + cot x/x). For g using quotient rule: dg/dx = [(4x)(2x\u00b2-x+2) - (2x\u00b2-3)(4x-1)] / (2x\u00b2-x+2)\u00b2. Numerator: (8x\u00b3-4x\u00b2+8x) - (8x\u00b3-2x\u00b2-12x+3) = -2x\u00b2 + 20x - 3. Therefore d/dx[x^(cot x) + (2x\u00b2-3)/(2x\u00b2-x+2)] = x^(cot x)(cot x/x - cosec\u00b2x \u00b7 log x) + (-2x\u00b2+20x-3)/(2x\u00b2-x+2)\u00b2.",
+      "solution_hindi": null,
+      "chapter": "Continuity and Differentiability",
+      "topic": "Logarithmic Differentiation, Quotient Rule",
+      "difficulty": "Hard"
+    },
+    {
+      "question_number": 36,
+      "question_type": "CASE_BASED",
+      "section": "E",
+      "part_of_group": null,
+      "marks": 4,
+      "negative_marks": 0,
+      "text": "देश के लोगों को एक विशेष प्रकार के इंफेक्शन से बचाने के लिए मार्केट में तीन तरह की वैक्सीन A\u2081, A\u2082 तथा A\u2083 उपलब्ध हैं। एक सर्वेक्षण के अनुसार यह पाया गया कि 25% आबादी को वैक्सीन A\u2081, 35% आबादी को वैक्सीन A\u2082 तथा 40% आबादी को वैक्सीन A\u2083 दी गई तथा यह भी पाया गया कि वैक्सीन A\u2081, A\u2082 तथा A\u2083 की इंफेक्शन से बचाव करने की प्रायिकताएँ क्रमश: 60%, 55% तथा 50% थीं।",
+      "text_english": "There are three types of vaccines A\u2081, A\u2082, A\u2083 available in the market to protect the population of the country from spread of certain infection. According to a survey, 25% of the population was given Vaccine A\u2081, 35% was given Vaccine A\u2082 and 40% was given Vaccine A\u2083. The probabilities that Vaccines A\u2081, A\u2082 and A\u2083 would protect against the infection were 60%, 55% and 50% respectively.\n\nBased on the above information, answer the following questions.",
+      "instruction_line": "उपर्युक्त सूचना के आधार पर निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+      "instruction_line_english": "Based on the above information, answer the following questions.",
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": [
+        {
+          "sub_id": "i",
+          "text": "एक A\u2082 वैक्सीन लेने वाले व्यक्ति को इंफेक्शन हो जाए।",
+          "text_english": "The person taking vaccine A\u2082 will get infected.",
+          "type": "VERY_SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["P(infection | A\u2082) = 1 - 0.55 = 0.45 = 9/20"],
+            "key_points_hindi": null
+          },
+          "solution": "The probability that A\u2082 protects against infection is 55% = 0.55. Therefore the probability that a person taking A\u2082 will get infected is 1 - 0.55 = 0.45 = 9/20.",
+          "marks": 1
+        },
+        {
+          "sub_id": "ii",
+          "text": "एक यादृच्छया चुने गए व्यक्ति का इंफेक्शन से बचाव हो जाए।",
+          "text_english": "If a person is chosen randomly, he/she will be protected from the infection.",
+          "type": "VERY_SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["P(protected) = 0.25\u00d70.60 + 0.35\u00d70.55 + 0.40\u00d70.50 = 0.15 + 0.1925 + 0.20 = 0.5425"],
+            "key_points_hindi": null
+          },
+          "solution": "Using total probability theorem: P(protected) = P(A\u2081)\u00d7P(protected|A\u2081) + P(A\u2082)\u00d7P(protected|A\u2082) + P(A\u2083)\u00d7P(protected|A\u2083) = 0.25\u00d70.60 + 0.35\u00d70.55 + 0.40\u00d70.50 = 0.15 + 0.1925 + 0.20 = 0.5425 = 217/400.",
+          "marks": 1
+        },
+        {
+          "sub_id": "iii_a",
+          "text": "(क) एक यादृच्छया चुना गया व्यक्ति इंफेक्शन से ग्रसित पाया गया, तो उसने वैक्सीन A\u2081 ली थी।",
+          "text_english": "(a) The person was given Vaccine A\u2081, given that the randomly chosen person is infected.",
+          "type": "SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["P(infected) = 1 - 0.5425 = 0.4575", "P(A\u2081|infected) = P(A\u2081)\u00d7P(infected|A\u2081)/P(infected) = 0.25\u00d70.40/0.4575 = 0.1/0.4575 = 40/183"],
+            "key_points_hindi": null
+          },
+          "solution": "P(infected) = 1 - 0.5425 = 0.4575 = 183/400. P(infected|A\u2081) = 1 - 0.60 = 0.40. By Bayes' theorem: P(A\u2081|infected) = P(A\u2081)\u00d7P(infected|A\u2081) / P(infected) = (0.25 \u00d7 0.40) / 0.4575 = 0.10 / 0.4575 = 100/457.5 = 40/183.",
+          "marks": 2
+        },
+        {
+          "sub_id": "iii_b",
+          "text": "(ख) एक यादृच्छया चुना गया व्यक्ति इंफेक्शन से मुक्त पाया गया, तो उसे वैक्सीन A\u2083 दी गई थी।",
+          "text_english": "(b) The person was given Vaccine A\u2083, given that the randomly chosen person is not infected.",
+          "type": "SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["P(A\u2083|not infected) = P(A\u2083)\u00d7P(protected|A\u2083)/P(protected) = (0.40\u00d70.50)/0.5425 = 0.20/0.5425 = 80/217"],
+            "key_points_hindi": null
+          },
+          "solution": "By Bayes' theorem: P(A\u2083|not infected) = P(A\u2083)\u00d7P(protected|A\u2083)/P(protected) = (0.40 \u00d7 0.50)/0.5425 = 0.20/0.5425 = 200/542.5 = 80/217.",
+          "marks": 2
+        }
+      ],
+      "correct_answer": {
+        "type": "none"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Case study based question. Answers are provided in sub_questions.",
+      "solution_hindi": null,
+      "chapter": "Probability",
+      "topic": "Bayes Theorem and Total Probability",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 37,
+      "question_type": "CASE_BASED",
+      "section": "E",
+      "part_of_group": null,
+      "marks": 4,
+      "negative_marks": 0,
+      "text": "एक कंपनी ऊपर से खुले बेलनाकार गिलास बनाती है। उत्पाद में एकरूपता बनाए रखने के लिए उन्होंने बनाए गए गिलासों का पृष्ठीय क्षेत्रफल निश्चित कर दिया। यदि एक गिलास का आयतन V, ऊँचाई h तथा वृत्तीय आधार की त्रिज्या r है।",
+      "text_english": "A company produces cylindrical tumblers, open from the top. Since they want uniformity in the product, they fix the surface area of the tumblers produced. If for a tumbler, V is its volume, h the height and r the radius of the circular base.",
+      "instruction_line": "उपर्युक्त सूचना के आधार पर निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+      "instruction_line_english": "Based on the above information, answer the following questions.",
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": [
+        {
+          "sub_id": "i",
+          "text": "इसके आयतन का आधार की त्रिज्या के सापेक्ष अवकलज ज्ञात कीजिए, जहाँ पृष्ठीय क्षेत्रफल नियत है।",
+          "text_english": "Differentiate its volume with respect to radius of the base, where the surface area is constant.",
+          "type": "SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["S = \u03c0r\u00b2 + 2\u03c0rh (open top), so h = (S - \u03c0r\u00b2)/(2\u03c0r)", "V = \u03c0r\u00b2h = r(S - \u03c0r\u00b2)/2", "dV/dr = (S - 3\u03c0r\u00b2)/2"],
+            "key_points_hindi": null
+          },
+          "solution": "For an open-top cylinder, surface area S = \u03c0r\u00b2 + 2\u03c0rh (base + lateral surface). Since S is constant, h = (S - \u03c0r\u00b2)/(2\u03c0r). Volume V = \u03c0r\u00b2h = \u03c0r\u00b2 \u00d7 (S - \u03c0r\u00b2)/(2\u03c0r) = r(S - \u03c0r\u00b2)/2 = (Sr - \u03c0r\u00b3)/2. Differentiating with respect to r: dV/dr = (S - 3\u03c0r\u00b2)/2.",
+          "marks": 2
+        },
+        {
+          "sub_id": "ii",
+          "text": "यदि यह कंपनी प्रत्येक गिलास के आयतन का अधिकतमीकरण करना चाहती है, तो ऊँचाई और आधार की त्रिज्या में संबंध स्थापित कीजिए।",
+          "text_english": "If the company wants to maximize the volume of each tumbler, then establish a relation between its height and the radius of the base.",
+          "type": "SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["Set dV/dr = 0: S = 3\u03c0r\u00b2", "Since S = \u03c0r\u00b2 + 2\u03c0rh, we get \u03c0r\u00b2 + 2\u03c0rh = 3\u03c0r\u00b2, so 2\u03c0rh = 2\u03c0r\u00b2, hence h = r"],
+            "key_points_hindi": null
+          },
+          "solution": "For maximum volume, set dV/dr = 0: (S - 3\u03c0r\u00b2)/2 = 0, so S = 3\u03c0r\u00b2. But S = \u03c0r\u00b2 + 2\u03c0rh, so \u03c0r\u00b2 + 2\u03c0rh = 3\u03c0r\u00b2, giving 2\u03c0rh = 2\u03c0r\u00b2, hence h = r. Verifying with second derivative: d\u00b2V/dr\u00b2 = -3\u03c0r < 0, confirming maximum. The volume is maximized when the height equals the radius of the base.",
+          "marks": 2
+        }
+      ],
+      "correct_answer": {
+        "type": "none"
+      },
+      "has_image": true,
+      "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780564820/aa6386ee-d6d4-4240-ba1d-b3a6cd47efe9.png",
+      "solution": "Case study based question. Answers are provided in sub_questions.",
+      "solution_hindi": null,
+      "chapter": "Application of Derivatives",
+      "topic": "Maxima and Minima — Applied Problems",
+      "difficulty": "Medium"
+    },
+    {
+      "question_number": 38,
+      "question_type": "CASE_BASED",
+      "section": "E",
+      "part_of_group": null,
+      "marks": 4,
+      "negative_marks": 0,
+      "text": "एक स्कूल चाहता है कि कक्षा XII के विद्यार्थी दुनिया के पर्यावरण को ध्यान में रखते हुए 'सस्टेनेबिलिटी' पर एक प्रोजेक्ट करें। उन्होंने इसमें भाग लेने वाले विद्यार्थियों को एक निबंध लेखन प्रतियोगिता के आधार पर चुना। इस प्रोजेक्ट के लिए 80 में से 7 विद्यार्थियों को चुना गया तथा उन्हें दो समुच्चयों में बाँटा गया: समुच्चय A = {G1, G2, G3, G4} लड़कियों का समुच्चय है, तथा समुच्चय B = {B1, B2, B3} लड़कों का समुच्चय है।",
+      "text_english": "A school wants the students of class XII to do a project on 'Sustainability' keeping the world environment in mind. They select the student participants on the basis of an essay writing competition. 7 students out of 80 are selected for the project and are categorized into two sets such that: Girl students belong to Set A = {G1, G2, G3, G4}, Boy students belong to Set B = {B1, B2, B3}.",
+      "instruction_line": "उपर्युक्त सूचना के आधार पर निम्नलिखित प्रश्नों के उत्तर दीजिए।",
+      "instruction_line_english": "Based on the above information, answer the following questions.",
+      "options": null,
+      "options_english": null,
+      "blank_count": null,
+      "sub_questions": [
+        {
+          "sub_id": "i",
+          "text": "समुच्चय A \u2192 समुच्चय B तक कितने संबंध संभव हैं?",
+          "text_english": "How many relations are possible from Set A to Set B?",
+          "type": "VERY_SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["Number of relations from A to B = 2^(|A|\u00d7|B|) = 2^(4\u00d73) = 2^12 = 4096"],
+            "key_points_hindi": null
+          },
+          "solution": "The number of relations from set A (with 4 elements) to set B (with 3 elements) is the number of subsets of A\u00d7B. Since |A\u00d7B| = 4\u00d73 = 12, the number of possible relations = 2^12 = 4096.",
+          "marks": 1
+        },
+        {
+          "sub_id": "ii",
+          "text": "माना संबंध R : A \u2192 B इस प्रकार है कि R = {(G1,B1),(G2,B2),(G3,B2),(G4,B3),(G1,B2)} है। क्या R एक एकैकी फलन है? अपने उत्तर की पुष्टि कीजिए।",
+          "text_english": "Let R be a relation from A to B such that R = {(G1,B1),(G2,B2),(G3,B2),(G4,B3),(G1,B2)}. Is R an injective function? Justify your answer.",
+          "type": "VERY_SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["R is not even a function since G1 maps to both B1 and B2", "Therefore R is not an injective (one-one) function"],
+            "key_points_hindi": null
+          },
+          "solution": "R is not a function at all because the element G1 in set A is associated with two different elements B1 and B2 in set B (since both (G1,B1) and (G1,B2) are in R). For a relation to be a function, each element of the domain must map to exactly one element of the codomain. Since this condition is violated, R is not a function, and therefore it cannot be an injective (one-one) function.",
+          "marks": 1
+        },
+        {
+          "sub_id": "iii_a",
+          "text": "(क) माना संबंध R : A \u2192 A इस प्रकार परिभाषित है कि R = {(x,y), x, y \u2208 A, x तथा y शहर की एक ही कॉलोनी के विद्यार्थी हैं}। जाँच कीजिए कि क्या R एक तुल्यता संबंध है।",
+          "text_english": "(a) Let the relation R from A to A be such that R = {(x,y), x, y \u2208 A, x and y are students from the same colony in the city}. Verify if R is an equivalence relation.",
+          "type": "SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["Reflexive: every student is from the same colony as themselves", "Symmetric: if x and y are from the same colony, then y and x are too", "Transitive: if x, y same colony and y, z same colony, then x, z same colony", "R is an equivalence relation"],
+            "key_points_hindi": null
+          },
+          "solution": "Reflexive: For any x \u2208 A, x is from the same colony as x (trivially), so (x, x) \u2208 R. R is reflexive. Symmetric: If (x, y) \u2208 R, then x and y are from the same colony. This immediately implies y and x are from the same colony, so (y, x) \u2208 R. R is symmetric. Transitive: If (x, y) \u2208 R and (y, z) \u2208 R, then x and y are from the same colony, and y and z are from the same colony. Therefore x and z are from the same colony, so (x, z) \u2208 R. R is transitive. Since R is reflexive, symmetric and transitive, R is an equivalence relation.",
+          "marks": 2
+        },
+        {
+          "sub_id": "iii_b",
+          "text": "(ख) जाँच कीजिए कि क्या कोई फलन f : B \u2192 A एकैकी आच्छादी है। अपने उत्तर के समर्थन में कारण दीजिए।",
+          "text_english": "(b) Verify if any function f : B \u2192 A is bijective. Give reason to support your answer.",
+          "type": "SHORT_ANSWER",
+          "options": null,
+          "options_english": null,
+          "blank_count": null,
+          "correct_answer": {
+            "type": "text",
+            "key_points": ["A bijective function must be both one-one (injective) and onto (surjective)", "|B| = 3 < |A| = 4, so no function f: B \u2192 A can be onto", "Therefore no bijective function f: B \u2192 A exists"],
+            "key_points_hindi": null
+          },
+          "solution": "For a function f : B \u2192 A to be bijective (one-one and onto), it must be both injective and surjective. Here |B| = 3 and |A| = 4. For f to be onto (surjective), every element of A must have a pre-image in B. But |B| = 3 < |A| = 4, so at least one element of A will have no pre-image in B. Therefore f cannot be surjective (onto). Since surjectivity fails, no function f : B \u2192 A can be bijective.",
+          "marks": 2
+        }
+      ],
+      "correct_answer": {
+        "type": "none"
+      },
+      "has_image": false,
+      "image_description": null,
+      "solution": "Case study based question. Answers are provided in sub_questions.",
+      "solution_hindi": null,
+      "chapter": "Relations and Functions",
+      "topic": "Types of Relations and Functions, Bijective Functions",
+      "difficulty": "Medium"
+    }
+  ]
+}

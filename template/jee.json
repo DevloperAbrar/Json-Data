@@ -1,0 +1,249 @@
+{
+    "meta": {
+      "exam_name": "JEE Main",
+      "exam_short_code": "JEE-MAIN-2024-APR-S2",
+      "year": 2024,
+      "session": 2,
+      "shift": 2,
+      "date": "2024-04-09",
+      "paper_type": "Paper 1",
+      "total_marks": 300,
+      "total_time_minutes": 180,
+      "sections": [
+        {
+          "subject": "Physics",
+          "section_A": { "question_count": 20, "marks": 4, "negative_marks": -1, "type": "MCQ_SINGLE" },
+          "section_B": { "question_count": 5, "attempt_required": 5, "marks": 4, "negative_marks": 0, "type": "NUMERICAL" }
+        },
+        {
+          "subject": "Chemistry",
+          "section_A": { "question_count": 20, "marks": 4, "negative_marks": -1, "type": "MCQ_SINGLE" },
+          "section_B": { "question_count": 5, "attempt_required": 5, "marks": 4, "negative_marks": 0, "type": "NUMERICAL" }
+        },
+        {
+          "subject": "Mathematics",
+          "section_A": { "question_count": 20, "marks": 4, "negative_marks": -1, "type": "MCQ_SINGLE" },
+          "section_B": { "question_count": 5, "attempt_required": 5, "marks": 4, "negative_marks": 0, "type": "NUMERICAL" }
+        }
+      ]
+    },
+    "questions": [
+  
+      {
+        "question_id": "JEE-MAIN-2024-APR-S2-PHY-Q1",
+        "question_number": 1,
+        "subject": "Physics",
+        "section": "A",
+        "question_type": "MCQ_SINGLE",
+        "marks": 4,
+        "negative_marks": -1,
+        "chapter": "Modern Physics",
+        "topic": "de-Broglie Wavelength",
+        "difficulty": "Easy",
+        "has_question_image": false,
+        "question_image_url": null,
+        "question_text": "The de-Broglie wavelength associated with a particle of mass $m$ and energy $E$ is $\\frac{h}{\\sqrt{2mE}}$. The dimensional formula for Planck's constant is:",
+        "options": [
+          { "key": "1", "text": "$[ML^2T^{-1}]$", "image_url": null },
+          { "key": "2", "text": "$[ML^{-1}T^{-2}]$", "image_url": null },
+          { "key": "3", "text": "$[MLT^{-2}]$", "image_url": null },
+          { "key": "4", "text": "$[M^2L^2T^{-2}]$", "image_url": null }
+        ],
+        "correct_answer": {
+          "type": "single",
+          "value": "1"
+        },
+        "solution_text": "From $\\lambda = \\frac{h}{\\sqrt{2mE}}$, we get $h = \\lambda\\sqrt{2mE}$. Dimensions: $[h] = [L][\\sqrt{kg \\cdot J}] = [L][\\sqrt{kg \\cdot kg\\cdot m^2s^{-2}}] = [ML^2T^{-1}]$.",
+        "solution_image_url": null
+      },
+  
+      {
+        "question_id": "JEE-MAIN-2024-APR-S2-PHY-Q3",
+        "question_number": 3,
+        "subject": "Physics",
+        "section": "A",
+        "question_type": "MCQ_SINGLE",
+        "marks": 4,
+        "negative_marks": -1,
+        "chapter": "Laws of Motion",
+        "topic": "Equilibrium",
+        "difficulty": "Medium",
+        "has_question_image": true,
+        "question_image_url": "https://res.cloudinary.com/yourapp/image/upload/jee_2024_apr_s2_phy_q3.png",
+        "question_text": "A $1\\,kg$ mass is suspended from the ceiling by a rope of length $4\\,m$. A horizontal force $F$ is applied at the mid point of the rope so that the rope makes an angle of $45°$ with the vertical axis as shown. The magnitude of $F$ is: (Assume equilibrium, $g = 10\\,m/s^2$)",
+        "options": [
+          { "key": "1", "text": "$10\\,N$", "image_url": null },
+          { "key": "2", "text": "$\\frac{10}{\\sqrt{2}}\\,N$", "image_url": null },
+          { "key": "3", "text": "$1\\,N$", "image_url": null },
+          { "key": "4", "text": "$\\frac{1}{10\\sqrt{2}}\\,N$", "image_url": null }
+        ],
+        "correct_answer": {
+          "type": "single",
+          "value": "1"
+        },
+        "solution_text": "At midpoint, lower half is vertical carrying $1\\,kg$. Tension in lower half $T_2 = mg = 10\\,N$. For upper half at $45°$: $T_1\\sin45° = F$ and $T_1\\cos45° = T_2 = 10\\,N$. So $F = T_2\\tan45° = 10\\,N$.",
+        "solution_image_url": null
+      },
+  
+      {
+        "question_id": "JEE-MAIN-2024-APR-S2-PHY-Q9",
+        "question_number": 9,
+        "subject": "Physics",
+        "section": "A",
+        "question_type": "MCQ_SINGLE",
+        "marks": 4,
+        "negative_marks": -1,
+        "chapter": "Electrostatics",
+        "topic": "Gauss Law",
+        "difficulty": "Easy",
+        "has_question_image": true,
+        "question_image_url": "https://res.cloudinary.com/yourapp/image/upload/jee_2024_apr_s2_phy_q9.png",
+        "question_text": "Five charges $+q, +5q, -2q, +3q$ and $-4q$ are situated as shown in the figure. The electric flux due to this configuration through the surface $S$ is:",
+        "options": [
+          { "key": "1", "text": "$\\frac{4q}{\\epsilon_0}$", "image_url": null },
+          { "key": "2", "text": "$\\frac{5q}{\\epsilon_0}$", "image_url": null },
+          { "key": "3", "text": "$\\frac{q}{\\epsilon_0}$", "image_url": null },
+          { "key": "4", "text": "$\\frac{3q}{\\epsilon_0}$", "image_url": null }
+        ],
+        "correct_answer": {
+          "type": "single",
+          "value": "1"
+        },
+        "solution_text": "By Gauss's law, flux $= \\frac{Q_{enc}}{\\epsilon_0}$. Charges inside surface $S$ are $+5q, -2q, +3q, -2q$... only charges enclosed inside $S$ count. From figure, enclosed charges sum to $4q$. So flux $= \\frac{4q}{\\epsilon_0}$.",
+        "solution_image_url": null
+      },
+  
+      {
+        "question_id": "JEE-MAIN-2024-APR-S2-PHY-Q10",
+        "question_number": 10,
+        "subject": "Physics",
+        "section": "A",
+        "question_type": "MCQ_SINGLE",
+        "marks": 4,
+        "negative_marks": -1,
+        "chapter": "Current Electricity",
+        "topic": "Combination of Resistors",
+        "difficulty": "Medium",
+        "has_question_image": true,
+        "question_image_url": "https://res.cloudinary.com/yourapp/image/upload/jee_2024_apr_s2_phy_q10.png",
+        "question_text": "The effective resistance between $A$ and $B$, if resistance of each resistor is $R$, will be",
+        "options": [
+          { "key": "1", "text": "$\\frac{8R}{3}$", "image_url": null },
+          { "key": "2", "text": "$\\frac{5R}{3}$", "image_url": null },
+          { "key": "3", "text": "$\\frac{4R}{3}$", "image_url": null },
+          { "key": "4", "text": "$\\frac{2}{3}R$", "image_url": null }
+        ],
+        "correct_answer": {
+          "type": "single",
+          "value": "1"
+        },
+        "solution_text": "Using Kirchhoff's laws / symmetry on the given circuit. The equivalent resistance between $A$ and $B$ comes out to $\\frac{8R}{3}$.",
+        "solution_image_url": null
+      },
+  
+      {
+        "question_id": "JEE-MAIN-2024-APR-S2-CHE-Q33",
+        "question_number": 33,
+        "subject": "Chemistry",
+        "section": "A",
+        "question_type": "MCQ_MATCH",
+        "marks": 4,
+        "negative_marks": -1,
+        "chapter": "p-Block Elements",
+        "topic": "Electronic Configuration",
+        "difficulty": "Easy",
+        "has_question_image": false,
+        "question_image_url": null,
+        "question_text": "Match List I with List II:\n\n| | List I (Element) | | List II (Electronic Configuration) |\n|---|---|---|---|\n| A | N | I | $[Ar]3d^{10}4s^24p^5$ |\n| B | S | II | $[Ne]3s^23p^4$ |\n| C | Br | III | $[He]2s^22p^3$ |\n| D | Kr | IV | $[Ar]3d^{10}4s^24p^6$ |\n\nChoose the correct answer:",
+        "options": [
+          { "key": "1", "text": "A-III, B-II, C-I, D-IV", "image_url": null },
+          { "key": "2", "text": "A-II, B-I, C-IV, D-III", "image_url": null },
+          { "key": "3", "text": "A-I, B-IV, C-III, D-II", "image_url": null },
+          { "key": "4", "text": "A-IV, B-III, C-II, D-I", "image_url": null }
+        ],
+        "correct_answer": {
+          "type": "single",
+          "value": "1"
+        },
+        "solution_text": "N is $[He]2s^22p^3$ → III. S is $[Ne]3s^23p^4$ → II. Br is $[Ar]3d^{10}4s^24p^5$ → I. Kr is $[Ar]3d^{10}4s^24p^6$ → IV.",
+        "solution_image_url": null
+      },
+  
+      {
+        "question_id": "JEE-MAIN-2024-APR-S2-CHE-Q45",
+        "question_number": 45,
+        "subject": "Chemistry",
+        "section": "A",
+        "question_type": "MCQ_SINGLE",
+        "marks": 4,
+        "negative_marks": -1,
+        "chapter": "Organic Chemistry",
+        "topic": "SN Reactions",
+        "difficulty": "Hard",
+        "has_question_image": true,
+        "question_image_url": "https://res.cloudinary.com/yourapp/image/upload/jee_2024_apr_s2_che_q45_question.png",
+        "question_text": "In the above reaction, product $P$ is:",
+        "options": [
+          { "key": "1", "text": null, "image_url": "https://res.cloudinary.com/yourapp/image/upload/jee_2024_apr_s2_che_q45_opt1.png" },
+          { "key": "2", "text": null, "image_url": "https://res.cloudinary.com/yourapp/image/upload/jee_2024_apr_s2_che_q45_opt2.png" },
+          { "key": "3", "text": null, "image_url": "https://res.cloudinary.com/yourapp/image/upload/jee_2024_apr_s2_che_q45_opt3.png" },
+          { "key": "4", "text": null, "image_url": "https://res.cloudinary.com/yourapp/image/upload/jee_2024_apr_s2_che_q45_opt4.png" }
+        ],
+        "correct_answer": {
+          "type": "single",
+          "value": "4"
+        },
+        "solution_text": "The reaction involves KCN (alc) with heat on a tertiary substrate — elimination is favored (E2). The major product is the alkene formed by elimination.",
+        "solution_image_url": null
+      },
+  
+      {
+        "question_id": "JEE-MAIN-2024-APR-S2-PHY-Q21",
+        "question_number": 21,
+        "subject": "Physics",
+        "section": "B",
+        "question_type": "NUMERICAL",
+        "marks": 4,
+        "negative_marks": 0,
+        "chapter": "Vectors",
+        "topic": "Angle Between Vectors",
+        "difficulty": "Medium",
+        "has_question_image": false,
+        "question_image_url": null,
+        "question_text": "The resultant of two vectors $\\vec{A}$ and $\\vec{B}$ is perpendicular to $\\vec{A}$ and its magnitude is half that of $\\vec{B}$. The angle between vectors $\\vec{A}$ and $\\vec{B}$ is ______ $°$.",
+        "options": null,
+        "correct_answer": {
+          "type": "numerical",
+          "value": 150,
+          "value_range": { "min": 149.5, "max": 150.5 }
+        },
+        "solution_text": "Let angle between $\\vec{A}$ and $\\vec{B}$ be $\\theta$. Resultant $\\perp \\vec{A}$ means $\\vec{A}\\cdot\\vec{R} = 0$. Using $R = B/2$ and $R^2 = A^2 + B^2 + 2AB\\cos\\theta$, and $\\tan90° = \\frac{B\\sin\\theta}{A+B\\cos\\theta}$ gives $A + B\\cos\\theta = 0$. So $\\cos\\theta = -A/B$. Also $R^2 = B^2\\sin^2\\theta = B^2/4$, giving $\\sin\\theta = 1/2$, so $\\theta = 150°$.",
+        "solution_image_url": null
+      },
+  
+      {
+        "question_id": "JEE-MAIN-2024-APR-S2-MATH-Q81",
+        "question_number": 81,
+        "subject": "Mathematics",
+        "section": "B",
+        "question_type": "NUMERICAL",
+        "marks": 4,
+        "negative_marks": 0,
+        "chapter": "Permutations and Combinations",
+        "topic": "Digit Sum Problems",
+        "difficulty": "Medium",
+        "has_question_image": false,
+        "question_image_url": null,
+        "question_text": "The number of integers between 100 and 1000 having the sum of their digits equal to 14, is ________.",
+        "options": null,
+        "correct_answer": {
+          "type": "numerical",
+          "value": 70,
+          "value_range": { "min": 70, "max": 70 }
+        },
+        "solution_text": "Let the 3-digit number be $\\overline{abc}$ where $a+b+c=14$, $a\\in[1,9]$, $b,c\\in[0,9]$. Let $a' = a-1$, so $a'+b+c=13$, $a'\\in[0,8]$. Total without upper bound = $\\binom{15}{2}=105$. Subtract cases where any variable $\\geq 10$: $a'\\geq9$: $\\binom{6}{2}=15$; $b\\geq10$: $\\binom{5}{2}=10$; $c\\geq10$: $\\binom{5}{2}=10$. Answer $= 105-15-10-10 = 70$.",
+        "solution_image_url": null
+      }
+  
+    ]
+  }

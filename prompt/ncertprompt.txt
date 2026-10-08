@@ -1,0 +1,267 @@
+You are an expert Indian exam paper extractor. I will give you a PDF of an exam paper. Extract ALL questions and return a single valid JSON object.
+
+═══════════════════════════════════════════════════════════
+PAPER DETAILS (fill these before sending)
+═══════════════════════════════════════════════════════════
+- Exam: CBSE Board Class 12 Vocational
+- Subject: Agriculture
+- Subject Code: 332
+- Year: 2024
+- Primary Language: Hindi (English translation also present)
+- Total Questions in Paper: 24
+- Candidate Must Attempt: 17
+
+═══════════════════════════════════════════════════════════
+CRITICAL RULES — READ BEFORE EXTRACTING
+═══════════════════════════════════════════════════════════
+
+RULE 1 — COUNT: Extract exactly as many TOP-LEVEL questions as stated in PAPER DETAILS above.
+  Sub-items like (i), (ii), (iii), (a), (b), (क), (ख) are NOT separate questions.
+  They go inside "sub_questions" array of their parent question.
+  Output must have exactly that many objects in the "questions" array.
+
+RULE 2 — BILINGUAL DEDUP: If every question appears TWICE (Hindi first, English below):
+  Extract ONCE. Hindi text → "text" field. English text → "text_english" field.
+  Do NOT create two separate question objects for the two language versions.
+  If paper is English-only: put full text in "text_english", set "text" to null.
+
+RULE 3 — QUESTION TYPES: Detect correctly:
+  - Has (A)(B)(C)(D) options → "MCQ_SINGLE"
+  - Has _______ blank → "FILL_IN_BLANK"
+  - Says (True or False) / (सत्य या असत्य) → "TRUE_FALSE"
+  - 1-mark, no options, one-line answer → "VERY_SHORT_ANSWER"
+  - 2-3 mark, 20-50 words answer → "SHORT_ANSWER"
+  - 4-6 mark, 50-120 words → "LONG_ANSWER"
+  - Has (क)(ख) or (a)(b) sub-parts → parent is LONG_ANSWER with sub_questions[]
+  - Has passage/paragraph then numbered questions → "CASE_BASED"
+  - Letter writing / analytical paragraph → "LONG_ANSWER" with sub_questions[] for each option
+
+RULE 4 — ATTEMPT-ANY GROUPS: When paper says "Answer any 4 out of 6",
+  all questions in that block share the same "part_of_group" number.
+  Group numbering: Q1 block = group 1, Q2 block = group 2, etc.
+  Standalone questions → "part_of_group": null
+
+RULE 5 — CHAPTERS: Match each question to the correct chapter from the list
+  provided in PAPER DETAILS. If no chapter list is given, infer from topic.
+
+RULE 6 — MARKS: Read the marks printed next to each question.
+  Use the SECTION STRUCTURE provided in PAPER DETAILS to assign marks correctly.
+
+RULE 7 — IMAGES: If a question has a diagram, table, chart or figure,
+  set "has_image": true and describe it clearly in "image_description".
+  Image URLs will be added manually later.
+
+RULE 8 — PASSAGE TEXT: For CASE_BASED questions, copy the FULL passage text
+  into "text_english" (and "text" if Hindi version exists).
+  Include ALL paragraphs numbered as they appear in the paper (1), (2), (3)...
+  Use \n\n between paragraphs. Do not truncate or summarise the passage.
+
+═══════════════════════════════════════════════════════════
+OUTPUT FORMAT — return ONLY this JSON, nothing else
+═══════════════════════════════════════════════════════════
+
+{
+  "meta": {
+    "exam_name": "",
+    "exam_short_code": "",
+    "subject": "",
+    "subject_code": "",
+    "series": "",
+    "set_number": "",
+    "year": 0,
+    "primary_language": "",
+    "secondary_language": null,
+    "total_questions_in_paper": 0,
+    "attempt_required": 0,
+    "total_marks": 0,
+    "total_time_minutes": 0,
+    "has_negative_marking": false
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_type": "MCQ_SINGLE",
+      "section": "A",
+      "part_of_group": 1,
+      "marks": 1,
+      "negative_marks": 0,
+
+      "text": "Hindi question text here. Blanks shown as _______",
+      "text_english": "English question text here. Blanks shown as _______",
+
+      "instruction_line": "Short directive if any or null",
+      "instruction_line_english": "English version of instruction or null",
+
+      "options": {
+        "A": "option text",
+        "B": "option text",
+        "C": "option text",
+        "D": "option text"
+      },
+      "options_english": {
+        "A": "option text",
+        "B": "option text",
+        "C": "option text",
+        "D": "option text"
+      },
+
+      "blank_count": null,
+
+      "sub_questions": null,
+
+      "correct_answer": {
+        "type": "single",
+        "value": "A"
+      },
+
+      "has_image": false,
+      "image_description": null,
+
+      "solution": "Full model answer written in exam-ready prose. Word count matches what the question demands. For MCQ: explain why the correct option is right and why others are wrong. For grammar: state the rule applied. For literature: reference the text and character name.",
+      "solution_hindi": null,
+
+      "chapter": "",
+      "topic": "",
+      "difficulty": "Easy"
+    }
+  ]
+}
+
+═══════════════════════════════════════════════════════════
+CORRECT ANSWER FORMAT by question type — DETAILED RULES
+═══════════════════════════════════════════════════════════
+
+RULE A — MCQ_SINGLE:
+  correct_answer: {"type": "single", "value": "C"}
+  solution: "Explain WHY option C is correct and why the other options are wrong. 2-3 sentences."
+
+RULE B — FILL_IN_BLANK:
+  correct_answer: {"type": "fill", "fill_values": ["exact word or phrase"], "fill_values_hindi": null}
+  solution: "State the grammar rule or contextual reason behind the correct fill. Give the complete corrected sentence."
+
+RULE C — TRUE_FALSE:
+  correct_answer: {"type": "boolean", "value": "True"}
+  solution: "Quote or paraphrase the exact part of the passage or text that proves it True or False."
+
+RULE D — VERY_SHORT_ANSWER (1 mark, one line):
+  correct_answer: {"type": "text", "key_points": ["One crisp sentence answer"], "key_points_hindi": null}
+  solution: "1-2 sentence explanation with reference to the text or concept."
+
+RULE E — SHORT_ANSWER (2-3 marks, 40-50 words):
+  correct_answer: {
+    "type": "text",
+    "key_points": [
+      "Point 1 — first key idea the examiner expects",
+      "Point 2 — second key idea",
+      "Point 3 — supporting detail or example if needed"
+    ],
+    "key_points_hindi": null
+  }
+  solution: "Write a complete model answer in full sentences, exactly 40-50 words, as a student should write it in the exam. Cover all key points. Do NOT use bullet points in solution."
+
+RULE F — LONG_ANSWER (4-6 marks, 100-120 words):
+  correct_answer: {
+    "type": "text",
+    "key_points": [
+      "Point 1 — introduction or context",
+      "Point 2 — main argument or first idea",
+      "Point 3 — second idea or example",
+      "Point 4 — third idea or contrast",
+      "Point 5 — conclusion or significance"
+    ],
+    "key_points_hindi": null
+  }
+  solution: "Write a complete model answer in full paragraphs, exactly 100-120 words, as a student should write in the exam. Include introduction, body, and conclusion. Do NOT use bullet points in solution."
+
+RULE G — CASE_BASED parent question:
+  correct_answer: {"type": "none"}
+  solution: "Passage-based question set. Answers are provided in sub_questions."
+  text_english: MUST contain the FULL passage with ALL paragraphs numbered as in the paper.
+  Each sub_question follows the rule for its own type (Rules A-F above).
+
+RULE H — LETTER WRITING / ANALYTICAL PARAGRAPH (5 marks):
+  correct_answer: {
+    "type": "text",
+    "key_points": [
+      "Format: sender address, date, subject line",
+      "Opening — state purpose clearly",
+      "Body point 1",
+      "Body point 2",
+      "Closing — polite request or conclusion"
+    ]
+  }
+  solution: "Write a complete model letter or paragraph in exactly 120 words, following the exact format required. Use the name and details given in the question."
+
+RULE I — EXTRACT-BASED sub-questions (poetry or prose):
+  Each sub_question follows Rules A-F based on its individual type.
+  For 'justify' or 'explain significance': write model answer in exactly 40 words.
+  For 'identify figure of speech': name it AND quote the phrase AND explain its effect in solution.
+
+RULE J — GRAMMAR TASKS (error correction, reported speech, gap fill):
+  correct_answer: {"type": "fill", "fill_values": ["corrected word or phrase"]}
+  solution: "State the grammar rule that applies (e.g. 'Reported speech requires backshift: can → could'). Then write the full corrected sentence."
+
+═══════════════════════════════════════════════════════════
+SOLUTION FIELD — GLOBAL RULES (apply to every single question)
+═══════════════════════════════════════════════════════════
+
+- solution must ALWAYS be a full model answer written as a student would write it in an exam.
+- NEVER write bullet points in the solution field. Always write flowing prose.
+- NEVER write "Key points are..." in the solution field.
+- Word counts must match exactly what the question asks:
+    "in about 40 words"   → write 35-45 words
+    "in about 50 words"   → write 45-55 words
+    "in 100-120 words"    → write 100-120 words
+    no word count given   → match the marks: 1 mark=1-2 sentences, 2-3 marks=40-50 words, 4-6 marks=100-120 words
+- For reading comprehension: reference the paragraph number in the solution.
+- For literature: mention the text name and character or poet name.
+- solution_hindi: fill only if the exam is bilingual Hindi+English. For English-only papers set to null.
+
+═══════════════════════════════════════════════════════════
+SUB_QUESTIONS format
+═══════════════════════════════════════════════════════════
+
+"sub_questions": [
+  {
+    "sub_id": "a",
+    "text": "Hindi sub-question text or null",
+    "text_english": "English sub-question text",
+    "type": "SHORT_ANSWER",
+    "options": null,
+    "options_english": null,
+    "blank_count": null,
+    "correct_answer": {
+      "type": "text",
+      "key_points": ["key point 1", "key point 2"],
+      "key_points_hindi": null
+    },
+    "solution": "Full model answer in exam-ready prose at the correct word count.",
+    "marks": 2
+  }
+]
+
+═══════════════════════════════════════════════════════════
+SECTION STRUCTURE of THIS paper for reference:
+═══════════════════════════════════════════════════════════
+
+[FILL THIS IN BEFORE SENDING — copy the section structure from the paper]
+
+═══════════════════════════════════════════════════════════
+JSON VALIDITY RULES — MUST FOLLOW
+═══════════════════════════════════════════════════════════
+
+- Return ONLY the JSON object. No markdown fences, no explanation, no extra text.
+- All strings must use valid JSON escape sequences only: \" \\ \/ \n \r \t \b \f \uXXXX
+- \m is NOT valid. Use \n for newlines inside strings.
+- No trailing commas after the last item in any array or object.
+- All keys must be in double quotes.
+- null is lowercase, true and false are lowercase.
+
+═══════════════════════════════════════════════════════════
+NOW extract all questions from the attached PDF.
+Return ONLY the JSON. No explanation, no markdown fences, no extra text.
+═══════════════════════════════════════════════════════════
+
+here you add solution not key points , as per the ask you give me like if 40 word so 40
+
+i want in json all questions as in pdf , so add all questions

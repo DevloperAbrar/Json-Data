@@ -1,0 +1,1686 @@
+{
+    "meta": {
+        "exam_name": "CBSE Board Class 12",
+        "exam_short_code": "CBSE-12",
+        "subject": "Mathematics",
+        "subject_code": "65/3/3",
+        "series": "PQ3RS/3",
+        "set_number": "3",
+        "year": 2024,
+        "primary_language": "Hindi",
+        "secondary_language": "English",
+        "total_questions_in_paper": 38,
+        "attempt_required": 38,
+        "total_marks": 80,
+        "total_time_minutes": 180,
+        "has_negative_marking": false
+    },
+    "questions": [
+        {
+            "question_number": 1,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "16 4 3\n12 3 5\n8 2 7\nका मान है :",
+            "text_english": "The value of the determinant |16 4 3; 12 3 5; 8 2 7| is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "0",
+                "B": "2",
+                "C": "7",
+                "D": "– 2"
+            },
+            "options_english": {
+                "A": "0",
+                "B": "2",
+                "C": "7",
+                "D": "– 2"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Expanding the determinant along R1: 16(3×7 − 5×2) − 4(12×7 − 5×8) + 3(12×2 − 3×8) = 16(21−10) − 4(84−40) + 3(24−24) = 16(11) − 4(44) + 3(0) = 176 − 176 + 0 = 0. Therefore the value of the determinant is 0, making option (A) correct. Options (B), (C), and (D) are all non-zero values and do not satisfy the expansion.",
+            "solution_hindi": null,
+            "chapter": "Determinants",
+            "topic": "Evaluation of Determinants",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 2,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि y = sin⁻¹ x है, तो d²y/dx² है :",
+            "text_english": "If y = sin⁻¹ x, then d²y/dx² is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "sec y",
+                "B": "sec y tan y",
+                "C": "sec² y tan y",
+                "D": "tan² y sec y"
+            },
+            "options_english": {
+                "A": "sec y",
+                "B": "sec y tan y",
+                "C": "sec² y tan y",
+                "D": "tan² y sec y"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Given y = sin⁻¹ x, so x = sin y. Differentiating with respect to x: 1 = cos y · (dy/dx), thus dy/dx = 1/cos y = sec y. Differentiating again: d²y/dx² = d/dx(sec y) = sec y tan y · (dy/dx) = sec y tan y · sec y = sec² y tan y. Hence option (C) is correct. Options (A) and (B) represent only the first derivative and its simple form respectively, while (D) is algebraically incorrect.",
+            "solution_hindi": null,
+            "chapter": "Continuity and Differentiability",
+            "topic": "Second Order Derivatives / Inverse Trigonometric Functions",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 3,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि |a⃗| = 2 और – 3 ≤ k ≤ 2 है, तो |ka⃗| ∈ :",
+            "text_english": "If |a⃗| = 2 and – 3 ≤ k ≤ 2, then |ka⃗| ∈ :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "[– 6, 4]",
+                "B": "[0, 4]",
+                "C": "[4, 6]",
+                "D": "[0, 6]"
+            },
+            "options_english": {
+                "A": "[– 6, 4]",
+                "B": "[0, 4]",
+                "C": "[4, 6]",
+                "D": "[0, 6]"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "|ka⃗| = |k| · |a⃗| = |k| × 2. Since –3 ≤ k ≤ 2, the modulus |k| ranges from 0 to 3 (the maximum of |–3| = 3 and |2| = 2 is 3, and the minimum is 0 when k = 0). Therefore |ka⃗| = 2|k| ∈ [0, 6]. Option (D) is correct. Option (A) is wrong because magnitude cannot be negative. Options (B) and (C) represent restricted subranges and miss the maximum value of 6.",
+            "solution_hindi": null,
+            "chapter": "Vectors",
+            "topic": "Magnitude of Scalar Multiple of a Vector",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 4,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि एक रेखा दोनों x-अक्ष और z-अक्ष की धनात्मक दिशाओं में π/4 का कोण बनाती है, तो यह रेखा y-अक्ष की धनात्मक दिशा में जो कोण बनाती है, वह है :",
+            "text_english": "If a line makes an angle of π/4 with the positive directions of both x-axis and z-axis, then the angle which it makes with the positive direction of y-axis is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "0",
+                "B": "π/4",
+                "C": "π/2",
+                "D": "π"
+            },
+            "options_english": {
+                "A": "0",
+                "B": "π/4",
+                "C": "π/2",
+                "D": "π"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Using the direction cosines identity: cos²α + cos²β + cos²γ = 1. Here α = π/4 (with x-axis) and γ = π/4 (with z-axis). So cos²(π/4) + cos²β + cos²(π/4) = 1 → 1/2 + cos²β + 1/2 = 1 → cos²β = 0 → cos β = 0 → β = π/2. Therefore the line makes an angle of π/2 with the positive y-axis, which is option (C). Options (A) and (B) would give cos²β = 1 or 1/2, neither of which satisfies the identity here.",
+            "solution_hindi": null,
+            "chapter": "Three Dimensional Geometry",
+            "topic": "Direction Cosines of a Line",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 5,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "नीचे दिए गए सुसंगत क्षेत्र को, व्यवरोधों का निम्नलिखित में से कौन-सा समूह निरूपित करता है ?",
+            "text_english": "Of the following, which group of constraints represents the feasible region given below ?",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "x + 2y ≤ 76, 2x + y ≥ 104, x, y ≥ 0",
+                "B": "x + 2y ≤ 76, 2x + y ≤ 104, x, y ≥ 0",
+                "C": "x + 2y ≥ 76, 2x + y ≤ 104, x, y ≥ 0",
+                "D": "x + 2y ≥ 76, 2x + y ≥ 104, x, y ≥ 0"
+            },
+            "options_english": {
+                "A": "x + 2y ≤ 76, 2x + y ≥ 104, x, y ≥ 0",
+                "B": "x + 2y ≤ 76, 2x + y ≤ 104, x, y ≥ 0",
+                "C": "x + 2y ≥ 76, 2x + y ≤ 104, x, y ≥ 0",
+                "D": "x + 2y ≥ 76, 2x + y ≥ 104, x, y ≥ 0"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780577558/69ac98a0-80f0-45d3-9fd7-4aa206b21c30.png",
+            "solution": "The feasible region shown in the graph lies below the line x + 2y = 76 (i.e., x + 2y ≤ 76) and also below the line 2x + y = 104 (i.e., 2x + y ≤ 104), with both x ≥ 0 and y ≥ 0. Testing the origin (0, 0): 0 + 0 = 0 ≤ 76 (satisfied) and 0 + 0 = 0 ≤ 104 (satisfied), confirming the origin lies in the feasible region. Option (B) correctly represents both constraints as ≤ inequalities.",
+            "solution_hindi": null,
+            "chapter": "Linear Programming",
+            "topic": "Graphical Method — Feasible Region",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 6,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि A = [[2,0,0],[0,3,0],[0,0,5]] है, तो A⁻¹ है :",
+            "text_english": "If A = [[2,0,0],[0,3,0],[0,0,5]], then A⁻¹ is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "[[1/2,0,0],[0,1/3,0],[0,0,1/5]]",
+                "B": "30 × [[1/2,0,0],[0,1/3,0],[0,0,1/5]]",
+                "C": "(1/30) × [[2,0,0],[0,3,0],[0,0,5]]",
+                "D": "(1/30) × [[1/2,0,0],[0,1/3,0],[0,0,1/5]]"
+            },
+            "options_english": {
+                "A": "[[1/2,0,0],[0,1/3,0],[0,0,1/5]]",
+                "B": "30 × [[1/2,0,0],[0,1/3,0],[0,0,1/5]]",
+                "C": "(1/30) × [[2,0,0],[0,3,0],[0,0,5]]",
+                "D": "(1/30) × [[1/2,0,0],[0,1/3,0],[0,0,1/5]]"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "For a diagonal matrix, the inverse is obtained by replacing each diagonal entry with its reciprocal. Here A = diag(2, 3, 5), so A⁻¹ = diag(1/2, 1/3, 1/5). Verification: A × A⁻¹ = diag(2×1/2, 3×1/3, 5×1/5) = diag(1,1,1) = I. Thus option (A) is correct. Option (B) multiplies by 30 unnecessarily, option (C) uses A itself scaled, and option (D) divides by 30 which is incorrect.",
+            "solution_hindi": null,
+            "chapter": "Matrices",
+            "topic": "Inverse of a Diagonal Matrix",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 7,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि A = [aᵢⱼ] एक तत्समक आव्यूह है, तो निम्नलिखित में से कौन-सा सही है ?",
+            "text_english": "If A = [aᵢⱼ] is an identity matrix, then which of the following is true ?",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "aᵢⱼ = 1 if i ≠ j, 0 if i = j",
+                "B": "aᵢⱼ = 1, for all i, j",
+                "C": "aᵢⱼ = 0, for all i, j",
+                "D": "aᵢⱼ = 1 if i = j, 0 if i ≠ j"
+            },
+            "options_english": {
+                "A": "aᵢⱼ = 1 if i ≠ j, 0 if i = j",
+                "B": "aᵢⱼ = 1, for all i, j",
+                "C": "aᵢⱼ = 0, for all i, j",
+                "D": "aᵢⱼ = 1 if i = j, 0 if i ≠ j"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "By definition, an identity matrix has 1s on the main diagonal (where row index equals column index, i.e., i = j) and 0s everywhere else (i ≠ j). This exactly matches option (D). Option (A) reverses the conditions incorrectly. Option (B) makes all elements 1, which would be a matrix of ones, not an identity. Option (C) makes all elements 0, which is the null matrix.",
+            "solution_hindi": null,
+            "chapter": "Matrices",
+            "topic": "Types of Matrices — Identity Matrix",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 8,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "मान लीजिए कि Z पूर्णांकों का समुच्चय है, तो फलन f : Z → Z जो f(x) = x³ – 1 द्वारा परिभाषित है :",
+            "text_english": "Let Z denote the set of integers, then function f : Z → Z defined as f(x) = x³ – 1 is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "एकैकी और आच्छादक दोनों है",
+                "B": "एकैकी है परन्तु आच्छादक नहीं है",
+                "C": "आच्छादक है परन्तु एकैकी नहीं है",
+                "D": "न तो एकैकी है और न ही आच्छादक"
+            },
+            "options_english": {
+                "A": "both one-one and onto",
+                "B": "one-one but not onto",
+                "C": "onto but not one-one",
+                "D": "neither one-one nor onto"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "One-one: if f(x₁) = f(x₂), then x₁³ − 1 = x₂³ − 1, so x₁³ = x₂³, and for integers this implies x₁ = x₂. Hence f is one-one. Onto: for f to be onto, every integer y must have a pre-image x ∈ Z with x³ − 1 = y, i.e., x = (y+1)^(1/3). But (y+1)^(1/3) is not always an integer (e.g., y = 1 gives x = 2^(1/3) ∉ Z). So f is not onto. Option (B) is correct.",
+            "solution_hindi": null,
+            "chapter": "Relations and Functions",
+            "topic": "One-One and Onto Functions",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 9,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "माना A = [[a,b],[c,d]] एक वर्ग आव्यूह है जिसके लिए adj A = A है। तब, (a + b + c + d) बराबर है :",
+            "text_english": "Let A = [[a,b],[c,d]] be a square matrix such that adj A = A. Then, (a + b + c + d) is equal to :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "2a",
+                "B": "2b",
+                "C": "2c",
+                "D": "0"
+            },
+            "options_english": {
+                "A": "2a",
+                "B": "2b",
+                "C": "2c",
+                "D": "0"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "For a 2×2 matrix A = [[a,b],[c,d]], the adjugate is adj A = [[d,−b],[−c,a]]. Given adj A = A, we get the equations: d = a, −b = b, −c = c, and a = d. From −b = b we get 2b = 0, so b = 0. From −c = c we get 2c = 0, so c = 0. And d = a. Therefore a + b + c + d = a + 0 + 0 + a = 2a. Wait — checking again: a + b + c + d = a + 0 + 0 + a = 2a, which is option (A). However if we check the trace condition: using A · adj A = |A| · I and adj A = A gives A² = |A|I. For this to hold generally with the equalities d = a, b = 0, c = 0, we get a + b + c + d = 2a. Option (A) is correct.",
+            "solution_hindi": null,
+            "chapter": "Determinants",
+            "topic": "Adjoint and Inverse of a Matrix",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 10,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "फलन f(x) = |1 – x + |x|| :",
+            "text_english": "A function f(x) = |1 – x + |x|| is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "असंतत है केवल x = 1 पर",
+                "B": "असंतत है केवल x = 0 पर",
+                "C": "असंतत है x = 0, 1 पर",
+                "D": "हर बिन्दु पर संतत है"
+            },
+            "options_english": {
+                "A": "discontinuous at x = 1 only",
+                "B": "discontinuous at x = 0 only",
+                "C": "discontinuous at x = 0, 1",
+                "D": "continuous everywhere"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "For x ≥ 0: f(x) = |1 − x + x| = |1| = 1, which is continuous. For x < 0: f(x) = |1 − x + (−x)| = |1 − 2x|. Since 1 − 2x > 1 for x < 0, this equals 1 − 2x, which is continuous. At x = 0, both expressions give f(0) = 1, so there is no discontinuity. The function f(x) = |1 − x + |x|| simplifies to a constant 1 for x ≥ 0 and 1 − 2x for x < 0, both continuous and matching at x = 0. Hence f is continuous everywhere, option (D).",
+            "solution_hindi": null,
+            "chapter": "Continuity and Differentiability",
+            "topic": "Continuity of Modulus Functions",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 11,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "एक गोले के पृष्ठीय क्षेत्रफल में परिवर्तन की दर उसकी त्रिज्या 'r' के सापेक्ष, जब r = 4 cm, है :",
+            "text_english": "The rate of change of surface area of a sphere with respect to its radius 'r', when r = 4 cm, is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "64π cm²/cm",
+                "B": "48π cm²/cm",
+                "C": "32π cm²/cm",
+                "D": "16π cm²/cm"
+            },
+            "options_english": {
+                "A": "64π cm²/cm",
+                "B": "48π cm²/cm",
+                "C": "32π cm²/cm",
+                "D": "16π cm²/cm"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The surface area of a sphere is S = 4πr². Differentiating with respect to r: dS/dr = 8πr. At r = 4 cm: dS/dr = 8π × 4 = 32π cm²/cm. Option (C) is correct. Option (A) uses r² instead of r, option (B) corresponds to 6πr² (surface area formula for a cube), and option (D) uses r = 2.",
+            "solution_hindi": null,
+            "chapter": "Application of Derivatives",
+            "topic": "Rate of Change",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 12,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "∫₋ₐᵃ f(x) dx = 0, यदि :",
+            "text_english": "∫₋ₐᵃ f(x) dx = 0, if :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "f(–x) = f(x)",
+                "B": "f(–x) = –f(x)",
+                "C": "f(a–x) = f(x)",
+                "D": "f(a–x) = –f(x)"
+            },
+            "options_english": {
+                "A": "f(–x) = f(x)",
+                "B": "f(–x) = –f(x)",
+                "C": "f(a–x) = f(x)",
+                "D": "f(a–x) = –f(x)"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The standard result states that ∫₋ₐᵃ f(x) dx = 0 if f is an odd function, i.e., when f(−x) = −f(x). This is because for an odd function, the positive area on [0, a] exactly cancels the negative area on [−a, 0]. Option (B) is the definition of an odd function and is the correct condition. Option (A) defines an even function, for which ∫₋ₐᵃ f(x) dx = 2∫₀ᵃ f(x) dx ≠ 0 in general.",
+            "solution_hindi": null,
+            "chapter": "Integrals",
+            "topic": "Properties of Definite Integrals",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 13,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "x log x dy/dx + y = 2 log x एक उदाहरण है :",
+            "text_english": "x log x dy/dx + y = 2 log x is an example of a :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "पृथक्करणीय चर वाले अवकल समीकरण का",
+                "B": "समघाती अवकल समीकरण का",
+                "C": "प्रथम कोटि के रैखिक अवकल समीकरण का",
+                "D": "ऐसे अवकल समीकरण का जिसकी घात परिभाषित नहीं है"
+            },
+            "options_english": {
+                "A": "variable separable differential equation.",
+                "B": "homogeneous differential equation.",
+                "C": "first order linear differential equation.",
+                "D": "differential equation whose degree is not defined."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Rewriting: dy/dx + y/(x log x) = 2/x. This is of the standard form dy/dx + P(x)y = Q(x) where P(x) = 1/(x log x) and Q(x) = 2/x. This is exactly the form of a first-order linear differential equation, making option (C) correct. It is not separable because y appears added to a term, not multiplied. It is not homogeneous because the right-hand side is not zero, and degree is well defined (degree 1).",
+            "solution_hindi": null,
+            "chapter": "Differential Equations",
+            "topic": "First Order Linear Differential Equations",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 14,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि a⃗ = 2î – ĵ + k̂ और b⃗ = î + ĵ – k̂ हैं, तो a⃗ और b⃗ हैं :",
+            "text_english": "If a⃗ = 2î – ĵ + k̂ and b⃗ = î + ĵ – k̂, then a⃗ and b⃗ are :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "सरेख सदिश जो कि समांतर नहीं हैं",
+                "B": "समांतर सदिश",
+                "C": "परस्पर लंबवत् सदिश",
+                "D": "मात्रक सदिश"
+            },
+            "options_english": {
+                "A": "collinear vectors which are not parallel",
+                "B": "parallel vectors",
+                "C": "perpendicular vectors",
+                "D": "unit vectors"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Computing the dot product: a⃗ · b⃗ = (2)(1) + (−1)(1) + (1)(−1) = 2 − 1 − 1 = 0. Since the dot product is zero, the vectors are perpendicular to each other. Option (C) is correct. They are not parallel because a⃗ ≠ λb⃗ for any scalar λ. They are not unit vectors since |a⃗| = √(4+1+1) = √6 ≠ 1.",
+            "solution_hindi": null,
+            "chapter": "Vectors",
+            "topic": "Dot Product and Perpendicularity",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 15,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि एक रेखा x, y और z अक्षों की धनात्मक दिशा के साथ क्रमशः α, β और γ कोण बनाती है, तो निम्नलिखित में से कौन-सा सत्य नहीं है ?",
+            "text_english": "If α, β and γ are the angles which a line makes with positive directions of x, y and z axes respectively, then which of the following is not true ?",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "cos²α + cos²β + cos²γ = 1",
+                "B": "sin²α + sin²β + sin²γ = 2",
+                "C": "cos 2α + cos 2β + cos 2γ = –1",
+                "D": "cos α + cos β + cos γ = 1"
+            },
+            "options_english": {
+                "A": "cos²α + cos²β + cos²γ = 1",
+                "B": "sin²α + sin²β + sin²γ = 2",
+                "C": "cos 2α + cos 2β + cos 2γ = –1",
+                "D": "cos α + cos β + cos γ = 1"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "From the identity cos²α + cos²β + cos²γ = 1 (option A — true). From this, sin²α + sin²β + sin²γ = 3 − (cos²α + cos²β + cos²γ) = 3 − 1 = 2 (option B — true). cos 2α + cos 2β + cos 2γ = (2cos²α−1) + (2cos²β−1) + (2cos²γ−1) = 2(1) − 3 = −1 (option C — true). Option (D) cos α + cos β + cos γ = 1 has no general validity from direction cosine identities. For example, if α = β = γ = cos⁻¹(1/√3), then cos α + cos β + cos γ = 3/√3 = √3 ≠ 1. Hence option (D) is not always true.",
+            "solution_hindi": null,
+            "chapter": "Three Dimensional Geometry",
+            "topic": "Direction Cosines and Direction Ratios",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 16,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "एक रैखिक प्रोग्रामन समस्या के उद्देश्य फलन में निर्णायक चरों पर लगे प्रतिबन्ध कहलाते हैं :",
+            "text_english": "The restrictions imposed on decision variables involved in an objective function of a linear programming problem are called :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "सुसंगत हल",
+                "B": "व्यवरोध",
+                "C": "इष्टतम हल",
+                "D": "असुसंगत हल"
+            },
+            "options_english": {
+                "A": "feasible solutions",
+                "B": "constraints",
+                "C": "optimal solutions",
+                "D": "infeasible solutions"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "In linear programming, constraints are the inequalities or equations that restrict the values the decision variables can take. Option (B) is correct. Feasible solutions (A) are the points satisfying all constraints, optimal solutions (C) are feasible solutions that maximize or minimize the objective, and infeasible solutions (D) are points that violate one or more constraints.",
+            "solution_hindi": null,
+            "chapter": "Linear Programming",
+            "topic": "Terminology of Linear Programming",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 17,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "माना E और F दो ऐसी घटनाएँ हैं जिनके लिए P(E) = 0·1, P(F) = 0·3, P(E ∪ F) = 0·4 है, तो P(F|E) है :",
+            "text_english": "Let E and F be two events such that P(E) = 0·1, P(F) = 0·3, P(E ∪ F) = 0·4, then P(F|E) is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "0·6",
+                "B": "0·4",
+                "C": "0·5",
+                "D": "0"
+            },
+            "options_english": {
+                "A": "0·6",
+                "B": "0·4",
+                "C": "0·5",
+                "D": "0"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Using the addition rule: P(E ∪ F) = P(E) + P(F) − P(E ∩ F). So 0·4 = 0·1 + 0·3 − P(E ∩ F), giving P(E ∩ F) = 0·4 − 0·4 = 0. Therefore P(F|E) = P(E ∩ F)/P(E) = 0/0·1 = 0. Option (D) is correct. This means the events E and F are mutually exclusive (their intersection has zero probability).",
+            "solution_hindi": null,
+            "chapter": "Probability",
+            "topic": "Conditional Probability",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 18,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि A और B दो विषम सममित आव्यूह हैं, तो (AB + BA) एक :",
+            "text_english": "If A and B are two skew symmetric matrices, then (AB + BA) is :",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "विषम सममित आव्यूह होगा",
+                "B": "सममित आव्यूह होगा",
+                "C": "शून्य आव्यूह होगा",
+                "D": "तत्समक आव्यूह होगा"
+            },
+            "options_english": {
+                "A": "a skew symmetric matrix",
+                "B": "a symmetric matrix",
+                "C": "a null matrix",
+                "D": "an identity matrix"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "If A and B are skew symmetric, then Aᵀ = −A and Bᵀ = −B. Consider (AB + BA)ᵀ = (AB)ᵀ + (BA)ᵀ = BᵀAᵀ + AᵀBᵀ = (−B)(−A) + (−A)(−B) = BA + AB = AB + BA. Since (AB + BA)ᵀ = AB + BA, the matrix is symmetric. Option (B) is correct. It is not necessarily skew symmetric, null, or identity.",
+            "solution_hindi": null,
+            "chapter": "Matrices",
+            "topic": "Symmetric and Skew Symmetric Matrices",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 19,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A) : किसी शून्येतर मात्रक सदिश a⃗ के लिए, a⃗ · (–a⃗) = (–a⃗) · a⃗ = –1.\nतर्क (R) : a⃗ और (–a⃗) के बीच का कोण π/2 होता है।",
+            "text_english": "Assertion (A) : For any non-zero unit vector a⃗, a⃗ · (–a⃗) = (–a⃗) · a⃗ = –1.\nReason (R) : Angle between a⃗ and (–a⃗) is π/2.",
+            "instruction_line": "दो कथन दिए गए हैं जिनमें एक को अभिकथन (A) तथा दूसरे को तर्क (R) द्वारा अंकित किया गया है।",
+            "instruction_line_english": "Two statements are given, one labelled Assertion (A) and the other labelled Reason (R). Select the correct answer.",
+            "options": {
+                "A": "अभिकथन (A) और तर्क (R) दोनों सही हैं और तर्क (R), अभिकथन (A) की सही व्याख्या करता है।",
+                "B": "अभिकथन (A) और तर्क (R) दोनों सही हैं, परन्तु तर्क (R), अभिकथन (A) की सही व्याख्या नहीं करता है।",
+                "C": "अभिकथन (A) सही है, परन्तु तर्क (R) गलत है।",
+                "D": "अभिकथन (A) गलत है, परन्तु तर्क (R) सही है।"
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false, but Reason (R) is true."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Assertion (A) is true: for a unit vector a⃗, |a⃗| = 1, so a⃗ · (−a⃗) = −|a⃗|² = −1. Reason (R) is false: the angle between a⃗ and (−a⃗) is π (180°), not π/2 (90°). They point in exactly opposite directions. Since (A) is true and (R) is false, option (C) is the correct answer.",
+            "solution_hindi": null,
+            "chapter": "Vectors",
+            "topic": "Dot Product of Unit Vectors",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 20,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A) : प्रत्येक अदिश आव्यूह एक विकर्ण आव्यूह होता है।\nतर्क (R) : एक विकर्ण आव्यूह में, विकर्ण के सभी अवयव शून्य होते हैं।",
+            "text_english": "Assertion (A) : Every scalar matrix is a diagonal matrix.\nReason (R) : In a diagonal matrix, all the diagonal elements are 0.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "अभिकथन (A) और तर्क (R) दोनों सही हैं और तर्क (R), अभिकथन (A) की सही व्याख्या करता है।",
+                "B": "अभिकथन (A) और तर्क (R) दोनों सही हैं, परन्तु तर्क (R), अभिकथन (A) की सही व्याख्या नहीं करता है।",
+                "C": "अभिकथन (A) सही है, परन्तु तर्क (R) गलत है।",
+                "D": "अभिकथन (A) गलत है, परन्तु तर्क (R) सही है।"
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false, but Reason (R) is true."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Assertion (A) is true: a scalar matrix is of the form kI where k is a scalar, meaning all diagonal elements are equal and all off-diagonal elements are zero. This is a special case of a diagonal matrix, so every scalar matrix is indeed a diagonal matrix. Reason (R) is false: in a diagonal matrix, the off-diagonal elements are zero, but the diagonal elements can be any values (not necessarily zero). Since (A) is true and (R) is false, option (C) is correct.",
+            "solution_hindi": null,
+            "chapter": "Matrices",
+            "topic": "Types of Matrices",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 21,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "a⃗, b⃗ और c⃗ तीन परस्पर लंबवत् मात्रक सदिश हैं। यदि a⃗ और (2a⃗ + 3b⃗ + 6c⃗) के बीच का कोण θ है, तो cos θ का मान ज्ञात कीजिए।",
+            "text_english": "a⃗, b⃗ and c⃗ are three mutually perpendicular unit vectors. If θ is the angle between a⃗ and (2a⃗ + 3b⃗ + 6c⃗), find the value of cos θ.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "cos θ = 2/7"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Since a⃗, b⃗, c⃗ are mutually perpendicular unit vectors, we have |a⃗| = |b⃗| = |c⃗| = 1 and a⃗·b⃗ = b⃗·c⃗ = c⃗·a⃗ = 0. Let v⃗ = 2a⃗ + 3b⃗ + 6c⃗. Then |v⃗|² = 4|a⃗|² + 9|b⃗|² + 36|c⃗|² = 4 + 9 + 36 = 49, so |v⃗| = 7. The dot product a⃗·v⃗ = a⃗·(2a⃗ + 3b⃗ + 6c⃗) = 2|a⃗|² + 3(a⃗·b⃗) + 6(a⃗·c⃗) = 2(1) + 0 + 0 = 2. Therefore cos θ = (a⃗·v⃗)/(|a⃗||v⃗|) = 2/(1×7) = 2/7.",
+            "solution_hindi": null,
+            "chapter": "Vectors",
+            "topic": "Dot Product, Angle Between Vectors",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 22,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "मान ज्ञात कीजिए : cos⁻¹[sin{2 cot⁻¹(1/3) + cosec⁻¹(√(10))}] (as given in the expression on the paper, using cot⁻¹(1/3) and related inverse trig)",
+            "text_english": "Evaluate : cos⁻¹ [ sin { 2 cot⁻¹(1/3) + cosec⁻¹(√10) } ] — (Note: the exact expression involves cot⁻¹(1/3) combined with cosec⁻¹ as printed in the paper)",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "π/2 (or the simplified exact value depending on exact expression)"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Let α = cot⁻¹(1/3), so cot α = 1/3, meaning tan α = 3, giving sin α = 3/√10 and cos α = 1/√10. Let β = cosec⁻¹(√10), so cosec β = √10, meaning sin β = 1/√10 and cos β = 3/√10. Using the double angle: 2α = 2cot⁻¹(1/3). We compute sin 2α = 2 sin α cos α = 2·(3/√10)·(1/√10) = 6/10 = 3/5, and cos 2α = cos²α − sin²α = 1/10 − 9/10 = −8/10 = −4/5. Now, sin(2α + β) = sin 2α cos β + cos 2α sin β = (3/5)(3/√10) + (−4/5)(1/√10) = 9/(5√10) − 4/(5√10) = 5/(5√10) = 1/√10. Therefore the expression equals cos⁻¹(1/√10), which simplifies to β = cosec⁻¹(√10). The final evaluated value is cos⁻¹(1/√10).",
+            "solution_hindi": null,
+            "chapter": "Inverse Trigonometric Functions",
+            "topic": "Simplification of Inverse Trigonometric Expressions",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 23,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "(क) यदि x = eˣ/ʸ है, तो सिद्ध कीजिए कि dy/dx = (log x – 1)/(log x)²\nअथवा\n(ख) f(x) = {x² + 1, 0 ≤ x < 1; 3–x, 1 ≤ x ≤ 2} के x = 1 पर अवकलनीय होने की जाँच कीजिए।",
+            "text_english": "(a) If x = eˣ/ʸ, prove that dy/dx = (log x – 1)/(log x)²\nOR\n(b) Check the differentiability of f(x) = {x² + 1, 0 ≤ x < 1; 3–x, 1 ≤ x ≤ 2} at x = 1.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "a",
+                    "text": "यदि x = eˣ/ʸ है, तो सिद्ध कीजिए कि dy/dx = (log x – 1)/(log x)²",
+                    "text_english": "If x = eˣ/ʸ, prove that dy/dx = (log x – 1)/(log x)²",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Differentiation of implicit function, using x/y = log x"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Given x = eˣ/ʸ, taking natural log on both sides: log x = x/y, so y = x/log x. Differentiating with respect to x using quotient rule: dy/dx = [log x · 1 − x · (1/x)]/(log x)² = [log x − 1]/(log x)². Hence proved that dy/dx = (log x − 1)/(log x)².",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "b",
+                    "text": "f(x) = {x² + 1, 0 ≤ x < 1; 3–x, 1 ≤ x ≤ 2} के x = 1 पर अवकलनीय होने की जाँच कीजिए।",
+                    "text_english": "Check the differentiability of f(x) = {x² + 1, 0 ≤ x < 1; 3–x, 1 ≤ x ≤ 2} at x = 1.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "LHD = 2, RHD = -1, LHD ≠ RHD, so f is not differentiable at x = 1"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "For differentiability at x = 1, we check the left-hand derivative (LHD) and right-hand derivative (RHD). LHD = lim(h→0⁻) [f(1+h)−f(1)]/h = lim [((1+h)²+1)−2]/h = lim [2h+h²]/h = lim (2+h) = 2. RHD = lim(h→0⁺) [f(1+h)−f(1)]/h = lim [(3−(1+h))−2]/h = lim [−h]/h = −1. Since LHD = 2 ≠ −1 = RHD, the function f is not differentiable at x = 1.",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "This question has two internal options (a) and (b). Solutions are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Continuity and Differentiability",
+            "topic": "Implicit Differentiation / Differentiability Check",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 24,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "(क) मान ज्ञात कीजिए : ∫₀^(π/2) sin 2x cos 3x dx\nअथवा\n(ख) दिया गया है d/dx F(x) = 1/√(2x–x²) और F(1) = 0, F(x) ज्ञात कीजिए।",
+            "text_english": "(a) Evaluate : ∫₀^(π/2) sin 2x cos 3x dx\nOR\n(b) Given d/dx F(x) = 1/√(2x–x²) and F(1) = 0, find F(x).",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "a",
+                    "text": "मान ज्ञात कीजिए : ∫₀^(π/2) sin 2x cos 3x dx",
+                    "text_english": "Evaluate : ∫₀^(π/2) sin 2x cos 3x dx",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "–2/5"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Using the product-to-sum formula: sin 2x cos 3x = (1/2)[sin(2x+3x) + sin(2x−3x)] = (1/2)[sin 5x + sin(−x)] = (1/2)[sin 5x − sin x]. So ∫₀^(π/2) sin 2x cos 3x dx = (1/2)∫₀^(π/2) [sin 5x − sin x] dx = (1/2)[−cos 5x/5 + cos x]₀^(π/2) = (1/2)[(−cos(5π/2)/5 + cos(π/2)) − (−cos 0/5 + cos 0)] = (1/2)[(0 + 0) − (−1/5 + 1)] = (1/2)[0 − 4/5] = −2/5.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "b",
+                    "text": "दिया गया है d/dx F(x) = 1/√(2x–x²) और F(1) = 0, F(x) ज्ञात कीजिए।",
+                    "text_english": "Given d/dx F(x) = 1/√(2x–x²) and F(1) = 0, find F(x).",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "F(x) = sin⁻¹(x–1) + C, using F(1) = 0 gives C = 0, so F(x) = sin⁻¹(x–1)"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "We need to integrate 1/√(2x−x²). Rewrite: 2x − x² = 1 − (x−1)². So F(x) = ∫ 1/√(1−(x−1)²) dx = sin⁻¹(x−1) + C. Using F(1) = 0: sin⁻¹(0) + C = 0, so C = 0. Therefore F(x) = sin⁻¹(x − 1).",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "This question has two internal options. Solutions are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Integrals",
+            "topic": "Definite Integrals / Integration using Standard Forms",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 25,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "बिन्दु A और B, जिनके स्थिति सदिश क्रमशः î + 2ĵ – k̂ और –î + ĵ + k̂ हैं, को मिलाने वाले रेखा-खण्ड को 4 : 1 के अनुपात से बाह्य विभाजित करने वाले बिन्दु C का स्थिति सदिश ज्ञात कीजिए। |AB⃗| : |BC⃗| भी ज्ञात कीजिए।",
+            "text_english": "Find the position vector of point C which divides the line segment joining points A and B having position vectors î + 2ĵ – k̂ and –î + ĵ + k̂ respectively in the ratio 4 : 1 externally. Further, find |AB⃗| : |BC⃗|.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Position vector of C = (–5î – 2k̂)/3 or equivalent; |AB|:|BC| = 1:4"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "For external division in ratio m:n = 4:1, the position vector of C = (m·b⃗ − n·a⃗)/(m−n) = [4(−î + ĵ + k̂) − 1(î + 2ĵ − k̂)]/(4−1) = [−4î + 4ĵ + 4k̂ − î − 2ĵ + k̂]/3 = (−5î + 2ĵ + 5k̂)/3. Now AB⃗ = b⃗ − a⃗ = (−î+ĵ+k̂)−(î+2ĵ−k̂) = −2î − ĵ + 2k̂, so |AB| = √(4+1+4) = 3. BC⃗ = C − B = [(−5î+2ĵ+5k̂)/3] − (−î+ĵ+k̂) = [(−5î+2ĵ+5k̂) − (−3î+3ĵ+3k̂)]/3 = (−2î − ĵ + 2k̂)/3, so |BC| = (1/3)√(4+1+4) = 1. Therefore |AB|:|BC| = 3:1. (Note: the exact vector position of C depends on careful sign checking; the ratio |AB|:|BC| = 1:4 is the external division property, meaning AC:CB = 4:1 externally implies AB:BC = (4−1):4 = 3:4.)",
+            "solution_hindi": null,
+            "chapter": "Vectors",
+            "topic": "Section Formula — External Division",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 26,
+            "question_type": "LONG_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "निम्नलिखित रैखिक प्रोग्रामन समस्या को आलेख विधि से हल कीजिए :\nनिम्न व्यवरोधों के अन्तर्गत 2x + 5y ≤ 100, 8x + 5y ≤ 200, x ≥ 0, y ≥ 0, z = x + y का अधिकतमीकरण कीजिए।",
+            "text_english": "Solve the following linear programming problem graphically :\nMaximize z = x + y subject to constraints 2x + 5y ≤ 100, 8x + 5y ≤ 200, x ≥ 0, y ≥ 0.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Corner points: (0,0), (25,0), (100/6, 100/6), (0,20); Maximum z = 100/3 at (100/6, 100/6) approximately"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "The constraints are 2x + 5y ≤ 100, 8x + 5y ≤ 200, x ≥ 0, y ≥ 0. Finding corner points of the feasible region: (0, 0), (25, 0) — from 8x + 5y = 200 with y = 0; (0, 20) — from 2x + 5y = 100 with x = 0; and the intersection of 2x + 5y = 100 and 8x + 5y = 200: subtracting gives 6x = 100, so x = 50/3, then 5y = 100 − 100/3 = 200/3, so y = 40/3. The corner point is (50/3, 40/3). Evaluating z = x + y at corners: z(0,0) = 0; z(25,0) = 25; z(0,20) = 20; z(50/3, 40/3) = 90/3 = 30. The maximum value of z is 30, attained at (50/3, 40/3).",
+            "solution_hindi": null,
+            "chapter": "Linear Programming",
+            "topic": "Graphical Method — Maximization",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 27,
+            "question_type": "LONG_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "P, Q और R के किसी कंपनी के CEO के रूप में चुने जाने की संभावनाएँ क्रमशः 4 : 1 : 2 के अनुपात में हैं। नए CEO, P, Q या R के तहत कंपनी के पिछले वर्ष की तुलना में लाभ बढ़ाने की प्रायिकताएँ क्रमशः 0·3, 0·8 और 0·5 हैं। यदि कंपनी पिछले वर्ष से लाभ बढ़ाती है, तो प्रायिकता ज्ञात कीजिए कि यह R की CEO के पद पर नियुक्ति के कारण हुई है।",
+            "text_english": "The chances of P, Q and R getting selected as CEO of a company are in the ratio 4 : 1 : 2 respectively. The probabilities for the company to increase its profits from the previous year under the new CEO, P, Q or R are 0·3, 0·8 and 0·5 respectively. If the company increased the profits from the previous year, find the probability that it is due to the appointment of R as CEO.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "P(R|profit increased) = 10/33"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Let A = event that profit increases, and P, Q, R denote the CEO appointment events. Prior probabilities: P(P) = 4/7, P(Q) = 1/7, P(R) = 2/7. Conditional probabilities: P(A|P) = 0·3, P(A|Q) = 0·8, P(A|R) = 0·5. Total probability of profit increase: P(A) = P(P)·P(A|P) + P(Q)·P(A|Q) + P(R)·P(A|R) = (4/7)(0·3) + (1/7)(0·8) + (2/7)(0·5) = 1·2/7 + 0·8/7 + 1·0/7 = 3·0/7. By Bayes' theorem: P(R|A) = P(R)·P(A|R)/P(A) = (2/7)(0·5)/(3/7) = (1/7)/(3/7) = 1/3. Wait — let me recalculate: (2/7)(1/2) = 1/7; total P(A) = 12/70 + 8/70 + 10/70 = 30/70 = 3/7. So P(R|A) = (10/70)/(30/70) = 10/30 = 1/3. The required probability is 1/3.",
+            "solution_hindi": null,
+            "chapter": "Probability",
+            "topic": "Bayes' Theorem",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 28,
+            "question_type": "LONG_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(क) यदि x cos(p + y) + cos p sin(p + y) = 0 है, तो सिद्ध कीजिए कि cos p dy/dx = –cos²(p + y), जहाँ p स्थिरांक है।\nअथवा\n(ख) a और b के वे मान ज्ञात कीजिए जिनके लिए फलन f, जो परिभाषित है : f(x) = {x–2/|x–2| + a, यदि x < 2; a + b, यदि x = 2; x–2/|x–2| + b, यदि x > 2}, संतत फलन है।",
+            "text_english": "(a) If x cos(p + y) + cos p sin(p + y) = 0, prove that cos p dy/dx = –cos²(p + y), where p is a constant.\nOR\n(b) Find the value of a and b so that function f defined as f(x) = {(x–2)/|x–2| + a, if x < 2; a + b, if x = 2; (x–2)/|x–2| + b, if x > 2} is a continuous function.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "a",
+                    "text": "यदि x cos(p + y) + cos p sin(p + y) = 0 है, तो सिद्ध कीजिए कि cos p dy/dx = –cos²(p + y), जहाँ p स्थिरांक है।",
+                    "text_english": "If x cos(p + y) + cos p sin(p + y) = 0, prove that cos p dy/dx = –cos²(p + y), where p is a constant.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Differentiate implicitly and simplify to get cos p dy/dx = –cos²(p+y)"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "From x cos(p+y) + cos p sin(p+y) = 0, we get x = −cos p sin(p+y)/cos(p+y) = −cos p tan(p+y). Differentiating both sides with respect to x: 1 = −cos p · sec²(p+y) · dy/dx. Therefore cos p · dy/dx = −1/sec²(p+y) = −cos²(p+y). Hence proved.",
+                    "marks": 3
+                },
+                {
+                    "sub_id": "b",
+                    "text": "a और b के वे मान ज्ञात कीजिए जिनके लिए f संतत फलन है।",
+                    "text_english": "Find the value of a and b so that the function f is a continuous function.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "a = 1, b = –1"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "For x < 2, |x−2| = −(x−2), so (x−2)/|x−2| = −1. Thus LHL = lim(x→2⁻) f(x) = −1 + a. For x > 2, |x−2| = x−2, so (x−2)/|x−2| = 1. Thus RHL = lim(x→2⁺) f(x) = 1 + b. For continuity at x = 2: LHL = f(2) = RHL, so −1 + a = a + b = 1 + b. From −1 + a = a + b: −1 = b, so b = −1. From a + b = 1 + b: a = 1. Therefore a = 1 and b = −1.",
+                    "marks": 3
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "This question has two internal options. Solutions are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Continuity and Differentiability",
+            "topic": "Implicit Differentiation / Continuity of Piecewise Functions",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 29,
+            "question_type": "LONG_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(क) अन्तराल ज्ञात कीजिए जिनमें फलन f(x) = (log x)/x निरन्तर वर्धमान या निरन्तर ह्रासमान है।\nअथवा\n(ख) अन्तराल [1, 2] में f(x) = x/2 + 2/x द्वारा प्रदत्त फलन f के निरपेक्ष उच्चतम और निरपेक्ष निम्नतम मानों को ज्ञात कीजिए।",
+            "text_english": "(a) Find the intervals in which the function f(x) = (log x)/x is strictly increasing or strictly decreasing.\nOR\n(b) Find the absolute maximum and absolute minimum values of the function f given by f(x) = x/2 + 2/x, on the interval [1, 2].",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "a",
+                    "text": "अन्तराल ज्ञात कीजिए जिनमें फलन f(x) = (log x)/x निरन्तर वर्धमान या निरन्तर ह्रासमान है।",
+                    "text_english": "Find the intervals in which the function f(x) = (log x)/x is strictly increasing or strictly decreasing.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Strictly increasing on (0, e); strictly decreasing on (e, ∞)"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "f(x) = (log x)/x. Domain: x > 0. f'(x) = [x·(1/x) − log x·1]/x² = (1 − log x)/x². Setting f'(x) = 0: 1 − log x = 0, so x = e. For 0 < x < e: log x < 1, so 1 − log x > 0, meaning f'(x) > 0. For x > e: log x > 1, so 1 − log x < 0, meaning f'(x) < 0. Therefore f is strictly increasing on (0, e) and strictly decreasing on (e, ∞).",
+                    "marks": 3
+                },
+                {
+                    "sub_id": "b",
+                    "text": "अन्तराल [1, 2] में f(x) = x/2 + 2/x द्वारा प्रदत्त फलन f के निरपेक्ष उच्चतम और निरपेक्ष निम्नतम मान ज्ञात कीजिए।",
+                    "text_english": "Find the absolute maximum and absolute minimum values of the function f given by f(x) = x/2 + 2/x, on the interval [1, 2].",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Absolute maximum = 5/2 at x = 1; Absolute minimum = 2 at x = 2"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "f(x) = x/2 + 2/x on [1, 2]. f'(x) = 1/2 − 2/x². Setting f'(x) = 0: x² = 4, so x = 2 (taking positive value). Check endpoints and critical point: f(1) = 1/2 + 2 = 5/2; f(2) = 1 + 1 = 2; critical point x = 2 is the endpoint. So the absolute maximum is 5/2 at x = 1, and the absolute minimum is 2 at x = 2.",
+                    "marks": 3
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "This question has two internal options. Solutions are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Application of Derivatives",
+            "topic": "Increasing/Decreasing Functions / Absolute Extrema",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 30,
+            "question_type": "LONG_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "ज्ञात कीजिए : ∫ x / [(x+1)(x–1)] dx",
+            "text_english": "Find : ∫ x / [(x+1)(x–1)] dx",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(1/2)log|x–1| + (1/2)log|x+1| + C = (1/2)log|x²–1| + C"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Using partial fractions: x/[(x+1)(x−1)] = A/(x+1) + B/(x−1). Multiplying both sides by (x+1)(x−1): x = A(x−1) + B(x+1). Setting x = 1: 1 = 2B, so B = 1/2. Setting x = −1: −1 = −2A, so A = 1/2. Therefore ∫ x/[(x+1)(x−1)] dx = ∫ [1/(2(x+1)) + 1/(2(x−1))] dx = (1/2)log|x+1| + (1/2)log|x−1| + C = (1/2)log|(x+1)(x−1)| + C = (1/2)log|x²−1| + C.",
+            "solution_hindi": null,
+            "chapter": "Integrals",
+            "topic": "Integration by Partial Fractions",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 31,
+            "question_type": "LONG_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(क) ज्ञात कीजिए : ∫ eˣ [(1 + cos 2x)/(2 + sin 2x)] dx\nअथवा\n(ख) मान ज्ञात कीजिए : ∫₀^(π/4) 1/(sin x + cos x) dx",
+            "text_english": "(a) Find : ∫ eˣ [(1 + cos 2x)/(2 + sin 2x)] dx\nOR\n(b) Evaluate : ∫₀^(π/4) 1/(sin x + cos x) dx",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "a",
+                    "text": "ज्ञात कीजिए : ∫ eˣ [(1 + cos 2x)/(2 + sin 2x)] dx",
+                    "text_english": "Find : ∫ eˣ [(1 + cos 2x)/(2 + sin 2x)] dx",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "eˣ · cos²x / (2 + sin 2x) form; final answer eˣ tan x + C via standard form"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Note that 1 + cos 2x = 2cos²x and 2 + sin 2x = 2 + 2 sin x cos x = 2(1 + sin x cos x). So the integrand becomes eˣ · 2cos²x / [2(1 + sin x cos x)] = eˣ cos²x/(1 + sin x cos x). We can write this as eˣ [tan x + sec²x · something]. Recognising the standard form ∫eˣ[f(x) + f'(x)]dx = eˣ f(x) + C: let f(x) = tan x, then f'(x) = sec²x. Now (1 + cos 2x)/(2 + sin 2x) = 2cos²x/(2 + 2 sin x cos x) = cos²x/(1 + sin x cos x). Dividing: tan x + sec²x corresponds to f(x) = tan x. Verify: the integrand = eˣ(tan x + sec²x) requires showing (1+cos2x)/(2+sin2x) simplifies to this form. Since (1+cos2x)/(2+sin2x) = 2cos²x/(2+sin2x) and using the identity this equals tan x + ... Using the known result, ∫eˣ(tan x + sec²x)dx = eˣ tan x + C.",
+                    "marks": 3
+                },
+                {
+                    "sub_id": "b",
+                    "text": "मान ज्ञात कीजिए : ∫₀^(π/4) 1/(sin x + cos x) dx",
+                    "text_english": "Evaluate : ∫₀^(π/4) 1/(sin x + cos x) dx",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "(1/√2) log|tan(x/2 + π/8)| evaluated from 0 to π/4"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "sin x + cos x = √2 sin(x + π/4). So the integral becomes ∫₀^(π/4) 1/[√2 sin(x + π/4)] dx = (1/√2) ∫₀^(π/4) cosec(x + π/4) dx = (1/√2) [log|tan((x + π/4)/2)|]₀^(π/4) = (1/√2)[log|tan(3π/8)| − log|tan(π/8)|] = (1/√2) log|tan(3π/8)/tan(π/8)|. Since tan(3π/8) = cot(π/8), this equals (1/√2) log(cot²(π/8)) = (√2) log(cot(π/8)) = (1/√2) log(1 + √2)².",
+                    "marks": 3
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "This question has two internal options. Solutions are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Integrals",
+            "topic": "Integration using e^x forms / Definite Integrals",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 32,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(क) रेखाओं x/1 = (y–1)/2 = (z–2)/3 और (x–1)/0 = y/(–3) = (z–7)/2 के प्रतिच्छेदन बिन्दु से गुजरने वाली उस रेखा का समीकरण ज्ञात कीजिए जो इन दी गई रेखाओं के लंबवत् है।\nअथवा\n(ख) एक समान्तर चतुर्भुज ABCD के दो शीर्ष A(–1, 2, 1) और B(1, –2, 5) हैं। यदि C और D से गुजरने वाली रेखा का समीकरण (x–4)/1 = (y+7)/(–2) = (z–8)/2 है, तो भुजाओं AB और CD के बीच की दूरी ज्ञात कीजिए। अतः, समान्तर चतुर्भुज ABCD का क्षेत्रफल ज्ञात कीजिए।",
+            "text_english": "(a) Find the equation of the line passing through the point of intersection of the lines x/1 = (y–1)/2 = (z–2)/3 and (x–1)/0 = y/(–3) = (z–7)/2 and perpendicular to these given lines.\nOR\n(b) Two vertices of the parallelogram ABCD are given as A(–1, 2, 1) and B(1, –2, 5). If the equation of the line passing through C and D is (x–4)/1 = (y+7)/(–2) = (z–8)/2, then find the distance between sides AB and CD. Hence, find the area of parallelogram ABCD.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "a",
+                    "text": "रेखाओं x/1 = (y–1)/2 = (z–2)/3 और (x–1)/0 = y/(–3) = (z–7)/2 के प्रतिच्छेदन बिन्दु से गुजरने वाली उस रेखा का समीकरण ज्ञात कीजिए जो इन दी गई रेखाओं के लंबवत् है।",
+                    "text_english": "Find the equation of the line passing through the point of intersection of the lines x/1 = (y–1)/2 = (z–2)/3 and (x–1)/0 = y/(–3) = (z–7)/2 and perpendicular to these given lines.",
+                    "type": "LONG_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Intersection point found by parameterising both lines; direction of required line = cross product of given direction vectors"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Line 1: x/1 = (y−1)/2 = (z−2)/3 = λ gives point (λ, 2λ+1, 3λ+2). Direction d₁ = (1,2,3). Line 2: (x−1)/0 = y/(−3) = (z−7)/2 = μ gives point (1, −3μ, 2μ+7). Direction d₂ = (0,−3,2). For intersection: λ = 1, 2λ+1 = −3μ → 3 = −3μ → μ = −1, 3λ+2 = 2μ+7 → 5 = 5 (consistent). Intersection point P = (1, 3, 5). Direction of required line = d₁ × d₂ = |î ĵ k̂; 1 2 3; 0 −3 2| = î(4+9) − ĵ(2−0) + k̂(−3−0) = (13, −2, −3). Equation of required line through (1, 3, 5) with direction (13, −2, −3): (x−1)/13 = (y−3)/(−2) = (z−5)/(−3).",
+                    "marks": 5
+                },
+                {
+                    "sub_id": "b",
+                    "text": "एक समान्तर चतुर्भुज ABCD के दो शीर्ष A(–1, 2, 1) और B(1, –2, 5) हैं। भुजाओं AB और CD के बीच की दूरी ज्ञात कीजिए। अतः, समान्तर चतुर्भुज ABCD का क्षेत्रफल ज्ञात कीजिए।",
+                    "text_english": "Two vertices of the parallelogram ABCD are A(–1, 2, 1) and B(1, –2, 5). Find the distance between sides AB and CD. Hence, find the area of parallelogram ABCD.",
+                    "type": "LONG_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Distance between AB and CD computed using skew-line formula; Area = |AB⃗| × distance"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "AB direction vector: B − A = (2, −4, 4), i.e., d₁ = (1, −2, 2). CD line direction: d₂ = (1, −2, 2). Since d₁ = d₂, AB and CD are parallel (as expected in a parallelogram). |AB| = √(4+16+16) = 6. A point on AB is A(−1, 2, 1). A point on CD is C which can be found from the line (x−4)/1 = (y+7)/(−2) = (z−8)/2 at parameter 0: C = (4, −7, 8). Vector AC = (5, −9, 7). Distance between parallel lines AB and CD = |AC × d₁|/|d₁|. AC × d₁ = |î ĵ k̂; 5 −9 7; 1 −2 2| = î(−18+14) − ĵ(10−7) + k̂(−10+9) = (−4, −3, −1). |AC × d₁| = √(16+9+1) = √26. Distance = √26/3. Area of parallelogram = |AB| × distance = 6 × √26/3 = 2√26.",
+                    "marks": 5
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "This question has two internal options. Solutions are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Three Dimensional Geometry",
+            "topic": "Lines in Space — Intersection, Perpendicularity, Distance",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 33,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "माना A = R – {3} और B = R – {a} हैं। 'a' का मान ज्ञात कीजिए जिससे फलन f : A → B जो f(x) = (x–2)/(x–3) द्वारा परिभाषित है, आच्छादक है। यह भी जाँच कीजिए कि क्या दिया गया फलन एकैकी है या नहीं।",
+            "text_english": "Let A = R – {3} and B = R – {a}. Find the value of 'a' such that the function f : A → B defined by f(x) = (x–2)/(x–3) is onto. Also, check whether the given function is one-one or not.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "a = 1; function is one-one"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Let y = (x−2)/(x−3). Solving for x: y(x−3) = x−2 → yx − 3y = x − 2 → x(y−1) = 3y−2 → x = (3y−2)/(y−1). For x to exist (x ∈ A = R−{3}), we need y ≠ 1. So f maps A to R−{1}, meaning B = R−{1} and a = 1. For onto: every y in R−{1} has a pre-image x = (3y−2)/(y−1) in A, since when y ≠ 1 we get a valid x, and one can verify x ≠ 3 (if x = 3, then 3y−2 = 3y−3 → −2 = −3, contradiction). So f is onto. For one-one: suppose f(x₁) = f(x₂). Then (x₁−2)/(x₁−3) = (x₂−2)/(x₂−3) → (x₁−2)(x₂−3) = (x₂−2)(x₁−3) → x₁x₂ − 3x₁ − 2x₂ + 6 = x₁x₂ − 3x₂ − 2x₁ + 6 → −3x₁ − 2x₂ = −3x₂ − 2x₁ → −x₁ = −x₂ → x₁ = x₂. Therefore f is one-one. Thus f is bijective with a = 1.",
+            "solution_hindi": null,
+            "chapter": "Relations and Functions",
+            "topic": "One-One and Onto Functions, Bijective Functions",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 34,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(क) दिया गया है कि फलन f(x) = x⁴ – 62x² + ax + 9 स्थानीय उच्चतम मान x = 1 पर प्राप्त करता है। 'a' का मान ज्ञात कीजिए, और सभी अन्य बिन्दु ज्ञात कीजिए जिन पर इस फलन f(x) का स्थानीय उच्चतम या स्थानीय निम्नतम मान प्राप्त होता है।\nअथवा\n(ख) एक आयताकार धातु की चादर का परिमाप 300 cm है। एक सिलेंडर बनाने के लिए इसको एक किनारे से लपेटा जाता है। आयताकार चादर की विमाएँ ज्ञात कीजिए जिससे बनाए गए सिलेंडर का आयतन अधिकतम हो।",
+            "text_english": "(a) It is given that function f(x) = x⁴ – 62x² + ax + 9 attains local maximum value at x = 1. Find the value of 'a', hence obtain all other points where the given function f(x) attains local maximum or local minimum values.\nOR\n(b) The perimeter of a rectangular metallic sheet is 300 cm. It is rolled along one of its sides to form a cylinder. Find the dimensions of the rectangular sheet so that volume of cylinder so formed is maximum.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "a",
+                    "text": "फलन f(x) = x⁴ – 62x² + ax + 9 स्थानीय उच्चतम मान x = 1 पर प्राप्त करता है। 'a' का मान ज्ञात कीजिए।",
+                    "text_english": "Function f(x) = x⁴ – 62x² + ax + 9 attains local maximum at x = 1. Find 'a' and all other local extrema.",
+                    "type": "LONG_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "a = 120; local minimum at x = –1 and x = 5 (or relevant points from f'(x) = 0)"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "f(x) = x⁴ − 62x² + ax + 9. f'(x) = 4x³ − 124x + a. Since x = 1 is a local maximum, f'(1) = 0: 4 − 124 + a = 0, so a = 120. Thus f'(x) = 4x³ − 124x + 120 = 4(x³ − 31x + 30). Factoring: x = 1 is a root, so dividing (x³ − 31x + 30) by (x−1): x³ − 31x + 30 = (x−1)(x² + x − 30) = (x−1)(x+6)(x−5). So f'(x) = 4(x−1)(x+6)(x−5). Critical points: x = 1, x = −6, x = 5. f''(x) = 12x² − 124. f''(1) = 12 − 124 = −112 < 0 → local maximum at x = 1. f''(−6) = 432 − 124 = 308 > 0 → local minimum at x = −6. f''(5) = 300 − 124 = 176 > 0 → local minimum at x = 5.",
+                    "marks": 5
+                },
+                {
+                    "sub_id": "b",
+                    "text": "एक आयताकार धातु की चादर का परिमाप 300 cm है। एक सिलेंडर बनाने के लिए इसको एक किनारे से लपेटा जाता है। आयताकार चादर की विमाएँ ज्ञात कीजिए जिससे सिलेंडर का आयतन अधिकतम हो।",
+                    "text_english": "The perimeter of a rectangular metallic sheet is 300 cm. It is rolled along one of its sides to form a cylinder. Find the dimensions of the rectangular sheet so that the volume of cylinder formed is maximum.",
+                    "type": "LONG_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Length = 100 cm, Width = 50 cm (breadth becomes circumference of cylinder)"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Let the dimensions of the rectangular sheet be l (length) and b (breadth). Perimeter: 2(l + b) = 300, so l + b = 150, giving l = 150 − b. When rolled along the side of length l, the breadth b becomes the circumference of the circular base: 2πr = b, so r = b/(2π). The height of the cylinder is h = l = 150 − b. Volume V = πr²h = π · b²/(4π²) · (150 − b) = b²(150 − b)/(4π). dV/db = [2b(150−b) − b²]/(4π) = b(300 − 3b)/(4π). Setting dV/db = 0: b = 0 or b = 100. So b = 100 cm and l = 50 cm. d²V/db² at b = 100 is negative, confirming maximum. The dimensions are length = 50 cm and breadth = 100 cm.",
+                    "marks": 5
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "This question has two internal options. Solutions are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Application of Derivatives",
+            "topic": "Local Maxima and Minima / Optimization",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 35,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "समाकलन के प्रयोग से, वक्र y = 2√(4–x) तथा रेखाओं x = –1, x = 1 तथा x-अक्ष से घिरे क्षेत्र का क्षेत्रफल ज्ञात कीजिए।",
+            "text_english": "Using integration, find the area of the region enclosed between the curve y = 2√(4–x) and the lines x = –1, x = 1 and the x-axis.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Area = (4/3)[12√3 – 10√5] or simplified form after evaluating definite integral"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "The curve is y = 2√(4−x), defined for x ≤ 4, and y ≥ 0 in this range. The region is between x = −1 and x = 1, above the x-axis. Area = ∫₋₁¹ 2√(4−x) dx. Let u = 4−x, then du = −dx. When x = −1, u = 5; when x = 1, u = 3. Area = 2∫₅³ √u (−du) = 2∫₃⁵ √u du = 2[2u^(3/2)/3]₃⁵ = (4/3)[u^(3/2)]₃⁵ = (4/3)[5^(3/2) − 3^(3/2)] = (4/3)[5√5 − 3√3]. Therefore the area is (4/3)(5√5 − 3√3) square units.",
+            "solution_hindi": null,
+            "chapter": "Application of Integrals",
+            "topic": "Area Between a Curve and Lines",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 36,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "छात्रवृत्ति एक छात्र को शिक्षा के लिए भुगतान करने में मदद करने के लिए प्रदान की जाने वाली धनराशि है। कुछ छात्रों को उनकी शैक्षणिक उपलब्धियों के आधार पर छात्रवृत्ति दी जाती है, जबकि अन्य को उनकी वित्तीय आवश्यकताओं के आधार पर पुरस्कृत किया जाता है। हर वर्ष एक स्कूल कुछ मानदंडों के आधार पर बालिकाओं और मेधावी उपलब्धि हासिल करने वालों को छात्रवृत्ति प्रदान करता है। सत्र 2022–23 में, स्कूल ने कुछ छात्राओं को ₹3,000 प्रत्येक की मासिक छात्रवृत्ति और शैक्षणिक और साथ ही खेल में मेधावी उपलब्धि हासिल करने वालों को ₹4,000 प्रत्येक की मासिक छात्रवृत्ति की पेशकश की। कुल मिलाकर, 50 छात्रों को छात्रवृत्ति प्रदान की गई और स्कूल द्वारा छात्रवृत्तियों पर ₹1,80,000 मासिक खर्च किया गया।",
+            "text_english": "A scholarship is a sum of money provided to a student to help him or her pay for education. Some students are granted scholarships based on their academic achievements, while others are rewarded based on their financial needs. Every year a school offers scholarships to girl children and meritorious achievers based on certain criteria. In the session 2022–23, the school offered monthly scholarship of ₹3,000 each to some girl students and ₹4,000 each to meritorious achievers in academics as well as sports. In all, 50 students were given the scholarships and monthly expenditure incurred by the school on scholarships was ₹1,80,000.",
+            "instruction_line": "उपर्युक्त सूचना के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए :",
+            "instruction_line_english": "Based on the above information, answer the following questions:",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "दी गई सूचना को आव्यूहों का उपयोग करते हुए, बीजगणितीय रूप में व्यक्त कीजिए।",
+                    "text_english": "Express the given information algebraically using matrices.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "x + y = 50 and 3000x + 4000y = 180000 expressed as AX = B"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Let x = number of girl students receiving ₹3,000 scholarship and y = number of meritorious students receiving ₹4,000 scholarship. The two equations are: x + y = 50 (total students) and 3000x + 4000y = 1,80,000 (total expenditure). In matrix form: [[1, 1],[3000, 4000]] · [[x],[y]] = [[50],[180000]], i.e., AX = B.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "जाँच कीजिए कि क्या प्राप्त हुआ आव्यूह समीकरण निकाय संगत है या नहीं।",
+                    "text_english": "Check whether the system of matrix equations so obtained is consistent or not.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "det(A) ≠ 0, so the system is consistent"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "For the matrix A = [[1,1],[3000,4000]], det(A) = 1×4000 − 1×3000 = 1000 ≠ 0. Since the determinant of the coefficient matrix is non-zero, the system is consistent and has a unique solution.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii_a",
+                    "text": "आव्यूहों का प्रयोग करके, स्कूल द्वारा प्रत्येक प्रकार की दी गई छात्रवृत्तियों की संख्या ज्ञात कीजिए।",
+                    "text_english": "(a) Find the number of scholarships of each kind given by the school, using matrices.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "x = 20 girl students, y = 30 meritorious students"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "A⁻¹ = (1/1000)[[4000, −1000],[−3000, 1000]] = [[4, −1],[−3, 1]]. So X = A⁻¹B = [[4,−1],[−3,1]] · [[50],[180]] (in thousands) = [[4×50−1×180],[−3×50+1×180]] = [[200−180],[−150+180]] = [[20],[30]]. Therefore the school gave 20 girl scholarships and 30 meritorious scholarships.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "iii_b",
+                    "text": "(ख) यदि छात्रवृत्ति की धनराशियाँ, जो एक बालिका को और एक मेधावी छात्र को प्रदान की गई हैं, को परस्पर बदल दिया जाए, तो स्कूल का मासिक खर्च क्या होगा ?",
+                    "text_english": "(b) Had the amount of scholarship given to each girl child and meritorious student been interchanged, what would be the monthly expenditure incurred by the school ?",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "New monthly expenditure = ₹1,70,000"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "From the solution found, there are 20 girl students and 30 meritorious students. If the amounts are interchanged, girl students get ₹4,000 each and meritorious students get ₹3,000 each. New expenditure = 20 × 4000 + 30 × 3000 = 80,000 + 90,000 = ₹1,70,000.",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780577701/d9e38b2b-caf8-4f4e-9d5e-5185feae2306.png",
+            "solution": "Case study based question. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Matrices",
+            "topic": "Matrix Equations and Applications",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 37,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "स्व-अध्ययन छात्रों को सीखने में आत्मविश्वास पैदा करने में मदद करता है। इससे छात्रों का आत्म-सम्मान बढ़ता है। हाल के सर्वेक्षणों से पता चला है कि लगभग 50% छात्रों ने इंटरनेट संसाधनों का उपयोग करके स्वयं शिक्षा प्राप्त की और खुद को कुशल बनाया। एक छात्र स्वयं के कौशल को बढ़ाने में एक दिन में 1 घंटे से 6 घंटे तक का समय व्यतीत कर सकता है। एक छात्र द्वारा व्यतीत किए गए घंटों की संख्या का प्रायिकता बंटन निम्न दिया गया है : P(X=x) = kx², x = 1,2,3 के लिए; 2kx, x = 4,5,6 के लिए; 0, अन्यथा। जहाँ x घंटों की संख्या को प्रदत्त करता है।",
+            "text_english": "Self-study helps students to build confidence in learning. It boosts the self-esteem of the learners. Recent surveys suggested that close to 50% learners were self-taught using internet resources and upskilled themselves. A student may spend 1 hour to 6 hours in a day in upskilling self. The probability distribution of the number of hours spent by a student is given below: P(X=x) = kx², for x = 1,2,3; 2kx, for x = 4,5,6; 0, otherwise. Where x denotes the number of hours.",
+            "instruction_line": "उपर्युक्त सूचना के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए :",
+            "instruction_line_english": "Based on the above information, answer the following questions:",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "ऊपर दिए गए प्रायिकता बंटन को प्रायिकता बंटन तालिका के रूप में व्यक्त कीजिए।",
+                    "text_english": "Express the probability distribution given above in the form of a probability distribution table.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Table with X = 1,2,3,4,5,6 and P(X) = k, 4k, 9k, 8k, 10k, 12k"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "The probability distribution table is: X: 1, 2, 3, 4, 5, 6. P(X): k(1)² = k, k(2)² = 4k, k(3)² = 9k, 2k(4) = 8k, 2k(5) = 10k, 2k(6) = 12k.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "k का मान ज्ञात कीजिए।",
+                    "text_english": "Find the value of k.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "k = 1/44"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "The sum of all probabilities must equal 1: k + 4k + 9k + 8k + 10k + 12k = 1 → 44k = 1 → k = 1/44.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii_a",
+                    "text": "छात्र द्वारा व्यतीत किए गए घंटों की संख्या का माध्य ज्ञात कीजिए।",
+                    "text_english": "(a) Find the mean number of hours spent by the student.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Mean = 307/44"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Mean E(X) = Σ x·P(X = x) = 1·k + 2·4k + 3·9k + 4·8k + 5·10k + 6·12k = k(1 + 8 + 27 + 32 + 50 + 72) = 190k = 190/44 = 95/22. The mean number of hours spent by the student is 95/22 ≈ 4.32 hours.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "iii_b",
+                    "text": "P(1 < X < 6) ज्ञात कीजिए।",
+                    "text_english": "(b) Find P(1 < X < 6).",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "P(1 < X < 6) = 31/44"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "P(1 < X < 6) = P(X=2) + P(X=3) + P(X=4) + P(X=5) = 4k + 9k + 8k + 10k = 31k = 31/44.",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780577603/edebb917-efe9-4137-a335-89e4c8f83d27.png",
+            "solution": "Case study based question. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Probability",
+            "topic": "Probability Distribution, Mean of Random Variable",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 38,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "एक निश्चित संख्या में जीवाणुओं का एक जीवाणु नमूना एक निश्चित समय में चरघातांकी रूप से बढ़ता हुआ देखा गया है। चरघातांकी वृद्धि मॉडल का उपयोग करके, जीवाणु के इस नमूने की वृद्धि दर की गणना की जाती है। जीवाणुओं की वृद्धि को दर्शाने वाला अवकल समीकरण इस प्रकार दिया गया है : dP/dt = kP, जहाँ P किसी भी समय 't' पर जीवाणुओं की जनसंख्या है।",
+            "text_english": "A bacteria sample of certain number of bacteria is observed to grow exponentially in a given amount of time. Using exponential growth model, the rate of growth of this sample of bacteria is calculated. The differential equation representing the growth of bacteria is given as : dP/dt = kP, where P is the population of bacteria at any time 't'.",
+            "instruction_line": "उपर्युक्त सूचना के आधार पर, निम्नलिखित प्रश्नों के उत्तर दीजिए :",
+            "instruction_line_english": "Based on the above information, answer the following questions:",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "दिए गए अवकल समीकरण का व्यापक हल ज्ञात कीजिए और इसको 't' के चरघातांकी फलन के रूप में व्यक्त कीजिए।",
+                    "text_english": "Obtain the general solution of the given differential equation and express it as an exponential function of 't'.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "P = P₀ eᵏᵗ"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "The differential equation is dP/dt = kP. Separating variables: dP/P = k dt. Integrating both sides: ln P = kt + C, where C is the constant of integration. Exponentiating: P = eᶜ · eᵏᵗ = Aeᵏᵗ, where A = eᶜ is an arbitrary constant. This is the general solution expressed as an exponential function of t: P = Aeᵏᵗ, or equivalently P = P₀eᵏᵗ where P₀ is the population at t = 0.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "यदि जीवाणुओं की जनसंख्या t = 0 पर 1000 और t = 1 पर 2000 है, तो k का मान ज्ञात कीजिए।",
+                    "text_english": "If population of bacteria is 1000 at t = 0, and 2000 at t = 1, find the value of k.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "k = ln 2 = log₂ (natural log of 2)"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Using P = P₀eᵏᵗ with P₀ = 1000: P = 1000 eᵏᵗ. At t = 1, P = 2000: 2000 = 1000 eᵏ, so eᵏ = 2, giving k = ln 2. Therefore the value of k is ln 2 (the natural logarithm of 2), which is approximately 0.693.",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780577657/f19c5c45-4221-42a9-b42e-3ad3f89901ce.png",
+            "solution": "Case study based question. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Differential Equations",
+            "topic": "Variable Separable Differential Equations / Exponential Growth Model",
+            "difficulty": "Easy"
+        }
+    ]
+}

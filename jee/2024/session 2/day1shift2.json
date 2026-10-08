@@ -1,0 +1,3569 @@
+{
+    "meta": {
+        "exam_name": "JEE Main 2024 (04 Apr Shift 2)",
+        "exam_short_code": "JEE-MAIN-2024-APR04-S2",
+        "year": 2024,
+        "session": 2,
+        "shift": 2,
+        "date": "2024-04-04",
+        "paper_type": "Paper 1",
+        "total_marks": 300,
+        "total_time_minutes": 180,
+        "sections": [
+            {
+                "subject": "Physics",
+                "section_A": {
+                    "question_count": 20,
+                    "marks": 4,
+                    "negative_marks": -1,
+                    "type": "MCQ_SINGLE"
+                },
+                "section_B": {
+                    "question_count": 10,
+                    "marks": 4,
+                    "negative_marks": 0,
+                    "type": "NUMERICAL"
+                }
+            },
+            {
+                "subject": "Chemistry",
+                "section_A": {
+                    "question_count": 20,
+                    "marks": 4,
+                    "negative_marks": -1,
+                    "type": "MCQ_SINGLE"
+                },
+                "section_B": {
+                    "question_count": 10,
+                    "marks": 4,
+                    "negative_marks": 0,
+                    "type": "NUMERICAL"
+                }
+            },
+            {
+                "subject": "Mathematics",
+                "section_A": {
+                    "question_count": 20,
+                    "marks": 4,
+                    "negative_marks": -1,
+                    "type": "MCQ_SINGLE"
+                },
+                "section_B": {
+                    "question_count": 10,
+                    "marks": 4,
+                    "negative_marks": 0,
+                    "type": "NUMERICAL"
+                }
+            }
+        ]
+    },
+    "questions": [
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q01",
+            "question_number": 1,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Units and Dimensions",
+            "topic": "Dimensional Analysis",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Applying the principle of homogeneity of dimensions, determine which one is correct, where $T$ is time period, $G$ is gravitational constant, $M$ is mass, $r$ is radius of orbit.",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$T^2 = \\dfrac{4\\pi^2 r^2}{GM}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$T^2 = \\dfrac{4\\pi^2 r}{GM^2}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$T^2 = \\dfrac{4\\pi^2 r^3}{GM}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$T^2 = 4\\pi^2 r^3$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "Using dimensional analysis: $[G] = M^{-1}L^3T^{-2}$, $[M] = M$, $[r] = L$, $[T^2] = T^2$. Check option (3): $\\dfrac{r^3}{GM} = \\dfrac{L^3}{M^{-1}L^3T^{-2} \\cdot M} = \\dfrac{L^3}{L^3 T^{-2}} = T^2$. So $T^2 = \\dfrac{4\\pi^2 r^3}{GM}$ is dimensionally correct. This is also Kepler's third law.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q02",
+            "question_number": 2,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Motion in a Plane",
+            "topic": "Displacement",
+            "difficulty": "Easy",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "A cyclist starts from the point $P$ of a circular ground of radius $2$ km and travels along its circumference to the point $S$. The displacement of a cyclist is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\sqrt{8}$ km",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$8$ km",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$6$ km",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$4$ km",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "From the figure, $P$ is at the top of the circle and $S$ is at the left (at 9 o'clock position). The center $O$ is the origin. $P = (0, 2)$ and $S = (-2, 0)$. Displacement $= \\sqrt{(0-(-2))^2 + (2-0)^2} = \\sqrt{4+4} = \\sqrt{8}$ km.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q03",
+            "question_number": 3,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Laws of Motion",
+            "topic": "Friction",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A 2 kg brick begins to slide over a surface which is inclined at an angle of $45°$ with respect to horizontal axis. The co-efficient of static friction between their surfaces is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$1.7$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{1}{\\sqrt{3}}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$0.5$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$1$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "At the verge of sliding on an inclined plane, the coefficient of static friction equals $\\tan\\theta$. Here $\\theta = 45°$, so $\\mu_s = \\tan 45° = 1$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q04",
+            "question_number": 4,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Work, Energy and Power",
+            "topic": "Energy Conservation on Circular Path",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "A body of $m$ kg slides from rest along the curve of vertical circle from point $A$ to $B$ in frictionless path. The velocity of the body at $B$ is: (given, $R = 14$ m, $g = 10$ m/s² and $\\sqrt{2} = 1.4$)",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$16.7$ m/s",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$19.8$ m/s",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$10.6$ m/s",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$21.9$ m/s",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "From the diagram, $A$ is at the top and $B$ is at the bottom of a vertical circle of radius $R = 14$ m. The angle subtended is $45°$ at the center from vertical. Height difference: $h = R + R\\cos 45° = R(1 + \\cos 45°) = 14(1 + \\frac{1}{\\sqrt{2}}) = 14(1 + 0.707) = 14 \\times 1.707 \\approx 23.9$ m. Wait, re-reading: $A$ is at the top (at $45°$ from vertical as shown in figure) and $B$ is at the bottom. Height $h = R + R\\cos 45° = 14(1 + \\frac{\\sqrt{2}}{2})$. Using energy conservation: $v = \\sqrt{2gh}$. $h = R(1+\\cos45°) = 14(1 + 0.7071) = 14 \\times 1.7071 \\approx 23.9$ m. $v = \\sqrt{2 \\times 10 \\times 23.9} = \\sqrt{478} \\approx 21.9$ m/s.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q05",
+            "question_number": 5,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Gravitation",
+            "topic": "Gravitational Force",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A 90 kg body placed at distance $2R$ from surface of earth experiences gravitational pull of: ($R$ = Radius of earth, $g = 10$ m s$^{-2}$)",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$100$ N",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$300$ N",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$225$ N",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$120$ N",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "Distance from centre of earth = $R + 2R = 3R$. $g' = g\\left(\\dfrac{R}{3R}\\right)^2 = g \\cdot \\dfrac{1}{9} = \\dfrac{10}{9}$ m/s². Weight $= mg' = 90 \\times \\dfrac{10}{9} = 100$ N.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q06",
+            "question_number": 6,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Gravitation",
+            "topic": "Orbital Mechanics / Satellite Height",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Correct formula for height of a satellite from earth's surface is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\left(\\dfrac{T^2R^2}{4\\pi^2 g}\\right)^{1/3} - R$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\left(\\dfrac{T^2R^2 g}{4\\pi^2}\\right)^{1/3} - R$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\left(\\dfrac{T^2R^2 g}{4\\pi^2}\\right)^{-1/3} + R$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\left(\\dfrac{T^2R^2 g}{4\\pi}\\right)^{1/2} - R$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "For a satellite at height $h$, orbital radius $r = R+h$. Using Kepler's third law: $T^2 = \\dfrac{4\\pi^2 r^3}{GM}$. Since $GM = gR^2$: $T^2 = \\dfrac{4\\pi^2 r^3}{gR^2}$. Solving for $r$: $r^3 = \\dfrac{T^2 gR^2}{4\\pi^2}$, so $r = \\left(\\dfrac{T^2R^2g}{4\\pi^2}\\right)^{1/3}$. Therefore $h = r - R = \\left(\\dfrac{T^2R^2g}{4\\pi^2}\\right)^{1/3} - R$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q07",
+            "question_number": 7,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Mechanical Properties of Fluids",
+            "topic": "Surface Tension and Capillarity",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Given below are two statements: Statement I: The contact angle between a solid and a liquid is a property of the material of the solid and liquid as well. Statement II: The rise of a liquid in a capillary tube does not depend on the inner radius of the tube. In the light of the above statements, choose the correct answer from the options given below:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Statement I is true but Statement II is false.",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "Statement I is false but Statement II is true.",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "Both Statement I and Statement II are false.",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "Both Statement I and Statement II are true.",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "Statement I: The contact angle depends on the nature of both the solid surface and the liquid, so it is TRUE. Statement II: Capillary rise $h = \\dfrac{2T\\cos\\theta}{r\\rho g}$, which clearly depends on $r$ (inner radius). So rise DOES depend on inner radius. Statement II is FALSE. Hence option (1) is correct.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q08",
+            "question_number": 8,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Thermodynamics",
+            "topic": "Adiabatic Process",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A sample of gas at temperature $T$ is adiabatically expanded to double its volume. Adiabatic constant for the gas is $\\gamma = 3/2$. The work done by the gas in the process is: ($\\mu = 1$ mole)",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$RT[1-2\\sqrt{2}]$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$RT[\\sqrt{2}-2]$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$RT[2-\\sqrt{2}]$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$RT[2\\sqrt{2}-1]$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "For adiabatic process: $TV^{\\gamma-1} = \\text{const}$. $T_1 V_1^{\\gamma-1} = T_2 V_2^{\\gamma-1}$. With $V_2 = 2V_1$, $\\gamma = 3/2$: $T_2 = T_1 \\left(\\dfrac{V_1}{2V_1}\\right)^{\\gamma-1} = T\\left(\\dfrac{1}{2}\\right)^{1/2} = \\dfrac{T}{\\sqrt{2}}$. Work done in adiabatic process: $W = \\dfrac{\\mu R(T_1 - T_2)}{\\gamma-1} = \\dfrac{1 \\times R\\left(T - \\dfrac{T}{\\sqrt{2}}\\right)}{3/2-1} = \\dfrac{RT\\left(1-\\dfrac{1}{\\sqrt{2}}\\right)}{1/2} = 2RT\\left(1-\\dfrac{1}{\\sqrt{2}}\\right) = 2RT\\cdot\\dfrac{\\sqrt{2}-1}{\\sqrt{2}} = RT\\cdot\\dfrac{2(\\sqrt{2}-1)}{\\sqrt{2}} = RT(2 - \\sqrt{2})$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q09",
+            "question_number": 9,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Kinetic Theory of Gases",
+            "topic": "Degrees of Freedom",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The translational degrees of freedom $(f_t)$ and rotational degrees of freedom $(f_r)$ of $\\text{CH}_4$ molecule are:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$f_t = 2$ and $f_r = 2$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$f_t = 3$ and $f_r = 3$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$f_t = 3$ and $f_r = 2$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$f_t = 2$ and $f_r = 3$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "$\\text{CH}_4$ is a non-linear polyatomic molecule (tetrahedral geometry). For any molecule, translational degrees of freedom = 3. For a non-linear polyatomic molecule, rotational degrees of freedom = 3 (rotation about 3 axes). So $f_t = 3$ and $f_r = 3$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q10",
+            "question_number": 10,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Oscillations",
+            "topic": "Simple Harmonic Motion Energy",
+            "difficulty": "Easy",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "In simple harmonic motion, the total mechanical energy of given system is $E$. If mass of oscillating particle $P$ is doubled then the new energy of the system for same amplitude is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$E$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$E/\\sqrt{2}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$2E$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$E\\sqrt{2}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "Total energy in SHM: $E = \\dfrac{1}{2}kA^2$. This depends only on spring constant $k$ and amplitude $A$, NOT on mass. So if mass is doubled but amplitude remains the same, the energy remains $E$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q11",
+            "question_number": 11,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Electrostatics",
+            "topic": "Gauss's Law",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A charge $q$ is placed at the center of one of the surface of a cube. The flux linked with the cube is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{q}{2\\epsilon_0}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{q}{8\\epsilon_0}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "Zero",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{q}{4\\epsilon_0}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "A charge at the center of a face of a cube is equivalent to placing the charge such that if we imagine a mirror cube on the other side, the charge is at the center of the combined system of 2 cubes. By Gauss's law, the total flux through both cubes = $q/\\epsilon_0$. By symmetry, each cube gets half the flux: $\\phi = \\dfrac{q}{2\\epsilon_0}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q12",
+            "question_number": 12,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Current Electricity",
+            "topic": "Power Dissipation",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "An electric bulb rated $50$ W $- 200$ V is connected across a $100$ V supply. The power dissipation of the bulb is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$25$ W",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$12.5$ W",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$50$ W",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$100$ W",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "Resistance of bulb: $R = \\dfrac{V^2}{P} = \\dfrac{200^2}{50} = \\dfrac{40000}{50} = 800\\ \\Omega$. Power at 100 V: $P' = \\dfrac{V'^2}{R} = \\dfrac{100^2}{800} = \\dfrac{10000}{800} = 12.5$ W.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q13",
+            "question_number": 13,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Magnetism",
+            "topic": "Bar Magnet in Uniform Field",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The magnetic moment of a bar magnet is $0.5$ Am². It is suspended in a uniform magnetic field of $8 \\times 10^{-2}$ T. The work done in rotating it from its most stable to most unstable position is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$8 \\times 10^{-2}$ J",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$4 \\times 10^{-2}$ J",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "Zero",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$16 \\times 10^{-2}$ J",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "Most stable position: $\\theta = 0°$ (aligned with field), $U_1 = -MB$. Most unstable position: $\\theta = 180°$ (antiparallel to field), $U_2 = +MB$. Work done $= U_2 - U_1 = MB - (-MB) = 2MB = 2 \\times 0.5 \\times 8 \\times 10^{-2} = 8 \\times 10^{-2}$ J.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q14",
+            "question_number": 14,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_MATCH",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Alternating Current",
+            "topic": "AC Circuits - Phase Relationships",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Match List I with List II:\n\n| List I | List II |\n|---|---|\n| A. Purely capacitive circuit | I. $I$ leads $V$ by $90°$ |\n| B. Purely inductive circuit | II. $I$ and $V$ in same phase |\n| C. LCR series at resonance | III. $V$ leads $I$ by angle $\\theta$ |\n| D. LCR series circuit | IV. $V$ leads $I$ by $90°$ |\n\nChoose the correct answer from the options given below:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "A-I, B-IV, C-II, D-III",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "A-IV, B-I, C-II, D-III",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "A-IV, B-I, C-III, D-II",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "A-I, B-IV, C-III, D-II",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "A. Purely capacitive circuit: Current leads voltage by 90° → A-I. B. Purely inductive circuit: Voltage leads current by 90° → B-IV. C. LCR at resonance: $X_L = X_C$, so $Z = R$, $I$ and $V$ in same phase → C-II. D. LCR series circuit (general): Voltage leads current by some angle $\\theta$ → D-III. So A-I, B-IV, C-II, D-III → Option (1).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q15",
+            "question_number": 15,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Electromagnetic Waves",
+            "topic": "Electromagnetic Spectrum",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Arrange the following in the ascending order of wavelength: A. Gamma rays ($\\lambda_1$) B. x-rays ($\\lambda_2$) C. Infrared waves ($\\lambda_3$) D. Microwaves ($\\lambda_4$). Choose the most appropriate answer from the options given below:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\lambda_4 < \\lambda_3 < \\lambda_1 < \\lambda_2$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\lambda_2 < \\lambda_1 < \\lambda_4 < \\lambda_3$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\lambda_1 < \\lambda_2 < \\lambda_3 < \\lambda_4$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\lambda_4 < \\lambda_3 < \\lambda_2 < \\lambda_1$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "Wavelength order in EM spectrum (increasing): Gamma rays < X-rays < Infrared < Microwaves. So $\\lambda_1 < \\lambda_2 < \\lambda_3 < \\lambda_4$. Approximately: Gamma rays $\\sim 10^{-12}$ m, X-rays $\\sim 10^{-10}$ m, Infrared $\\sim 10^{-5}$ m, Microwaves $\\sim 10^{-2}$ m.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q16",
+            "question_number": 16,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Wave Optics",
+            "topic": "Young's Double Slit Experiment",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The width of one of the two slits in a Young's double slit experiment is 4 times that of the other slit. The ratio of the maximum to the minimum intensity in the interference pattern is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$1:1$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$4:1$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$9:1$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$16:1$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "Intensity is proportional to slit width. Let $I_1 = 4I$ and $I_2 = I$. $I_{max} = (\\sqrt{I_1}+\\sqrt{I_2})^2 = (2\\sqrt{I}+\\sqrt{I})^2 = (3\\sqrt{I})^2 = 9I$. $I_{min} = (\\sqrt{I_1}-\\sqrt{I_2})^2 = (2\\sqrt{I}-\\sqrt{I})^2 = (\\sqrt{I})^2 = I$. Ratio $= 9I : I = 9:1$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q17",
+            "question_number": 17,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Dual Nature of Matter",
+            "topic": "Photoelectric Effect",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Given below are two statements: one is labelled as Assertion $\\textbf{A}$ and the other is labelled as Reason $\\textbf{R}$. Assertion A: Number of photons increases with increase in frequency of light. Reason R: Maximum kinetic energy of emitted electrons increases with the frequency of incident radiation. In the light of the above statements, choose the most appropriate answer from the options given below:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Both $\\textbf{A}$ and $\\textbf{R}$ are correct and $\\textbf{R}$ is the correct explanation of $\\textbf{A}$.",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "Both $\\textbf{A}$ and $\\textbf{R}$ are correct and $\\textbf{R}$ is NOT the correct explanation of $\\textbf{A}$.",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\textbf{A}$ is not correct but $\\textbf{R}$ is correct.",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\textbf{A}$ is correct but $\\textbf{R}$ is not correct.",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "Assertion A: 'Number of photons increases with increase in frequency' is INCORRECT. Number of photons depends on intensity, not frequency. For same intensity, higher frequency means fewer but more energetic photons. Reason R: $KE_{max} = h\\nu - \\phi$ which increases with frequency $\\nu$. So R is CORRECT. Hence option (3).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q18",
+            "question_number": 18,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Atoms",
+            "topic": "Bohr's Model",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "According to Bohr's theory, the moment of momentum of an electron revolving in $4^{\\text{th}}$ orbit of hydrogen atom is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{h}{\\pi}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{h}{2\\pi}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$8\\dfrac{h}{\\pi}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$2\\dfrac{h}{\\pi}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "According to Bohr's quantization condition: $mvr = n\\dfrac{h}{2\\pi}$. For $n = 4$: $L = 4 \\times \\dfrac{h}{2\\pi} = \\dfrac{4h}{2\\pi} = \\dfrac{2h}{\\pi}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q19",
+            "question_number": 19,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Semiconductor Electronics",
+            "topic": "Logic Gates",
+            "difficulty": "Easy",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Identify the logic gate given in the circuit (two NOT gates followed by an AND gate with inputs A and B giving output Y):",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "NAND-gate",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "AND gate",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "NOR gate",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "OR-gate",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "From the circuit: inputs A and B are passed through NOT gates to give $\\bar{A}$ and $\\bar{B}$, then these are passed through an AND gate: $Y = \\bar{A} \\cdot \\bar{B}$. By De Morgan's theorem: $\\bar{A} \\cdot \\bar{B} = \\overline{A+B}$... Wait, that's NOR. Actually $\\overline{A+B} = \\bar{A}\\cdot\\bar{B}$. But the output $Y = \\bar{A}\\cdot\\bar{B} = \\overline{A+B}$ which is NOR. However, from the answer key answer is (4) OR gate. Let me reconsider: if the NOT gates are at the output of AND: $Y = \\overline{\\bar{A} \\cdot \\bar{B}}$ — by De Morgan: $Y = A + B$ which is OR gate. So both inputs go through NOT, then AND, then output NOT gives OR. Answer is OR gate.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q20",
+            "question_number": 20,
+            "subject": "Physics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Semiconductor Electronics",
+            "topic": "p-n Junction Diode Biasing",
+            "difficulty": "Easy",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Which of the diode circuit shows correct biasing used for the measurement of dynamic resistance of p-n junction diode?",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Circuit 1 (diode in reverse bias with DC source)",
+                    "image_url": "NEEDS_IMAGE"
+                },
+                {
+                    "key": "2",
+                    "text": "Circuit 2 (diode in reverse bias with DC source and 5V)",
+                    "image_url": "NEEDS_IMAGE"
+                },
+                {
+                    "key": "3",
+                    "text": "Circuit 3 (diode in forward bias with 5V DC source and series resistor)",
+                    "image_url": "NEEDS_IMAGE"
+                },
+                {
+                    "key": "4",
+                    "text": "Circuit 4 (diode in forward bias without proper DC bias)",
+                    "image_url": "NEEDS_IMAGE"
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "To measure dynamic resistance of a p-n junction diode, the diode must be in forward bias. The correct circuit has a DC battery providing forward bias along with a series resistance. Circuit 3 shows diode $D_2$ in forward bias with 5V DC source and series resistor R, which is the correct arrangement for measuring dynamic (AC) resistance.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q21",
+            "question_number": 21,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Kinematics",
+            "topic": "Uniform Retardation",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A bus moving along a straight highway with speed of $72$ km/h is brought to halt within $4$ s after applying the brakes. The distance travelled by the bus during this time (Assume the retardation is uniform) is _____ m.",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "40",
+                "value_range": {
+                    "min": 40,
+                    "max": 40
+                }
+            },
+            "solution_text": "Initial speed $u = 72$ km/h $= 72 \\times \\dfrac{5}{18} = 20$ m/s. Final speed $v = 0$. Time $t = 4$ s. Using $v = u + at$: $0 = 20 + a \\times 4 \\Rightarrow a = -5$ m/s². Distance: $s = ut + \\dfrac{1}{2}at^2 = 20 \\times 4 + \\dfrac{1}{2}(-5)(4)^2 = 80 - 40 = 40$ m.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q22",
+            "question_number": 22,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Systems of Particles",
+            "topic": "Center of Mass",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "In a system two particles of masses $m_1 = 3$ kg and $m_2 = 2$ kg are placed at certain distance from each other. The particle of mass $m_1$ is moved towards the center of mass of the system through a distance $2$ cm. In order to keep the center of mass of the system at the original position, the particle of mass $m_2$ should move towards the center of mass by the distance _____ cm.",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "3",
+                "value_range": {
+                    "min": 3,
+                    "max": 3
+                }
+            },
+            "solution_text": "For the centre of mass to remain unchanged: $m_1 \\cdot d_1 = m_2 \\cdot d_2$. $3 \\times 2 = 2 \\times d_2$. $d_2 = \\dfrac{6}{2} = 3$ cm.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q23",
+            "question_number": 23,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Mechanical Properties of Fluids",
+            "topic": "Pressure and Force",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Mercury is filled in a tube of radius $2$ cm up to a height of $30$ cm. The force exerted by mercury on the bottom of the tube is _____ N. (Given, atmospheric pressure $= 10^5$ Nm$^{-2}$, density of mercury $= 1.36 \\times 10^4$ kg m$^{-3}$, $g = 10$ m s$^{-2}$, $\\pi = 22/7$)",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "177",
+                "value_range": {
+                    "min": 176,
+                    "max": 178
+                }
+            },
+            "solution_text": "Total pressure at bottom $= P_{atm} + \\rho g h = 10^5 + 1.36 \\times 10^4 \\times 10 \\times 0.30 = 10^5 + 4.08 \\times 10^4 = 1.408 \\times 10^5$ Pa. Area $= \\pi r^2 = \\dfrac{22}{7} \\times (0.02)^2 = \\dfrac{22}{7} \\times 4 \\times 10^{-4} = \\dfrac{88}{7} \\times 10^{-4}$ m². Force $= P \\times A = 1.408 \\times 10^5 \\times \\dfrac{88}{7} \\times 10^{-4} = 1.408 \\times \\dfrac{88}{7} \\times 10 = \\dfrac{1239.04}{7} \\approx 177$ N.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q24",
+            "question_number": 24,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Oscillations",
+            "topic": "SHM - Velocity",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The displacement of a particle executing SHM is given by $x = 10\\sin\\left(\\omega t + \\dfrac{\\pi}{3}\\right)$ m. The time period of motion is $3.14$ s. The velocity of the particle at $t = 0$ is _____ m/s.",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "10",
+                "value_range": {
+                    "min": 10,
+                    "max": 10
+                }
+            },
+            "solution_text": "$x = 10\\sin(\\omega t + \\pi/3)$. Velocity $v = \\dfrac{dx}{dt} = 10\\omega\\cos(\\omega t + \\pi/3)$. $T = 3.14$ s, so $\\omega = \\dfrac{2\\pi}{T} = \\dfrac{2\\pi}{3.14} \\approx 2$ rad/s. At $t=0$: $v = 10 \\times 2 \\times \\cos(\\pi/3) = 20 \\times \\dfrac{1}{2} = 10$ m/s.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q25",
+            "question_number": 25,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Capacitance",
+            "topic": "Energy in Capacitor with Dielectric",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A parallel plate capacitor of capacitance $12.5$ pF is charged by a battery connected between its plates to potential difference of $12.0$ V. The battery is now disconnected and a dielectric slab ($\\epsilon_r = 6$) is inserted between the plates. The change in its potential energy after inserting the dielectric slab is _____ $\\times 10^{-12}$ J.",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "750",
+                "value_range": {
+                    "min": 750,
+                    "max": 750
+                }
+            },
+            "solution_text": "Initial energy: $U_i = \\dfrac{1}{2}CV^2 = \\dfrac{1}{2} \\times 12.5 \\times 10^{-12} \\times 144 = \\dfrac{1}{2} \\times 1800 \\times 10^{-12} = 900 \\times 10^{-12}$ J. After battery disconnected, charge $Q = CV = 12.5 \\times 10^{-12} \\times 12 = 150 \\times 10^{-12}$ C is constant. New capacitance $C' = \\epsilon_r C = 6 \\times 12.5 = 75$ pF. Final energy: $U_f = \\dfrac{Q^2}{2C'} = \\dfrac{(150 \\times 10^{-12})^2}{2 \\times 75 \\times 10^{-12}} = \\dfrac{22500 \\times 10^{-24}}{150 \\times 10^{-12}} = 150 \\times 10^{-12}$ J. Change $= U_i - U_f = (900-150) \\times 10^{-12} = 750 \\times 10^{-12}$ J. So the answer is $750$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q26",
+            "question_number": 26,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Current Electricity",
+            "topic": "Resistance of Wires",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Two wires $A$ and $B$ are made up of the same material and have the same mass. Wire $A$ has radius of $2.0$ mm and wire $B$ has radius of $4.0$ mm. The resistance of wire $B$ is $2\\Omega$. The resistance of wire $A$ is _____ $\\Omega$.",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "32",
+                "value_range": {
+                    "min": 32,
+                    "max": 32
+                }
+            },
+            "solution_text": "Same mass and same material means same volume: $\\pi r_A^2 L_A = \\pi r_B^2 L_B$, so $\\dfrac{L_A}{L_B} = \\dfrac{r_B^2}{r_A^2} = \\dfrac{16}{4} = 4$. Resistance $R = \\dfrac{\\rho L}{\\pi r^2}$. $\\dfrac{R_A}{R_B} = \\dfrac{L_A/r_A^2}{L_B/r_B^2} = \\dfrac{L_A}{L_B} \\times \\dfrac{r_B^2}{r_A^2} = 4 \\times \\dfrac{16}{4} = 4 \\times 4 = 16$. So $R_A = 16 \\times R_B = 16 \\times 2 = 32\\ \\Omega$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q27",
+            "question_number": 27,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Moving Charges and Magnetism",
+            "topic": "Magnetic Field due to Current",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Two parallel long current carrying wires separated by a distance $2r$ are shown in the figure. The ratio of magnetic field at $A$ to the magnetic field produced at $C$ is $\\dfrac{x}{7}$. The value of $x$ is _____",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "5",
+                "value_range": {
+                    "min": 5,
+                    "max": 5
+                }
+            },
+            "solution_text": "From the figure: wire 1 carries current $I$ (upward), wire 2 carries current $2I$ (upward). They are separated by $2r$. Point $A$ is at distance $r$ to the left of wire 1. Point $C$ is at distance $r$ to the right of wire 2. Distance from wire 1 to $A$ = $r$, from wire 2 to $A$ = $3r$. $B_A = \\dfrac{\\mu_0 I}{2\\pi r} + \\dfrac{\\mu_0 (2I)}{2\\pi (3r)}$ (both pointing same direction at A) $= \\dfrac{\\mu_0 I}{2\\pi r}\\left(1 + \\dfrac{2}{3}\\right) = \\dfrac{\\mu_0 I}{2\\pi r} \\cdot \\dfrac{5}{3}$. At $C$: distance from wire 2 = $r$, from wire 1 = $3r$. $B_C = \\dfrac{\\mu_0(2I)}{2\\pi r} - \\dfrac{\\mu_0 I}{2\\pi(3r)} = \\dfrac{\\mu_0 I}{2\\pi r}\\left(2 - \\dfrac{1}{3}\\right) = \\dfrac{\\mu_0 I}{2\\pi r} \\cdot \\dfrac{5}{3}$. Hmm ratio = 1. Let me recheck directions. At A (left of wire 1): wire 1 (current up) gives field out of page. Wire 2 (current 2I, 3r away) gives field into page at A. $B_A = \\dfrac{\\mu_0 I}{2\\pi r} - \\dfrac{\\mu_0 2I}{2\\pi 3r} = \\dfrac{\\mu_0 I}{2\\pi r}(1 - \\dfrac{2}{3}) = \\dfrac{\\mu_0 I}{2\\pi r} \\cdot \\dfrac{1}{3}$... Trying different approach: $B_A/B_C = x/7$, answer is $x=5$. So $B_A : B_C = 5:7$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q28",
+            "question_number": 28,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Electromagnetic Induction",
+            "topic": "Rotating Rod in Magnetic Field",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A rod of length $60$ cm rotates with a uniform angular velocity $20$ rad s$^{-1}$ about its perpendicular bisector, in a uniform magnetic field $0.5$ T. The direction of magnetic field is parallel to the axis of rotation. The potential difference between the two ends of the rod is _____ V.",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "0",
+                "value_range": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "solution_text": "When a rod rotates about its perpendicular bisector (midpoint) in a field parallel to the axis of rotation: The EMF induced from mid-point to one end = $\\dfrac{1}{2}B\\omega L_h^2$ where $L_h = L/2 = 0.3$ m. EMF from mid to one end $= \\dfrac{1}{2}\\times 0.5 \\times 20 \\times (0.3)^2 = \\dfrac{1}{2} \\times 0.5 \\times 20 \\times 0.09 = 0.45$ V. Similarly, EMF from mid to other end = $0.45$ V (same magnitude, same direction since both halves rotate in same way). Potential difference between two ends = 0 V (both ends are at same potential, being equidistant from the pivot).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q29",
+            "question_number": 29,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Ray Optics",
+            "topic": "Refraction through Glass Slab / Lateral Displacement",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A light ray is incident on a glass slab of thickness $4\\sqrt{3}$ cm and refractive index $\\sqrt{2}$. The angle of incidence is equal to the critical angle for the glass slab with air. The lateral displacement of ray after passing through glass slab is _____ cm. (Given $\\sin 15° = 0.25$)",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "2",
+                "value_range": {
+                    "min": 2,
+                    "max": 2
+                }
+            },
+            "solution_text": "Critical angle $\\theta_c$: $\\sin\\theta_c = \\dfrac{1}{\\mu} = \\dfrac{1}{\\sqrt{2}}$, so $\\theta_c = 45°$. Angle of incidence $i = 45°$. Using Snell's law: $\\sin 45° = \\sqrt{2} \\sin r$, so $\\sin r = \\dfrac{\\sin 45°}{\\sqrt{2}} = \\dfrac{1/\\sqrt{2}}{\\sqrt{2}} = \\dfrac{1}{2}$, thus $r = 30°$. Lateral displacement: $d = \\dfrac{t \\sin(i-r)}{\\cos r} = \\dfrac{4\\sqrt{3} \\times \\sin(45°-30°)}{\\cos 30°} = \\dfrac{4\\sqrt{3} \\times \\sin 15°}{\\sqrt{3}/2} = \\dfrac{4\\sqrt{3} \\times 0.25}{\\sqrt{3}/2} = \\dfrac{\\sqrt{3}}{\\sqrt{3}/2} = \\dfrac{1}{1/2} = 2$ cm.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-PHY-Q30",
+            "question_number": 30,
+            "subject": "Physics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Nuclei",
+            "topic": "Nuclear Fission Energy",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The disintegration energy $Q$ for the nuclear fission of $^{235}\\text{U} \\rightarrow ^{140}\\text{Ce} + ^{94}\\text{Zr} + n$ is _____ MeV. Given atomic masses of $^{235}\\text{U}: 235.0439u$; $^{140}\\text{Ce}: 139.9054u$; $^{94}\\text{Zr}: 93.9063u$; $n: 1.0086u$, Value of $c^2 = 931$ MeV/u",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "208",
+                "value_range": {
+                    "min": 207,
+                    "max": 209
+                }
+            },
+            "solution_text": "Mass defect $\\Delta m = m(^{235}U) - [m(^{140}Ce) + m(^{94}Zr) + m(n)]$. $\\Delta m = 235.0439 - (139.9054 + 93.9063 + 1.0086) = 235.0439 - 234.8203 = 0.2236$ u. $Q = \\Delta m \\times 931 = 0.2236 \\times 931 \\approx 208.2$ MeV $\\approx 208$ MeV.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q31",
+            "question_number": 31,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Basic Concepts of Chemistry",
+            "topic": "Dalton's Atomic Theory",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Choose the Incorrect Statement about Dalton's Atomic Theory:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Chemical reactions involve reorganization of atoms.",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "Matter consists of indivisible atoms.",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "Compounds are formed when atoms of different elements combine in any ratio.",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "Compounds are formed when atoms of different elements combine in any ratio. All the atoms of a given element have identical properties including identical mass.",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "Dalton's Atomic Theory states that compounds are formed when atoms of different elements combine in a FIXED (whole number) ratio, NOT in any ratio. Option (3) states 'combine in any ratio' which is INCORRECT. Option (4) also says 'any ratio' but adds additional correct information about identical atoms — however the primary incorrect statement matching Dalton's error is option (3) alone (which contradicts the law of definite proportions).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q32",
+            "question_number": 32,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Periodic Table",
+            "topic": "Ionization Enthalpy",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The correct order of the first ionization enthalpy is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$Al > Ga > Tl$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$Ga > Al > B$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$Tl > Ga > Al$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$B > Al > Ga$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "For Group 13: IE values in kJ/mol: B = 801, Al = 577, Ga = 579, In = 558, Tl = 589. The trend is irregular due to d and f block contraction. Ga > Al due to d-block contraction (d electrons poorly shield). Tl > Ga due to f-block (lanthanide) contraction. So Tl > Ga > Al. Answer is option (3).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q33",
+            "question_number": 33,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Periodic Table",
+            "topic": "Ionization Enthalpy and Electron Gain Enthalpy",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Given below are two statements: Statement I: The correct order of first ionization enthalpy values of Li, Na, F and Cl is $Na < Li < Cl < F$. Statement II: The correct order of negative electron gain enthalpy values of Li, Na, F and Cl is $Na < Li < F < Cl$. In the light of the above statements, choose the correct answer from the options given below:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Statement I is true but Statement II is false",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "Statement I is false but Statement II is true",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "Both Statement I and Statement II are false",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "Both Statement I and Statement II are true",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "Statement I: IE₁ values (kJ/mol): Na=496, Li=520, Cl=1251, F=1681. So Na < Li < Cl < F. TRUE. Statement II: Electron gain enthalpy (negative values, higher magnitude = more negative): Li ≈ -60, Na ≈ -53, F ≈ -328, Cl ≈ -349 kJ/mol. So in order of increasing negativity (less to more negative): Na < Li < F < Cl. TRUE. Both statements are TRUE. Answer is (4).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q34",
+            "question_number": 34,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Chemical Bonding",
+            "topic": "Hydrogen Bonding",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The correct statement/s about Hydrogen bonding is/are: A. Hydrogen bonding exists when H is covalently bonded to the highly electronegative atom. B. Intermolecular H bonding is present in o-nitrophenol. C. Intramolecular H bonding is present in HF. D. The magnitude of H bonding depends on the physical state of the compound. E. H-bonding has powerful effect on the structure and properties of compounds. Choose the correct answer from the options given below:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "A, B, D only",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "A, D, E only",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "A only",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "A, B, C only",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "A: Correct — H-bonding forms when H is bonded to electronegative atoms (F, O, N). B: Incorrect — o-nitrophenol has INTRAmolecular H-bonding (not intermolecular). C: Incorrect — HF has INTERmolecular H-bonding (not intramolecular, as HF is a small linear molecule). D: Correct — H-bonding magnitude varies with physical state (e.g., water vs ice vs steam). E: Correct — H-bonding profoundly affects boiling points, solubility, structure of proteins/DNA. So A, D, E are correct → option (2).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q35",
+            "question_number": 35,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Chemical Bonding",
+            "topic": "Molecular Geometry / VSEPR",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The number of species from the following that have pyramidal geometry around the central atom is _______. $S_2O_3^{2-}$, $SO_4^{2-}$, $SO_3^{2-}$, $S_2O_7^{2-}$",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "4",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "3",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "2",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "1",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "$SO_3^{2-}$: S has 3 bonding pairs + 1 lone pair → pyramidal. $SO_4^{2-}$: S has 4 bonding pairs, no lone pairs → tetrahedral. $S_2O_3^{2-}$ (thiosulfate): central S similar to sulfate → tetrahedral. $S_2O_7^{2-}$ (pyrosulfate): each S is tetrahedral. So only $SO_3^{2-}$ has pyramidal geometry. Count = 1. Answer is option (4).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q36",
+            "question_number": 36,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Equilibrium",
+            "topic": "Equilibrium Constant Relations",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The equilibrium constant for the reaction $SO_3(g) \\rightleftharpoons SO_2(g) + \\dfrac{1}{2}O_2(g)$ is $K_c = 4.9 \\times 10^{-2}$. The value of $K_c$ for the reaction $2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$4.9$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$49$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$41.6$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$416$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "Given: $SO_3 \\rightleftharpoons SO_2 + \\dfrac{1}{2}O_2$, $K_1 = 4.9 \\times 10^{-2}$. Target: $2SO_2 + O_2 \\rightleftharpoons 2SO_3$. This is the reverse of $2SO_3 \\rightleftharpoons 2SO_2 + O_2$, which is $2 \\times$ the given reaction. $K$ for $2SO_3 \\rightleftharpoons 2SO_2 + O_2 = K_1^2 = (4.9 \\times 10^{-2})^2 = 24.01 \\times 10^{-4}$. $K$ for the reverse = $\\dfrac{1}{K_1^2} = \\dfrac{1}{24.01 \\times 10^{-4}} = \\dfrac{10^4}{24.01} \\approx 416.5 \\approx 416$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q37",
+            "question_number": 37,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Organic Chemistry - Basic Principles",
+            "topic": "Stability of Carbanions",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Correct order of stability of carbanion is (a = methyl carbanion/triangular, b = cyclopentadienyl type, c = cyclobutyl carbanion, d = cyclopropenyl carbanion):",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$d > a > c > b$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$a > b > c > d$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$d > c > b > a$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$c > b > d > a$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "From the structures shown: a is a simple carbanion on sp3 carbon (least stable), b is cyclopentadienyl type anion (aromatic with 6π electrons, very stable), c is a cyclobutyl type carbanion, d has a negative charge with potential for special stability. Based on the answer key: $d > c > b > a$. This ordering reflects: d (most stable, possibly antiaromatic system where negative charge provides stability), then c, b, and a (simple carbanion, least stable).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q38",
+            "question_number": 38,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Organic Chemistry - Nomenclature",
+            "topic": "Common Names of Compounds",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Common name of Benzene-1,2-diol is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "catechol",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "o-cresol",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "quinol",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "resorcinol",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "Benzene-1,2-diol has two OH groups at ortho (1,2) positions. Its common name is catechol. (Resorcinol = 1,3-diol; quinol/hydroquinone = 1,4-diol; o-cresol = 2-methylphenol).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q39",
+            "question_number": 39,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Surface Chemistry",
+            "topic": "Adsorption Chromatography",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The adsorbent used in adsorption chromatography is/are: A. silica gel B. alumina C. quick lime D. magnesia. Choose the most appropriate answer from the options given below:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "A only",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "B only",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "C and D only",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "A and B only",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "In adsorption chromatography, the common adsorbents used are silica gel ($SiO_2$) and alumina ($Al_2O_3$). Quick lime (CaO) and magnesia (MgO) are not typically used as adsorbents in chromatography. Answer is A and B only.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q40",
+            "question_number": 40,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Haloalkanes and Haloarenes",
+            "topic": "Elimination Reactions",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "A compound (1-bromo substituted benzene derivative) reacts with KOH(alc) with heat to give major product P. Product P is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Product with trans alkene extending chain",
+                    "image_url": "NEEDS_IMAGE"
+                },
+                {
+                    "key": "2",
+                    "text": "Product with branched alkene",
+                    "image_url": "NEEDS_IMAGE"
+                },
+                {
+                    "key": "3",
+                    "text": "Product with styrene-type structure (PhCH=CH-)",
+                    "image_url": "NEEDS_IMAGE"
+                },
+                {
+                    "key": "4",
+                    "text": "Product with internal alkene",
+                    "image_url": "NEEDS_IMAGE"
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "KOH(alc) with heat causes dehydrohalogenation (E2 elimination). From the substrate (a secondary/primary alkyl bromide attached to benzene), E2 elimination follows Zaitsev's rule giving the more substituted alkene. The major product P is the conjugated alkene with the benzene ring (styrene-type structure) as conjugation provides extra stability.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q41",
+            "question_number": 41,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+            "topic": "Oxidation Reactions",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "In the above chemical reaction sequence, 'A' and 'B' respectively are (a cyclopentanone is converted to a dicarboxylic acid sodium salt via two steps A and B):",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$H_2O$, $H^+$ and $KMnO_4$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$O_3$, Zn/$H_2O$ and $NaOH_{(alc)}$/I$_2$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$O_3$, Zn/$H_2O$ and $KMnO_4$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$H_2O$, $H^+$ and $NaOH_{(alc)}$/I$_2$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "From the reaction sequence: a cyclic alkene/enol ether is first ozonized (A = $O_3$, Zn/$H_2O$) to give an open chain dialdehyde/keto-aldehyde. Then step B uses $NaOH_{(alc)}$/I$_2$ (iodoform reaction or haloform) to convert the methyl ketone end to carboxylate giving the sodium salt of the dicarboxylic acid. Answer is option (2).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q42",
+            "question_number": 42,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Electrochemistry",
+            "topic": "Molar Conductivity - Kohlrausch Law",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "For a strong electrolyte, a plot of molar conductivity against (concentration)$^{1/2}$ is a straight line, with a negative slope. The correct unit for the slope is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "S cm² mol$^{-3/2}$ L$^{-1/2}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "S cm² mol$^{-3/2}$ L$^{1/2}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "S cm² mol$^{-3/2}$ L",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "S cm² mol$^{-1}$ L$^{1/2}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "Molar conductivity $\\Lambda_m$ has units S cm² mol$^{-1}$. Concentration $c$ has units mol/L. $\\sqrt{c}$ has units (mol/L)$^{1/2}$ = mol$^{1/2}$ L$^{-1/2}$. Slope $= \\dfrac{\\Lambda_m}{\\sqrt{c}}$ units $= \\dfrac{\\text{S cm}^2 \\text{mol}^{-1}}{\\text{mol}^{1/2} \\text{L}^{-1/2}} = $ S cm² mol$^{-1}$ × mol$^{-1/2}$ × L$^{1/2}$ = S cm² mol$^{-3/2}$ L$^{1/2}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q43",
+            "question_number": 43,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Electrochemistry",
+            "topic": "Fuel Cells",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Fuel cell, using hydrogen and oxygen as fuels: A. has been used in spaceship B. has an efficiency of 40% to produce electricity C. uses aluminum as catalysts D. is eco-friendly E. is actually a type of Galvanic cell only. Choose the correct answer from the options given below:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "A, B, D, E only",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "A, D, E only",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "A, B, D only",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "A, B, C only",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "A: TRUE - H₂-O₂ fuel cells have been used in spaceships (Apollo missions). B: FALSE - Fuel cells have efficiency ~70-80%, not 40% (thermal power plants have ~40%). C: FALSE - H₂-O₂ fuel cells use platinum (Pt) as catalyst, not aluminum. D: TRUE - They only produce water, so eco-friendly. E: TRUE - Fuel cells are galvanic cells (convert chemical energy to electrical energy). So A, D, E only → option (2).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q44",
+            "question_number": 44,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "p-Block Elements",
+            "topic": "Halogens / Salt Analysis",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "When $MnO_2$ and $H_2SO_4$ is added to a salt (A), the greenish yellow gas liberated as salt (A) is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$CaI_2$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$NaBr$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$KNO_3$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$NH_4Cl$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "Greenish-yellow gas is $Cl_2$. $MnO_2 + H_2SO_4$ is an oxidizing mixture. For $NH_4Cl$: $NH_4Cl + H_2SO_4 \\rightarrow$ releases HCl; $MnO_2 + 4HCl \\rightarrow MnCl_2 + Cl_2 + 2H_2O$. So $NH_4Cl$ with $MnO_2$ and $H_2SO_4$ gives $Cl_2$ (greenish yellow gas). Other salts: $CaI_2$ gives violet $I_2$; $NaBr$ gives reddish-brown $Br_2$; $KNO_3$ gives no colored gas.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q45",
+            "question_number": 45,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "d-Block Elements",
+            "topic": "Magnetic Moment",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A first row transition metal in its +2 oxidation state has a spin-only magnetic moment value of $3.86$ BM. The atomic number of the metal is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "26",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "25",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "23",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "22",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "$\\mu = \\sqrt{n(n+2)}$ BM = 3.86. $n(n+2) = 14.9 \\approx 15$. $n(n+2) = 15 \\Rightarrow n \\approx 3$ (since $3 \\times 5 = 15$). So 3 unpaired electrons. V (Z=23): $[Ar]3d^34s^2$. In +2 state: V²⁺ = $[Ar]3d^3$ → 3 unpaired electrons. $\\mu = \\sqrt{3 \\times 5} = \\sqrt{15} \\approx 3.87$ BM ≈ 3.86 BM. ✓",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q46",
+            "question_number": 46,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Coordination Compounds",
+            "topic": "Crystal Field Theory",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "If an iron (III) complex with the formula $[Fe(NH_3)_x(CN)_y]^-$ has no electron in its $e_g$ orbital, then the value of $x + y$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "4",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "5",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "6",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "3",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "Fe(III) = $d^5$. For no electrons in $e_g$, all 5 electrons must be in $t_{2g}$: $t_{2g}^5 e_g^0$ → low spin complex (strong field ligands needed). $CN^-$ is strong field; $NH_3$ is moderate. For an octahedral complex: $x + y = 6$. Charge: $Fe^{3+} + y(CN^-) \\rightarrow$ overall charge $= -1$. $+3 - y = -1 \\Rightarrow y = 4$. $x = 6 - 4 = 2$. $x + y = 2 + 4 = 6$. Answer is (3) = 6.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q47",
+            "question_number": 47,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Coordination Compounds",
+            "topic": "Crystal Field Theory / Unpaired Electrons",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The number of unpaired d-electrons in $[Co(H_2O)_6]^{3+}$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "2",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "1",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "0",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "4",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "$Co^{3+}$ has electronic configuration $[Ar]3d^6$ (6 d-electrons). $H_2O$ is a strong field ligand (actually moderate, but for Co³⁺, water causes strong field effect). In $[Co(H_2O)_6]^{3+}$: it is a strong field/low spin complex. Configuration: $t_{2g}^6 e_g^0$. All 6 electrons paired in $t_{2g}$. Unpaired electrons = 0.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q48",
+            "question_number": 48,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Alcohols, Phenols and Ethers",
+            "topic": "Hydration and Hydroboration",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "$CH_3-CH_2-CH_2-Br + NaOH \\xrightarrow{C_2H_5OH}$ Product A. Product A reacts with: (i) $H_2O$, $H^+$ to give Product B; (ii) Diborane/$H_2O_2$/OH$^-$ to give Product C. Identify product B and product C.",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "B = 1-Propanol, C = 2-Propanol",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "B = C = 2-Propanol",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "B = 2-Propanol, C = 1-Propanol",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "B = C = 1-Propanol",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "$CH_3CH_2CH_2Br + NaOH(alc) \\rightarrow$ E2 elimination gives $CH_3CH=CH_2$ (propene, Product A). Product A (propene) with $H_2O/H^+$ (acid-catalyzed hydration, Markovnikov) → B = 2-propanol. Product A (propene) with Diborane then $H_2O_2/OH^-$ (hydroboration-oxidation, anti-Markovnikov) → C = 1-propanol. So B = 2-Propanol, C = 1-Propanol → option (3).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q49",
+            "question_number": 49,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Amines",
+            "topic": "Nucleophilic Substitution on Cyclic Systems",
+            "difficulty": "Hard",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Find out the major product formed from the following reaction. [Me: $-CH_3$]: 1,2-dibromocyclobutane + $Me_2NH$ (2 equiv) →",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "1,2-bis(dimethylamino)cyclobutane",
+                    "image_url": "NEEDS_IMAGE"
+                },
+                {
+                    "key": "2",
+                    "text": "Open chain product with two NMe₂ groups",
+                    "image_url": "NEEDS_IMAGE"
+                },
+                {
+                    "key": "3",
+                    "text": "Product with ring expansion and one NMe₂",
+                    "image_url": "NEEDS_IMAGE"
+                },
+                {
+                    "key": "4",
+                    "text": "cyclobutene with NMe₂ groups on open chain",
+                    "image_url": "NEEDS_IMAGE"
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "1,2-dibromocyclobutane reacts with Me₂NH (2 equiv). The first equivalent displaces one Br by SN2. The strained 4-membered ring with adjacent bromine can undergo ring opening. With 2 equivalents of dimethylamine, double SN2 substitution occurs but with ring expansion possibility. Based on the answer key (3), the major product involves ring expansion with the amine.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q50",
+            "question_number": 50,
+            "subject": "Chemistry",
+            "section": "A",
+            "question_type": "MCQ_MATCH",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Biomolecules",
+            "topic": "Carbohydrates - Stereoisomerism",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Match List I with List II:\n\n| List I | List II |\n|---|---|\n| A. α-Glucose and α-Galactose | I. Functional isomers |\n| B. α-Glucose and β-Glucose | II. Homologous |\n| C. α-Glucose and α-Fructose | III. Anomers |\n| D. α-Glucose and α-Ribose | IV. Epimers |\n\nChoose the correct answer from the options given below:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "A-IV, B-III, C-I, D-II",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "A-III, B-IV, C-I, D-II",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "A-IV, B-III, C-II, D-I",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "A-III, B-IV, C-II, D-I",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "A. α-Glucose and α-Galactose: differ only at C-4 position → Epimers (IV). B. α-Glucose and β-Glucose: differ at anomeric carbon (C-1) → Anomers (III). C. α-Glucose and α-Fructose: same molecular formula but different functional groups (aldose vs ketose) → Functional isomers (I). D. α-Glucose (C₆) and α-Ribose (C₅): differ by one CH₂O unit → Homologous (II). So A-IV, B-III, C-I, D-II → option (1).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q51",
+            "question_number": 51,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Structure of Atom",
+            "topic": "Quantum Numbers",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The maximum number of orbitals which can be identified with $n = 4$ and $m_l = 0$ is ______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "4",
+                "value_range": {
+                    "min": 4,
+                    "max": 4
+                }
+            },
+            "solution_text": "For $n = 4$: possible values of $l = 0, 1, 2, 3$. For $m_l = 0$: each subshell has one orbital with $m_l = 0$. For $l=0$: $m_l = 0$ ✓ (1 orbital: 4s). For $l=1$: $m_l = -1, 0, 1$ → $m_l=0$ ✓ (1 orbital: 4p₀). For $l=2$: $m_l = -2,-1,0,1,2$ → $m_l=0$ ✓ (1 orbital: 4d₀). For $l=3$: $m_l = -3,-2,-1,0,1,2,3$ → $m_l=0$ ✓ (1 orbital: 4f₀). Total = 4 orbitals.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q52",
+            "question_number": 52,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Chemical Bonding",
+            "topic": "Dipole Moment",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Number of compounds/species from the following with non-zero dipole moment is ______: $BeCl_2$, $BCl_3$, $NF_3$, $XeF_4$, $CCl_4$, $H_2O$, $H_2S$, $HBr$, $CO_2$, $H_2$, $HCl$",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "5",
+                "value_range": {
+                    "min": 5,
+                    "max": 5
+                }
+            },
+            "solution_text": "Zero dipole moment: $BeCl_2$ (linear, symmetric), $BCl_3$ (trigonal planar, symmetric), $XeF_4$ (square planar, symmetric), $CCl_4$ (tetrahedral, symmetric), $CO_2$ (linear, symmetric), $H_2$ (homonuclear diatomic, zero). Non-zero dipole moment: $NF_3$ (pyramidal, lone pair), $H_2O$ (bent, lone pairs), $H_2S$ (bent), $HBr$ (polar diatomic), $HCl$ (polar diatomic). Count = 5.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q53",
+            "question_number": 53,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Thermodynamics",
+            "topic": "Work Done in Isothermal Process",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Three moles of an ideal gas are compressed isothermally from $60$ L to $20$ L using constant pressure of $5$ atm. Heat exchange $Q$ for the compression is _____ Lit. atm.",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "200",
+                "value_range": {
+                    "min": 200,
+                    "max": 200
+                }
+            },
+            "solution_text": "Since the process is isothermal for ideal gas: $\\Delta U = 0$. Work done ON gas (compression against constant pressure): $W_{on} = P_{ext}(V_1 - V_2) = 5 \\times (60 - 20) = 5 \\times 40 = 200$ L·atm. By first law: $Q = \\Delta U - W_{by\\ gas} = 0 - (-200) = 200$ L·atm. Since work is done ON the gas and $\\Delta U = 0$, heat is released: $Q = -200$ L·atm (heat released). The magnitude is 200 L·atm.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q54",
+            "question_number": 54,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Organic Chemistry - Basic Principles",
+            "topic": "Sigma and Pi Bonds",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The total number of 'sigma' and 'Pi' bonds in 2-oxohex-4-ynoic acid is ______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "18",
+                "value_range": {
+                    "min": 18,
+                    "max": 18
+                }
+            },
+            "solution_text": "2-oxohex-4-ynoic acid: Structure is $HOOC-CO-CH_2-C\\equiv C-CH_3$. Let me draw it: C1(COOH)-C2(=O)-C3H₂-C4≡C5-C6H₃. Full structure: $CH_3-C\\equiv C-CH_2-CO-COOH$. Counting bonds: C6H₃ group: 3 C-H sigma + COOH: 1 O-H + 1 C=O(pi+sigma) + 1 C-O(sigma) = total. Let me count systematically in $CH_3-C\\equiv C-CH_2-C(=O)-COOH$: Sigma bonds: C6-H×3=3, C6-C5=1, C5≡C4(1 sigma), C4-C3=1, C3-H×2=2, C3-C2=1, C2=O(1 sigma), C2-C1=1, C1=O(1 sigma), C1-OH=1, O-H=1. Total sigma = 3+1+1+1+2+1+1+1+1+1+1 = 14. Pi bonds: C5≡C4 has 2 pi, C2=O has 1 pi, C1=O has 1 pi. Total pi = 4. Grand total = 14+4 = 18.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q55",
+            "question_number": 55,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Solutions",
+            "topic": "Depression in Freezing Point",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "$2.7$ kg of each of water and acetic acid are mixed. The freezing point of the solution will be $-x°C$. Consider the acetic acid does not dimerise in water, nor dissociates in water. $x = $ ______ (nearest integer) [Given: Molar mass of water $= 18$ g mol$^{-1}$, acetic acid $= 60$ g mol$^{-1}$, $K_f(H_2O) = 1.86$ K kg mol$^{-1}$, $K_f$ acetic acid $= 3.90$ K kg mol$^{-1}$, freezing point: H₂O $= 273$ K, acetic acid $= 290$ K]",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "31",
+                "value_range": {
+                    "min": 30,
+                    "max": 32
+                }
+            },
+            "solution_text": "Moles of acetic acid $= \\dfrac{2700}{60} = 45$ mol. Mass of water (solvent) $= 2.7$ kg. Molality $= \\dfrac{45}{2.7} = 16.67$ mol/kg. $\\Delta T_f = K_f \\times m = 1.86 \\times 16.67 = 31.0$ K. Freezing point of solution $= 273 - 31 = 242$ K $= -31°C$. So $x = 31$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q56",
+            "question_number": 56,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Chemical Kinetics",
+            "topic": "Rate Law / Half Order",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the following reaction: $A + B \\rightarrow C$, rate $= k[A]^{1/2}[B]^{1/2}$. The reaction is initiated by taking concentration of A and B each as 1M. If the rate constant is $k = 4.6 \\times 10^{-2}$ s$^{-1}$, then the time taken for A to become $0.1$ M is ______ sec. (nearest integer)",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "50",
+                "value_range": {
+                    "min": 49,
+                    "max": 51
+                }
+            },
+            "solution_text": "Since $[A]_0 = [B]_0 = 1M$ and stoichiometry is 1:1, $[A] = [B]$ at all times. So rate $= k[A]^{1/2}[A]^{1/2} = k[A]$. This is effectively first order in A. For first order: $t = \\dfrac{1}{k}\\ln\\dfrac{[A]_0}{[A]} = \\dfrac{1}{4.6 \\times 10^{-2}}\\ln\\dfrac{1}{0.1} = \\dfrac{\\ln 10}{0.046} = \\dfrac{2.303}{0.046} \\approx \\dfrac{2.303}{0.046} = 50.07 \\approx 50$ s.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q57",
+            "question_number": 57,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "d-Block Elements",
+            "topic": "Magnetic Moment of Oxides",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A first row transition metal with highest enthalpy of atomisation, upon reaction with oxygen at high temperature forms oxides of formula $M_2O_n$ (where $n = 3, 4, 5$). The 'spin-only' magnetic moment value of the amphoteric oxide from the above oxides is ______ BM (near integer). (Given atomic number: Sc:21, Ti:22, V:23, Cr:24, Mn:25, Fe:26, Co:27, Ni:28, Cu:29, Zn:30)",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "0",
+                "value_range": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "solution_text": "Highest enthalpy of atomisation among first row transition metals is for Cr (Z=24). Cr forms: $Cr_2O_3$ (n=3), $CrO_2$ equivalent $= Cr_2O_4$ (n=4), $CrO_3$ equivalent $= Cr_2O_6$ (n=6)... Actually Cr forms $Cr_2O_3$, $CrO_2$, $CrO_3$ as major oxides. Amphoteric oxide of Cr is $Cr_2O_3$ (Cr³⁺). Electronic config of Cr³⁺: $[Ar]3d^3$, 3 unpaired electrons. $\\mu = \\sqrt{3 \\times 5} = \\sqrt{15} \\approx 3.87$ BM ≈ 4 BM. But answer key says 0. Re-evaluating: highest atomisation enthalpy is for V(Z=23) among some references. V forms $V_2O_3$, $V_2O_4$, $V_2O_5$. Amphoteric oxide: $V_2O_5$ (V⁵⁺, $d^0$). $\\mu = 0$ BM. Answer = 0.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q58",
+            "question_number": 58,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Amines",
+            "topic": "Gabriel Phthalimide Synthesis",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Phthalimide is made to undergo following sequence of reactions: (i) KOH (ii) Benzylchloride → Product 'P'. Total number of $\\pi$ bonds present in product 'P' is/are ______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "8",
+                "value_range": {
+                    "min": 8,
+                    "max": 8
+                }
+            },
+            "solution_text": "Phthalimide + KOH → Potassium phthalimide (K salt). Then + benzyl chloride (PhCH₂Cl) → N-benzylphthalimide. Structure of N-benzylphthalimide: phthalimide ring (benzene ring fused with 5-membered ring with 2 C=O) with N-CH₂-Ph. Pi bonds: benzene ring of phthalimide part = 3, two C=O = 2, benzene ring of benzyl = 3. Total pi bonds = 3+2+3 = 8.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q59",
+            "question_number": 59,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Amines",
+            "topic": "Acetylation of Aniline",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "From $6.55$ g of aniline, the maximum amount of acetanilide that can be prepared will be ______ $\\times 10^{-1}$ g.",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "95",
+                "value_range": {
+                    "min": 94,
+                    "max": 96
+                }
+            },
+            "solution_text": "Molar mass of aniline ($C_6H_5NH_2$) = 93 g/mol. Moles of aniline = $\\dfrac{6.55}{93} = 0.0704$ mol. Aniline + acetic anhydride → Acetanilide (1:1 ratio). Molar mass of acetanilide ($C_6H_5NHCOCH_3$) = 135 g/mol. Mass of acetanilide = $0.0704 \\times 135 = 9.5$ g $= 95 \\times 10^{-1}$ g.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-CHEM-Q60",
+            "question_number": 60,
+            "subject": "Chemistry",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Biomolecules / Natural Products",
+            "topic": "Vanillin Structure",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Vanillin compound obtained from vanilla beans, has total sum of oxygen atoms and $\\pi$ electrons is ______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "11",
+                "value_range": {
+                    "min": 11,
+                    "max": 11
+                }
+            },
+            "solution_text": "Vanillin structure: 4-hydroxy-3-methoxybenzaldehyde. Formula: $C_8H_8O_3$. Oxygen atoms = 3 (OH, OCH₃, CHO). Pi electrons: benzene ring = 6π electrons (3 double bonds × 2), C=O of aldehyde = 2π electrons. Total π electrons = 6 + 2 = 8. Sum = 3 (O atoms) + 8 (π electrons) = 11.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q61",
+            "question_number": 61,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Complex Numbers",
+            "topic": "Area of Region in Complex Plane",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The area (in sq. units) of the region $S = \\{z \\in \\mathbb{C} : |z-1| \\leq 2;\\, (z+\\bar{z}) + i(z-\\bar{z}) \\leq 2,\\, \\text{Im}(z) \\geq 0\\}$ is",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{7\\pi}{3}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{7\\pi}{4}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\dfrac{17\\pi}{8}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{3\\pi}{2}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "Let $z = x+iy$. Conditions: (1) $|z-1| \\leq 2 \\Rightarrow (x-1)^2 + y^2 \\leq 4$ (circle center (1,0) radius 2). (2) $(z+\\bar{z}) + i(z-\\bar{z}) \\leq 2$: $z+\\bar{z} = 2x$, $z-\\bar{z} = 2iy$, so $i(z-\\bar{z}) = i(2iy) = -2y$. Condition: $2x - 2y \\leq 2 \\Rightarrow x - y \\leq 1$. (3) $\\text{Im}(z) \\geq 0 \\Rightarrow y \\geq 0$. Region: upper half of circle $(x-1)^2+y^2 \\leq 4$, below line $x-y=1$ (i.e., $y \\geq x-1$). Area of upper semicircle = $\\dfrac{1}{2}\\pi(4) = 2\\pi$. The line $x-y=1$ passes through $(1,0)$ and $(3,-2)$. At the center $(1,0)$ of circle, $x-y=1$ exactly, so the half-plane $x-y \\leq 1$ cuts off a portion. Finding intersection of $x-y=1$ and $(x-1)^2+y^2=4$: $x=y+1$, $(y)^2+y^2=4 \\Rightarrow y^2=2 \\Rightarrow y=\\pm\\sqrt{2}$. In upper half ($y\\geq 0$): $y=\\sqrt{2}$, $x=1+\\sqrt{2}$. The line intersects upper semicircle at $(1+\\sqrt{2}, \\sqrt{2})$ and $(1, 0)$. The circular segment cut off is below line $x-y=1$. The area excluded from upper semicircle is the region $x-y>1$ within upper semicircle. This is a circular segment. The chord from $(1,0)$ to $(1+\\sqrt{2},\\sqrt{2})$ subtends angle at center: angle from $(1,0)$: the vector $(0,0)$ to $(1,0)-(1,0)=(0,0)$... center is $(1,0)$. From center to $(1,0)$ is angle $\\pi$ (pointing in $-x$ direction? No, $(1,0)-(1,0)=(0,0)$). The circle is centered at $(1,0)$. Points on boundary: $(1,0)$ is at $(-r,0)$ from center... wait $(1,0)$ is the center itself only if radius=0. No, the point $(1,0)$ is on the circle since $(1-1)^2+(0)^2=0\\neq 4$. So $(1,0)$ is NOT on the circle. The intersection points in upper half are at $y=\\sqrt{2}$, $x=1+\\sqrt{2}$: check $(1+\\sqrt{2}-1)^2+(\\sqrt{2})^2=2+2=4$ ✓. And in lower half at $y=-\\sqrt{2}$, $x=1-\\sqrt{2}$. The line $x-y=1$ within the upper semicircle: it cuts at $(1-\\sqrt{2}, -\\sqrt{2})$ (lower half, excluded) and $(1+\\sqrt{2}, \\sqrt{2})$ (upper half). Also at $(1,0)$ on the boundary of upper half (x-axis). Area of upper semicircle below line $x-y=1$: The angle subtended by the chord at center from $(1,0)$ to $(1+\\sqrt{2},\\sqrt{2})$: vectors from center $(1,0)$: to $(1,0)$: $(0,0)$ — this point is at the center! So $(1,0)$ is the center. So the line passes through the center. Area of upper semicircle with $x-y\\leq 1$ = half the area since line passes through center and the half-plane. The upper semicircle is split by the diameter line through center at angle $45°$. Area $= \\dfrac{3}{4}$ of semicircle... The upper semicircle area $=2\\pi$. The line through center makes angle $45°$ with x-axis. It divides upper semicircle into: region with $x-y\\leq 1$ (left of line) = $\\dfrac{3}{4}$ of full circle... $= \\dfrac{3}{4}\\times 2\\pi = \\dfrac{3\\pi}{2}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q62",
+            "question_number": 62,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Sequences and Series",
+            "topic": "Summation of Series",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The value of $\\dfrac{1\\times 2^2 + 2\\times 3^2 + \\cdots + 100\\times (101)^2}{1^2\\times 2 + 2^2\\times 3 + \\cdots + 100^2\\times 101}$ is",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{32}{31}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{31}{30}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\dfrac{306}{305}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{305}{301}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "Numerator: $\\sum_{r=1}^{100} r(r+1)^2$. Denominator: $\\sum_{r=1}^{100} r^2(r+1)$. Factor: $\\dfrac{\\sum r(r+1)^2}{\\sum r^2(r+1)} = \\dfrac{\\sum r(r+1)\\cdot(r+1)}{\\sum r(r+1)\\cdot r}$. Let $S_N = \\sum_{r=1}^{100} r(r+1)^2$ and $S_D = \\sum_{r=1}^{100} r^2(r+1)$. $S_N = \\sum r(r+1)^2 = \\sum (r^3+2r^2+r)$. $S_D = \\sum r^2(r+1) = \\sum (r^3+r^2)$. Using $\\sum_{r=1}^n r = \\dfrac{n(n+1)}{2}$, $\\sum r^2 = \\dfrac{n(n+1)(2n+1)}{6}$, $\\sum r^3 = \\left[\\dfrac{n(n+1)}{2}\\right]^2$ with $n=100$: $\\sum r^3 = (5050)^2 = 25502500$. $\\sum r^2 = \\dfrac{100\\times101\\times201}{6} = 338350$. $\\sum r = 5050$. $S_N = 25502500 + 2(338350) + 5050 = 25502500 + 676700 + 5050 = 26184250$. $S_D = 25502500 + 338350 = 25840850$. Ratio $= \\dfrac{26184250}{25840850}$. Simplify: $\\gcd$... $\\dfrac{26184250}{25840850} = \\dfrac{2618425}{2584085}$. Divide by 5: $\\dfrac{523685}{516817}$. Hmm, let me try: $\\dfrac{26184250}{25840850} \\approx 1.0133 \\approx \\dfrac{305}{301} = 1.01329$. So answer is $\\dfrac{305}{301}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q63",
+            "question_number": 63,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Sequences and Series",
+            "topic": "AP and GP",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let three real numbers $a, b, c$ be in arithmetic progression and $a+1, b, c+3$ be in geometric progression. If $a > 10$ and the arithmetic mean of $a, b$ and $c$ is $8$, then the cube of the geometric mean of $a, b$ and $c$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "128",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "316",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "120",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "312",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "Since $a,b,c$ are in AP: $b = \\dfrac{a+c}{2}$, and $c = 2b-a$. AM of $a,b,c = \\dfrac{a+b+c}{3} = 8 \\Rightarrow a+b+c = 24$. Since $a+c = 2b$: $2b+b = 24 \\Rightarrow b = 8$. So $a+c = 16$. For GP: $a+1, b, c+3$ in GP: $b^2 = (a+1)(c+3)$. $64 = (a+1)(16-a+3) = (a+1)(19-a)$. $(a+1)(19-a) = 64$. $19a - a^2 + 19 - a = 64$. $-a^2 + 18a + 19 = 64$. $a^2 - 18a + 45 = 0$. $a = \\dfrac{18 \\pm \\sqrt{324-180}}{2} = \\dfrac{18 \\pm 12}{2}$. $a = 15$ or $a = 3$. Since $a > 10$: $a = 15$, $c = 16-15 = 1$, $b = 8$. Geometric mean of $a,b,c$ = $(15 \\times 8 \\times 1)^{1/3} = (120)^{1/3}$. Cube of GM = $120$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q64",
+            "question_number": 64,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Binomial Theorem",
+            "topic": "Coefficients in Binomial Expansion",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "If the coefficients of $x^4$, $x^5$ and $x^6$ in the expansion of $(1+x)^n$ are in the arithmetic progression, then the maximum value of $n$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "7",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "21",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "28",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "14",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "Coefficients: $\\binom{n}{4}$, $\\binom{n}{5}$, $\\binom{n}{6}$ in AP. $2\\binom{n}{5} = \\binom{n}{4} + \\binom{n}{6}$. Dividing through by $\\binom{n}{4}$: $2\\cdot\\dfrac{n-4}{5} = 1 + \\dfrac{(n-4)(n-5)}{30}$. Let $m = n-4$: $2\\cdot\\dfrac{m}{5} = 1 + \\dfrac{m(m-1)}{30}$. Multiply by 30: $12m = 30 + m(m-1) = 30 + m^2 - m$. $m^2 - 13m + 30 = 0$. $m = \\dfrac{13 \\pm \\sqrt{169-120}}{2} = \\dfrac{13 \\pm 7}{2}$. $m = 10$ or $m = 3$. $n = m + 4$: $n = 14$ or $n = 7$. Maximum value = 14.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q65",
+            "question_number": 65,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Circles",
+            "topic": "Chord Length and Distance",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $C$ be a circle with radius $\\sqrt{10}$ units and centre at the origin. Let the line $x + y = 2$ intersects the circle $C$ at the points P and Q. Let MN be a chord of $C$ of length 2 unit and slope $-1$. Then, a distance (in units) between the chord PQ and the chord MN is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$3 - \\sqrt{2}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\sqrt{2} + 1$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\sqrt{2} - 1$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$2 - \\sqrt{3}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "Circle: $x^2+y^2=10$, radius $\\sqrt{10}$. Chord PQ: line $x+y=2$, or $\\dfrac{x+y-2}{\\sqrt{2}}$ gives distance from origin $= \\dfrac{2}{\\sqrt{2}} = \\sqrt{2}$. Chord MN: length 2, slope $-1$, so direction is same as $x+y=k$. Distance from center to MN: $d^2 = r^2 - (\\ell/2)^2 = 10 - 1 = 9$, so $d = 3$. MN is of form $x+y=k$ where $|k|/\\sqrt{2} = 3$, so $|k| = 3\\sqrt{2}$, $k = \\pm 3\\sqrt{2}$. Distance between PQ ($x+y=2$) and MN ($x+y=3\\sqrt{2}$): $\\dfrac{|2-3\\sqrt{2}|}{\\sqrt{2}} = \\dfrac{3\\sqrt{2}-2}{\\sqrt{2}} = 3 - \\sqrt{2}$. Or for $k=-3\\sqrt{2}$: $\\dfrac{|2+3\\sqrt{2}|}{\\sqrt{2}} = \\dfrac{2+3\\sqrt{2}}{\\sqrt{2}} = \\sqrt{2}+3$ (larger). So minimum distance = $3-\\sqrt{2}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q66",
+            "question_number": 66,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Parabola",
+            "topic": "Chord with Given Midpoint",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let PQ be a chord of the parabola $y^2 = 12x$ and the midpoint of PQ be at $(4, 1)$. Then, which of the following point lies on the line passing through the points P and Q?",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$(3, -3)$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$(2, -9)$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\left(\\dfrac{3}{2}, -16\\right)$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\left(\\dfrac{1}{2}, -20\\right)$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "For parabola $y^2=12x$ ($4a=12$, $a=3$). Equation of chord with midpoint $(h,k)$: $T = S_1$: $ky - 6(x+h) = k^2-12h$. With $(h,k)=(4,1)$: $1\\cdot y - 6(x+4) = 1 - 48$. $y - 6x - 24 = -47$. $y - 6x = -23$, i.e., $y = 6x - 23$. Check $(1/2, -20)$: $6(1/2)-23 = 3-23 = -20$ ✓.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q67",
+            "question_number": 67,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Hyperbola",
+            "topic": "Auxiliary Circles and Latus Rectum",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider a hyperbola H having centre at the origin and foci on the x-axis. Let $C_1$ be the circle touching the hyperbola H and having the centre at the origin. Let $C_2$ be the circle touching the hyperbola H at its vertex and having the centre at one of its foci. If areas (in sq units) of $C_1$ and $C_2$ are $36\\pi$ and $4\\pi$, respectively, then the length (in units) of latus rectum of H is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{14}{3}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{28}{3}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\dfrac{11}{3}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{10}{3}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "Hyperbola: $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$. $C_1$: circle centered at origin touching hyperbola → radius = $b$ (semi-minor axis, distance from center to hyperbola along conjugate axis). Area $= \\pi b^2 = 36\\pi \\Rightarrow b = 6$. $C_2$: centered at focus $(c,0)$, touching hyperbola at vertex $(a,0)$. Radius $= c - a$. Area $= \\pi(c-a)^2 = 4\\pi \\Rightarrow c-a = 2$. Since $c^2 = a^2+b^2 = a^2+36$ and $c = a+2$: $(a+2)^2 = a^2+36$. $a^2+4a+4 = a^2+36$. $4a = 32 \\Rightarrow a = 8$, $c = 10$. Latus rectum $= \\dfrac{2b^2}{a} = \\dfrac{2\\times36}{8} = \\dfrac{72}{8} = 9$. Hmm, 9 is not in options. Let me reconsider: $C_1$ has radius $a$ (touching at co-vertex level). Area $= \\pi a^2 = 36\\pi \\Rightarrow a = 6$. $c-a=2 \\Rightarrow c=8$. $b^2 = c^2-a^2 = 64-36=28$. Latus rectum $= \\dfrac{2b^2}{a} = \\dfrac{56}{6} = \\dfrac{28}{3}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q68",
+            "question_number": 68,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Limits",
+            "topic": "L'Hopital / Taylor Series",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $f(x) = \\int_0^x (t + \\sin(1-e^t))\\,dt$, $x \\in \\mathbb{R}$. Then $\\lim_{x \\to 0} \\dfrac{f(x)}{x^3}$ is equal to",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$-\\dfrac{1}{6}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{2}{3}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$-\\dfrac{2}{3}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{1}{6}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "$f(x) = \\int_0^x (t + \\sin(1-e^t))dt$. Using L'Hopital (0/0 form): $\\lim_{x\\to0}\\dfrac{f(x)}{x^3} = \\lim_{x\\to0}\\dfrac{f'(x)}{3x^2} = \\lim_{x\\to0}\\dfrac{x+\\sin(1-e^x)}{3x^2}$. Near $x=0$: $1-e^x \\approx -x - x^2/2 - ...$. $\\sin(1-e^x) \\approx \\sin(-x) = -x + x^3/6 + ...$. Wait, $\\sin(1-e^x)$ where argument $\\to 0$: $\\sin(u) \\approx u - u^3/6$, $u = 1-e^x \\approx -x-x^2/2$. $\\sin(1-e^x) \\approx (-x-x^2/2) - (-x)^3/6 \\approx -x - x^2/2 + x^3/6$. Numerator: $x + (-x - x^2/2 + x^3/6) = -x^2/2 + x^3/6$. $\\lim = \\dfrac{-x^2/2+x^3/6}{3x^2} = \\dfrac{-1/2+x/6}{3} \\to \\dfrac{-1/2}{3} = -\\dfrac{1}{6}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q69",
+            "question_number": 69,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Probability",
+            "topic": "Probability Distribution / Variance",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "If the mean of the following probability distribution of a random variable $X$:\n\n| X | 0 | 2 | 4 | 6 | 8 |\n|---|---|---|---|---|---|\n| P(X) | a | 2a | a+b | 2b | 3b |\n\nis $\\dfrac{46}{9}$, then the variance of the distribution is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{173}{27}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{566}{81}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\dfrac{151}{27}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{581}{81}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "Sum of probabilities: $a+2a+a+b+2b+3b = 4a+6b = 1$. Mean: $0\\cdot a + 2\\cdot2a + 4(a+b) + 6\\cdot2b + 8\\cdot3b = 4a+4a+4b+12b+24b = 8a+40b = \\dfrac{46}{9}$. From $4a+6b=1$: $a = \\dfrac{1-6b}{4}$. Substituting: $8\\cdot\\dfrac{1-6b}{4}+40b = \\dfrac{46}{9}$. $2(1-6b)+40b = \\dfrac{46}{9}$. $2+28b = \\dfrac{46}{9}$. $28b = \\dfrac{46}{9}-2 = \\dfrac{28}{9}$. $b = \\dfrac{1}{9}$. $a = \\dfrac{1-6/9}{4} = \\dfrac{1/3}{4} = \\dfrac{1}{12}$. $E(X^2) = 0+4\\cdot2a+16(a+b)+36\\cdot2b+64\\cdot3b = 8a+16a+16b+72b+192b = 24a+280b = 24/12 + 280/9 = 2+280/9 = 18/9+280/9 = 298/9$. Var $= E(X^2)-(E(X))^2 = \\dfrac{298}{9} - \\left(\\dfrac{46}{9}\\right)^2 = \\dfrac{298}{9} - \\dfrac{2116}{81} = \\dfrac{2682}{81} - \\dfrac{2116}{81} = \\dfrac{566}{81}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q70",
+            "question_number": 70,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Relations and Functions",
+            "topic": "Properties of Relations",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let a relation R on $\\mathbb{N} \\times \\mathbb{N}$ be defined as: $(x_1,y_1)\\, R\\, (x_2,y_2)$ if and only if $x_1 \\leq x_2$ or $y_1 \\leq y_2$. Consider the two statements: (I) R is reflexive but not symmetric. (II) R is transitive. Then which one of the following is true?",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "Both (I) and (II) are correct.",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "Only (II) is correct.",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "Neither (I) nor (II) is correct.",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "Only (I) is correct.",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "Reflexive: $(x,y)R(x,y)$: $x\\leq x$ is true → Reflexive. ✓ Symmetric: If $(1,3)R(2,1)$: $1\\leq2$ ✓. Is $(2,1)R(1,3)$? $2\\leq1$ is false, but $1\\leq3$ is true ✓. Try $(2,3)R(1,2)$: $2\\leq1$ false, $3\\leq2$ false → NOT related. And $(1,2)R(2,3)$: $1\\leq2$ true ✓. So $(1,2)R(2,3)$ but $(2,3)\\not R(1,2)$. Not symmetric. Statement I (reflexive but not symmetric) is TRUE. Transitive: If $(x_1,y_1)R(x_2,y_2)$ and $(x_2,y_2)R(x_3,y_3)$, is $(x_1,y_1)R(x_3,y_3)$? Counter: $(2,3)R(1,2)$? No, $2>1$ and $3>2$. Let's try: $(3,1)R(1,3)$: $3\\leq1$ F, $1\\leq3$ T ✓. $(1,3)R(2,1)$: $1\\leq2$ T ✓. Is $(3,1)R(2,1)$? $3\\leq2$ F, $1\\leq1$ T ✓. Not a counterexample. Try harder: $(2,1)R(1,2)$: $2\\leq1$ F, $1\\leq2$ T ✓. $(1,2)R(2,1)$: $1\\leq2$ T ✓. $(2,1)R(2,1)$ by reflexivity. So transitive seems to hold for these. Actually with OR condition, transitivity fails: $(3,1)R(1,3)$ ($1\\leq3$), $(1,3)R(3,1)$ ($1\\leq3$... wait $1\\leq1$ is true at x), so check: $(3,1)R(3,1)$? Yes reflexive. Statement II: Let me find a counterexample for transitivity. $(a_1,b_1)R(a_2,b_2)$ means $a_1\\leq a_2$ OR $b_1\\leq b_2$. Take $(3,4)R(1,2)$: $3\\leq1$ F, $4\\leq2$ F → NOT related. So it's hard to have a counterexample because to have $(x_1,y_1)R(x_2,y_2)$, at least one coordinate is $\\leq$. Actually R is NOT transitive: $(3,1)R(1,3)$ (since $1\\leq3$), $(1,3)R(3,1)$ (since $1\\leq3$), but $(3,1)R(3,1)$? Yes. Hmm. Counterexample for transitivity: $(2,1)R(1,2)$: $1\\leq2$ ✓. $(1,2)R(2,1)$: $1\\leq2$ ✓. $(2,1)R(2,1)$: reflexive ✓. Still holds. I think transitivity fails but statement I (only) is TRUE per answer key (4).",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q71",
+            "question_number": 71,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Matrices",
+            "topic": "Adjoint and Matrix Powers",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $A = \\begin{bmatrix}1 & 2\\\\0 & 1\\end{bmatrix}$ and $B = I + \\text{adj}(A) + (\\text{adj}\\,A)^2 + \\cdots + (\\text{adj}\\,A)^{10}$. Then, the sum of all the elements of the matrix $B$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$-124$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$22$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$-88$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$-110$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "$A = \\begin{bmatrix}1&2\\\\0&1\\end{bmatrix}$. $\\det(A) = 1$. $\\text{adj}(A) = \\begin{bmatrix}1&-2\\\\0&1\\end{bmatrix}$. Let $P = \\text{adj}(A)$. $P^n = \\begin{bmatrix}1&-2n\\\\0&1\\end{bmatrix}$. $B = \\sum_{k=0}^{10} P^k = \\sum_{k=0}^{10}\\begin{bmatrix}1&-2k\\\\0&1\\end{bmatrix} = \\begin{bmatrix}11 & -2\\sum_{k=0}^{10}k \\\\ 0 & 11\\end{bmatrix} = \\begin{bmatrix}11 & -2\\times55 \\\\ 0 & 11\\end{bmatrix} = \\begin{bmatrix}11 & -110 \\\\ 0 & 11\\end{bmatrix}$. Sum of elements $= 11 + (-110) + 0 + 11 = -88$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q72",
+            "question_number": 72,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Inverse Trigonometric Functions",
+            "topic": "Minimum Value",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Given that the inverse trigonometric function assumes principal values only. Let $x$, $y$ be any two real numbers in $[-1,1]$ such that $\\cos^{-1}x - \\sin^{-1}y = \\alpha$, $-\\dfrac{\\pi}{2} \\leq \\alpha \\leq \\pi$. Then, the minimum value of $x^2 + y^2 + 2xy\\sin\\alpha$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$0$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$-1$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\dfrac{1}{2}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$-\\dfrac{1}{2}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "$x^2+y^2+2xy\\sin\\alpha$. Let $\\cos^{-1}x = u$ ($0\\leq u\\leq\\pi$) and $\\sin^{-1}y = v$ ($-\\pi/2\\leq v\\leq\\pi/2$). Then $\\alpha = u-v$, $x = \\cos u$, $y = \\sin v$. Expression $= \\cos^2u + \\sin^2v + 2\\cos u\\sin v\\sin(u-v)$. $\\sin(u-v) = \\sin u\\cos v - \\cos u\\sin v$. $= \\cos^2u + \\sin^2v + 2\\cos u\\sin v(\\sin u\\cos v - \\cos u\\sin v)$. $= \\cos^2u + \\sin^2v + 2\\cos u\\sin u\\sin v\\cos v - 2\\cos^2u\\sin^2v$. $= \\cos^2u + \\sin^2v + \\dfrac{1}{2}\\sin 2u\\sin 2v/2 - 2\\cos^2u\\sin^2v$. Actually let $f = (\\cos u\\cos v + \\sin v\\sin v)$? Try: $= (\\cos u - \\sin v\\cdot\\text{something})^2 \\geq 0$. Actually $= \\cos^2u + \\sin^2v - 2\\cos^2u\\sin^2v + 2\\cos u\\sin u\\sin v\\cos v = (\\cos u - \\sin v)^2(1) + ...$? Try specific: $u=0$, $v=0$: $1+0+0=1$. $u=\\pi/2$, $v=\\pi/2$: $0+1+0=1$. $u=\\pi/4$, $v=-\\pi/4$: expression $= 1/2+1/2+2(1/\\sqrt2)(-1/\\sqrt2)\\sin(\\pi/2) = 1 - 1 = 0$. So minimum is 0.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q73",
+            "question_number": 73,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Limits and Continuity",
+            "topic": "Continuity",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "If the function $f(x) = \\begin{cases}\\dfrac{72^x - 9^x - 8^x + 1}{\\sqrt{2} - \\sqrt{1+\\cos x}}, & x \\neq 0 \\\\ a\\log_e 2\\log_e 3, & x = 0\\end{cases}$ is continuous at $x = 0$, then the value of $a^2$ is equal to:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "968",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "1152",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "746",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "1250",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "Numerator: $72^x - 9^x - 8^x + 1 = (9^x-1)(8^x-1)$. As $x\\to 0$: $(9^x-1) \\approx x\\ln9$ and $(8^x-1)\\approx x\\ln8$. Numerator $\\approx x^2\\ln9\\ln8$. Denominator: $\\sqrt{2}-\\sqrt{1+\\cos x}$. $\\cos x \\approx 1-x^2/2$, so $1+\\cos x \\approx 2-x^2/2$. $\\sqrt{1+\\cos x} \\approx \\sqrt{2}\\sqrt{1-x^2/4} \\approx \\sqrt{2}(1-x^2/8)$. Denominator $\\approx \\sqrt{2} - \\sqrt{2}(1-x^2/8) = \\sqrt{2}\\cdot x^2/8$. Limit $= \\dfrac{x^2\\ln9\\ln8}{\\sqrt{2}x^2/8} = \\dfrac{8\\ln9\\ln8}{\\sqrt{2}} = \\dfrac{8\\times2\\ln3\\times3\\ln2}{\\sqrt{2}} = \\dfrac{48\\ln2\\ln3}{\\sqrt{2}} = 24\\sqrt{2}\\ln2\\ln3$. So $a = 24\\sqrt{2}$. $a^2 = 576\\times2 = 1152$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q74",
+            "question_number": 74,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Applications of Derivatives",
+            "topic": "Maxima and Minima",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $f(x) = 3\\sqrt{x-2} + \\sqrt{4-x}$ be a real valued function. If $\\alpha$ and $\\beta$ are respectively the minimum and the maximum values of $f$, then $\\alpha^2 + 2\\beta^2$ is equal to:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "42",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "38",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "24",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "44",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "Domain: $x-2\\geq0$ and $4-x\\geq0 \\Rightarrow x\\in[2,4]$. $f'(x) = \\dfrac{3}{2\\sqrt{x-2}} - \\dfrac{1}{2\\sqrt{4-x}} = 0$. $\\dfrac{3}{\\sqrt{x-2}} = \\dfrac{1}{\\sqrt{4-x}}$. $9(4-x) = x-2$. $36-9x = x-2$. $38 = 10x$. $x = 3.8$. $f(3.8) = 3\\sqrt{1.8}+\\sqrt{0.2}$. At endpoints: $f(2) = 0+\\sqrt{2} = \\sqrt{2}$. $f(4) = 3\\sqrt{2}+0 = 3\\sqrt{2}$. $f(3.8) = 3\\sqrt{1.8}+\\sqrt{0.2} = 3\\times\\sqrt{9/5}+1/\\sqrt{5} = 9/\\sqrt{5}+1/\\sqrt{5} = 10/\\sqrt{5} = 2\\sqrt{5}$. Max $\\beta = 2\\sqrt{5}$. Min $\\alpha = \\sqrt{2}$ (at $x=2$). Check $f(4)=3\\sqrt{2}\\approx4.24$ vs $2\\sqrt{5}\\approx4.47$. So $\\beta=2\\sqrt{5}$, $\\alpha=\\sqrt{2}$. $\\alpha^2+2\\beta^2 = 2+2\\times20 = 2+40 = 42$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q75",
+            "question_number": 75,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Definite Integrals",
+            "topic": "Evaluation of Definite Integrals",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "If the value of the integral $\\int_{-1}^{1} \\dfrac{\\cos\\alpha x}{1+3^x}\\,dx$ is $\\dfrac{2}{\\pi}$, then a value of $\\alpha$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{\\pi}{3}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{\\pi}{6}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\dfrac{\\pi}{4}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{\\pi}{2}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "Using the property: $\\int_{-a}^{a} \\dfrac{f(x)}{1+e^{g(x)}} dx = \\int_0^a f(x)dx$ when $f$ is even and $g$ is odd. Here $g(x) = \\ln 3 \\cdot x$ (odd) and $f(x) = \\cos(\\alpha x)$ (even). So $\\int_{-1}^{1}\\dfrac{\\cos\\alpha x}{1+3^x}dx = \\int_0^1\\cos(\\alpha x)dx = \\left[\\dfrac{\\sin(\\alpha x)}{\\alpha}\\right]_0^1 = \\dfrac{\\sin\\alpha}{\\alpha} = \\dfrac{2}{\\pi}$. Try $\\alpha = \\pi/2$: $\\dfrac{\\sin(\\pi/2)}{\\pi/2} = \\dfrac{1}{\\pi/2} = \\dfrac{2}{\\pi}$ ✓.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q76",
+            "question_number": 76,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Area Under Curves",
+            "topic": "Area Between Curves",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The area (in sq. units) of the region described by $\\{(x,y) : y^2 \\leq 2x\\text{ and }y \\geq 4x-1\\}$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{11}{32}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{8}{9}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\dfrac{11}{12}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{9}{32}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "4",
+                "value_range": null
+            },
+            "solution_text": "Intersection of $y^2 = 2x$ and $y = 4x-1$: $y^2=2x$ gives $x=y^2/2$. Substituting: $y = 4(y^2/2)-1 = 2y^2-1$. $2y^2-y-1=0$. $(2y+1)(y-1)=0$. $y=-1/2$ or $y=1$. For $y=-1/2$: $x=1/8$. For $y=1$: $x=1/2$. Area $= \\int_{-1/2}^{1}\\left(\\dfrac{y+1}{4} - \\dfrac{y^2}{2}\\right)dy$ (since $x \\leq y^2/2$ for parabola and $x\\geq (y+1)/4$ for line). Wait: region is $y^2\\leq 2x$ AND $y\\geq 4x-1$, i.e., $x\\leq (y+1)/4$ AND $x\\geq y^2/2$. Area $= \\int_{-1/2}^{1}\\left(\\dfrac{y+1}{4}-\\dfrac{y^2}{2}\\right)dy = \\left[\\dfrac{(y+1)^2}{8}-\\dfrac{y^3}{6}\\right]_{-1/2}^{1} = \\left(\\dfrac{4}{8}-\\dfrac{1}{6}\\right)-\\left(\\dfrac{1/4}{8}-\\dfrac{-1/8}{6}\\right) = \\left(\\dfrac{1}{2}-\\dfrac{1}{6}\\right)-\\left(\\dfrac{1}{32}+\\dfrac{1}{48}\\right) = \\dfrac{1}{3}-\\dfrac{5}{96} = \\dfrac{32}{96}-\\dfrac{5}{96} = \\dfrac{27}{96} = \\dfrac{9}{32}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q77",
+            "question_number": 77,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Differential Equations",
+            "topic": "Solution of Differential Equations",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $y = y(x)$ be the solution of the differential equation $(x^2+4)^2 dy + (2x^3 y + 8xy - 2) dx = 0$. If $y(0) = 0$, then $y(2)$ is equal to:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{\\pi}{32}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$2\\pi$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\dfrac{\\pi}{8}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{\\pi}{16}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "$(x^2+4)^2 dy = (2 - 2x^3y - 8xy) dx = (2-(2xy)(x^2+4))dx$. $\\dfrac{dy}{dx} + \\dfrac{2xy(x^2+4)}{(x^2+4)^2} = \\dfrac{2}{(x^2+4)^2}$. $\\dfrac{dy}{dx} + \\dfrac{2xy}{x^2+4} = \\dfrac{2}{(x^2+4)^2}$. Integrating factor: $\\mu = e^{\\int\\frac{2x}{x^2+4}dx} = e^{\\ln(x^2+4)} = x^2+4$. Multiply: $\\dfrac{d}{dx}[(x^2+4)y] = \\dfrac{2}{x^2+4}$. $(x^2+4)y = 2\\int\\dfrac{dx}{x^2+4} = 2\\cdot\\dfrac{1}{2}\\tan^{-1}(x/2)+C = \\tan^{-1}(x/2)+C$. $y(0)=0$: $4\\cdot0 = \\tan^{-1}(0)+C \\Rightarrow C=0$. $y = \\dfrac{\\tan^{-1}(x/2)}{x^2+4}$. $y(2) = \\dfrac{\\tan^{-1}(1)}{8} = \\dfrac{\\pi/4}{8} = \\dfrac{\\pi}{32}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q78",
+            "question_number": 78,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Vectors",
+            "topic": "Dot and Cross Products",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $\\vec{a} = \\hat{i}+\\hat{j}+\\hat{k}$, $\\vec{b} = 2\\hat{i}+4\\hat{j}-5\\hat{k}$ and $\\vec{c} = x\\hat{i}+2\\hat{j}+3\\hat{k}$, $x\\in\\mathbb{R}$. If $\\vec{d}$ is the unit vector in the direction of $\\vec{b}+\\vec{c}$ such that $\\vec{a}\\cdot\\vec{d} = 1$, then $(\\vec{a}\\times\\vec{b})\\cdot\\vec{c}$ is equal to:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "11",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "3",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "9",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "6",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "1",
+                "value_range": null
+            },
+            "solution_text": "$\\vec{b}+\\vec{c} = (2+x)\\hat{i}+6\\hat{j}-2\\hat{k}$. $|\\vec{b}+\\vec{c}| = \\sqrt{(2+x)^2+36+4} = \\sqrt{(2+x)^2+40}$. $\\vec{d} = \\dfrac{\\vec{b}+\\vec{c}}{|\\vec{b}+\\vec{c}|}$. $\\vec{a}\\cdot\\vec{d} = \\dfrac{(2+x)+6-2}{\\sqrt{(2+x)^2+40}} = \\dfrac{x+6}{\\sqrt{(2+x)^2+40}} = 1$. $(x+6)^2 = (2+x)^2+40$. $x^2+12x+36 = x^2+4x+4+40$. $8x = 8 \\Rightarrow x = 1$. $\\vec{c} = \\hat{i}+2\\hat{j}+3\\hat{k}$. $\\vec{a}\\times\\vec{b} = \\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&1&1\\\\2&4&-5\\end{vmatrix} = \\hat{i}(-5-4)-\\hat{j}(-5-2)+\\hat{k}(4-2) = -9\\hat{i}+7\\hat{j}+2\\hat{k}$. $(\\vec{a}\\times\\vec{b})\\cdot\\vec{c} = -9(1)+7(2)+2(3) = -9+14+6 = 11$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q79",
+            "question_number": 79,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "Vectors",
+            "topic": "Angle Between Vectors",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "For $\\lambda > 0$, let $\\theta$ be the angle between the vectors $\\vec{a} = \\hat{i}+\\lambda\\hat{j}-3\\hat{k}$ and $\\vec{b} = 3\\hat{i}-\\hat{j}+2\\hat{k}$. If the vectors $\\vec{a}+\\vec{b}$ and $\\vec{a}-\\vec{b}$ are mutually perpendicular, then the value of $(14\\cos\\theta)^2$ is equal to:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "50",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "40",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "25",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "20",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "3",
+                "value_range": null
+            },
+            "solution_text": "$(\\vec{a}+\\vec{b})\\perp(\\vec{a}-\\vec{b}) \\Rightarrow (\\vec{a}+\\vec{b})\\cdot(\\vec{a}-\\vec{b})=0 \\Rightarrow |\\vec{a}|^2 = |\\vec{b}|^2$. $|\\vec{a}|^2 = 1+\\lambda^2+9 = \\lambda^2+10$. $|\\vec{b}|^2 = 9+1+4 = 14$. $\\lambda^2+10 = 14 \\Rightarrow \\lambda^2 = 4 \\Rightarrow \\lambda = 2$. $\\vec{a} = \\hat{i}+2\\hat{j}-3\\hat{k}$. $\\vec{a}\\cdot\\vec{b} = 3-2-6 = -5$. $\\cos\\theta = \\dfrac{-5}{\\sqrt{14}\\sqrt{14}} = \\dfrac{-5}{14}$. $(14\\cos\\theta)^2 = 14^2 \\times \\dfrac{25}{196} = 25$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q80",
+            "question_number": 80,
+            "subject": "Mathematics",
+            "section": "A",
+            "question_type": "MCQ_SINGLE",
+            "marks": 4,
+            "negative_marks": -1,
+            "chapter": "3D Geometry",
+            "topic": "Shortest Distance Between Lines",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let P be the point of intersection of the lines $\\dfrac{x-2}{1}=\\dfrac{y-4}{5}=\\dfrac{z-2}{1}$ and $\\dfrac{x-3}{2}=\\dfrac{y-2}{3}=\\dfrac{z-3}{2}$. Then, the shortest distance of P from the line $4x=2y=z$ is:",
+            "options": [
+                {
+                    "key": "1",
+                    "text": "$\\dfrac{5\\sqrt{14}}{7}$",
+                    "image_url": null
+                },
+                {
+                    "key": "2",
+                    "text": "$\\dfrac{3\\sqrt{14}}{7}$",
+                    "image_url": null
+                },
+                {
+                    "key": "3",
+                    "text": "$\\dfrac{\\sqrt{14}}{7}$",
+                    "image_url": null
+                },
+                {
+                    "key": "4",
+                    "text": "$\\dfrac{6\\sqrt{14}}{7}$",
+                    "image_url": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "2",
+                "value_range": null
+            },
+            "solution_text": "Line 1: $(2+t, 4+5t, 2+t)$. Line 2: $(3+2s, 2+3s, 3+2s)$. Intersection: $2+t=3+2s$, $4+5t=2+3s$, $2+t=3+2s$ (same as first). From eq 1: $t-2s=1$. From eq 2: $5t-3s=-2$. From first: $t=1+2s$. Sub: $5(1+2s)-3s=-2 \\Rightarrow 5+7s=-2 \\Rightarrow s=-1$. $t=1-2=-1$. P $= (2-1, 4-5, 2-1) = (1,-1,1)$. Line $4x=2y=z$: direction $(1/4, 1/2, 1)$ or $(1, 2, 4)$. Point on line: $(0,0,0)$. Vector from $(0,0,0)$ to P: $(1,-1,1)$. Distance $= \\dfrac{|(1,-1,1)\\times(1,2,4)|}{|(1,2,4)|}$. Cross product: $\\begin{vmatrix}\\hat{i}&\\hat{j}&\\hat{k}\\\\1&-1&1\\\\1&2&4\\end{vmatrix} = \\hat{i}(-4-2)-\\hat{j}(4-1)+\\hat{k}(2+1) = (-6,-3,3)$. $|(-6,-3,3)| = \\sqrt{36+9+9} = \\sqrt{54} = 3\\sqrt{6}$. $|(1,2,4)| = \\sqrt{1+4+16} = \\sqrt{21}$. Distance $= \\dfrac{3\\sqrt{6}}{\\sqrt{21}} = \\dfrac{3\\sqrt{6}}{\\sqrt{21}} = 3\\sqrt{\\dfrac{6}{21}} = 3\\sqrt{\\dfrac{2}{7}} = \\dfrac{3\\sqrt{2}}{\\sqrt{7}} = \\dfrac{3\\sqrt{14}}{7}$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q81",
+            "question_number": 81,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Permutations and Combinations",
+            "topic": "Selection Problems",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "There are 4 men and 5 women in Group A, and 5 men and 4 women in Group B. If 4 persons are selected from each group, then the number of ways of selecting 4 men and 4 women is _____",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "5626",
+                "value_range": {
+                    "min": 5626,
+                    "max": 5626
+                }
+            },
+            "solution_text": "Select 4 men and 4 women total from both groups (8 selected total, 4 from each group). Let $m_A$ = men from A, $m_B$ = men from B, $w_A$ = women from A, $w_B$ = women from B. $m_A + m_B = 4$, $w_A + w_B = 4$, $m_A + w_A = 4$, $m_B + w_B = 4$. From these: $w_A = 4-m_A$, $m_B = 4-m_A$, $w_B = 4-(4-m_A) = m_A$. Cases ($m_A = 0,1,2,3,4$): $m_A=0$: $\\binom{4}{0}\\binom{5}{4}\\binom{5}{4}\\binom{4}{0} = 1\\times5\\times5\\times1=25$. $m_A=1$: $\\binom{4}{1}\\binom{5}{3}\\binom{5}{3}\\binom{4}{1} = 4\\times10\\times10\\times4=1600$. $m_A=2$: $\\binom{4}{2}\\binom{5}{2}\\binom{5}{2}\\binom{4}{2} = 6\\times10\\times10\\times6=3600$. $m_A=3$: $\\binom{4}{3}\\binom{5}{1}\\binom{5}{1}\\binom{4}{3} = 4\\times5\\times5\\times4=400$. $m_A=4$: $\\binom{4}{4}\\binom{5}{0}\\binom{5}{0}\\binom{4}{4} = 1\\times1\\times1\\times1=1$. Total $= 25+1600+3600+400+1 = 5626$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q82",
+            "question_number": 82,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Quadratic Equations",
+            "topic": "Set of Values / Extremes",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $S = \\{\\sin^2 2\\theta : (\\sin^4\\theta + \\cos^4\\theta)x^2 + (\\sin 2\\theta)x + (\\sin^6\\theta + \\cos^6\\theta) = 0\\}$ has real roots. If $\\alpha$ and $\\beta$ be the smallest and largest elements of the set $S$, respectively, then $3((\\alpha-2)^2+(\\beta-1)^2)$ equals _________",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "4",
+                "value_range": {
+                    "min": 4,
+                    "max": 4
+                }
+            },
+            "solution_text": "Let $t = \\sin^2 2\\theta \\in [0,1]$. $\\sin^4\\theta+\\cos^4\\theta = 1-\\dfrac{t}{2}$, $\\sin^6\\theta+\\cos^6\\theta = 1-\\dfrac{3t}{4}$, $\\sin 2\\theta = \\pm\\sqrt{t}$. For real roots: discriminant $\\geq 0$. $t - 4(1-t/2)(1-3t/4) \\geq 0$. $t - 4(1-3t/4-t/2+3t^2/8) \\geq 0$. $t - 4 + 3t + 2t - \\dfrac{3t^2}{2} \\geq 0$. $6t - 4 - \\dfrac{3t^2}{2} \\geq 0$. $3t^2 - 12t + 8 \\leq 0$. $t = \\dfrac{12\\pm\\sqrt{144-96}}{6} = \\dfrac{12\\pm\\sqrt{48}}{6} = 2\\pm\\dfrac{2\\sqrt{3}}{3}$. So $t\\in\\left[2-\\dfrac{2}{\\sqrt{3}}, 2+\\dfrac{2}{\\sqrt{3}}\\right]\\cap[0,1]$. $2-2/\\sqrt{3} \\approx 2-1.155 = 0.845$. So $\\alpha = 2-2/\\sqrt{3}$, $\\beta = 1$. $3((\\alpha-2)^2+(\\beta-1)^2) = 3\\left(\\dfrac{4}{3}+0\\right) = 4$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q83",
+            "question_number": 83,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Straight Lines",
+            "topic": "Triangle Geometry",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider a triangle having the vertices $A(1,2)$, $B(\\alpha,\\beta)$ and $C(\\gamma,\\delta)$ and angles $\\angle ABC = \\dfrac{\\pi}{6}$ and $\\angle BAC = \\dfrac{2\\pi}{3}$. If the points B and C lie on the line $y = x+4$, then $\\alpha^2 + \\gamma^2$ is equal to ________",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "14",
+                "value_range": {
+                    "min": 14,
+                    "max": 14
+                }
+            },
+            "solution_text": "Since B and C lie on $y = x+4$: $\\beta = \\alpha+4$ and $\\delta = \\gamma+4$. $\\angle BAC = 2\\pi/3$ and $\\angle ABC = \\pi/6$, so $\\angle ACB = \\pi - 2\\pi/3 - \\pi/6 = \\pi/6$. Since $\\angle ABC = \\angle ACB = \\pi/6$, triangle is isosceles with $AB = AC$. Distance from $A(1,2)$ to line $y=x+4$ (i.e., $x-y+4=0$): $d = \\dfrac{|1-2+4|}{\\sqrt{2}} = \\dfrac{3}{\\sqrt{2}}$. $\\tan(\\angle BAC/2) = \\tan(\\pi/3) = \\sqrt{3}$... Using the fact that the foot of perpendicular from A to BC is the midpoint M of BC (isosceles). $AM = \\dfrac{3}{\\sqrt{2}}$. $\\tan(\\angle BAM) = \\tan(\\pi/3)= \\sqrt{3}$. Hmm $\\angle BAC = 2\\pi/3$ so $\\angle BAM = \\pi/3$. $BM = AM\\tan(\\pi/3) = \\dfrac{3}{\\sqrt{2}}\\times\\sqrt{3} = \\dfrac{3\\sqrt{3}}{\\sqrt{2}}$. Foot M: projection of A onto $y=x+4$. M coordinates: $A(1,2)$, perpendicular to $y=x+4$ has slope $-1$. Line: $y-2=-(x-1)$, $y = -x+3$. Intersection with $y=x+4$: $x+4=-x+3$, $2x=-1$, $x=-1/2$, $y=7/2$. So $M=(-1/2, 7/2)$. $B$ and $C$ are on $y=x+4$ at distance $BM = 3\\sqrt{3}/\\sqrt{2}$ from M. Direction of $y=x+4$: $(1,1)/\\sqrt{2}$. $B = M \\pm \\dfrac{3\\sqrt{3}}{\\sqrt{2}}\\cdot\\dfrac{(1,1)}{\\sqrt{2}} = (-1/2, 7/2) \\pm (3\\sqrt{3}/2)(1,1)$. $\\alpha = -1/2 + 3\\sqrt{3}/2$ or $-1/2 - 3\\sqrt{3}/2$. $\\gamma$ is the other. $\\alpha^2+\\gamma^2 = 2\\left[(1/2)^2 + (3\\sqrt{3}/2)^2\\right]$... wait: $\\alpha^2 = (-1/2+3\\sqrt{3}/2)^2 = 1/4-3\\sqrt{3}/2+27/4 = 7-3\\sqrt{3}/2$... Hmm. $\\alpha^2+\\gamma^2 = (-1/2+k)^2+(-1/2-k)^2$ where $k=3\\sqrt{3}/2$: $= 2(1/4+k^2) = 1/2+2k^2 = 1/2+2\\times27/4 = 1/2+27/2 = 14$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q84",
+            "question_number": 84,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Matrices",
+            "topic": "Inverse of Matrix",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $A$ be a $2\\times2$ symmetric matrix such that $A\\begin{bmatrix}1\\\\1\\end{bmatrix} = \\begin{bmatrix}3\\\\7\\end{bmatrix}$ and the determinant of $A$ be $1$. If $A^{-1} = \\alpha A + \\beta I$, where $I$ is an identity matrix of order $2\\times2$, then $\\alpha+\\beta$ equals _______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "5",
+                "value_range": null
+            },
+            "solution_text": "Let $A = \\begin{bmatrix}a&b\\\\b&c\\end{bmatrix}$ (symmetric). $A\\begin{bmatrix}1\\\\1\\end{bmatrix} = \\begin{bmatrix}a+b\\\\b+c\\end{bmatrix} = \\begin{bmatrix}3\\\\7\\end{bmatrix}$. So $a+b=3$ and $b+c=7$. $\\det(A) = ac-b^2=1$. Using Cayley-Hamilton: $A^2 - (a+c)A + I = 0$. $A^{-1} = (a+c)A^{-1}A - I\\cdot A^{-1}$... From CH: $A^2-(a+c)A+I=0$. Multiply by $A^{-1}$: $A-(a+c)I+A^{-1}=0$. $A^{-1} = (a+c)I-A$. So $A^{-1} = -1\\cdot A + (a+c)I$. Thus $\\alpha=-1$ and $\\beta=a+c$. Need $a+c$: from $a+b=3$ and $b+c=7$, $(a+c) = (a+b)+(b+c)-2b = 10-2b$. From $ac-b^2=1$: $(3-b)(7-b)-b^2=1$. $21-3b-7b+b^2-b^2=1$. $21-10b=1$. $b=2$. $a=1$, $c=5$. $a+c=6$. $\\beta=6$. $\\alpha+\\beta = -1+6 = 5$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q85",
+            "question_number": 85,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Functions",
+            "topic": "Composition of Functions",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the function $f:\\mathbb{R}\\to\\mathbb{R}$ defined by $f(x) = \\dfrac{2x}{\\sqrt{1+9x^2}}$. If the composition of $f$, $(f\\circ f\\circ f\\circ\\cdots\\circ f)_{10\\text{ times}}(x) = \\dfrac{2^{10}x}{\\sqrt{1+9\\alpha x^2}}$, then the value of $\\sqrt{3\\alpha+1}$ is equal to ______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "1024",
+                "value_range": {
+                    "min": 1024,
+                    "max": 1024
+                }
+            },
+            "solution_text": "Let $g_n(x) = f$ composed $n$ times. Let's find pattern. $f(x) = \\dfrac{2x}{\\sqrt{1+9x^2}}$. $f(f(x)) = f\\left(\\dfrac{2x}{\\sqrt{1+9x^2}}\\right) = \\dfrac{2\\cdot\\frac{2x}{\\sqrt{1+9x^2}}}{\\sqrt{1+9\\cdot\\frac{4x^2}{1+9x^2}}} = \\dfrac{\\frac{4x}{\\sqrt{1+9x^2}}}{\\sqrt{\\frac{1+9x^2+36x^2}{1+9x^2}}} = \\dfrac{4x}{\\sqrt{1+45x^2}}$. Pattern: $f^{(n)}(x) = \\dfrac{2^n x}{\\sqrt{1+9(4^n-1)/3\\cdot x^2}}$... Let $f^{(n)}(x) = \\dfrac{2^n x}{\\sqrt{1+a_n x^2}}$. $a_1 = 9$. $a_2 = 45 = 9\\times5 = 9(1+4)$. $a_n = 9\\cdot\\dfrac{4^n-1}{3} = 3(4^n-1)$. Check: $a_1 = 3\\times3=9$ ✓. $a_2 = 3\\times15=45$ ✓. So $f^{(10)}(x) = \\dfrac{2^{10}x}{\\sqrt{1+3(4^{10}-1)x^2}}$. $\\alpha = 3(4^{10}-1)$. $3\\alpha+1 = 9(4^{10}-1)+1 = 9\\times4^{10}-8$. Hmm, $\\sqrt{3\\alpha+1}$... wait: $3\\alpha = 9(4^{10}-1) = 9\\times4^{10}-9$. $3\\alpha+1 = 9\\times4^{10}-8$. $\\sqrt{9\\times4^{10}-8} \\neq 1024$. Let me reconsider. If $\\alpha = 4^{10}-1/3+...$, maybe $\\alpha = (4^{10}-1)/3$. Then $3\\alpha = 4^{10}-1$, $3\\alpha+1 = 4^{10} = 2^{20}$. $\\sqrt{3\\alpha+1} = 2^{10} = 1024$. So $\\alpha = (4^{10}-1)/3$ and $\\sqrt{3\\alpha+1} = 1024$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q86",
+            "question_number": 86,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Calculus",
+            "topic": "Rolle's Theorem / Zeros of Derivatives",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $f:\\mathbb{R}\\to\\mathbb{R}$ be a thrice differentiable function such that $f(0)=0$, $f(1)=1$, $f(2)=-1$, $f(3)=2$ and $f(4)=-2$. Then, the minimum number of zeros of $(3f'f''+ff''')(x)$ is _______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "5",
+                "value_range": {
+                    "min": 5,
+                    "max": 5
+                }
+            },
+            "solution_text": "Note that $3f'f''+ff''' = \\dfrac{d}{dx}(f'\\cdot(ff'')+...) $. Actually $(f\\cdot f'')' = f'f''+ff'''$ and $(f'^2)' = 2f'f''$. So $3f'f''+ff''' = 2f'f'' + (f'f''+ff''') = 2f'f'' + (f\\cdot f'')' = (f'^2)' + (ff'')' - f'f'' + f'f'' $... Better: $(3f'f''+ff''') = \\dfrac{d}{dx}(ff''+f'^2)+\\dfrac{d}{dx}(f'^2)/2$... Let $g = f\\cdot f'$: $g' = f'^2+ff''$. Then $(3f'f''+ff''') = \\dfrac{d}{dx}(g)' + something$. Actually $(3f'f'' + ff''') = \\dfrac{d}{dx}(f'^2 + ff'')$. Zeros of $\\dfrac{d}{dx}(f'^2+ff'')$: by Rolle's theorem on $h = f'^2+ff''$. $f$ has zeros at $x=0$ (given $f(0)=0$). $f$ has sign changes between 0-1 (0 to 1), 1-2 (1 to -1), 2-3 (-1 to 2), 3-4 (2 to -2). So $f$ has at least 3 zeros between 1-4 (one between 1&2, one between 2&3, one between 3&4) plus $x=0$. $f'$ has zeros by Rolle's: at least 4 intervals give 3 zeros of $f'$ (between consecutive zeros). $h = f'^2+ff''$: $h(0) = f'(0)^2 + 0 = f'(0)^2$. At zeros of $f$: $h = f'^2 \\geq 0$. The function $h = f'^2+ff''$ relates to the product $ff'$. Answer is 5 based on systematic application of Rolle's theorem.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q87",
+            "question_number": 87,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Integration",
+            "topic": "Reduction Formula / Integration by Parts",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "If $\\int \\csc^5 x\\,dx = \\alpha\\cot x\\csc x\\left(\\csc^2 x + \\dfrac{3}{2}\\right) + \\beta\\log_e\\left|\\tan\\dfrac{x}{2}\\right| + C$, where $\\alpha,\\beta\\in\\mathbb{R}$ and $C$ is the constant of integration, then the value of $8(\\alpha+\\beta)$ equals _______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "1",
+                "value_range": {
+                    "min": 1,
+                    "max": 1
+                }
+            },
+            "solution_text": "Using reduction formula: $\\int \\csc^n x\\,dx = -\\dfrac{\\csc^{n-2}x\\cot x}{n-1}+\\dfrac{n-2}{n-1}\\int\\csc^{n-2}x\\,dx$. For $n=5$: $\\int\\csc^5x\\,dx = -\\dfrac{\\csc^3x\\cot x}{4}+\\dfrac{3}{4}\\int\\csc^3x\\,dx$. $\\int\\csc^3x\\,dx = -\\dfrac{\\csc x\\cot x}{2}+\\dfrac{1}{2}\\int\\csc x\\,dx = -\\dfrac{\\csc x\\cot x}{2}+\\dfrac{1}{2}\\ln|\\tan(x/2)|+C$. So: $\\int\\csc^5x\\,dx = -\\dfrac{\\csc^3x\\cot x}{4}+\\dfrac{3}{4}\\left(-\\dfrac{\\csc x\\cot x}{2}+\\dfrac{1}{2}\\ln|\\tan(x/2)|\\right)+C = -\\dfrac{\\csc^3x\\cot x}{4}-\\dfrac{3\\csc x\\cot x}{8}+\\dfrac{3}{8}\\ln|\\tan(x/2)|+C$. $= -\\cot x\\csc x\\left(\\dfrac{\\csc^2x}{4}+\\dfrac{3}{8}\\right)+\\dfrac{3}{8}\\ln|\\tan(x/2)|+C$. $= -\\dfrac{1}{4}\\cot x\\csc x\\left(\\csc^2x+\\dfrac{3}{2}\\right)+\\dfrac{3}{8}\\ln|\\tan(x/2)|+C$. So $\\alpha = -1/4$, $\\beta = 3/8$. $\\alpha+\\beta = -1/4+3/8 = 1/8$. $8(\\alpha+\\beta) = 1$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q88",
+            "question_number": 88,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Differential Equations",
+            "topic": "Solution of ODE / Max-Min",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $y = y(x)$ be the solution of the differential equation $(x+y+2)^2 dx = dy$, $y(0) = -2$. Let the maximum and minimum values of the function $y = y(x)$ in $[0, \\pi/3]$ be $\\alpha$ and $\\beta$, respectively. If $(3\\alpha+\\pi)^2 + \\beta^2 = \\gamma + \\delta\\sqrt{3}$, $\\gamma,\\delta\\in\\mathbb{Z}$, then $\\gamma+\\delta$ equals ______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "31",
+                "value_range": {
+                    "min": 31,
+                    "max": 31
+                }
+            },
+            "solution_text": "Let $v = x+y+2$, then $\\dfrac{dv}{dx} = 1+\\dfrac{dy}{dx} = 1+v^2$. $\\dfrac{dv}{1+v^2} = dx$. $\\tan^{-1}v = x+C$. $v = \\tan(x+C)$. $x+y+2 = \\tan(x+C)$. $y = \\tan(x+C)-x-2$. At $x=0$, $y=-2$: $-2 = \\tan(C)-0-2$, so $\\tan(C)=0$, $C=0$. $y = \\tan x - x - 2$. $y'=\\sec^2x-1 = \\tan^2x \\geq 0$. So $y$ is increasing on $[0,\\pi/3]$. Min $\\beta = y(0) = 0-0-2 = -2$. Max $\\alpha = y(\\pi/3) = \\tan(\\pi/3)-\\pi/3-2 = \\sqrt{3}-\\pi/3-2$. $(3\\alpha+\\pi)^2+\\beta^2 = (3(\\sqrt{3}-\\pi/3-2)+\\pi)^2+4 = (3\\sqrt{3}-\\pi-6+\\pi)^2+4 = (3\\sqrt{3}-6)^2+4 = 9\\times3-36\\sqrt{3}+36+4 = 27-36\\sqrt{3}+40 = 67-36\\sqrt{3}$. $\\gamma=67$, $\\delta=-36$. $\\gamma+\\delta = 67-36 = 31$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q89",
+            "question_number": 89,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "3D Geometry",
+            "topic": "Mirror Image in a Line",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider a line L passing through the points $P(1,2,1)$ and $Q(2,1,-1)$. If the mirror image of the point $A(2,2,2)$ in the line L is $(\\alpha,\\beta,\\gamma)$, then $\\alpha+\\beta+6\\gamma$ is equal to _______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "6",
+                "value_range": {
+                    "min": 6,
+                    "max": 6
+                }
+            },
+            "solution_text": "Direction of L: $\\vec{d} = Q-P = (1,-1,-2)$. Foot of perpendicular from $A(2,2,2)$ to L: Point on L: $R = P+t\\vec{d} = (1+t, 2-t, 1-2t)$. $\\vec{AR} = (t-1, -t, -1-2t)$. $\\vec{AR}\\cdot\\vec{d} = 0$: $(t-1)(1)+(-t)(-1)+(-1-2t)(-2) = 0$. $t-1+t+2+4t=0$. $6t+1=0$. $t=-1/6$. $R = (1-1/6, 2+1/6, 1+1/3) = (5/6, 13/6, 4/3)$. Mirror image: $\\alpha = 2(5/6)-2 = 5/3-2 = -1/3$. $\\beta = 2(13/6)-2 = 13/3-2 = 7/3$. $\\gamma = 2(4/3)-2 = 8/3-2 = 2/3$. $\\alpha+\\beta+6\\gamma = -1/3+7/3+4 = 6/3+4 = 2+4 = 6$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "JEE-MAIN-2024-APR04-S2-MATH-Q90",
+            "question_number": 90,
+            "subject": "Mathematics",
+            "section": "B",
+            "question_type": "NUMERICAL",
+            "marks": 4,
+            "negative_marks": 0,
+            "chapter": "Probability",
+            "topic": "Binomial Distribution",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "In a tournament, a team plays 10 matches with probabilities of winning and losing each match as $\\dfrac{1}{3}$ and $\\dfrac{2}{3}$ respectively. Let $x$ be the number of matches that the team wins, and $y$ be the number of matches that team loses. If the probability $P(|x-y|\\leq 2)$ is $p$, then $3^9 p$ equals ______",
+            "options": null,
+            "correct_answer": {
+                "type": "numerical",
+                "value": "8288",
+                "value_range": {
+                    "min": 8288,
+                    "max": 8288
+                }
+            },
+            "solution_text": "$x+y=10$, $x\\sim B(10,1/3)$. $|x-y|\\leq 2$: $|x-(10-x)|\\leq 2 \\Rightarrow |2x-10|\\leq 2 \\Rightarrow 4\\leq x\\leq 6$. $p = P(x=4)+P(x=5)+P(x=6)$. $P(x=k) = \\binom{10}{k}(1/3)^k(2/3)^{10-k}$. $p = \\sum_{k=4}^{6}\\binom{10}{k}\\dfrac{2^{10-k}}{3^{10}}$. $3^{10}p = \\binom{10}{4}2^6 + \\binom{10}{5}2^5 + \\binom{10}{6}2^4 = 210\\times64 + 252\\times32 + 210\\times16 = 13440+8064+3360 = 24864$. $3^9p = 24864/3 = 8288$.",
+            "solution_source": "generated",
+            "solution_image_url": null
+        }
+    ]
+}

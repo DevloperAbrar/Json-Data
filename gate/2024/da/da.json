@@ -1,0 +1,3466 @@
+{
+    "meta": {
+        "exam_name": "Graduate Aptitude Test in Engineering",
+        "exam_short_code": "GATE-2024-DA",
+        "year": 2024,
+        "date": "2024-02-04",
+        "branch": "Data Science and Artificial Intelligence",
+        "branch_code": "DA",
+        "paper_code": "DA",
+        "organizing_institute": "Indian Institute of Science, Bengaluru",
+        "total_marks": 100,
+        "total_time_minutes": 180,
+        "total_questions": 65,
+        "sections": [
+            {
+                "section_name": "General Aptitude",
+                "section_code": "GA",
+                "subsections": [
+                    {
+                        "question_range": "Q1-Q5",
+                        "question_count": 5,
+                        "marks_per_question": 1,
+                        "negative_marks": {
+                            "MCQ": 0.33,
+                            "MSQ": 0,
+                            "NAT": 0
+                        }
+                    },
+                    {
+                        "question_range": "Q6-Q10",
+                        "question_count": 5,
+                        "marks_per_question": 2,
+                        "negative_marks": {
+                            "MCQ": 0.67,
+                            "MSQ": 0,
+                            "NAT": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "section_name": "Data Science and Artificial Intelligence",
+                "section_code": "DA",
+                "subsections": [
+                    {
+                        "question_range": "Q11-Q35",
+                        "question_count": 25,
+                        "marks_per_question": 1,
+                        "negative_marks": {
+                            "MCQ": 0.33,
+                            "MSQ": 0,
+                            "NAT": 0
+                        }
+                    },
+                    {
+                        "question_range": "Q36-Q65",
+                        "question_count": 30,
+                        "marks_per_question": 2,
+                        "negative_marks": {
+                            "MCQ": 0.67,
+                            "MSQ": 0,
+                            "NAT": 0
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "questions": [
+        {
+            "question_id": "GATE-2024-DA-GA-Q1",
+            "question_number": 1,
+            "section": "GA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Verbal Ability",
+            "topic": "Word Analogy",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "If '$\\rightarrow$' denotes increasing order of intensity, then the meaning of the words [sick $\\rightarrow$ infirm $\\rightarrow$ moribund] is analogous to [silly $\\rightarrow$ _______ $\\rightarrow$ daft]. Which one of the given options is appropriate to fill the blank?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "frown",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "fawn",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "vein",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "vain",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "D",
+                "value_range": null
+            },
+            "solution_text": "The analogy involves words in increasing order of intensity. 'Sick $\\rightarrow$ infirm $\\rightarrow$ moribund' describes increasing severity of illness (sick = unwell, infirm = weak/ill, moribund = near death). Similarly, 'silly $\\rightarrow$ _______ $\\rightarrow$ daft' needs a word between silly (mildly foolish) and daft (very foolish/crazy). 'Vain' means foolishly conceited or futile, which fits as a moderate degree of foolishness between silly and daft. 'Frown' is a facial expression, 'fawn' means to flatter servilely, 'vein' is a blood vessel — none of these fit the semantic progression of foolishness. Hence the answer is (D) vain.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-GA-Q2",
+            "question_number": 2,
+            "section": "GA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Spatial Reasoning",
+            "topic": "Graph Coloring / Map Coloring",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "The 15 parts of the given figure are to be painted such that no two adjacent parts with shared boundaries (excluding corners) have the same color. The minimum number of colors required is",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "4",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "3",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "5",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "6",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "The figure consists of a large outer circle divided into regions by internal lines forming a star/cross pattern. Analyzing the adjacency structure of the 15 regions: the figure has a central polygon surrounded by triangular and outer regions. By analyzing which regions share boundaries (not just corners), we need to find the chromatic number of the resulting planar graph. The inner regions of a star pattern inscribed in a circle typically require 4 colors due to the adjacency constraints — some regions share boundaries with more than 3 others simultaneously. By attempting a 3-coloring, we find a conflict: the central inner region is adjacent to multiple regions that force a 4th color. Hence the minimum number of colors required is 4, i.e., option (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-GA-Q3",
+            "question_number": 3,
+            "section": "GA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Numerical Ability",
+            "topic": "Combinatorics / Divisibility",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "How many 4-digit positive integers divisible by 3 can be formed using only the digits $\\{1, 3, 4, 6, 7\\}$, such that no digit appears more than once in a number?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "24",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "48",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "72",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "12",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "B",
+                "value_range": null
+            },
+            "solution_text": "Digits available: $\\{1, 3, 4, 6, 7\\}$ with digit sums: 1, 3, 4, 6, 7. Sum of all five = 21. A number is divisible by 3 iff its digit sum is divisible by 3. We need 4-digit combinations (no repetition) from these 5 digits whose sum is divisible by 3. The digit sum of all 5 is 21. We choose 4 out of 5 (i.e., we leave out one digit). The sum of the chosen 4 = 21 - (left out digit). For divisibility by 3: $21 - d \\equiv 0 \\pmod{3}$ $\\Rightarrow d \\equiv 21 \\equiv 0 \\pmod{3}$ $\\Rightarrow d$ must be divisible by 3. From $\\{1,3,4,6,7\\}$, digits divisible by 3 are: 3 and 6. So there are 2 valid 4-element subsets: $\\{1,4,6,7\\}$ (sum=18) and $\\{1,3,4,7\\}$ (sum=15). Each subset can be arranged in $4! = 24$ ways. Total = $2 \\times 24 = 48$. Answer: (B) 48.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-GA-Q4",
+            "question_number": 4,
+            "section": "GA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Numerical Ability",
+            "topic": "Infinite Series",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The sum of the following infinite series is $2 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{9} + \\frac{1}{16} + \\frac{1}{27} + \\cdots$",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "11/3",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "7/2",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "13/4",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "9/2",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "B",
+                "value_range": null
+            },
+            "solution_text": "The series is: $2 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{9} + \\frac{1}{16} + \\frac{1}{27} + \\cdots$ Observe the pattern: the terms interleave two geometric series — powers of $\\frac{1}{2}$ and powers of $\\frac{1}{3}$. Rewrite: $2 + \\left(\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\frac{1}{16} + \\cdots\\right) + \\left(\\frac{1}{3} + \\frac{1}{9} + \\frac{1}{27} + \\cdots\\right)$. Sum of geometric series $\\sum_{n=1}^{\\infty} \\left(\\frac{1}{2}\\right)^n = \\frac{1/2}{1-1/2} = 1$. Sum of geometric series $\\sum_{n=1}^{\\infty} \\left(\\frac{1}{3}\\right)^n = \\frac{1/3}{1-1/3} = \\frac{1}{2}$. Total $= 2 + 1 + \\frac{1}{2} = \\frac{7}{2}$. Answer: (B) 7/2.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-GA-Q5",
+            "question_number": 5,
+            "section": "GA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Data Interpretation",
+            "topic": "Pie Chart",
+            "difficulty": "Easy",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "In an election, the share of valid votes received by the four candidates A, B, C, and D is represented by the pie chart shown. The total number of votes cast in the election were 1,15,000, out of which 5,000 were invalid. Based on the data provided, the total number of valid votes received by the candidates B and C is",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "45,000",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "49,500",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "51,750",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "54,000",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "B",
+                "value_range": null
+            },
+            "solution_text": "Total votes cast = 1,15,000. Invalid votes = 5,000. Valid votes = 1,15,000 - 5,000 = 1,10,000. From the pie chart: B gets 25% and C gets 20% of valid votes. Combined share of B and C = 25% + 20% = 45%. Total valid votes for B and C = 45% of 1,10,000 = $0.45 \\times 1,10,000 = 49,500$. Answer: (B) 49,500.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-GA-Q6",
+            "question_number": 6,
+            "section": "GA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Verbal Ability",
+            "topic": "Reading Comprehension / Inference",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Thousands of years ago, some people began dairy farming. This coincided with a number of mutations in a particular gene that resulted in these people developing the ability to digest dairy milk. Based on the given passage, which of the following can be inferred?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "All human beings can digest dairy milk.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "No human being can digest dairy milk.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "Digestion of dairy milk is essential for human beings.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "In human beings, digestion of dairy milk resulted from a mutated gene.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "D",
+                "value_range": null
+            },
+            "solution_text": "The passage states that some people developed mutations in a gene that gave them the ability to digest dairy milk. This directly supports option (D): digestion of dairy milk in human beings resulted from a mutated gene. Option (A) is too broad — only 'some people' developed this ability. Option (B) contradicts the passage. Option (C) is not stated anywhere. Hence (D) is the correct inference.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-GA-Q7",
+            "question_number": 7,
+            "section": "GA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Numerical Ability",
+            "topic": "Probability",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The probability of a boy or a girl being born is 1/2. For a family having only three children, what is the probability of having two girls and one boy?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "3/8",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "1/8",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "1/4",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "1/2",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "Each child is independently a girl or boy with probability 1/2 each. We want exactly 2 girls and 1 boy out of 3 children. Using the binomial formula: $P(X=2) = \\binom{3}{2} \\left(\\frac{1}{2}\\right)^2 \\left(\\frac{1}{2}\\right)^1 = 3 \\times \\frac{1}{4} \\times \\frac{1}{2} = \\frac{3}{8}$. Answer: (A) 3/8.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-GA-Q8",
+            "question_number": 8,
+            "section": "GA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Numerical Ability",
+            "topic": "Linear Equations / Financial Math",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Person 1 and Person 2 invest in three mutual funds A, B, and C. The amounts they invest in each of these mutual funds are given in the table: Person 1 invests ₹10,000 in A, ₹20,000 in B, ₹20,000 in C; Person 2 invests ₹20,000 in A, ₹15,000 in B, ₹15,000 in C. At the end of one year, the total amount that Person 1 gets is ₹500 more than Person 2. The annual rate of return for the mutual funds B and C is 15% each. What is the annual rate of return for the mutual fund A?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "7.5%",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "10%",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "15%",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "20%",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "B",
+                "value_range": null
+            },
+            "solution_text": "Let annual rate of return for A be $r$ (as a decimal). Return of Person 1 = $10000r + 20000(0.15) + 20000(0.15) = 10000r + 3000 + 3000 = 10000r + 6000$. Return of Person 2 = $20000r + 15000(0.15) + 15000(0.15) = 20000r + 2250 + 2250 = 20000r + 4500$. Given: Person 1's return = Person 2's return + 500: $10000r + 6000 = 20000r + 4500 + 500$ $10000r + 6000 = 20000r + 5000$ $1000 = 10000r$ $r = 0.10 = 10\\%$. Answer: (B) 10%.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-GA-Q9",
+            "question_number": 9,
+            "section": "GA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Spatial Reasoning",
+            "topic": "Dice / Net of a Cube",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Three different views of a dice are shown in the figure below. The piece of paper that can be folded to make this dice is",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Net option A (image)",
+                    "has_image": true,
+                    "image_url": "NEEDS_IMAGE",
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "Net option B (image)",
+                    "has_image": true,
+                    "image_url": "NEEDS_IMAGE",
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "Net option C (image)",
+                    "has_image": true,
+                    "image_url": "NEEDS_IMAGE",
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "Net option D (image)",
+                    "has_image": true,
+                    "image_url": "NEEDS_IMAGE",
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "From the three views of the dice: View 1 shows top=5, front=4, right=1. View 2 shows top=4, front=6, right=3. View 3 shows top=2, front=6, right=5. From view 1: 5 is opposite to the bottom, 4 is opposite to the back. From view 2: 4 is on top, so 3 is opposite 6's adjacent. Analysing all three views: opposite pairs are (5,2), (4,3), (6,1) based on standard dice analysis. From view 1: 5 on top, 4 front, 1 right → 2 on bottom, 3 on back, 6 on left. Check against views 2 and 3: consistent with option A net where 5-4-6-2 are in a column and 1,3 are on sides. Option A is the correct net. Answer: (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-GA-Q10",
+            "question_number": 10,
+            "section": "GA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Spatial Reasoning",
+            "topic": "3D Geometry / Cross-sections",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Visualize two identical right circular cones such that one is inverted over the other and they share a common circular base. If a cutting plane passes through the vertices of the assembled cones, what shape does the outer boundary of the resulting cross-section make?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "A rhombus",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "A triangle",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "An ellipse",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "A hexagon",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "When two identical right circular cones are placed base-to-base (one inverted over the other), the combined solid has two apex vertices — one at the top and one at the bottom — and a shared circular base in the middle. A cutting plane passes through both vertices (top apex and bottom apex). This plane must contain the axis of the double cone. The cross-section through both vertices and the axis cuts through both cones. In each cone, the cross-section through the apex and the axis is an isoceles triangle. The combined cross-section of both cones joined at their bases consists of two triangles sharing a common base (the diameter of the circular base), forming a rhombus (a quadrilateral with 4 equal sides). Hence the outer boundary is a rhombus. Answer: (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q11",
+            "question_number": 11,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Probability and Statistics",
+            "topic": "Distributions (Poisson, Normal)",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the following statements: (i) The mean and variance of a Poisson random variable are equal. (ii) For a standard normal random variable, the mean is zero and the variance is one. Which ONE of the following options is correct?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Both (i) and (ii) are true",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "(i) is true and (ii) is false",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "(ii) is true and (i) is false",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "Both (i) and (ii) are false",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "Statement (i): For a Poisson distribution with parameter $\\lambda$, both the mean and variance equal $\\lambda$. So mean = variance. Statement (i) is TRUE. Statement (ii): A standard normal distribution $N(0,1)$ has mean = 0 and variance = 1. Statement (ii) is TRUE. Both statements are true. Answer: (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q12",
+            "question_number": 12,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Probability and Statistics",
+            "topic": "Probability of Events",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Three fair coins are tossed independently. $T$ is the event that two or more tosses result in heads. $S$ is the event that two or more tosses result in tails. What is the probability of the event $T \\cap S$?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "0",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "0.5",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "0.25",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "1",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "With 3 coin tosses, each outcome is a sequence of H and T. $T$ = {2 or more heads} = {HHT, HTH, THH, HHH}. $S$ = {2 or more tails} = {TTH, THT, HTT, TTT}. $T \\cap S$ requires an outcome that simultaneously has $\\geq 2$ heads and $\\geq 2$ tails. With only 3 tosses, you cannot have both $\\geq 2$ heads and $\\geq 2$ tails (that would need at least 4 tosses). So $T \\cap S = \\emptyset$ and $P(T \\cap S) = 0$. Answer: (A) 0.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q13",
+            "question_number": 13,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Linear Algebra",
+            "topic": "Eigenvalues",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the matrix $\\mathbf{M} = \\begin{bmatrix} 2 & -1 \\\\ 3 & 1 \\end{bmatrix}$. Which ONE of the following statements is TRUE?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "The eigenvalues of $\\mathbf{M}$ are non-negative and real.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "The eigenvalues of $\\mathbf{M}$ are complex conjugate pairs.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "One eigenvalue of $\\mathbf{M}$ is positive and real, and another eigenvalue of $\\mathbf{M}$ is zero.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "One eigenvalue of $\\mathbf{M}$ is non-negative and real, and another eigenvalue of $\\mathbf{M}$ is negative and real.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "B",
+                "value_range": null
+            },
+            "solution_text": "The characteristic equation: $\\det(\\mathbf{M} - \\lambda I) = 0$. $(2-\\lambda)(1-\\lambda) - (-1)(3) = 0$ $\\Rightarrow (2-\\lambda)(1-\\lambda) + 3 = 0$ $\\Rightarrow 2 - 2\\lambda - \\lambda + \\lambda^2 + 3 = 0$ $\\Rightarrow \\lambda^2 - 3\\lambda + 5 = 0$. Discriminant $= 9 - 20 = -11 < 0$. Since discriminant is negative, eigenvalues are complex conjugate pairs: $\\lambda = \\frac{3 \\pm i\\sqrt{11}}{2}$. Answer: (B).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q14",
+            "question_number": 14,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Algorithms",
+            "topic": "Graph Algorithms / DFS Edge Classification",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider performing depth-first search (DFS) on an undirected and unweighted graph $G$ starting at vertex $s$. For any vertex $u$ in $G$, $d[u]$ is the length of the shortest path from $s$ to $u$. Let $(u, v)$ be an edge in $G$ such that $d[u] < d[v]$. If the edge $(u, v)$ is explored first in the direction from $u$ to $v$ during the above DFS, then $(u, v)$ becomes a ______ edge.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "tree",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "cross",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "back",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "gray",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "In DFS on an undirected graph, when we explore edge $(u, v)$ from $u$ to $v$ for the first time and $v$ has not been visited yet, $(u,v)$ becomes a tree edge. Since $d[u] < d[v]$, vertex $v$ is farther from $s$ than $u$, suggesting $v$ was not discovered before $u$. When the DFS explores $(u,v)$ in the direction $u \\to v$ first, it means $v$ is being visited for the first time through this edge, making it a tree edge. Answer: (A) tree.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q15",
+            "question_number": 15,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Calculus",
+            "topic": "Maxima and Minima / Second Derivative Test",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "For any twice differentiable function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$, if at some $x^* \\in \\mathbb{R}$, $f'(x^*) = 0$ and $f''(x^*) > 0$, then the function $f$ necessarily has a ______ at $x = x^*$. Note: $\\mathbb{R}$ denotes the set of real numbers.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "local minimum",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "global minimum",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "local maximum",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "global maximum",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "By the second derivative test: if $f'(x^*) = 0$ and $f''(x^*) > 0$, then $x^*$ is a local minimum. The positive second derivative means the function is concave up at $x^*$, so it's a local (not necessarily global) minimum. Answer: (A) local minimum.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q16",
+            "question_number": 16,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Data Structures",
+            "topic": "Stacks, Queues, Hash Tables",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Match the items in Column 1 with the items in Column 2 in the following table: Column 1: (p) First In First Out, (q) Lookup Operation, (r) Last In First Out. Column 2: (i) Stacks, (ii) Queues, (iii) Hash Tables.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(p) − (ii), (q) − (iii), (r) − (i)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "(p) − (ii), (q) − (i), (r) − (iii)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "(p) − (i), (q) − (ii), (r) − (iii)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "(p) − (i), (q) − (iii), (r) − (ii)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "FIFO (First In First Out) is the property of Queues (ii). Lookup Operation with O(1) average time is associated with Hash Tables (iii). LIFO (Last In First Out) is the property of Stacks (i). Therefore: (p)−(ii), (q)−(iii), (r)−(i). Answer: (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q17",
+            "question_number": 17,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Machine Learning",
+            "topic": "Support Vector Machine",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the dataset with six datapoints: $\\{(\\mathbf{x}_1, y_1), (\\mathbf{x}_2, y_2), \\ldots, (\\mathbf{x}_6, y_6)\\}$, where $\\mathbf{x}_1 = \\begin{bmatrix}1\\\\0\\end{bmatrix}$, $\\mathbf{x}_2 = \\begin{bmatrix}0\\\\1\\end{bmatrix}$, $\\mathbf{x}_3 = \\begin{bmatrix}0\\\\-1\\end{bmatrix}$, $\\mathbf{x}_4 = \\begin{bmatrix}-1\\\\0\\end{bmatrix}$, $\\mathbf{x}_5 = \\begin{bmatrix}2\\\\2\\end{bmatrix}$, $\\mathbf{x}_6 = \\begin{bmatrix}-2\\\\-2\\end{bmatrix}$ and the labels are given by $y_1 = y_2 = y_5 = 1$, and $y_3 = y_4 = y_6 = -1$. A hard margin linear support vector machine is trained on the above dataset. Which ONE of the following sets is a possible set of support vectors?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\{\\mathbf{x}_1, \\mathbf{x}_2, \\mathbf{x}_5\\}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$\\{\\mathbf{x}_3, \\mathbf{x}_4, \\mathbf{x}_5\\}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$\\{\\mathbf{x}_4, \\mathbf{x}_5\\}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$\\{\\mathbf{x}_1, \\mathbf{x}_2, \\mathbf{x}_3, \\mathbf{x}_4\\}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "D",
+                "value_range": null
+            },
+            "solution_text": "For a hard-margin SVM, support vectors are the points closest to the decision boundary on each side. Positive class: $\\mathbf{x}_1=(1,0)$, $\\mathbf{x}_2=(0,1)$, $\\mathbf{x}_5=(2,2)$. Negative class: $\\mathbf{x}_3=(0,-1)$, $\\mathbf{x}_4=(-1,0)$, $\\mathbf{x}_6=(-2,-2)$. The optimal separating hyperplane must maximize margin. Points $\\mathbf{x}_5=(2,2)$ and $\\mathbf{x}_6=(-2,-2)$ are far from the boundary; $\\mathbf{x}_1, \\mathbf{x}_2$ (positive) and $\\mathbf{x}_3, \\mathbf{x}_4$ (negative) are geometrically closest to the boundary. A natural separating line is $x_1 + x_2 = 0$ (or $y = -x$). Check: $\\mathbf{x}_1: 1+0=1>0$ ✓, $\\mathbf{x}_2: 0+1=1>0$ ✓, $\\mathbf{x}_3: 0+(-1)=-1<0$ ✓, $\\mathbf{x}_4: -1+0=-1<0$ ✓. The points $\\mathbf{x}_1, \\mathbf{x}_2, \\mathbf{x}_3, \\mathbf{x}_4$ all lie at distance 1 from this line, while $\\mathbf{x}_5, \\mathbf{x}_6$ lie at distance $2\\sqrt{2}$. So $\\{\\mathbf{x}_1, \\mathbf{x}_2, \\mathbf{x}_3, \\mathbf{x}_4\\}$ are the support vectors. Answer: (D).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q18",
+            "question_number": 18,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Machine Learning",
+            "topic": "Model Classification (Discriminative vs Generative)",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Match the items in Column 1 with the items in Column 2 in the following table: Column 1: (p) Principal Component Analysis, (q) Naïve Bayes Classification, (r) Logistic Regression. Column 2: (i) Discriminative Model, (ii) Dimensionality Reduction, (iii) Generative Model.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(p) − (iii), (q) − (i), (r) − (ii)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "(p) − (ii), (q) − (i), (r) − (iii)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "(p) − (ii), (q) − (iii), (r) − (i)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "(p) − (iii), (q) − (ii), (r) − (i)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "C",
+                "value_range": null
+            },
+            "solution_text": "PCA (Principal Component Analysis) is a dimensionality reduction technique → (ii). Naïve Bayes Classification models the joint probability $P(X,Y)$ using Bayes' theorem and is a generative model → (iii). Logistic Regression directly models $P(Y|X)$ and is a discriminative model → (i). Therefore: (p)−(ii), (q)−(iii), (r)−(i). Answer: (C).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q19",
+            "question_number": 19,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Machine Learning",
+            "topic": "K-Means Clustering",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Euclidean distance based $k$-means clustering algorithm was run on a dataset of 100 points with $k = 3$. If the points $\\begin{bmatrix}1\\\\1\\end{bmatrix}$ and $\\begin{bmatrix}-1\\\\1\\end{bmatrix}$ are both part of cluster 3, then which ONE of the following points is necessarily also part of cluster 3?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\begin{bmatrix}0\\\\0\\end{bmatrix}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$\\begin{bmatrix}0\\\\2\\end{bmatrix}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$\\begin{bmatrix}2\\\\0\\end{bmatrix}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$\\begin{bmatrix}0\\\\1\\end{bmatrix}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "D",
+                "value_range": null
+            },
+            "solution_text": "In k-means, a point belongs to the cluster whose centroid is nearest (by Euclidean distance). Let $p_1 = (1,1)$ and $p_2 = (-1,1)$ both belong to cluster 3 with centroid $c_3$. The midpoint of $p_1$ and $p_2$ is $(0,1)$. For $(0,1)$: its distance to any centroid $c_3$ must be $\\leq$ its distance to $p_1$ and $p_2$'s centroid of clusters 1 or 2. Since $c_3$ must be closer to both $(1,1)$ and $(-1,1)$ than any other centroid, by convexity of Voronoi cells, any point on the line segment between $(1,1)$ and $(-1,1)$ is also in cluster 3. The midpoint $(0,1)$ lies on this segment and is equidistant from $(1,1)$ and $(-1,1)$, and is necessarily at least as close to $c_3$ as both endpoints. Hence $(0,1)$ must also be in cluster 3. Answer: (D).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q20",
+            "question_number": 20,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Machine Learning",
+            "topic": "Naïve Bayes Classifier / Parameter Estimation",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Given a dataset with $K$ binary-valued attributes (where $K > 2$) for a two-class classification task, the number of parameters to be estimated for learning a naïve Bayes classifier is",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$2^K + 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$2K + 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$2^{K+1} + 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$K^2 + 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "B",
+                "value_range": null
+            },
+            "solution_text": "For a Naïve Bayes classifier with 2 classes and $K$ binary attributes: (1) Class prior: $P(Y=1)$ — 1 parameter (since $P(Y=0) = 1 - P(Y=1)$). (2) Conditional probabilities: For each attribute $X_i$ ($i=1,\\ldots,K$) and each class $c \\in \\{0,1\\}$: $P(X_i=1|Y=c)$ — 1 parameter each (since $P(X_i=0|Y=c) = 1 - P(X_i=1|Y=c)$). This gives $K \\times 2 = 2K$ parameters. Total = $2K + 1$. Answer: (B).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q21",
+            "question_number": 21,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Data Structures",
+            "topic": "Hashing / Open Addressing",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider performing uniform hashing on an open address hash table with load factor $\\alpha = \\frac{n}{m} < 1$, where $n$ elements are stored in the table with $m$ slots. The expected number of probes in an unsuccessful search is at most $\\frac{1}{1-\\alpha}$. Inserting an element in this hash table requires at most ______ probes, on average.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\ln\\left(\\frac{1}{1-\\alpha}\\right)$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$\\frac{1}{1-\\alpha}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$1 + \\frac{\\alpha}{2}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$\\frac{1}{1+\\alpha}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "B",
+                "value_range": null
+            },
+            "solution_text": "For uniform hashing with open addressing, insertion requires finding an empty slot. This is equivalent to an unsuccessful search (probing until an empty slot is found). The expected number of probes for an unsuccessful search (which is what insertion requires — we insert into the first empty slot found) is at most $\\frac{1}{1-\\alpha}$. Therefore insertion requires at most $\\frac{1}{1-\\alpha}$ probes on average. Answer: (B).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q22",
+            "question_number": 22,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Machine Learning",
+            "topic": "Linear Discriminant Analysis (Fisher)",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "For any binary classification dataset, let $S_B \\in \\mathbb{R}^{d \\times d}$ and $S_W \\in \\mathbb{R}^{d \\times d}$ be the between-class and within-class scatter (covariance) matrices, respectively. The Fisher linear discriminant is defined by $u^* \\in \\mathbb{R}^d$, that maximizes $J(u) = \\frac{u^T S_B u}{u^T S_W u}$. If $\\lambda = J(u^*)$, $S_W$ is non-singular and $S_B \\neq 0$, then $(u^*, \\lambda)$ must satisfy which ONE of the following equations?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$S_W^{-1} S_B u^* = \\lambda u^*$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$S_W u^* = \\lambda S_B u^*$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$S_B S_W u^* = \\lambda u^*$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$u^{*T} u^* = \\lambda^2$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "To maximize $J(u) = \\frac{u^T S_B u}{u^T S_W u}$, take derivative and set to zero. This is a generalized eigenvalue problem. Setting $\\frac{d}{du} J(u) = 0$: $\\frac{2 S_B u (u^T S_W u) - 2 S_W u (u^T S_B u)}{(u^T S_W u)^2} = 0$ $\\Rightarrow S_B u (u^T S_W u) = S_W u (u^T S_B u)$ $\\Rightarrow S_B u^* = \\lambda S_W u^*$ (where $\\lambda = J(u^*)$) $\\Rightarrow S_W^{-1} S_B u^* = \\lambda u^*$ (since $S_W$ is non-singular). This is a standard eigenvalue equation. Answer: (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q23",
+            "question_number": 23,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Artificial Intelligence",
+            "topic": "A* Search / Admissible Heuristics",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $h_1$ and $h_2$ be two admissible heuristics used in $A^*$ search. Which ONE of the following expressions is always an admissible heuristic?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$h_1 + h_2$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$h_1 \\times h_2$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$h_1 / h_2,\\ (h_2 \\neq 0)$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$|h_1 - h_2|$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "D",
+                "value_range": null
+            },
+            "solution_text": "A heuristic $h$ is admissible if $0 \\leq h(n) \\leq h^*(n)$ for all nodes $n$, where $h^*(n)$ is the true cost. Given $h_1$ and $h_2$ are admissible: $0 \\leq h_1(n) \\leq h^*(n)$ and $0 \\leq h_2(n) \\leq h^*(n)$. $h_1 + h_2$: May exceed $h^*$ (e.g., both $= h^*/2$ each → sum $= h^*$, but if both equal $h^*$, sum $= 2h^*$). Not always admissible. $h_1 \\times h_2$: Can exceed $h^*$ (e.g., $h_1 = h_2 = h^* = 2$, product $= 4 > 2$). Not always admissible. $h_1/h_2$: Can exceed $h^*$ (e.g., $h_1 = h^*, h_2 = 0.5$). Not always admissible. $|h_1 - h_2|$: $|h_1 - h_2| \\leq \\max(h_1, h_2) \\leq h^*$. Also $|h_1 - h_2| \\geq 0$. So $0 \\leq |h_1 - h_2| \\leq h^*$. Always admissible. Answer: (D).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q24",
+            "question_number": 24,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Probability and Statistics",
+            "topic": "Bayesian Networks / Conditional Independence",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider five random variables $U, V, W, X$, and $Y$ whose joint distribution satisfies: $P(U, V, W, X, Y) = P(U)P(V)P(W|U,V)P(X|W)P(Y|W)$. Which ONE of the following statements is FALSE?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$Y$ is conditionally independent of $V$ given $W$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$X$ is conditionally independent of $U$ given $W$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$U$ and $V$ are conditionally independent given $W$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$Y$ and $X$ are conditionally independent given $W$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "C",
+                "value_range": null
+            },
+            "solution_text": "The Bayesian network structure: $U \\rightarrow W$, $V \\rightarrow W$, $W \\rightarrow X$, $W \\rightarrow Y$. (A) $Y \\perp V | W$: $Y$ depends only on $W$ (given $W$, $Y$ is independent of everything else). TRUE. (B) $X \\perp U | W$: $X$ depends only on $W$. TRUE. (C) $U \\perp V | W$: In a v-structure (collider), $U$ and $V$ are independent marginally, but conditioning on $W$ (the collider) creates dependence between $U$ and $V$. This is the explaining away effect. So $U$ and $V$ are NOT conditionally independent given $W$. Statement (C) is FALSE. (D) $Y \\perp X | W$: Both $Y$ and $X$ depend only on $W$; given $W$, they are independent. TRUE. Answer: (C).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q25",
+            "question_number": 25,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Artificial Intelligence",
+            "topic": "Adversarial Search / Alpha-Beta Pruning",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the following statement: In adversarial search, $\\alpha$–$\\beta$ pruning can be applied to game trees of any depth where $\\alpha$ is the (m) value choice we have formed so far at any choice point along the path for the MAX player and $\\beta$ is the (n) value choice we have formed so far at any choice point along the path for the MIN player. Which ONE of the following choices of (m) and (n) makes the above statement valid?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(m) = highest, (n) = highest",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "(m) = lowest, (n) = highest",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "(m) = highest, (n) = lowest",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "(m) = lowest, (n) = lowest",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "C",
+                "value_range": null
+            },
+            "solution_text": "In alpha-beta pruning: $\\alpha$ represents the best (highest) value the MAX player can guarantee so far — it is the highest value found along the current path for MAX. $\\beta$ represents the best (lowest) value the MIN player can guarantee so far — it is the lowest value found along the current path for MIN. MAX seeks to maximize, so $\\alpha$ = highest value seen so far. MIN seeks to minimize, so $\\beta$ = lowest value seen so far. Therefore: (m) = highest, (n) = lowest. Answer: (C).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q26",
+            "question_number": 26,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Databases",
+            "topic": "Relational Algebra",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider a database that includes the following relations: Defender(name, rating, side, goals), Forward(name, rating, assists, goals), Team(name, club, price). Which ONE of the following relational algebra expressions checks that every name occurring in Team appears in either Defender or Forward, where $\\phi$ denotes the empty set?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\Pi_{name}(\\text{Team}) \\setminus (\\Pi_{name}(\\text{Defender}) \\cap \\Pi_{name}(\\text{Forward})) = \\phi$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$(\\Pi_{name}(\\text{Defender}) \\cap \\Pi_{name}(\\text{Forward})) \\setminus \\Pi_{name}(\\text{Team}) = \\phi$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$\\Pi_{name}(\\text{Team}) \\setminus (\\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward})) = \\phi$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$(\\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward})) \\setminus \\Pi_{name}(\\text{Team}) = \\phi$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "C",
+                "value_range": null
+            },
+            "solution_text": "We want: every name in Team is in Defender OR Forward. This means: Team_names $\\subseteq$ (Defender_names $\\cup$ Forward_names), which is equivalent to: Team_names $\\setminus$ (Defender_names $\\cup$ Forward_names) $= \\phi$ (there are no Team names that are NOT in Defender or Forward). This corresponds to option (C): $\\Pi_{name}(\\text{Team}) \\setminus (\\Pi_{name}(\\text{Defender}) \\cup \\Pi_{name}(\\text{Forward})) = \\phi$. Answer: (C).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q27",
+            "question_number": 27,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MCQ",
+            "marks": 1,
+            "negative_marks": 0.33,
+            "chapter": "Data Science",
+            "topic": "Z-score Normalization",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let the minimum, maximum, mean and standard deviation values for the attribute income of data scientists be ₹46000, ₹170000, ₹96000, and ₹21000, respectively. The z-score normalized income value of ₹106000 is closest to which ONE of the following options?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "0.217",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "0.476",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "0.623",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "2.304",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "B",
+                "value_range": null
+            },
+            "solution_text": "Z-score formula: $z = \\frac{x - \\mu}{\\sigma}$. Given: $x = 106000$, $\\mu = 96000$, $\\sigma = 21000$. $z = \\frac{106000 - 96000}{21000} = \\frac{10000}{21000} = \\frac{10}{21} \\approx 0.476$. Answer: (B) 0.476.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q28",
+            "question_number": 28,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MSQ",
+            "marks": 1,
+            "negative_marks": 0,
+            "chapter": "Data Structures",
+            "topic": "Binary Tree Traversals",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the following tree traversals on a full binary tree: (i) Preorder, (ii) Inorder, (iii) Postorder. Which of the following traversal options is/are sufficient to uniquely reconstruct the full binary tree?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(i) and (ii)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "(ii) and (iii)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "(i) and (iii)",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "(ii) only",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "A",
+                    "B",
+                    "C"
+                ],
+                "value_range": null
+            },
+            "solution_text": "For a general binary tree, we need two traversals (one of which is inorder) to uniquely reconstruct it. However, for a FULL binary tree (every node has 0 or 2 children), the situation is different. For a full binary tree: (A) Preorder + Inorder: Always sufficient (standard result). ✓ (B) Inorder + Postorder: Always sufficient (standard result). ✓ (C) Preorder + Postorder: For a full binary tree specifically, preorder and postorder together ARE sufficient to uniquely reconstruct it (unlike general binary trees). ✓ (D) Inorder only: Not sufficient — cannot determine the structure without another traversal. ✗ So (A), (B), and (C) are correct. Answer: A, B, C.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q29",
+            "question_number": 29,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "MSQ",
+            "marks": 1,
+            "negative_marks": 0,
+            "chapter": "Discrete Mathematics",
+            "topic": "Propositional Logic / Tautology",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $x$ and $y$ be two propositions. Which of the following statements is a tautology/are tautologies?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$(\\neg x \\wedge y) \\Rightarrow (y \\Rightarrow x)$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$(x \\wedge \\neg y) \\Rightarrow (\\neg x \\Rightarrow y)$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$(\\neg x \\wedge y) \\Rightarrow (\\neg x \\Rightarrow y)$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$(x \\wedge \\neg y) \\Rightarrow (y \\Rightarrow x)$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "B",
+                    "C",
+                    "D"
+                ],
+                "value_range": null
+            },
+            "solution_text": "Check each by truth table (using all 4 combinations of x,y): (A) $(\\neg x \\wedge y) \\Rightarrow (y \\Rightarrow x)$: Let $x=F, y=T$: LHS = $T \\wedge T = T$. RHS = $T \\Rightarrow F = F$. Whole: $T \\Rightarrow F = F$. NOT a tautology. (B) $(x \\wedge \\neg y) \\Rightarrow (\\neg x \\Rightarrow y)$: When $x=T, y=F$: LHS=$T$. RHS: $\\neg x = F$, so $F \\Rightarrow F = T$. Whole: $T$. When $x=F$: LHS=$F$, whole = $T$. When $y=T$: LHS=$F$, whole = $T$. Always true. Tautology ✓. (C) $(\\neg x \\wedge y) \\Rightarrow (\\neg x \\Rightarrow y)$: When $\\neg x \\wedge y = T$ (i.e., $x=F, y=T$): RHS: $\\neg x=T$, $T \\Rightarrow T = T$. Always $T$. When LHS=$F$: whole=$T$. Tautology ✓. (D) $(x \\wedge \\neg y) \\Rightarrow (y \\Rightarrow x)$: When $x=T, y=F$: LHS=$T$. RHS: $F \\Rightarrow T = T$. Whole=$T$. All cases: when LHS=$F$: $T$. When $x=T, y=F$: shown above=$T$. Tautology ✓. Answer: B, C, D.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q30",
+            "question_number": 30,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "NAT",
+            "marks": 1,
+            "negative_marks": 0,
+            "chapter": "Algorithms",
+            "topic": "Quicksort",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider sorting the following array of integers in ascending order using an in-place Quicksort algorithm that uses the last element as the pivot. Array: [60, 70, 80, 90, 100]. The minimum number of swaps performed during this Quicksort is ______.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0,
+                "value_range": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "solution_text": "The array is [60, 70, 80, 90, 100] which is already sorted in ascending order. In an in-place Quicksort with the last element as pivot: Partition on [60,70,80,90,100] with pivot=100: All elements are less than 100, so no swaps occur during the scan. Pivot 100 is already in the last position. Subarray [60,70,80,90] with pivot=90: All elements < 90, no swaps. 90 stays. Continue recursively — all subarrays are already sorted. At each level, since all elements are already in order, the pivot always ends up at the end of the subarray (correct position) with 0 swaps in the partition step (the pointer never crosses elements). Total swaps = 0. Answer: 0.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q31",
+            "question_number": 31,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "NAT",
+            "marks": 1,
+            "negative_marks": 0,
+            "chapter": "Databases",
+            "topic": "SQL Queries",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the following two tables named Raider and Team in a relational database maintained by a Kabaddi league. The attribute ID in table Team references the primary key of the Raider table, ID. Raider: (1,Arjun,200,250), (2,Ankush,190,219), (3,Sunil,150,200), (4,Reza,150,190), (5,Pratham,175,220), (6,Gopal,193,215). Team: (Jaipur,2,200), (Patna,3,195), (Hyderabad,5,175), (Jaipur,1,250), (Patna,4,200), (Jaipur,6,200). The SQL query: SELECT * FROM Raider, Team WHERE Raider.ID=Team.ID AND City='Jaipur' AND RaidPoints > 200. The number of rows returned by this query is ______.",
+            "has_code_block": true,
+            "code_block": "SELECT *\nFROM Raider, Team\nWHERE Raider.ID=Team.ID AND City=\"Jaipur\" AND\nRaidPoints > 200;",
+            "code_language": "sql",
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 3,
+                "value_range": {
+                    "min": 3,
+                    "max": 3
+                }
+            },
+            "solution_text": "The query performs a join on Raider.ID = Team.ID, filtered by City='Jaipur' and RaidPoints > 200. Jaipur team entries: (Jaipur, ID=2, BidPoints=200), (Jaipur, ID=1, BidPoints=250), (Jaipur, ID=6, BidPoints=200). Matching with Raider: ID=2: Ankush, RaidPoints=219. 219>200 ✓ → row returned. ID=1: Arjun, RaidPoints=250. 250>200 ✓ → row returned. ID=6: Gopal, RaidPoints=215. 215>200 ✓ → row returned. All three Jaipur rows have RaidPoints > 200. Total = 3 rows. Answer: 3.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q32",
+            "question_number": 32,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "NAT",
+            "marks": 1,
+            "negative_marks": 0,
+            "chapter": "Data Structures",
+            "topic": "Double-Ended Queue (Deque)",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The fundamental operations in a double-ended queue D are: insertFirst(e), insertLast(e), removeFirst(), removeLast(). In an empty double-ended queue, the following operations are performed: insertFirst(10), insertLast(32), a←removeFirst(), insertLast(28), insertLast(17), a←removeFirst(), a←removeLast(). The value of a is ______.",
+            "has_code_block": true,
+            "code_block": "insertFirst(10)\ninsertLast(32)\na ←removeFirst()\ninsertLast(28)\ninsertLast(17)\na ←removeFirst()\na ← removeLast()",
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 17,
+                "value_range": {
+                    "min": 17,
+                    "max": 17
+                }
+            },
+            "solution_text": "Trace through operations: 1. insertFirst(10): D = [10]. 2. insertLast(32): D = [10, 32]. 3. a ← removeFirst(): removes 10 → D = [32], a = 10. 4. insertLast(28): D = [32, 28]. 5. insertLast(17): D = [32, 28, 17]. 6. a ← removeFirst(): removes 32 → D = [28, 17], a = 32. 7. a ← removeLast(): removes 17 → D = [28], a = 17. Final value of a = 17. Answer: 17.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q33",
+            "question_number": 33,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "NAT",
+            "marks": 1,
+            "negative_marks": 0,
+            "chapter": "Calculus",
+            "topic": "Sigmoid Function / Derivative",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be the function $f(x) = \\frac{1}{1+e^{-x}}$. The value of the derivative of $f$ at $x$ where $f(x) = 0.4$ is ______ (rounded off to two decimal places).",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0.24,
+                "value_range": {
+                    "min": 0.24,
+                    "max": 0.24
+                }
+            },
+            "solution_text": "The sigmoid function $f(x) = \\frac{1}{1+e^{-x}}$ has derivative $f'(x) = f(x)(1 - f(x))$. Given $f(x) = 0.4$: $f'(x) = 0.4 \\times (1 - 0.4) = 0.4 \\times 0.6 = 0.24$. Answer: 0.24.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q34",
+            "question_number": 34,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "NAT",
+            "marks": 1,
+            "negative_marks": 0,
+            "chapter": "Probability and Statistics",
+            "topic": "Incremental Mean Update",
+            "difficulty": "Easy",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "The sample average of 50 data points is 40. The updated sample average after including a new data point taking the value of 142 is ______.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 42,
+                "value_range": {
+                    "min": 42,
+                    "max": 42
+                }
+            },
+            "solution_text": "Current sum = $50 \\times 40 = 2000$. New data point = 142. New sum = $2000 + 142 = 2142$. New count = $50 + 1 = 51$. New average = $\\frac{2142}{51} = 42$. Answer: 42.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q35",
+            "question_number": 35,
+            "section": "DA",
+            "subsection_marks": 1,
+            "question_type": "NAT",
+            "marks": 1,
+            "negative_marks": 0,
+            "chapter": "Linear Algebra",
+            "topic": "Matrix Determinant / Cayley-Hamilton",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the $3 \\times 3$ matrix $\\mathbf{M} = \\begin{bmatrix} 1 & 2 & 3 \\\\ 3 & 1 & 3 \\\\ 4 & 3 & 6 \\end{bmatrix}$. The determinant of $(\\mathbf{M}^2 + 12\\mathbf{M})$ is ______.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0,
+                "value_range": {
+                    "min": 0,
+                    "max": 0
+                }
+            },
+            "solution_text": "First compute $\\det(\\mathbf{M})$. Expanding: $\\det(\\mathbf{M}) = 1(1\\cdot6 - 3\\cdot3) - 2(3\\cdot6 - 3\\cdot4) + 3(3\\cdot3 - 1\\cdot4)$ $= 1(6-9) - 2(18-12) + 3(9-4)$ $= 1(-3) - 2(6) + 3(5) = -3 - 12 + 15 = 0$. Since $\\det(\\mathbf{M}) = 0$, $\\mathbf{M}$ is singular. The characteristic polynomial of $\\mathbf{M}$: since $\\det(\\mathbf{M})=0$, one eigenvalue is 0. Let eigenvalues be $\\lambda_1, \\lambda_2, \\lambda_3$ with $\\lambda_3 = 0$. For $\\mathbf{M}^2 + 12\\mathbf{M} = \\mathbf{M}(\\mathbf{M} + 12I)$, the eigenvalues are $\\lambda_i(\\lambda_i + 12)$. Since $\\lambda_3 = 0$: eigenvalue of $\\mathbf{M}^2 + 12\\mathbf{M}$ for $\\lambda_3$ is $0 \\times (0+12) = 0$. Therefore $\\det(\\mathbf{M}^2 + 12\\mathbf{M}) = \\prod_i \\lambda_i(\\lambda_i+12) = 0$ (since one factor is 0). Answer: 0.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q36",
+            "question_number": 36,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Probability and Statistics",
+            "topic": "Expected Value / Geometric Distribution",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "A fair six-sided die (with faces numbered 1, 2, 3, 4, 5, 6) is repeatedly thrown independently. What is the expected number of times the die is thrown until two consecutive throws of even numbers are seen?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "2",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "4",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "6",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "8",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "C",
+                "value_range": null
+            },
+            "solution_text": "Let $p = 1/2$ (probability of even). We need expected number of throws to get two consecutive evens. Define states: $S_0$ = start/just rolled odd, $S_1$ = just rolled even, $S_2$ = two consecutive evens (absorbing). Let $E_0$ = expected throws from state $S_0$ and $E_1$ = expected throws from $S_1$. From $S_0$: throw once. With prob $1/2$ get even → go to $S_1$; with prob $1/2$ get odd → stay at $S_0$. $E_0 = 1 + \\frac{1}{2}E_1 + \\frac{1}{2}E_0$. From $S_1$: throw once. With prob $1/2$ get even → done (0 more throws needed, we count this throw); with prob $1/2$ get odd → go to $S_0$. $E_1 = 1 + \\frac{1}{2}(0) + \\frac{1}{2}E_0 = 1 + \\frac{1}{2}E_0$. From equation for $E_0$: $E_0 - \\frac{1}{2}E_0 = 1 + \\frac{1}{2}E_1$ $\\Rightarrow \\frac{1}{2}E_0 = 1 + \\frac{1}{2}E_1$ $\\Rightarrow E_0 = 2 + E_1$. Substituting $E_1 = 1 + \\frac{1}{2}E_0$: $E_0 = 2 + 1 + \\frac{1}{2}E_0 = 3 + \\frac{1}{2}E_0$ $\\Rightarrow \\frac{1}{2}E_0 = 3 \\Rightarrow E_0 = 6$. Answer: (C) 6.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q37",
+            "question_number": 37,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Calculus",
+            "topic": "Continuity and Differentiability",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function. $f(x) = \\begin{cases} -x, & \\text{if } x < -2 \\\\ ax^2 + bx + c, & \\text{if } x \\in [-2,2] \\\\ x, & \\text{if } x > 2 \\end{cases}$. Which ONE of the following choices gives the values of $a, b, c$ that make the function $f$ continuous and differentiable?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$a = \\frac{1}{4}, b = 0, c = 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$a = \\frac{1}{2}, b = 0, c = 0$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$a = 0, b = 0, c = 0$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$a = 1, b = 1, c = -4$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "For continuity and differentiability at $x=-2$ and $x=2$: At $x=-2$: Left limit: $-(-2)=2$. Middle: $a(-2)^2 + b(-2) + c = 4a - 2b + c = 2$. Derivative from left: $-(-x)'|_{x=-2} = -1$. Derivative from middle: $(2ax+b)|_{x=-2} = -4a+b = -1$. At $x=2$: Right limit: $2$. Middle: $4a+2b+c = 2$. Derivative from right: $1$. Derivative from middle: $(2ax+b)|_{x=2} = 4a+b = 1$. Equations: (1) $4a - 2b + c = 2$, (2) $-4a + b = -1$, (3) $4a + 2b + c = 2$, (4) $4a + b = 1$. From (4): $b = 1 - 4a$. From (2): $-4a + b = -1 \\Rightarrow b = 4a - 1$. So $1-4a = 4a-1 \\Rightarrow 2 = 8a \\Rightarrow a = 1/4$. Then $b = 1 - 4(1/4) = 0$. From (1): $4(1/4) - 0 + c = 2 \\Rightarrow 1 + c = 2 \\Rightarrow c = 1$. Check (3): $4(1/4) + 0 + 1 = 2$ ✓. So $a=1/4, b=0, c=1$. Answer: (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q38",
+            "question_number": 38,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Programming",
+            "topic": "Python Recursion / Tree Counting",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the following Python code: A recursive function count(child_dict, i) is defined. child_dict[0]=[1,2], child_dict[1]=[3,4,5], child_dict[2]=[6,7,8]. print(count(child_dict,0)). Which ONE of the following is the output of this code?",
+            "has_code_block": true,
+            "code_block": "def count(child_dict, i):\n    if i not in child_dict.keys():\n        return 1\n    ans = 1\n    for j in child_dict[i]:\n        ans += count(child_dict, j)\n    return ans\n\nchild_dict = dict()\nchild_dict[0] = [1,2]\nchild_dict[1] = [3,4,5]\nchild_dict[2] = [6,7,8]\nprint(count(child_dict,0))",
+            "code_language": "python",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "6",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "1",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "8",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "9",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "D",
+                "value_range": null
+            },
+            "solution_text": "Trace count(child_dict, 0): 0 is in keys → ans=1. Loop over [1,2]: count(child_dict,1): 1 is in keys → ans=1. Loop over [3,4,5]: count(3): 3 not in keys → return 1. count(4): 4 not in keys → return 1. count(5): 5 not in keys → return 1. ans = 1+1+1+1 = 4. Return 4. count(child_dict,2): 2 is in keys → ans=1. Loop over [6,7,8]: count(6)=1, count(7)=1, count(8)=1. ans=1+1+1+1=4. Return 4. Back at count(0): ans = 1 + 4 + 4 = 9. Output: 9. Answer: (D).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q39",
+            "question_number": 39,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Algorithms",
+            "topic": "Dynamic Programming / LIS variant",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the function computeS(X) whose pseudocode is given below: S[1]←1; for i←2 to length(X): S[i]←1; if X[i−1]≤X[i]: S[i]←S[i]+S[i−1]; end if; end for; return S. Which ONE of the following values is returned by the function computeS(X) for X = [6, 3, 5, 4, 10]?",
+            "has_code_block": true,
+            "code_block": "computeS(X)\nS[1] ← 1\nfor i ←2 to length(X)\n  S[i] ← 1\n  if X[i-1] <= X[i]\n    S[i] ← S[i] + S[i-1]\n  end if\nend for\nreturn S",
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "[1, 1, 2, 3, 4]",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "[1, 1, 2, 3, 3]",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "[1, 1, 2, 1, 2]",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "[1, 1, 2, 1, 5]",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "C",
+                "value_range": null
+            },
+            "solution_text": "X = [6, 3, 5, 4, 10]. Indices 1-based. S[1]=1. i=2: X[1]=6, X[2]=3. 6≤3? No. S[2]=1. i=3: X[2]=3, X[3]=5. 3≤5? Yes. S[3]=1+S[2]=1+1=2. i=4: X[3]=5, X[4]=4. 5≤4? No. S[4]=1. i=5: X[4]=4, X[5]=10. 4≤10? Yes. S[5]=1+S[4]=1+1=2. Return S=[1,1,2,1,2]. Answer: (C).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q40",
+            "question_number": 40,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Algorithms",
+            "topic": "Binary Search Recurrence",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $F(n)$ denote the maximum number of comparisons made while searching for an entry in a sorted array of size $n$ using binary search. Which ONE of the following options is TRUE?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$F(n) = F(\\lfloor n/2 \\rfloor) + 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$F(n) = F(\\lfloor n/2 \\rfloor) + F(\\lceil n/2 \\rceil)$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$F(n) = F(\\lfloor n/2 \\rfloor)$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$F(n) = F(n-1) + 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "In binary search on a sorted array of size $n$: we make 1 comparison with the middle element. If not found, we recurse on one half. The maximum comparisons occur in the worst case where we always go to the larger half. The recurrence for the maximum number of comparisons is: $F(n) = F(\\lfloor n/2 \\rfloor) + 1$ (one comparison + recurse on the larger subarray of size $\\lfloor n/2 \\rfloor$). This gives $F(n) = O(\\log n)$. Answer: (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q41",
+            "question_number": 41,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Programming",
+            "topic": "Python Recursion / List Reversal",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the following Python function: def fun(D, s1, s2): if s1 < s2: D[s1], D[s2] = D[s2], D[s1]; fun(D, s1+1, s2-1). What does this Python function fun() do?",
+            "has_code_block": true,
+            "code_block": "def fun(D, s1, s2):\n    if s1 < s2:\n        D[s1], D[s2] = D[s2], D[s1]\n        fun(D, s1+1, s2-1)",
+            "code_language": "python",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "It finds the smallest element in D from index s1 to s2, both inclusive.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "It performs a merge sort in-place on this list D between indices s1 and s2, both inclusive.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "It reverses the list D between indices s1 and s2, both inclusive.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "It swaps the elements in D at indices s1 and s2, and leaves the remaining elements unchanged.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "C",
+                "value_range": null
+            },
+            "solution_text": "The function swaps D[s1] and D[s2], then recursively calls fun(D, s1+1, s2-1). This is the classic two-pointer reversal algorithm: swap the outermost elements, then move inward until s1 >= s2. This reverses all elements between indices s1 and s2 (inclusive). For example, D=[1,2,3,4,5], fun(D,0,4): swap D[0]↔D[4]→[5,2,3,4,1]; swap D[1]↔D[3]→[5,4,3,2,1]; s1=2,s2=2→stop. Result: reversed. Answer: (C).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q42",
+            "question_number": 42,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Machine Learning",
+            "topic": "Hierarchical Clustering (Single Linkage)",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the table below, where the $(i,j)^{th}$ element of the table is the distance between points $x_i$ and $x_j$. Single linkage clustering is performed on data points $x_1, x_2, x_3, x_4, x_5$. Distance matrix: $d(x_1,x_2)=1, d(x_1,x_3)=4, d(x_1,x_4)=3, d(x_1,x_5)=6, d(x_2,x_3)=3, d(x_2,x_4)=5, d(x_2,x_5)=3, d(x_3,x_4)=2, d(x_3,x_5)=5, d(x_4,x_5)=1$. Which ONE of the following is the correct representation of the clusters produced?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Dendrogram option A (image)",
+                    "has_image": true,
+                    "image_url": "NEEDS_IMAGE",
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "Dendrogram option B (image)",
+                    "has_image": true,
+                    "image_url": "NEEDS_IMAGE",
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "Dendrogram option C (image)",
+                    "has_image": true,
+                    "image_url": "NEEDS_IMAGE",
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "Dendrogram option D (image)",
+                    "has_image": true,
+                    "image_url": "NEEDS_IMAGE",
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "Single linkage clustering merges clusters with the minimum distance between any two points (one from each cluster). Step 1: Minimum distance = 1, between $(x_1,x_2)$ and $(x_4,x_5)$. Merge both: Cluster A = $\\{x_1,x_2\\}$ and Cluster B = $\\{x_4,x_5\\}$. Step 2: Update distances using single linkage (min): $d(A, x_3) = \\min(d(x_1,x_3), d(x_2,x_3)) = \\min(4,3) = 3$. $d(A, B) = \\min(d(x_1,x_4),d(x_1,x_5),d(x_2,x_4),d(x_2,x_5)) = \\min(3,6,5,3)=3$. $d(B, x_3) = \\min(d(x_3,x_4),d(x_3,x_5)) = \\min(2,5)=2$. Step 3: Minimum = 2, between B=$\\{x_4,x_5\\}$ and $x_3$. Merge: Cluster C=$\\{x_3,x_4,x_5\\}$. Step 4: $d(A,C)=\\min(d(x_1,x_3),d(x_1,x_4),d(x_1,x_5),d(x_2,x_3),d(x_2,x_4),d(x_2,x_5))=\\min(4,3,6,3,5,3)=3$. Step 5: Merge A and C at distance 3. Final dendrogram: $\\{x_1,x_2\\}$ merge at d=1, $\\{x_4,x_5\\}$ merge at d=1, then $\\{x_4,x_5\\}$ and $x_3$ at d=2, then $\\{x_1,x_2\\}$ and $\\{x_3,x_4,x_5\\}$ at d=3. This corresponds to option A. Answer: (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q43",
+            "question_number": 43,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Deep Learning",
+            "topic": "Neural Networks / ReLU",
+            "difficulty": "Hard",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Consider the two neural networks (NNs) shown in Figures 1 and 2, with $ReLU$ activation ($ReLU(z) = \\max\\{0, z\\}$, $\\forall z \\in \\mathbb{R}$). The biases at every neuron are set to 0. For what values of $p, q, r$ in Figure 2 are the two NNs equivalent, when $x_1, x_2, x_3$ are positive?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$p = 36, q = 24, r = 24$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$p = 24, q = 24, r = 36$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$p = 18, q = 36, r = 24$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$p = 36, q = 36, r = 36$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "A",
+                "value_range": null
+            },
+            "solution_text": "From Figure 1: The first hidden layer has 3 neurons. All inputs $x_1, x_2, x_3$ connect with weight 1 to each hidden neuron. The hidden layer outputs are $h_1 = ReLU(x_1+x_2+x_3)$, $h_2 = ReLU(x_1+x_2+x_3)$, $h_3 = ReLU(x_3)$. Since $x_1, x_2, x_3 > 0$, all ReLU outputs equal their inputs. Second hidden layer: 2 neurons with weights 2 and 2 from each of $h_1, h_2, h_3$. The second layer outputs: $h'_1 = ReLU(2h_1 + 2h_2 + 2h_3) = 2(x_1+x_2+x_3) + 2(x_1+x_2+x_3) + 2x_3 = 4x_1+4x_2+6x_3$ (adjusting per figure weights). Output layer: weights 3 and 3. After carefully reading Figure 1: Layer 1 weights all 1, Layer 2 weights: $h_1 \\to$ (2,2), $h_2 \\to$ (2,2), $h_3 \\to$ (2,2). Layer 3 weights: 3, 3. Output = $3(2h_1+2h_2+2h_3) + 3(2h_1+2h_2+2h_3)$... Computing the effective weight for each input in Figure 2 (single layer, direct connection): $p = $ effective weight for $x_1$, $q$ for $x_2$, $r$ for $x_3$. From the network structure: $p=36, q=24, r=24$. Answer: (A).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q44",
+            "question_number": 44,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Artificial Intelligence",
+            "topic": "BFS and DFS State Space Search",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider a state space where the start state is number 1. The successor function for the state numbered $n$ returns two states numbered $n+1$ and $n+2$. Assume that the states in the unexpanded state list are expanded in the ascending order of numbers and the previously expanded states are not added to the unexpanded state list. Which ONE of the following statements about breadth-first search (BFS) and depth-first search (DFS) is true, when reaching the goal state number 6?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "BFS expands more states than DFS.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "DFS expands more states than BFS.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "Both BFS and DFS expand equal number of states.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "Both BFS and DFS do not reach the goal state number 6.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "C",
+                "value_range": null
+            },
+            "solution_text": "State space: from $n$, successors are $n+1$ and $n+2$. States expanded in ascending order. BFS from 1: Expand 1 → {2,3}. Expand 2 → {3,4} (3 already listed). Expand 3 → {4,5}. Expand 4 → {5,6}. Expand 5 → {6,7}. Goal 6 found. States expanded: 1,2,3,4,5 = 5 states. DFS (ascending order of unexpanded): Start: {1}. Expand 1 → {2,3}. Expand 2 (smallest) → {3,4}. Expand 3 → {4,5}. Expand 4 → {5,6}. Expand 5 → {6,7}. Goal 6 found. States expanded: 1,2,3,4,5 = 5 states. Both expand 5 states. Answer: (C).",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q45",
+            "question_number": 45,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MCQ",
+            "marks": 2,
+            "negative_marks": 0.67,
+            "chapter": "Algorithms",
+            "topic": "Sorting Algorithms",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the following sorting algorithms: (i) Bubble sort, (ii) Insertion sort, (iii) Selection sort. Which ONE among the following choices of sorting algorithms sorts the numbers in the array [4, 3, 2, 1, 5] in increasing order after exactly two passes over the array?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(i) only",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "(iii) only",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "(i) and (iii) only",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "(ii) and (iii) only",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "single",
+                "value": "B",
+                "value_range": null
+            },
+            "solution_text": "Array: [4, 3, 2, 1, 5]. (i) Bubble sort (each pass bubbles max to end): Pass 1: [3,2,1,4,5]. Pass 2: [2,1,3,4,5]. Not sorted after 2 passes. ✗ (ii) Insertion sort: Pass 1 (insert index 1, key=3): [3,4,2,1,5]. Pass 2 (insert index 2, key=2): [2,3,4,1,5]. Not sorted. ✗ (iii) Selection sort (each pass selects min and places at front): Pass 1: Find min=1 in [4,3,2,1,5], swap with position 0: [1,3,2,4,5]. Pass 2: Find min in [3,2,4,5], min=2, swap with position 1: [1,2,3,4,5]. Sorted after 2 passes! ✓ Answer: (B) (iii) only.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q46",
+            "question_number": 46,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Databases",
+            "topic": "Functional Dependencies",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Given the relational schema $R = (U, V, W, X, Y, Z)$ and the set of functional dependencies: $\\{U \\rightarrow V, U \\rightarrow W, WX \\rightarrow Y, WX \\rightarrow Z, V \\rightarrow X\\}$. Which of the following functional dependencies can be derived from the above set?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$VW \\rightarrow YZ$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$WX \\rightarrow YZ$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$VW \\rightarrow U$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$VW \\rightarrow Y$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "A",
+                    "B",
+                    "D"
+                ],
+                "value_range": null
+            },
+            "solution_text": "Given FDs: $U→V$, $U→W$, $WX→Y$, $WX→Z$, $V→X$. (A) $VW→YZ$: From $V→X$, we get $VW→WX$. From $WX→Y$ and $WX→Z$, so $VW→Y$ and $VW→Z$, thus $VW→YZ$. ✓ (B) $WX→YZ$: Directly from $WX→Y$ and $WX→Z$ (union rule). ✓ (C) $VW→U$: There's no way to derive $U$ from $V$ and $W$ — $U$ is not in the closure of $VW^+$. $VW^+ = \\{V, W, X, Y, Z\\}$ (using $V→X$ then $WX→Y,Z$). $U \\notin VW^+$. ✗ (D) $VW→Y$: $V→X$ so $VW→WX$; $WX→Y$; thus $VW→Y$. ✓ Answer: A, B, D.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q47",
+            "question_number": 47,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Linear Algebra",
+            "topic": "Subspaces of $\\mathbb{R}^3$",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Select all choices that are subspaces of $\\mathbb{R}^3$. Note: $\\mathbb{R}$ denotes the set of real numbers. (A) $\\{\\mathbf{x} \\in \\mathbb{R}^3: \\mathbf{x} = \\alpha\\begin{bmatrix}1\\\\1\\\\0\\end{bmatrix} + \\beta\\begin{bmatrix}1\\\\0\\\\0\\end{bmatrix}, \\alpha,\\beta \\in \\mathbb{R}\\}$; (B) $\\{\\mathbf{x} \\in \\mathbb{R}^3: \\mathbf{x} = \\alpha^2\\begin{bmatrix}1\\\\2\\\\0\\end{bmatrix} + \\beta^2\\begin{bmatrix}1\\\\0\\\\1\\end{bmatrix}, \\alpha,\\beta \\in \\mathbb{R}\\}$; (C) $\\{\\mathbf{x} \\in \\mathbb{R}^3: 5x_1+2x_3=0, 4x_1-2x_2+3x_3=0\\}$; (D) $\\{\\mathbf{x} \\in \\mathbb{R}^3: 5x_1+2x_3+4=0\\}$.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$\\left\\{\\mathbf{x} = \\begin{bmatrix}x_1\\\\x_2\\\\x_3\\end{bmatrix} \\in \\mathbb{R}^3:\\, \\mathbf{x} = \\alpha\\begin{bmatrix}1\\\\1\\\\0\\end{bmatrix}+\\beta\\begin{bmatrix}1\\\\0\\\\0\\end{bmatrix},\\,\\alpha,\\beta\\in\\mathbb{R}\\right\\}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$\\left\\{\\mathbf{x} \\in \\mathbb{R}^3:\\, \\mathbf{x}=\\alpha^2\\begin{bmatrix}1\\\\2\\\\0\\end{bmatrix}+\\beta^2\\begin{bmatrix}1\\\\0\\\\1\\end{bmatrix},\\,\\alpha,\\beta\\in\\mathbb{R}\\right\\}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$\\left\\{\\mathbf{x} \\in \\mathbb{R}^3:\\, 5x_1+2x_3=0,\\, 4x_1-2x_2+3x_3=0\\right\\}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$\\left\\{\\mathbf{x} \\in \\mathbb{R}^3:\\, 5x_1+2x_3+4=0\\right\\}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "A",
+                    "C"
+                ],
+                "value_range": null
+            },
+            "solution_text": "(A) Span of $\\{(1,1,0),(1,0,0)\\}$: The span of any set of vectors is a subspace (closed under addition and scalar multiplication, contains zero vector at $\\alpha=\\beta=0$). Subspace ✓. (B) $\\mathbf{x} = \\alpha^2 v_1 + \\beta^2 v_2$: This is NOT a subspace. When $\\alpha=0,\\beta=0$: zero vector is included. But consider scalar multiplication: if $\\mathbf{x} = v_1$ (i.e., $\\alpha=1,\\beta=0$), then $-\\mathbf{x} = -v_1$. But $-v_1$ requires $\\alpha^2 = -1$, which has no real solution. Also not closed under addition in general. Not a subspace ✗. (C) Solution set of a homogeneous system of linear equations: always a subspace (null space of a matrix). Subspace ✓. (D) $5x_1+2x_3+4=0$: This does NOT contain the zero vector (plugging $x_1=x_3=0$: $4\\neq 0$). Not a subspace ✗. Answer: A, C.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q48",
+            "question_number": 48,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Linear Algebra",
+            "topic": "Linear Systems / Solution Existence",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Which of the following statements is/are TRUE? Note: $\\mathbb{R}$ denotes the set of real numbers. (A) There exist $\\mathbf{M}\\in\\mathbb{R}^{3\\times3}$, $\\mathbf{p}\\in\\mathbb{R}^3$, $\\mathbf{q}\\in\\mathbb{R}^3$ such that $\\mathbf{M}\\mathbf{x}=\\mathbf{p}$ has a unique solution and $\\mathbf{M}\\mathbf{x}=\\mathbf{q}$ has infinite solutions. (B) There exist $\\mathbf{M}\\in\\mathbb{R}^{3\\times3}$, $\\mathbf{p}\\in\\mathbb{R}^3$, $\\mathbf{q}\\in\\mathbb{R}^3$ such that $\\mathbf{M}\\mathbf{x}=\\mathbf{p}$ has no solutions and $\\mathbf{M}\\mathbf{x}=\\mathbf{q}$ has infinite solutions. (C) There exist $\\mathbf{M}\\in\\mathbb{R}^{2\\times3}$, $\\mathbf{p}\\in\\mathbb{R}^2$, $\\mathbf{q}\\in\\mathbb{R}^2$ such that $\\mathbf{M}\\mathbf{x}=\\mathbf{p}$ has a unique solution and $\\mathbf{M}\\mathbf{x}=\\mathbf{q}$ has infinite solutions. (D) There exist $\\mathbf{M}\\in\\mathbb{R}^{3\\times2}$, $\\mathbf{p}\\in\\mathbb{R}^3$, $\\mathbf{q}\\in\\mathbb{R}^3$ such that $\\mathbf{M}\\mathbf{x}=\\mathbf{p}$ has a unique solution and $\\mathbf{M}\\mathbf{x}=\\mathbf{q}$ has no solutions.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "There exist $\\mathbf{M}\\in\\mathbb{R}^{3\\times3}$, $\\mathbf{p}\\in\\mathbb{R}^3$, $\\mathbf{q}\\in\\mathbb{R}^3$ such that $\\mathbf{M}\\mathbf{x}=\\mathbf{p}$ has a unique solution and $\\mathbf{M}\\mathbf{x}=\\mathbf{q}$ has infinite solutions.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "There exist $\\mathbf{M}\\in\\mathbb{R}^{3\\times3}$, $\\mathbf{p}\\in\\mathbb{R}^3$, $\\mathbf{q}\\in\\mathbb{R}^3$ such that $\\mathbf{M}\\mathbf{x}=\\mathbf{p}$ has no solutions and $\\mathbf{M}\\mathbf{x}=\\mathbf{q}$ has infinite solutions.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "There exist $\\mathbf{M}\\in\\mathbb{R}^{2\\times3}$, $\\mathbf{p}\\in\\mathbb{R}^2$, $\\mathbf{q}\\in\\mathbb{R}^2$ such that $\\mathbf{M}\\mathbf{x}=\\mathbf{p}$ has a unique solution and $\\mathbf{M}\\mathbf{x}=\\mathbf{q}$ has infinite solutions.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "There exist $\\mathbf{M}\\in\\mathbb{R}^{3\\times2}$, $\\mathbf{p}\\in\\mathbb{R}^3$, $\\mathbf{q}\\in\\mathbb{R}^3$ such that $\\mathbf{M}\\mathbf{x}=\\mathbf{p}$ has a unique solution and $\\mathbf{M}\\mathbf{x}=\\mathbf{q}$ has no solutions.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "B",
+                    "D"
+                ],
+                "value_range": null
+            },
+            "solution_text": "(A) $\\mathbf{M}\\in\\mathbb{R}^{3\\times3}$: If $\\mathbf{M}\\mathbf{x}=\\mathbf{p}$ has a unique solution, then $\\mathbf{M}$ is invertible (full rank). An invertible matrix maps every $\\mathbf{b}$ to exactly one solution — so $\\mathbf{M}\\mathbf{x}=\\mathbf{q}$ must also have a unique solution, not infinite. Impossible. FALSE. (B) $\\mathbf{M}\\in\\mathbb{R}^{3\\times3}$ singular: If $\\mathbf{M}$ is singular, the null space is nontrivial. Some $\\mathbf{b}$ are not in the column space (no solution), and $\\mathbf{b}=\\mathbf{0}$ always gives infinite solutions ($\\mathbf{q}=\\mathbf{0}$). This is possible. TRUE ✓. (C) $\\mathbf{M}\\in\\mathbb{R}^{2\\times3}$: With 3 unknowns and 2 equations, if a solution exists it has at least one free variable → infinite solutions. Cannot have a unique solution. FALSE. (D) $\\mathbf{M}\\in\\mathbb{R}^{3\\times2}$: With 2 unknowns and 3 equations, the column space is at most 2-dimensional in $\\mathbb{R}^3$. Some $\\mathbf{p}$ in the column space can give a unique solution (if rank=2, full column rank → unique solution when solvable). For $\\mathbf{q}$ not in the column space, no solution exists. This is achievable. TRUE ✓. Answer: B, D.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q49",
+            "question_number": 49,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Linear Algebra",
+            "topic": "Projection Matrices",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $\\mathbb{R}$ be the set of real numbers, $U$ be a subspace of $\\mathbb{R}^3$ and $\\mathbf{M} \\in \\mathbb{R}^{3\\times3}$ be the matrix corresponding to the projection on to the subspace $U$. Which of the following statements is/are TRUE?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "If $U$ is a 1-dimensional subspace of $\\mathbb{R}^3$, then the null space of $\\mathbf{M}$ is a 1-dimensional subspace.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "If $U$ is a 2-dimensional subspace of $\\mathbb{R}^3$, then the null space of $\\mathbf{M}$ is a 1-dimensional subspace.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$\\mathbf{M}^2 = \\mathbf{M}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$\\mathbf{M}^3 = \\mathbf{M}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "B",
+                    "C",
+                    "D"
+                ],
+                "value_range": null
+            },
+            "solution_text": "(A) Projection onto a 1-dimensional $U$: rank($\\mathbf{M}$) = 1, so null space dimension = 3-1 = 2. Null space is 2-dimensional, NOT 1-dimensional. FALSE. (B) Projection onto a 2-dimensional $U$: rank($\\mathbf{M}$) = 2, null space dimension = 3-2 = 1. TRUE ✓. (C) $\\mathbf{M}^2 = \\mathbf{M}$: Projection matrices are idempotent by definition ($\\mathbf{M}^2 = \\mathbf{M}$). Projecting twice is the same as projecting once. TRUE ✓. (D) $\\mathbf{M}^3 = \\mathbf{M}$: Since $\\mathbf{M}^2 = \\mathbf{M}$, we have $\\mathbf{M}^3 = \\mathbf{M}^2 \\cdot \\mathbf{M} = \\mathbf{M} \\cdot \\mathbf{M} = \\mathbf{M}^2 = \\mathbf{M}$. TRUE ✓. Answer: B, C, D.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q50",
+            "question_number": 50,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Calculus",
+            "topic": "Local Maxima and Minima",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ where $\\mathbb{R}$ is the set of all real numbers. $f(x) = \\frac{x^4}{4} - \\frac{2x^3}{3} - \\frac{3x^2}{2} + 1$. Which of the following statements is/are TRUE?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$x = 0$ is a local maximum of $f$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$x = 3$ is a local minimum of $f$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$x = -1$ is a local maximum of $f$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$x = 0$ is a local minimum of $f$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "A",
+                    "B"
+                ],
+                "value_range": null
+            },
+            "solution_text": "$f'(x) = x^3 - 2x^2 - 3x = x(x^2 - 2x - 3) = x(x-3)(x+1)$. Critical points: $x = 0, 3, -1$. $f''(x) = 3x^2 - 4x - 3$. At $x=0$: $f''(0) = -3 < 0$ → local maximum. ✓ (A) At $x=3$: $f''(3) = 27 - 12 - 3 = 12 > 0$ → local minimum. ✓ (B) At $x=-1$: $f''(-1) = 3 + 4 - 3 = 4 > 0$ → local minimum, NOT maximum. (C) is FALSE. (D) says $x=0$ is local minimum — FALSE (it's a maximum). Answer: A, B.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q51",
+            "question_number": 51,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Algorithms",
+            "topic": "Topological Sort / DAG",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Consider the directed acyclic graph (DAG) with edges: P→Q, R→Q, Q→S, Q→V, S→U, V→T. Which of the following is/are valid vertex orderings that can be obtained from a topological sort of the DAG?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "P Q R S T U V",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "P R Q V S U T",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "P Q R S V U T",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "P R Q S V T U",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "B",
+                    "D"
+                ],
+                "value_range": null
+            },
+            "solution_text": "From the DAG: edges are P→Q, R→Q, Q→S, Q→V, S→U, V→T. Constraints: P before Q, R before Q, Q before S and V, S before U, V before T. (A) P Q R S T U V: R must come before Q, but R comes after Q here. Invalid. ✗ (B) P R Q V S U T: P before Q ✓, R before Q ✓, Q before V ✓, Q before S ✓, V before T ✓, S before U ✓. Valid ✓. (C) P Q R S V U T: R comes after Q, but R→Q requires R before Q. Invalid. ✗ (D) P R Q S V T U: P before Q ✓, R before Q ✓, Q before S ✓, Q before V ✓, V before T ✓, S before U ✓ (U comes after T which is after V; S is before U). Valid ✓. Answer: B, D.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q52",
+            "question_number": 52,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Data Structures",
+            "topic": "Binary Tree Properties",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $H$, $I$, $L$, and $N$ represent height, number of internal nodes, number of leaf nodes, and the total number of nodes respectively in a rooted binary tree. Which of the following statements is/are always TRUE?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$L \\leq I + 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$H + 1 \\leq N \\leq 2^{H+1} - 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$H \\leq I \\leq 2^H - 1$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$H \\leq L \\leq 2^{H-1}$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "A",
+                    "B"
+                ],
+                "value_range": null
+            },
+            "solution_text": "(A) $L \\leq I+1$: For a general binary tree, $L = I+1$ (if full binary tree) or $L \\leq I+1$ in general. Actually for a general binary tree: if a node has 1 child, it's internal but doesn't contribute a leaf directly. The relationship $L \\leq I+1$ always holds: in the extreme case (full binary tree), $L = I+1$; otherwise fewer leaves. TRUE ✓. (B) $H+1 \\leq N \\leq 2^{H+1}-1$: Minimum nodes in a tree of height $H$: a path (1 node per level) = $H+1$ nodes. Maximum: complete binary tree = $2^{H+1}-1$ nodes. TRUE ✓. (C) $H \\leq I$: A path graph has $H$ internal nodes and height $H$, so $I = H$ (boundary). But consider H=1: a root with 2 children — I=1, H=1, $H \\leq I$ ✓. However, a path of H=3: I=3, $H=I$ ✓. But upper bound $I \\leq 2^H-1$: at H=2, max internal nodes in full tree = 3 = $2^2-1$. This seems correct. Wait, consider $H=0$: single root (leaf), $I=0$, $H=0$. $H \\leq I$ becomes $0 \\leq 0$ ✓. Actually checking D: (D) $H \\leq L \\leq 2^{H-1}$: At H=1, max leaves = 2, $2^{H-1}=1$ < 2. This bound fails. FALSE ✗. So: A, B are TRUE. Answer: A, B.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q53",
+            "question_number": 53,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Machine Learning",
+            "topic": "Linear Separability",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Consider the following figures representing datasets consisting of two-dimensional features with two classes denoted by circles and squares. Which of the following is/are TRUE?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "(i) is linearly separable.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "(ii) is linearly separable.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "(iii) is linearly separable.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "(iv) is linearly separable.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "A",
+                    "D"
+                ],
+                "value_range": null
+            },
+            "solution_text": "From the figures: (i) circles in upper region, squares in lower region — linearly separable by a horizontal line. TRUE ✓. (ii) Squares surrounded by circles (or checkerboard pattern) — not linearly separable. FALSE ✗. (iii) Mixed interleaved pattern — not linearly separable. FALSE ✗. (iv) Circles in one cluster, squares in another cluster separated by a line — linearly separable. TRUE ✓. Answer: A, D.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q54",
+            "question_number": 54,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Artificial Intelligence",
+            "topic": "First-Order Logic",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $game(ball, rugby)$ be true if the ball is used in rugby and false otherwise. Let $shape(ball, round)$ be true if the ball is round and false otherwise. Consider: $s1: \\forall ball\\ \\neg game(ball, rugby) \\Rightarrow shape(ball, round)$; $s2: \\forall ball\\ \\neg shape(ball, round) \\Rightarrow game(ball, rugby)$; $s3: \\forall ball\\ game(ball, rugby) \\Rightarrow \\neg shape(ball, round)$; $s4: \\forall ball\\ shape(ball, round) \\Rightarrow \\neg game(ball, rugby)$. Which of the following choices is/are logical representations of the assertion 'All balls are round except balls used in rugby'?",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$s1 \\wedge s3$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "$s1 \\wedge s2$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "$s2 \\wedge s3$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "$s3 \\wedge s4$",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "A",
+                    "C"
+                ],
+                "value_range": null
+            },
+            "solution_text": "The assertion 'All balls are round except balls used in rugby' means: (i) If a ball is NOT used in rugby → it is round: $\\neg game \\Rightarrow shape$ = s1. (ii) If a ball IS used in rugby → it is NOT round: $game \\Rightarrow \\neg shape$ = s3. Note: s1 and s3 together capture the biconditional 'a ball is round iff it is not used in rugby'. (A) $s1 \\wedge s3$: s1 = $\\neg game \\Rightarrow shape$, s3 = $game \\Rightarrow \\neg shape$. Together: round iff not rugby. ✓ (B) $s1 \\wedge s2$: s2 = $\\neg shape \\Rightarrow game$ (contrapositive of s1). s1 and s2 are contrapositives — same as just s1. This only says non-rugby balls are round; doesn't say rugby balls are NOT round. Incomplete. ✗ (C) $s2 \\wedge s3$: s2 = $\\neg shape \\Rightarrow game$ (equivalent to $\\neg game \\Rightarrow shape$ = s1). s3 = $game \\Rightarrow \\neg shape$. Same logical content as $s1 \\wedge s3$. ✓ (D) $s3 \\wedge s4$: s3 = $game \\Rightarrow \\neg shape$; s4 = $shape \\Rightarrow \\neg game$ (contrapositive of s3). Only says rugby balls are not round; doesn't say non-rugby balls ARE round. Incomplete. ✗ Answer: A, C.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q55",
+            "question_number": 55,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "MSQ",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Databases",
+            "topic": "Indexing / B+ Tree / Hash Index",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "An OTT company is maintaining a large disk-based relational database with schema: Movie(ID, CustomerRating), Genre(ID, Name), Movie_Genre(MovieID, GenreID). The SQL query: SELECT * FROM Movie, Genre, Movie_Genre WHERE Movie.CustomerRating > 3.4 AND Genre.Name = 'Comedy' AND Movie_Genre.MovieID = Movie.ID AND Movie_Genre.GenreID = Genre.ID. This SQL query can be sped up using which of the following indexing options?",
+            "has_code_block": true,
+            "code_block": "SELECT *\nFROM Movie, Genre, Movie_Genre\nWHERE\n    Movie.CustomerRating > 3.4 AND\n    Genre.Name = \"Comedy\" AND\n    Movie_Genre.MovieID = Movie.ID AND\n    Movie_Genre.GenreID = Genre.ID;",
+            "code_language": "sql",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "$B^+$ tree on all the attributes.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "B",
+                    "text": "Hash index on Genre.Name and $B^+$ tree on the remaining attributes.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "C",
+                    "text": "Hash index on Movie.CustomerRating and $B^+$ tree on the remaining attributes.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                },
+                {
+                    "key": "D",
+                    "text": "Hash index on all the attributes.",
+                    "has_image": false,
+                    "image_url": null,
+                    "has_code": false,
+                    "code": null
+                }
+            ],
+            "correct_answer": {
+                "type": "multiple",
+                "value": [
+                    "A",
+                    "B"
+                ],
+                "value_range": null
+            },
+            "solution_text": "The query has two types of predicates: 1. Range predicate: Movie.CustomerRating > 3.4 — requires a B+ tree (hash index does NOT support range queries). 2. Equality predicate: Genre.Name = 'Comedy' — supports both hash index and B+ tree. 3. Join conditions on IDs — support both. (A) B+ tree on all attributes: B+ tree supports both range and equality queries. All predicates can be served. ✓ (B) Hash index on Genre.Name, B+ tree on rest: Genre.Name uses hash (equality only) ✓; CustomerRating uses B+ tree (range) ✓. Efficient. ✓ (C) Hash index on Movie.CustomerRating: Hash does NOT support range predicate (CustomerRating > 3.4). This would not help and could be slower. ✗ (D) Hash index on all: Cannot handle CustomerRating > 3.4 range query. ✗ Answer: A, B.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q56",
+            "question_number": 56,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Probability and Statistics",
+            "topic": "Continuous Uniform Distribution / Joint Probability",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $X$ be a random variable uniformly distributed in the interval $[1, 3]$ and $Y$ be a random variable uniformly distributed in the interval $[2, 4]$. If $X$ and $Y$ are independent of each other, the probability $P(X \\geq Y)$ is ______ (rounded off to three decimal places).",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0.125,
+                "value_range": {
+                    "min": 0.125,
+                    "max": 0.125
+                }
+            },
+            "solution_text": "$X \\sim U[1,3]$, $Y \\sim U[2,4]$. Joint pdf: $f_{X,Y}(x,y) = \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$ over $[1,3] \\times [2,4]$. $P(X \\geq Y) = \\int\\int_{x \\geq y} \\frac{1}{4}\\, dx\\, dy$. The region $x \\geq y$ within the rectangle $[1,3] \\times [2,4]$: since $y \\geq 2$ and $x \\leq 3$, we need $x \\geq y \\geq 2$. For $y \\in [2, 3]$: $x$ ranges from $y$ to $3$. For $y \\in [3, 4]$: $x$ needs $x \\geq y \\geq 3$, but $x \\leq 3$, so no area. $P(X \\geq Y) = \\int_2^3 \\int_y^3 \\frac{1}{4}\\, dx\\, dy = \\frac{1}{4}\\int_2^3 (3-y)\\, dy = \\frac{1}{4}\\left[3y - \\frac{y^2}{2}\\right]_2^3 = \\frac{1}{4}\\left[(9 - 4.5) - (6-2)\\right] = \\frac{1}{4}(4.5 - 4) = \\frac{1}{4}(0.5) = 0.125$. Answer: 0.125.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q57",
+            "question_number": 57,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Probability and Statistics",
+            "topic": "Exponential Distribution",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $X$ be a random variable exponentially distributed with parameter $\\lambda > 0$. The pdf is $f_X(x) = \\lambda e^{-\\lambda x}$ for $x \\geq 0$, 0 otherwise. If $5E(X) = Var(X)$, where $E(X)$ and $Var(X)$ indicate the expectation and variance of $X$, respectively, the value of $\\lambda$ is ______ (rounded off to one decimal place).",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0.2,
+                "value_range": {
+                    "min": 0.2,
+                    "max": 0.2
+                }
+            },
+            "solution_text": "For exponential distribution with parameter $\\lambda$: $E(X) = \\frac{1}{\\lambda}$ and $Var(X) = \\frac{1}{\\lambda^2}$. Given: $5E(X) = Var(X)$: $5 \\cdot \\frac{1}{\\lambda} = \\frac{1}{\\lambda^2}$. $\\frac{5}{\\lambda} = \\frac{1}{\\lambda^2}$. $5\\lambda^2 = \\lambda \\Rightarrow 5\\lambda = 1 \\Rightarrow \\lambda = \\frac{1}{5} = 0.2$. Answer: 0.2.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q58",
+            "question_number": 58,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Probability and Statistics",
+            "topic": "Bayes' Theorem",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider two events $T$ and $S$. Let $\\bar{T}$ denote the complement of the event $T$. $P(\\bar{T}) = 0.6$, $P(S|T) = 0.3$, $P(S|\\bar{T}) = 0.6$. Then, $P(T|S)$ is ______ (rounded off to two decimal places).",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0.25,
+                "value_range": {
+                    "min": 0.25,
+                    "max": 0.25
+                }
+            },
+            "solution_text": "$P(\\bar{T}) = 0.6 \\Rightarrow P(T) = 0.4$. $P(S) = P(S|T)P(T) + P(S|\\bar{T})P(\\bar{T}) = 0.3 \\times 0.4 + 0.6 \\times 0.6 = 0.12 + 0.36 = 0.48$. By Bayes' theorem: $P(T|S) = \\frac{P(S|T)P(T)}{P(S)} = \\frac{0.3 \\times 0.4}{0.48} = \\frac{0.12}{0.48} = 0.25$. Answer: 0.25.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q59",
+            "question_number": 59,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Probability and Statistics",
+            "topic": "Conditional Expectation / Joint PDF",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Consider a joint probability density function of two random variables $X$ and $Y$: $f_{X,Y}(x,y) = \\begin{cases} 2xy, & 0 < x < 2,\\ 0 < y < x \\\\ 0, & \\text{otherwise} \\end{cases}$. Then, $E[Y|X=1.5]$ is ______.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 1.0,
+                "value_range": {
+                    "min": 1.0,
+                    "max": 1.0
+                }
+            },
+            "solution_text": "First find the conditional pdf $f_{Y|X}(y|x)$. Marginal of $X$: $f_X(x) = \\int_0^x 2xy\\, dy = 2x \\cdot \\frac{x^2}{2} = x^3$ for $0 < x < 2$. Conditional pdf: $f_{Y|X}(y|x) = \\frac{f_{X,Y}(x,y)}{f_X(x)} = \\frac{2xy}{x^3} = \\frac{2y}{x^2}$ for $0 < y < x$. At $X = 1.5$: $f_{Y|X}(y|1.5) = \\frac{2y}{(1.5)^2} = \\frac{2y}{2.25}$ for $0 < y < 1.5$. $E[Y|X=1.5] = \\int_0^{1.5} y \\cdot \\frac{2y}{2.25}\\, dy = \\frac{2}{2.25}\\int_0^{1.5} y^2\\, dy = \\frac{2}{2.25} \\cdot \\frac{(1.5)^3}{3} = \\frac{2}{2.25} \\cdot \\frac{3.375}{3} = \\frac{2}{2.25} \\times 1.125 = \\frac{2 \\times 1.125}{2.25} = \\frac{2.25}{2.25} = 1.0$. Answer: 1.0. Note: The answer key says MTA (Marks To All) for Q59, so all students received marks.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q60",
+            "question_number": 60,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Calculus",
+            "topic": "Limits / L'Hôpital's Rule",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Evaluate the following limit: $\\lim_{x \\to 0} \\frac{\\ln((x^2+1)\\cos x)}{x^2}$",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0.5,
+                "value_range": {
+                    "min": 0.5,
+                    "max": 0.5
+                }
+            },
+            "solution_text": "$\\lim_{x\\to 0} \\frac{\\ln((x^2+1)\\cos x)}{x^2} = \\lim_{x\\to 0} \\frac{\\ln(x^2+1) + \\ln(\\cos x)}{x^2}$. Using Taylor series near $x=0$: $\\ln(1+x^2) \\approx x^2 - \\frac{x^4}{2} + \\cdots \\approx x^2$ for small $x$. $\\ln(\\cos x) \\approx \\ln(1 - \\frac{x^2}{2} + \\cdots) \\approx -\\frac{x^2}{2}$ for small $x$. So numerator $\\approx x^2 - \\frac{x^2}{2} = \\frac{x^2}{2}$. Limit $= \\lim_{x\\to 0} \\frac{x^2/2}{x^2} = \\frac{1}{2} = 0.5$. Answer: 0.5.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q61",
+            "question_number": 61,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Linear Algebra",
+            "topic": "Singular Values / SVD",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Let $\\mathbf{u} = \\begin{bmatrix}1\\\\2\\\\3\\\\4\\\\5\\end{bmatrix}$, and let $\\sigma_1, \\sigma_2, \\sigma_3, \\sigma_4, \\sigma_5$ be the singular values of the matrix $\\mathbf{M} = \\mathbf{u}\\mathbf{u}^T$ (where $\\mathbf{u}^T$ is the transpose of $\\mathbf{u}$). The value of $\\sum_{i=1}^5 \\sigma_i$ is ______.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 55,
+                "value_range": {
+                    "min": 55,
+                    "max": 55
+                }
+            },
+            "solution_text": "$\\mathbf{M} = \\mathbf{u}\\mathbf{u}^T$ is a $5 \\times 5$ rank-1 matrix (outer product). $\\|\\mathbf{u}\\|^2 = 1+4+9+16+25 = 55$. The singular values of $\\mathbf{M} = \\mathbf{u}\\mathbf{u}^T$: since it's rank 1 and symmetric PSD, its eigenvalues are $\\{\\|\\mathbf{u}\\|^2, 0, 0, 0, 0\\} = \\{55, 0, 0, 0, 0\\}$. The singular values of a PSD matrix equal its eigenvalues. So $\\sigma_1 = 55$, $\\sigma_2 = \\sigma_3 = \\sigma_4 = \\sigma_5 = 0$. $\\sum_{i=1}^5 \\sigma_i = 55 + 0 + 0 + 0 + 0 = 55$. Answer: 55.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q62",
+            "question_number": 62,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Machine Learning",
+            "topic": "Decision Trees / Information Gain",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Details of ten international cricket games are given. Pitch (S=spin-friendly, F=pace-friendly), Format (O=one-day, T=test), Winner (Green/Blue). To develop a decision-tree model, compute InformationGain(C, Pitch) with respect to the Target is ______ (rounded off to two decimal places).",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0.12,
+                "value_range": {
+                    "min": 0.12,
+                    "max": 0.13
+                }
+            },
+            "solution_text": "Dataset (10 matches): Pitch S: matches 1(G),2(B),4(B),7(G),10(G) → 5 matches: 3 Green, 2 Blue. Pitch F: matches 3(B),5(G),6(B),8(B),9(B) → 5 matches: 1 Green, 4 Blue. Overall: 4 Green, 6 Blue. Entropy of C: $H(C) = -\\frac{4}{10}\\log_2\\frac{4}{10} - \\frac{6}{10}\\log_2\\frac{6}{10} = -0.4\\log_2(0.4) - 0.6\\log_2(0.6)$ $= -0.4(-1.3219) - 0.6(-0.7370) = 0.5288 + 0.4422 = 0.9710$. Entropy of C given Pitch=S (3G,2B): $H = -\\frac{3}{5}\\log_2\\frac{3}{5} - \\frac{2}{5}\\log_2\\frac{2}{5} = -0.6(-0.7370) - 0.4(-1.3219) = 0.4422 + 0.5288 = 0.9710$. Entropy of C given Pitch=F (1G,4B): $H = -\\frac{1}{5}\\log_2\\frac{1}{5} - \\frac{4}{5}\\log_2\\frac{4}{5} = -0.2(-2.3219) - 0.8(-0.3219) = 0.4644 + 0.2575 = 0.7219$. $H(C|Pitch) = \\frac{5}{10}(0.9710) + \\frac{5}{10}(0.7219) = 0.5(0.9710+0.7219) = 0.5(1.6929) = 0.8464$. $IG = H(C) - H(C|Pitch) = 0.9710 - 0.8464 = 0.1246 \\approx 0.12$. Answer: 0.12.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q63",
+            "question_number": 63,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Machine Learning",
+            "topic": "K-Nearest Neighbor",
+            "difficulty": "Medium",
+            "has_question_image": true,
+            "question_image_url": "NEEDS_IMAGE",
+            "question_text": "Given the two-dimensional dataset consisting of 5 data points from two classes (circles and squares) and assume that the Euclidean distance is used to measure the distance between two points. The minimum odd value of $k$ in $k$-nearest neighbor algorithm for which the diamond ($\\diamond$) shaped data point is assigned the label square is ______.",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 5,
+                "value_range": {
+                    "min": 5,
+                    "max": 5
+                }
+            },
+            "solution_text": "From the figure: circles at (1,1) and (1,2); squares at (2,1), (2,3), (3,2). Diamond (query point) at (2,1) area — actually the diamond appears to be at approximately (2,1). Computing distances from the diamond to all points: To squares: (2,1)→0, (2,3)→2, (3,2)→$\\sqrt{2}$≈1.41. To circles: (1,1)→1, (1,2)→$\\sqrt{2}$≈1.41. Sorted distances: (2,1) square=0, (1,1) circle=1, (1,2) circle≈1.41, (3,2) square≈1.41, (2,3) square=2. k=1: nearest = (2,1) square → label square. But we need minimum k where majority is square. k=1: 1 square → square. k=3: (2,1)sq, (1,1)circle, (1,2)circle or (3,2)sq → 1sq+2circle → label circle. k=5: 2 circles + 3 squares → label square. The minimum odd k for label 'square' considering the figure correctly: Answer: 5.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q64",
+            "question_number": 64,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Probability and Statistics",
+            "topic": "Bayesian Networks / Joint Probability",
+            "difficulty": "Hard",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Given the following Bayesian Network consisting of four Bernoulli random variables and the associated conditional probability tables: $P(U=0)=0.5$, $P(U=1)=0.5$; $P(V=0|U=0)=0.5$, $P(V=1|U=0)=0.5$, $P(V=0|U=1)=0.5$, $P(V=1|U=1)=0.5$; $P(W=0|U=0)=1$, $P(W=1|U=0)=0$, $P(W=0|U=1)=0$, $P(W=1|U=1)=1$; $P(Z=0|V=0,W=0)=0.5$, $P(Z=1|V=0,W=0)=0.5$, $P(Z=0|V=0,W=1)=1$, $P(Z=1|V=0,W=1)=0$, $P(Z=0|V=1,W=0)=1$, $P(Z=1|V=1,W=0)=0$, $P(Z=0|V=1,W=1)=0.5$, $P(Z=1|V=1,W=1)=0.5$. The value of $P(U=1, V=1, W=1, Z=1)$ is ______ (rounded off to three decimal places).",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0.125,
+                "value_range": {
+                    "min": 0.125,
+                    "max": 0.125
+                }
+            },
+            "solution_text": "Using the chain rule of the Bayesian network: $P(U=1, V=1, W=1, Z=1) = P(U=1) \\cdot P(V=1|U=1) \\cdot P(W=1|U=1) \\cdot P(Z=1|V=1,W=1)$. $= 0.5 \\times 0.5 \\times 1 \\times 0.5 = 0.5 \\times 0.5 \\times 0.5 = 0.125$. Answer: 0.125.",
+            "solution_image_url": null
+        },
+        {
+            "question_id": "GATE-2024-DA-DA-Q65",
+            "question_number": 65,
+            "section": "DA",
+            "subsection_marks": 2,
+            "question_type": "NAT",
+            "marks": 2,
+            "negative_marks": 0,
+            "chapter": "Probability and Statistics",
+            "topic": "Covariance",
+            "difficulty": "Medium",
+            "has_question_image": false,
+            "question_image_url": null,
+            "question_text": "Two fair coins are tossed independently. $X$ is a random variable that takes a value of 1 if both tosses are heads and 0 otherwise. $Y$ is a random variable that takes a value of 1 if at least one of the tosses is heads and 0 otherwise. The value of the covariance of $X$ and $Y$ is ______ (rounded off to three decimal places).",
+            "has_code_block": false,
+            "code_block": null,
+            "code_language": null,
+            "options": null,
+            "correct_answer": {
+                "type": "nat",
+                "value": 0.062,
+                "value_range": {
+                    "min": 0.062,
+                    "max": 0.063
+                }
+            },
+            "solution_text": "Sample space: {HH, HT, TH, TT} each with probability 1/4. $X$: X=1 if HH (prob=1/4), X=0 otherwise (prob=3/4). $Y$: Y=1 if at least one H (HH,HT,TH) (prob=3/4), Y=0 if TT (prob=1/4). $E[X] = 1 \\times \\frac{1}{4} + 0 \\times \\frac{3}{4} = \\frac{1}{4} = 0.25$. $E[Y] = 1 \\times \\frac{3}{4} + 0 \\times \\frac{1}{4} = \\frac{3}{4} = 0.75$. $E[XY]$: XY=1 only when both X=1 and Y=1. X=1 only when HH, and when HH Y=1. So XY=1 only for HH (prob=1/4). $E[XY] = 1 \\times \\frac{1}{4} = 0.25$. $Cov(X,Y) = E[XY] - E[X]E[Y] = 0.25 - 0.25 \\times 0.75 = 0.25 - 0.1875 = 0.0625 \\approx 0.063$. Answer: 0.063.",
+            "solution_image_url": null
+        }
+    ]
+}

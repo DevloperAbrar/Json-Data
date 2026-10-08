@@ -1,0 +1,717 @@
+{
+    "meta": {
+        "exam_name": "CBSE Board Class 10",
+        "exam_short_code": "CBSE-10-MATH-BASIC",
+        "subject": "Mathematics (Basic)",
+        "subject_code": "430/2/1",
+        "series": "DA2AB/2",
+        "set_number": "1",
+        "year": 2024,
+        "primary_language": "Hindi",
+        "secondary_language": "English",
+        "total_questions_in_paper": 38,
+        "attempt_required": 38,
+        "total_marks": 80,
+        "total_time_minutes": 180,
+        "has_negative_marking": false
+    },
+    "questions": [
+        {
+            "question_number": 28,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "सिद्ध कीजिए कि 7-3√5 एक अपरिमेय संख्या है, दिया गया है कि √5 एक अपरिमेय संख्या है।",
+            "text_english": "Prove that 7-3√5 is an irrational number, given that √5 is an irrational number.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Assume 7 - 3√5 is a rational number a/b, where b ≠ 0.",
+                    "Rearrange the equation to express √5 in terms of a and b: √5 = (7b - a) / 3b.",
+                    "Since a and b are integers, (7b - a) / 3b is a rational number.",
+                    "This contradicts the given fact that √5 is irrational. Therefore, the assumption is false and 7 - 3√5 is irrational."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Let us assume to the contrary that 7 - 3√5 is a rational number. This means we can find coprime integers a and b (where b ≠ 0) such that 7 - 3√5 = a/b. Rearranging this equation, we get 3√5 = 7 - (a/b), which simplifies to 3√5 = (7b - a)/b. Dividing both sides by 3 gives √5 = (7b - a)/(3b). Since a and b are integers, 7b - a and 3b are also integers, making (7b - a)/(3b) a rational number. This implies that √5 is a rational number, which directly contradicts the given fact that √5 is an irrational number. This contradiction arises due to our incorrect assumption. Therefore, we conclude that 7 - 3√5 is an irrational number.",
+            "solution_hindi": "मान लीजिए कि इसके विपरीत 7 - 3√5 एक परिमेय संख्या है। इसका अर्थ है कि हम सहअभाज्य पूर्णांक a और b (जहाँ b ≠ 0) ज्ञात कर सकते हैं ताकि 7 - 3√5 = a/b हो। इस समीकरण को व्यवस्थित करने पर, हमें 3√5 = 7 - (a/b) प्राप्त होता है, जो 3√5 = (7b - a)/b में बदल जाता है। दोनों पक्षों को 3 से भाग देने पर √5 = (7b - a)/(3b) प्राप्त होता है। चूँकि a और b पूर्णांक हैं, (7b - a) और 3b भी पूर्णांक हैं, जिससे (7b - a)/(3b) एक परिमेय संख्या बन जाती है। इसका तात्पर्य यह होगा कि √5 एक परिमेय संख्या है, जो दिए गए इस तथ्य का सीधा विरोधाभास है कि √5 एक अपरिमेय संख्या है। यह विरोधाभास हमारी गलत मान्यता के कारण उत्पन्न हुआ है। अतः हम निष्कर्ष निकालते हैं कि 7 - 3√5 एक अपरिमेय संख्या है।",
+            "chapter": "Real Numbers",
+            "topic": "Revisiting Irrational Numbers",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 29,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": 4,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(a) द्विघात बहुपद x²-3x+2 के शून्यक α और β हैं। एक द्विघात बहुपद की रचना कीजिए जिसके शून्यक 2α+1 और 2β+1 हैं।",
+            "text_english": "(a) Zeroes of the quadratic polynomial x²-3x+2 are α and β. Construct a quadratic polynomial whose zeroes are 2α+1 and 2β+1.",
+            "instruction_line": "Attempt any one of the internal choices.",
+            "instruction_line_english": "Attempt any one of the internal choices.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Sum of zeroes α + β = 3, Product αβ = 2.",
+                    "Sum of new zeroes = (2α + 1) + (2β + 1) = 2(α + β) + 2 = 2(3) + 2 = 8.",
+                    "Product of new zeroes = (2α + 1)(2β + 1) = 4αβ + 2(α + β) + 1 = 4(2) + 2(3) + 1 = 15.",
+                    "New quadratic polynomial is k(x² - (Sum)x + Product) = k(x² - 8x + 15)."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "For the given polynomial x² - 3x + 2, the sum of the zeroes (α + β) is -(-3)/1 = 3, and the product of the zeroes (αβ) is 2/1 = 2. We need to construct a new polynomial with zeroes 2α+1 and 2β+1. The sum of the new zeroes is (2α + 1) + (2β + 1) = 2(α + β) + 2. Substituting α + β = 3, the sum is 2(3) + 2 = 8. The product of the new zeroes is (2α + 1)(2β + 1) = 4αβ + 2α + 2β + 1 = 4αβ + 2(α + β) + 1. Substituting the values gives 4(2) + 2(3) + 1 = 8 + 6 + 1 = 15. A quadratic polynomial is given by x² - (Sum of zeroes)x + (Product of zeroes). Therefore, the required quadratic polynomial is x² - 8x + 15.",
+            "solution_hindi": "दिए गए बहुपद x² - 3x + 2 के लिए, शून्यकों का योग (α + β) = -(-3)/1 = 3, और शून्यकों का गुणनफल (αβ) = 2/1 = 2 है। हमें 2α+1 और 2β+1 शून्यकों वाला एक नया बहुपद बनाना है। नए शून्यकों का योग = (2α + 1) + (2β + 1) = 2(α + β) + 2 है। α + β = 3 रखने पर, योग 2(3) + 2 = 8 आता है। नए शून्यकों का गुणनफल = (2α + 1)(2β + 1) = 4αβ + 2(α + β) + 1 है। मान रखने पर 4(2) + 2(3) + 1 = 8 + 6 + 1 = 15 प्राप्त होता है। एक द्विघात बहुपद x² - (शून्यकों का योग)x + (शून्यकों का गुणनफल) द्वारा दिया जाता है। अतः, अभीष्ट द्विघात बहुपद x² - 8x + 15 है।",
+            "chapter": "Polynomials",
+            "topic": "Relationship between Zeroes and Coefficients",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 29,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": 4,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(b) बहुपद 4x²-4x+1 के शून्यक ज्ञात कीजिए और शून्यकों तथा गुणांकों के बीच के संबंध की सत्यता की जाँच कीजिए ।",
+            "text_english": "(b) Find the zeroes of the polynomial 4x²-4x+1 and verify the relationship between the zeroes and the coefficients.",
+            "instruction_line": "Attempt any one of the internal choices.",
+            "instruction_line_english": "Attempt any one of the internal choices.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Factor the polynomial: 4x² - 4x + 1 = (2x - 1)² = 0, so zeroes are x = 1/2 and 1/2.",
+                    "Sum of zeroes = 1/2 + 1/2 = 1. From coefficients, -b/a = -(-4)/4 = 1. Verified.",
+                    "Product of zeroes = (1/2) * (1/2) = 1/4. From coefficients, c/a = 1/4. Verified."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "To find the zeroes, we equate the polynomial to zero: 4x² - 4x + 1 = 0. This is a perfect square and can be factored as (2x - 1)² = 0. Therefore, the zeroes are α = 1/2 and β = 1/2. Now we verify the relationship. The sum of zeroes is α + β = 1/2 + 1/2 = 1. From the coefficients, the sum is -b/a = -(-4)/4 = 1. Thus, sum is verified. The product of zeroes is αβ = (1/2) × (1/2) = 1/4. From the coefficients, the product is c/a = 1/4. The product is also verified. Hence, the relationship between zeroes and coefficients holds true.",
+            "solution_hindi": "शून्यक ज्ञात करने के लिए, हम बहुपद को शून्य के बराबर रखते हैं: 4x² - 4x + 1 = 0। यह एक पूर्ण वर्ग है और इसका गुणनखंड (2x - 1)² = 0 के रूप में किया जा सकता है। इसलिए, शून्यक α = 1/2 और β = 1/2 हैं। अब हम संबंध को सत्यापित करते हैं। शून्यकों का योग α + β = 1/2 + 1/2 = 1 है। गुणांकों से, योग -b/a = -(-4)/4 = 1 है। अतः योग सत्यापित हुआ। शून्यकों का गुणनफल αβ = (1/2) × (1/2) = 1/4 है। गुणांकों से, गुणनफल c/a = 1/4 है। गुणनफल भी सत्यापित हुआ। अतः शून्यकों और गुणांकों के बीच संबंध सत्य है।",
+            "chapter": "Polynomials",
+            "topic": "Relationship between Zeroes and Coefficients",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 30,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "सिद्ध कीजिए कि (tan θ)/(1-cot θ) + (cot θ)/(1-tan θ) = 1 + sec θ cosec θ",
+            "text_english": "Prove that (tan θ)/(1-cot θ) + (cot θ)/(1-tan θ) = 1 + sec θ cosec θ",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Convert tan θ to sin θ/cos θ and cot θ to cos θ/sin θ.",
+                    "Simplify the denominators and take the LCM to combine fractions.",
+                    "Use the identity a³ - b³ = (a - b)(a² + ab + b²) to factor the numerator.",
+                    "Cancel the common factor (sin θ - cos θ) and simplify the remaining terms.",
+                    "Use sin² θ + cos² θ = 1 to reach 1 + 1/(sin θ cos θ) which equals 1 + sec θ cosec θ."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Taking the Left Hand Side (LHS):\nLHS = (sin θ/cos θ) / (1 - cos θ/sin θ) + (cos θ/sin θ) / (1 - sin θ/cos θ)\n= (sin θ/cos θ) / ((sin θ - cos θ)/sin θ) + (cos θ/sin θ) / ((cos θ - sin θ)/cos θ)\n= sin² θ / (cos θ(sin θ - cos θ)) - cos² θ / (sin θ(sin θ - cos θ))\nTaking the LCM of the denominators:\n= (sin³ θ - cos³ θ) / (sin θ cos θ(sin θ - cos θ))\nApplying the algebraic identity a³ - b³ = (a - b)(a² + ab + b²):\n= [(sin θ - cos θ)(sin² θ + sin θ cos θ + cos² θ)] / [sin θ cos θ(sin θ - cos θ)]\nCancelling the common term (sin θ - cos θ) and substituting sin² θ + cos² θ = 1:\n= (1 + sin θ cos θ) / (sin θ cos θ)\n= 1 / (sin θ cos θ) + (sin θ cos θ) / (sin θ cos θ)\n= sec θ cosec θ + 1\n= RHS. Hence proved.",
+            "solution_hindi": "बायाँ पक्ष (LHS) लेने पर:\nLHS = (sin θ/cos θ) / (1 - cos θ/sin θ) + (cos θ/sin θ) / (1 - sin θ/cos θ)\n= (sin θ/cos θ) / ((sin θ - cos θ)/sin θ) + (cos θ/sin θ) / ((cos θ - sin θ)/cos θ)\n= sin² θ / (cos θ(sin θ - cos θ)) - cos² θ / (sin θ(sin θ - cos θ))\nहर का LCM लेने पर:\n= (sin³ θ - cos³ θ) / (sin θ cos θ(sin θ - cos θ))\nबीजगणितीय सर्वसमिका a³ - b³ = (a - b)(a² + ab + b²) लागू करने पर:\n= [(sin θ - cos θ)(sin² θ + sin θ cos θ + cos² θ)] / [sin θ cos θ(sin θ - cos θ)]\nसमान पद (sin θ - cos θ) को काटने और sin² θ + cos² θ = 1 रखने पर:\n= (1 + sin θ cos θ) / (sin θ cos θ)\n= 1 / (sin θ cos θ) + (sin θ cos θ) / (sin θ cos θ)\n= sec θ cosec θ + 1\n= दायाँ पक्ष (RHS)। इति सिद्धम।",
+            "chapter": "Introduction to Trigonometry",
+            "topic": "Trigonometric Identities",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 31,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "किसी कार के दो वाइपर (wipers) हैं, जो परस्पर कभी आच्छादित नहीं होते हैं। प्रत्येक वाइपर की पत्ती की लंबाई 21 cm है और 120° के कोण तक घूमकर सफाई कर सकता है। पत्तियों की प्रत्येक बुहार के साथ जितना क्षेत्रफल साफ हो जाता है, ज्ञात कीजिए ।",
+            "text_english": "A car has two wipers which do not overlap. Each wiper has a blade of length 21 cm sweeping through an angle of 120°. Find the area cleaned at each sweep of the blades.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "The area cleaned by one wiper forms a sector of a circle with radius r = 21 cm and angle θ = 120°.",
+                    "Area of one sector = (θ/360) × πr².",
+                    "Since there are two identical wipers, total area = 2 × (120/360) × (22/7) × 21².",
+                    "Total area = 2 × (1/3) × (22/7) × 441 = 924 cm²."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The sweeping area of each wiper forms a sector of a circle. The radius of this circle is the length of the wiper blade, r = 21 cm. The sector angle is θ = 120°. The area cleaned by one wiper in a single sweep is given by the area of the sector formula: Area = (θ / 360°) × πr². \nArea of one wiper = (120° / 360°) × (22/7) × (21)² = (1/3) × (22/7) × 441 = 22 × 21 = 462 cm².\nSince the car has two non-overlapping wipers, the total area cleaned at each sweep is the sum of the areas cleaned by both blades. Total area = 2 × 462 = 924 cm².",
+            "solution_hindi": "प्रत्येक वाइपर की सफाई का क्षेत्र एक वृत्त का त्रिज्यखंड बनाता है। इस वृत्त की त्रिज्या वाइपर ब्लेड की लंबाई, r = 21 cm है। त्रिज्यखंड का कोण θ = 120° है। एक वाइपर द्वारा एक बुहार में साफ किया गया क्षेत्रफल त्रिज्यखंड के क्षेत्रफल सूत्र द्वारा दिया जाता है: क्षेत्रफल = (θ / 360°) × πr²।\nएक वाइपर का क्षेत्रफल = (120° / 360°) × (22/7) × (21)² = (1/3) × (22/7) × 441 = 22 × 21 = 462 cm²।\nचूँकि कार में दो वाइपर हैं जो एक दूसरे को आच्छादित नहीं करते हैं, प्रत्येक बुहार में साफ किया गया कुल क्षेत्रफल दोनों ब्लेडों द्वारा साफ किए गए क्षेत्रफलों का योग है। कुल क्षेत्रफल = 2 × 462 = 924 cm²।",
+            "chapter": "Areas Related to Circles",
+            "topic": "Area of Sector",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 32,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "एक कुटीर उद्योग एक दिन में कुछ खिलौनों का निर्माण करता है। एक विशेष दिन यह देखा गया कि प्रत्येक खिलौने की निर्माण लागत (₹ में) उस दिन के निर्माण किए खिलौनों की संख्या को 55 में से घटाकर थी । यदि उस दिन की कुल निर्माण लागत ₹ 750 थी, तो उस दिन निर्मित खिलौनों की संख्या ज्ञात कीजिए ।",
+            "text_english": "A cottage industry produces a certain number of toys in a day. The cost of production of each toy (in rupees) was found to be 55 minus the number of toys produced in a day. On a particular day, the total cost of production was ₹ 750. Find the total number of toys produced on that day.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Let the number of toys produced be x.",
+                    "Cost of one toy = (55 - x).",
+                    "Total cost = x(55 - x) = 750.",
+                    "Quadratic equation formed: x² - 55x + 750 = 0.",
+                    "Solving by splitting the middle term: (x - 30)(x - 25) = 0.",
+                    "The number of toys produced is either 25 or 30."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Let the number of toys produced in a day be 'x'. According to the problem, the cost of production of each toy is 55 minus the number of toys produced, which is (55 - x) rupees. \nThe total cost of production for that day is the product of the number of toys and the cost of each toy. Therefore, Total Cost = x(55 - x).\nWe are given that the total cost is ₹ 750. So, we form the equation: x(55 - x) = 750.\nExpanding this, we get 55x - x² = 750, which simplifies to the quadratic equation x² - 55x + 750 = 0.\nWe solve this by splitting the middle term: x² - 30x - 25x + 750 = 0.\nFactoring gives x(x - 30) - 25(x - 30) = 0, which means (x - 30)(x - 25) = 0.\nTherefore, x = 30 or x = 25. Thus, the total number of toys produced on that day was either 25 or 30.",
+            "solution_hindi": "मान लीजिए कि एक दिन में निर्मित खिलौनों की संख्या 'x' है। प्रश्न के अनुसार, प्रत्येक खिलौने की निर्माण लागत 55 में से निर्मित खिलौनों की संख्या को घटाने पर प्राप्त होती है, जो (55 - x) रुपये है।\nउस दिन कुल निर्माण लागत खिलौनों की संख्या और प्रत्येक खिलौने की लागत का गुणनफल है। अतः कुल लागत = x(55 - x)।\nहमें दिया गया है कि कुल लागत ₹ 750 है। इसलिए, हम समीकरण बनाते हैं: x(55 - x) = 750।\nइसे हल करने पर, हमें 55x - x² = 750 मिलता है, जो द्विघात समीकरण x² - 55x + 750 = 0 में बदल जाता है।\nहम इसे मध्य पद को विभक्त करके हल करते हैं: x² - 30x - 25x + 750 = 0।\nगुणनखंड करने पर x(x - 30) - 25(x - 30) = 0 प्राप्त होता है, जिसका अर्थ है (x - 30)(x - 25) = 0।\nइसलिए, x = 30 या x = 25। अतः उस दिन निर्मित खिलौनों की कुल संख्या या तो 25 थी या 30।",
+            "chapter": "Quadratic Equations",
+            "topic": "Applications of Quadratic Equations",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 33,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "एक नहर के एक तट पर एक टी.वी. टॉवर उर्ध्वाधरतः खड़ा है। टॉवर के ठीक सामने दूसरे तट के एक अन्य बिंदु से टॉवर के शिखर का उन्नयन कोण 60° है। इसी तट पर इस बिंदु से 20 m दूर और इस बिंदु को टॉवर के पाद से मिलाने वाली रेखा पर स्थित एक अन्य बिंदु से टॉवर के शिखर का उन्नयन कोण 30° है। टॉवर की ऊँचाई और नहर की चौड़ाई ज्ञात कीजिए । [√3=1.732 का प्रयोग करें ।]",
+            "text_english": "A TV tower stands vertically on a bank of a canal. From a point on the other bank exactly opposite the tower, the angle of elevation of the top of the tower is 60°. From another point 20 m away from this point on the line joining this point to the foot of the tower, the angle of elevation of the top of the tower is 30°. Find the height of the tower and the width of the canal. [Use √3=1.732]",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Let height of the tower be h and width of the canal be x.",
+                    "In first triangle with angle 60°, tan 60° = h / x => √3 = h / x => h = x√3.",
+                    "In second triangle with angle 30°, tan 30° = h / (x + 20) => 1/√3 = h / (x + 20).",
+                    "Substitute h: 1/√3 = x√3 / (x + 20) => x + 20 = 3x => 2x = 20 => x = 10 m.",
+                    "Height h = 10√3 = 10 × 1.732 = 17.32 m."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Let the height of the TV tower be h metres and the width of the canal be x metres. Let the foot of the tower be point B, the top be point A, the point on the opposite bank be C, and the point 20 m away be D.\nIn the right-angled triangle ABC, the angle of elevation is 60°. Using trigonometry, tan 60° = AB / BC. So, √3 = h / x, which gives h = x√3 (Equation 1).\nIn the right-angled triangle ABD, the angle of elevation from point D is 30°. The distance BD is (x + 20) m. Thus, tan 30° = AB / BD, which gives 1/√3 = h / (x + 20) (Equation 2).\nSubstituting the value of h from Equation 1 into Equation 2, we get 1/√3 = (x√3) / (x + 20). Cross-multiplying gives x + 20 = (x√3) × √3, resulting in x + 20 = 3x. Solving this gives 2x = 20, so x = 10 m.\nNow, substitute x = 10 back into Equation 1: h = 10√3. Given √3 = 1.732, h = 10 × 1.732 = 17.32 m.\nTherefore, the width of the canal is 10 m and the height of the tower is 17.32 m.",
+            "solution_hindi": "मान लीजिए कि टीवी टॉवर की ऊँचाई h मीटर है और नहर की चौड़ाई x मीटर है। टॉवर का पाद बिंदु B, शिखर A, विपरीत तट का बिंदु C और 20 मीटर दूर का बिंदु D है।\nसमकोण त्रिभुज ABC में, उन्नयन कोण 60° है। त्रिकोणमिति का उपयोग करने पर, tan 60° = AB / BC होता है। अतः √3 = h / x, जिससे h = x√3 प्राप्त होता है (समीकरण 1)।\nसमकोण त्रिभुज ABD में, बिंदु D से उन्नयन कोण 30° है। दूरी BD (x + 20) m है। अतः tan 30° = AB / BD, जो 1/√3 = h / (x + 20) देता है (समीकरण 2)।\nसमीकरण 1 से h का मान समीकरण 2 में रखने पर, हमें 1/√3 = (x√3) / (x + 20) प्राप्त होता है। तिर्यक गुणा करने पर x + 20 = (x√3) × √3 मिलता है, जिसके परिणामस्वरूप x + 20 = 3x होता है। इसे हल करने पर 2x = 20 प्राप्त होता है, इसलिए x = 10 m।\nअब, x = 10 को वापस समीकरण 1 में रखें: h = 10√3। दिया गया है √3 = 1.732, तो h = 10 × 1.732 = 17.32 m।\nअतः, नहर की चौड़ाई 10 m है और टॉवर की ऊँचाई 17.32 m है।",
+            "chapter": "Some Applications of Trigonometry",
+            "topic": "Heights and Distances",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 34,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": 5,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(a) दी गई आकृति में, ΔABC के शीर्षलंब CE और AD परस्पर बिंदु P पर प्रतिच्छेद करते हैं । दर्शाइए कि\n(i) ΔAEP ∼ ΔCDP\n(ii) ΔABD ∼ ΔCBE\n(iii) ΔAEP ∼ ΔADB",
+            "text_english": "(a) In the given figure, altitudes CE and AD of ΔABC intersect each other at the point P. Show that\n(i) ΔAEP ∼ ΔCDP\n(ii) ΔABD ∼ ΔCBE\n(iii) ΔAEP ∼ ΔADB",
+            "instruction_line": "Attempt any one of the internal choices.",
+            "instruction_line_english": "Attempt any one of the internal choices.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "For (i): In ΔAEP and ΔCDP, ∠AEP = ∠CDP = 90° (altitudes) and ∠APE = ∠CPD (vertically opposite angles). So, ΔAEP ∼ ΔCDP by AA similarity.",
+                    "For (ii): In ΔABD and ΔCBE, ∠ADB = ∠CEB = 90° (altitudes) and ∠ABD = ∠CBE (common angle). So, ΔABD ∼ ΔCBE by AA similarity.",
+                    "For (iii): In ΔAEP and ΔADB, ∠AEP = ∠ADB = 90° (altitudes) and ∠PAE = ∠DAB (common angle). So, ΔAEP ∼ ΔADB by AA similarity."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": true,
+            "image_description": "A triangle ΔABC with altitudes CE and AD dropping onto sides AB and BC respectively. They intersect inside the triangle at point P. The angles at points D and E are marked with right angle squares.",
+            "solution": "We will prove the similarity of the triangles using the AA (Angle-Angle) similarity criterion.\n(i) To prove ΔAEP ∼ ΔCDP: Consider triangles AEP and CDP. Since CE is an altitude to AB, ∠AEP = 90°. Since AD is an altitude to BC, ∠CDP = 90°. Therefore, ∠AEP = ∠CDP. The angles ∠APE and ∠CPD are vertically opposite angles, so ∠APE = ∠CPD. Since two pairs of angles are equal, ΔAEP ∼ ΔCDP by AA similarity.\n(ii) To prove ΔABD ∼ ΔCBE: Consider triangles ABD and CBE. We know ∠ADB = 90° and ∠CEB = 90°, thus ∠ADB = ∠CEB. Also, ∠B is a common angle to both triangles (∠ABD = ∠CBE). By AA similarity criterion, ΔABD ∼ ΔCBE.\n(iii) To prove ΔAEP ∼ ΔADB: Consider triangles AEP and ADB. Here, ∠AEP = 90° and ∠ADB = 90°, making ∠AEP = ∠ADB. Furthermore, ∠A is a common angle shared by both triangles (∠PAE = ∠DAB). With two equal corresponding angles, we conclude that ΔAEP ∼ ΔADB by AA similarity.",
+            "solution_hindi": "हम AA (कोण-कोण) समरूपता कसौटी का उपयोग करके त्रिभुजों की समरूपता सिद्ध करेंगे।\n(i) ΔAEP ∼ ΔCDP सिद्ध करने के लिए: त्रिभुज AEP और CDP पर विचार करें। चूँकि CE भुजा AB पर शीर्षलंब है, ∠AEP = 90°। चूँकि AD भुजा BC पर शीर्षलंब है, ∠CDP = 90°। इसलिए, ∠AEP = ∠CDP। कोण ∠APE और ∠CPD शीर्षाभिमुख कोण हैं, इसलिए ∠APE = ∠CPD। चूँकि कोणों के दो युग्म बराबर हैं, AA समरूपता से ΔAEP ∼ ΔCDP है।\n(ii) ΔABD ∼ ΔCBE सिद्ध करने के लिए: त्रिभुज ABD और CBE पर विचार करें। हम जानते हैं कि ∠ADB = 90° और ∠CEB = 90°, इस प्रकार ∠ADB = ∠CEB। साथ ही, ∠B दोनों त्रिभुजों का उभयनिष्ठ कोण है (∠ABD = ∠CBE)। AA समरूपता कसौटी द्वारा, ΔABD ∼ ΔCBE है।\n(iii) ΔAEP ∼ ΔADB सिद्ध करने के लिए: त्रिभुज AEP और ADB पर विचार करें। यहाँ, ∠AEP = 90° और ∠ADB = 90° है, जिससे ∠AEP = ∠ADB। इसके अतिरिक्त, ∠A दोनों त्रिभुजों द्वारा साझा किया जाने वाला एक उभयनिष्ठ कोण है (∠PAE = ∠DAB)। दो समान संगत कोणों के साथ, हम निष्कर्ष निकालते हैं कि AA समरूपता द्वारा ΔAEP ∼ ΔADB है।",
+            "chapter": "Triangles",
+            "topic": "Similarity of Triangles",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 34,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": 5,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(b) AD तथा PM क्रमशः त्रिभुजों ABC और PQR की माध्यिकाएँ हैं, जबकि ΔABC ∼ ΔPQR है। सिद्ध कीजिए कि AB/PQ = AD/PM है।",
+            "text_english": "(b) AD and PM are medians of triangles ABC and PQR, respectively, where ΔABC ∼ ΔPQR Prove that AB/PQ = AD/PM",
+            "instruction_line": "Attempt any one of the internal choices.",
+            "instruction_line_english": "Attempt any one of the internal choices.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Since ΔABC ∼ ΔPQR, corresponding sides are proportional: AB/PQ = BC/QR = AC/PR, and corresponding angles are equal: ∠B = ∠Q.",
+                    "Since AD and PM are medians, BC = 2BD and QR = 2QM.",
+                    "Substituting these into the ratio: AB/PQ = 2BD / 2QM = BD/QM.",
+                    "In ΔABD and ΔPQM, we have AB/PQ = BD/QM and the included angle ∠B = ∠Q.",
+                    "By SAS similarity criterion, ΔABD ∼ ΔPQM.",
+                    "Therefore, the corresponding sides are proportional, leading to AB/PQ = AD/PM."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "We are given two triangles, ΔABC and ΔPQR, such that ΔABC ∼ ΔPQR. Because the triangles are similar, their corresponding sides are proportional and corresponding angles are equal. This gives us AB/PQ = BC/QR = AC/PR and ∠B = ∠Q. \nWe are also given that AD and PM are medians to sides BC and QR, respectively. A median bisects the opposite side, which implies BC = 2BD and QR = 2QM. \nSubstituting these values into our proportional ratio, we get AB/PQ = 2BD / 2QM. By cancelling the 2, we obtain AB/PQ = BD/QM. \nNow, consider the smaller triangles ΔABD and ΔPQM. We have established that the ratio of two sides is equal: AB/PQ = BD/QM. Also, the included angle between these sides is equal: ∠B = ∠Q (from the similarity of the larger triangles). \nBy the Side-Angle-Side (SAS) similarity criterion, ΔABD ∼ ΔPQM. Since these triangles are similar, all their corresponding sides are proportional. Therefore, AB/PQ = BD/QM = AD/PM, which successfully proves that AB/PQ = AD/PM.",
+            "solution_hindi": "हमें दो त्रिभुज ΔABC और ΔPQR दिए गए हैं, जिनमें ΔABC ∼ ΔPQR है। चूँकि त्रिभुज समरूप हैं, उनकी संगत भुजाएँ समानुपाती होती हैं और संगत कोण बराबर होते हैं। इससे हमें AB/PQ = BC/QR = AC/PR और ∠B = ∠Q प्राप्त होता है।\nहमें यह भी दिया गया है कि AD और PM क्रमशः भुजाओं BC और QR की माध्यिकाएँ हैं। माध्यिका विपरीत भुजा को समद्विभाजित करती है, जिसका अर्थ है BC = 2BD और QR = 2QM।\nइन मानों को हमारे समानुपातिक अनुपात में रखने पर, हमें AB/PQ = 2BD / 2QM प्राप्त होता है। 2 को काटने पर, हमें AB/PQ = BD/QM मिलता है।\nअब, छोटे त्रिभुजों ΔABD और ΔPQM पर विचार करें। हमने स्थापित किया है कि दो भुजाओं का अनुपात समान है: AB/PQ = BD/QM। साथ ही, इन भुजाओं के बीच का अंतर्गत कोण बराबर है: ∠B = ∠Q (बड़े त्रिभुजों की समरूपता से)।\nभुजा-कोण-भुजा (SAS) समरूपता कसौटी द्वारा, ΔABD ∼ ΔPQM। चूँकि ये त्रिभुज समरूप हैं, उनकी सभी संगत भुजाएँ समानुपाती हैं। इसलिए, AB/PQ = BD/QM = AD/PM, जो सफलतापूर्वक सिद्ध करता है कि AB/PQ = AD/PM है।",
+            "chapter": "Triangles",
+            "topic": "Similarity of Triangles",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 35,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": 6,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(a) एक कपड़ा उद्योग किसी शेड (shed) में चलता है। यह शेड एक घनाभ के आकार का है जिस पर एक अर्धबेलन आरोपित है। यदि इस शेड के आधार की विमाएँ 14 m × 20 m है तथा घनाभाकार भाग की ऊँचाई 7 m है, तो शेड में समावेशित हो सकने वाली हवा का आयतन ज्ञात कीजिए । आगे, मान लीजिए कि उद्योग के लिए मशीनरी ने शेड का कुल स्थान 400 m³ ही घेरा है, तो शेड की कितनी जगह अभी भी बची है।",
+            "text_english": "(a) A textile industry runs in a shed. This shed is in the shape of a cuboid surmounted by a half cylinder. If the base of the industry is of dimensions 14 m x 20 m and the height of the cuboidal portion is 7 m, find the volume of air that the industry can hold. Further, suppose the machinery in the industry occupies a total space of 400 m³. Then, how much space is left in the industry?",
+            "instruction_line": "Attempt any one of the internal choices.",
+            "instruction_line_english": "Attempt any one of the internal choices.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Volume of air = Volume of cuboid + Volume of half cylinder.",
+                    "Volume of cuboid = length × breadth × height = 20 × 14 × 7 = 1960 m³.",
+                    "For half cylinder, radius r = 14/2 = 7 m and length (height) h = 20 m.",
+                    "Volume of half cylinder = (1/2) × πr²h = 0.5 × (22/7) × 7² × 20 = 1540 m³.",
+                    "Total volume of shed = 1960 + 1540 = 3500 m³.",
+                    "Space left = Total volume - volume of machinery = 3500 - 400 = 3100 m³."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": true,
+            "image_description": "A 3D sketch of an industrial shed which is composed of a rectangular cuboid base with width 14m, length 20m, and height 7m. On top of the cuboid lies a half cylinder forming a curved roof, oriented along the 20m length.",
+            "solution": "The total volume of air the shed can hold equals the combined volume of the cuboidal base and the half-cylinder roof. \nFor the cuboidal part, the length (l) is 20 m, breadth (b) is 14 m, and height (h1) is 7 m. The volume of the cuboid = l × b × h1 = 20 × 14 × 7 = 1960 m³.\nThe half-cylinder on top has its length equal to the length of the shed, so h2 = 20 m. Its diameter is equal to the breadth of the shed, 14 m, meaning its radius (r) = 7 m. The volume of the half-cylinder = 1/2 × πr²h2 = 1/2 × (22/7) × 7² × 20 = 11 × 7 × 20 = 1540 m³.\nThe total volume of the shed is 1960 + 1540 = 3500 m³. This is the total volume of air the industry can hold when empty. \nWe are given that machinery occupies 400 m³ of space. The space left for air is the total volume minus the space taken by the machinery: 3500 m³ - 400 m³ = 3100 m³. Therefore, 3100 m³ of space is still left.",
+            "solution_hindi": "शेड में समा सकने वाली हवा का कुल आयतन घनाभाकार आधार और अर्ध-बेलनाकार छत के संयुक्त आयतन के बराबर है।\nघनाभाकार भाग के लिए, लंबाई (l) 20 m, चौड़ाई (b) 14 m, और ऊँचाई (h1) 7 m है। घनाभ का आयतन = l × b × h1 = 20 × 14 × 7 = 1960 m³।\nऊपर वाले अर्ध-बेलन की लंबाई शेड की लंबाई के बराबर है, इसलिए h2 = 20 m। इसका व्यास शेड की चौड़ाई 14 m के बराबर है, जिसका अर्थ है इसकी त्रिज्या (r) = 7 m है। अर्ध-बेलन का आयतन = 1/2 × πr²h2 = 1/2 × (22/7) × 7² × 20 = 11 × 7 × 20 = 1540 m³।\nशेड का कुल आयतन 1960 + 1540 = 3500 m³ है। यह खाली होने पर उद्योग में समा सकने वाली हवा का कुल आयतन है।\nहमें दिया गया है कि मशीनरी 400 m³ स्थान घेरती है। हवा के लिए बचा हुआ स्थान कुल आयतन में से मशीनरी द्वारा लिया गया स्थान घटाने पर प्राप्त होता है: 3500 m³ - 400 m³ = 3100 m³। अतः, 3100 m³ स्थान अभी भी बचा है।",
+            "chapter": "Surface Areas and Volumes",
+            "topic": "Volume of a Combination of Solids",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 35,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": 6,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(b) 8 cm ऊँचाई तथा 6 cm त्रिज्या वाले एक ठोस बेलन में से एक शंक्वाकार खोल काटकर निकाल दिया जाता है जिसकी ऊँचाई तथा त्रिज्या बेलन की ऊँचाई और त्रिज्या के समान हैं। शेष बचे ठोस का सम्पूर्ण पृष्ठ क्षेत्रफल ज्ञात कीजिए। (π=3.14 लीजिए ।)",
+            "text_english": "(b) From a solid cylinder of height 8 cm and radius 6 cm, a conical cavity of the same height and same radius is carved out. Find the total surface area of the remaining solid. (Take π=3.14)",
+            "instruction_line": "Attempt any one of the internal choices.",
+            "instruction_line_english": "Attempt any one of the internal choices.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Radius r = 6 cm, Height h = 8 cm.",
+                    "Slant height of the cone l = √(r² + h²) = √(36 + 64) = √100 = 10 cm.",
+                    "Total surface area of remaining solid = Curved surface area of cylinder + Area of cylindrical base + Curved surface area of cone.",
+                    "TSA = 2πrh + πr² + πrl = πr(2h + r + l).",
+                    "TSA = 3.14 × 6 × (2(8) + 6 + 10) = 3.14 × 6 × (16 + 6 + 10) = 18.84 × 32 = 602.88 cm²."
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The radius (r) of both the cylinder and the cone is 6 cm, and their height (h) is 8 cm. First, we find the slant height (l) of the conical cavity using Pythagoras theorem: l = √(r² + h²) = √(6² + 8²) = √(36 + 64) = √100 = 10 cm.\nWhen the conical cavity is carved out, the remaining solid consists of three surfaces: the outer curved surface of the cylinder, the flat bottom circular base of the cylinder, and the inner curved surface of the conical cavity. \nThe Total Surface Area (TSA) = CSA of cylinder + Base area of cylinder + CSA of cone.\nTSA = 2πrh + πr² + πrl. \nFactoring out πr, we get TSA = πr(2h + r + l).\nSubstituting the known values and taking π = 3.14: \nTSA = 3.14 × 6 × (2(8) + 6 + 10) = 18.84 × (16 + 16) = 18.84 × 32 = 602.88 cm².\nTherefore, the total surface area of the remaining solid is 602.88 cm².",
+            "solution_hindi": "बेलन और शंकु दोनों की त्रिज्या (r) 6 cm है, और उनकी ऊँचाई (h) 8 cm है। सबसे पहले, हम पाइथागोरस प्रमेय का उपयोग करके शंक्वाकार गुहा की तिर्यक ऊँचाई (l) ज्ञात करते हैं: l = √(r² + h²) = √(6² + 8²) = √(36 + 64) = √100 = 10 cm।\nजब शंक्वाकार गुहा को काटकर निकाला जाता है, तो शेष बचे ठोस में तीन पृष्ठ होते हैं: बेलन का बाहरी वक्र पृष्ठ, बेलन का समतल निचला वृत्ताकार आधार, और शंक्वाकार गुहा का भीतरी वक्र पृष्ठ।\nकुल पृष्ठीय क्षेत्रफल (TSA) = बेलन का वक्र पृष्ठीय क्षेत्रफल + बेलन के आधार का क्षेत्रफल + शंकु का वक्र पृष्ठीय क्षेत्रफल।\nTSA = 2πrh + πr² + πrl।\nπr उभयनिष्ठ लेने पर, हमें TSA = πr(2h + r + l) प्राप्त होता है।\nज्ञात मान रखने पर और π = 3.14 लेने पर:\nTSA = 3.14 × 6 × (2(8) + 6 + 10) = 18.84 × (16 + 16) = 18.84 × 32 = 602.88 cm²।\nइसलिए, शेष बचे ठोस का सम्पूर्ण पृष्ठीय क्षेत्रफल 602.88 cm² है।",
+            "chapter": "Surface Areas and Volumes",
+            "topic": "Surface Area of a Combination of Solids",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 36,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "पैसा बचाना एक अच्छी आदत है और इसे बच्चों में शुरू से ही डालना चाहिए। रेहान की माँ रेहान के लिए गुल्लक लेकर आई और पहले दिन अपनी बचत में से एक ₹5 का सिक्का गुल्लक में डालती है। वह प्रतिदिन उसकी बचत में ₹5 का एक सिक्का बढ़ाती है।\n\nउपरोक्त जानकारी के आधार पर, निम्न प्रश्नों का उत्तर दीजिए :",
+            "text_english": "Saving money is a good habit and it should be inculcated in children right from the beginning. Rehan's mother brought a piggy bank for Rehan and puts one ₹5 coin of her savings in the piggy bank on the first day. She increases his savings by one ₹5 coin daily.\n\nBased on the above information, answer the following questions:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "8वें दिन गुल्लक में कितने सिक्के डाले गए ?",
+                    "text_english": "How many coins were added to the piggy bank on 8th day?",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "The number of coins added forms an Arithmetic Progression: 1, 2, 3, 4...",
+                            "Here first term a = 1, common difference d = 1.",
+                            "On the 8th day, the number of coins is the 8th term: a8 = a + 7d = 1 + 7(1) = 8 coins."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "The number of coins put in the piggy bank each day forms an Arithmetic Progression (AP). On day 1, 1 coin is added, so the first term 'a' is 1. Since she increases the savings by one coin daily, the common difference 'd' is 1. The number of coins added on the 8th day is the 8th term of the AP, which is given by a_8 = a + (8-1)d = 1 + 7(1) = 8. So, 8 coins were added on the 8th day.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "8 दिनों के बाद गुल्लक में कितनी राशि होगी ?",
+                    "text_english": "How much money will be there in the piggy bank after 8 days?",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Total number of coins after 8 days is the sum of the first 8 terms of the AP: S8 = (n/2)[2a + (n-1)d].",
+                            "S8 = (8/2)[2(1) + 7(1)] = 4[9] = 36 coins.",
+                            "Total money = 36 coins × ₹5 = ₹180."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "First, we calculate the total number of coins in the piggy bank after 8 days. This is the sum of the first 8 terms of our AP (a=1, d=1). The sum formula is S_n = (n/2)[2a + (n-1)d]. Substituting n=8, S_8 = (8/2)[2(1) + (8-1)1] = 4(2 + 7) = 4 × 9 = 36 coins. Since each coin is worth ₹5, the total money is 36 × 5 = ₹180.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii(a)",
+                    "text": "यदि गुल्लक में ₹5 के कुल 120 सिक्के आ सकते हों, तो माँ को कितने दिनों तक ₹5 के सिक्के गुल्लक में डालने होंगे ?",
+                    "text_english": "If the piggy bank can hold one hundred twenty ₹5 coins in all, find the number of days she can contribute to put ₹5 coins into it.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "We need to find n such that the sum of n terms S_n = 120.",
+                            "Formula: (n/2)[2a + (n-1)d] = 120. With a=1, d=1, we get (n/2)[2 + n - 1] = 120.",
+                            "n(n + 1) = 240, which forms quadratic n² + n - 240 = 0.",
+                            "Factoring gives (n - 15)(n + 16) = 0, so n = 15. The mother can contribute for 15 days."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "We know the total capacity of the piggy bank is 120 coins, meaning the sum of the AP sequence S_n = 120. We use the sum formula S_n = (n/2)[2a + (n-1)d]. Given a = 1 and d = 1, we set up the equation: 120 = (n/2)[2(1) + (n-1)1]. Multiplying both sides by 2 gives 240 = n(n + 1). Expanding this forms the quadratic equation n² + n - 240 = 0. We factor this into (n + 16)(n - 15) = 0. Since the number of days 'n' cannot be negative, we discard n = -16 and keep n = 15. Therefore, she can contribute for 15 days.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "iii(b)",
+                    "text": "बचत की कुल राशि ज्ञात कीजिए, जब गुल्लक पूरी भर जाए ।",
+                    "text_english": "Find the total money saved, when the piggy bank is full.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "The problem states the full capacity of the piggy bank is 120 coins.",
+                            "Each coin has a denomination of ₹5.",
+                            "Total money saved = Total coins × Value of one coin = 120 × 5 = ₹600."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "The piggy bank is full when it contains its maximum capacity of coins. As stated in the problem, the piggy bank can hold a maximum of 120 coins. Every coin deposited is a ₹5 coin. Thus, to find the total money saved when the bank is completely full, we multiply the maximum number of coins by the denomination of each coin. Total money saved = 120 coins × ₹5/coin = ₹600.",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "A decorative image of a piggy bank with stacks of coins next to it, decreasing in height, illustrating the concept of saving money.",
+            "solution": "Passage-based question set. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Arithmetic Progressions",
+            "topic": "Sum of First n Terms of an AP",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 37,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "हृदय दर : हृदय गति मानव शरीर में स्वास्थ्य के महत्त्वपूर्ण संकेतों में से एक है। यह प्रति मिनट हृदय के सिकुड़ने या धड़कने की संख्या को मापता है। जबकि सामान्य हृदय गति यह गारंटी नहीं देती है कि कोई व्यक्ति स्वास्थ्य समस्याओं से मुक्त है, यह कई स्वास्थ्य समस्याओं की पहचान करने के लिए एक उपयोगी बेंचमार्क है। एम्स के डॉक्टरों द्वारा 30 महिलाओं की जाँच की गई और प्रति मिनट हृदय की धड़कन की संख्या दर्ज की गई और उसका सारांश इस प्रकार दिया गया :\n\nप्रति मिनट हृदय की धड़कनों की संख्या | महिलाओं की संख्या\n65-68 | 2\n68-71 | 4\n71-74 | 3\n74-77 | 8\n77-80 | 7\n80-83 | 4\n83-86 | 2\n\nउपरोक्त सूचना के आधार पर, निम्न प्रश्नों के उत्तर दीजिए :",
+            "text_english": "Heart Rate The heart rate is one of the 'vital signs' of health in the human body. It measures the number of times per minute that the heart contracts or beats. While a normal heart rate does not guarantee that a person is free of health problems, it is a useful benchmark for identifying a range of health issues. Thirty women were examined by doctors of AIIMS and the number of heart beats per minute were recorded and summarized as follows:\n\nNumber of heart beats per minute | Number of Women\n65-68 | 2\n68-71 | 4\n71-74 | 3\n74-77 | 8\n77-80 | 7\n80-83 | 4\n83-86 | 2\n\nBased on the above information, answer the following questions:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "कितनी महिलाओं की हृदय की धड़कन 68 - 77 रेंज में है ?",
+                    "text_english": "How many women are having heart beat in the range 68-77?",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "We add the frequencies for the classes 68-71, 71-74, and 74-77.",
+                            "Frequencies are 4, 3, and 8 respectively.",
+                            "Total women = 4 + 3 + 8 = 15."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "To find the number of women with a heart rate in the range of 68 to 77, we must sum the frequencies of all the class intervals that fall within this range. According to the frequency distribution table, these intervals are 68-71, 71-74, and 74-77. The corresponding frequencies (number of women) for these groups are 4, 3, and 8. Adding them together gives 4 + 3 + 8 = 15. Therefore, 15 women have heart rates in this range.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "इन महिलाओं के लिए प्रति मिनट हृदय की धड़कन का माध्यक वर्ग क्या है ?",
+                    "text_english": "What is the median class of heart beats per minute for these women?",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Calculate Cumulative Frequencies (CF): 2, 6, 9, 17, 24, 28, 30.",
+                            "Total N = 30, so N/2 = 15.",
+                            "The class where CF just exceeds 15 is 74-77. Thus, 74-77 is the median class."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "First, we determine the cumulative frequency (CF) for each class. The CF values are: 2, 6, 9, 17, 24, 28, and 30. The total number of observations, N, is 30. To find the median class, we calculate N/2, which is 30/2 = 15. We then look for the cumulative frequency that is just greater than or equal to 15. Looking at our list, the CF 17 is the first one that exceeds 15, and this corresponds to the class interval 74-77. Thus, the median class is 74-77.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii(a)",
+                    "text": "इन महिलाओं के लिए प्रति मिनट हृदय की धड़कन का बहुलक ज्ञात कीजिए ।",
+                    "text_english": "Find the modal value of heart beats per minute for these women.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "The modal class has the highest frequency (8), which is 74-77. So, l = 74, f1 = 8, f0 = 3, f2 = 7, h = 3.",
+                            "Mode formula = l + [(f1 - f0) / (2f1 - f0 - f2)] × h.",
+                            "Mode = 74 + [(8 - 3) / (16 - 3 - 7)] × 3 = 74 + [5 / 6] × 3.",
+                            "Mode = 74 + 2.5 = 76.5 beats per minute."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "The modal class is the interval with the highest frequency. From the table, the maximum frequency is 8, which occurs in the 74-77 class. So, the lower limit of the modal class (l) = 74, frequency of modal class (f1) = 8, frequency of preceding class (f0) = 3, frequency of succeeding class (f2) = 7, and class size (h) = 3. Using the mode formula: Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h. Substituting the values: Mode = 74 + [(8 - 3) / (2(8) - 3 - 7)] × 3 = 74 + [5 / (16 - 10)] × 3 = 74 + (5 / 6) × 3 = 74 + 15/6 = 74 + 2.5 = 76.5. The modal value is 76.5 beats per minute.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "iii(b)",
+                    "text": "इन महिलाओं के लिए प्रति मिनट हृदय की धड़कन का माध्यक ज्ञात कीजिए ।",
+                    "text_english": "Find the median value of heart beats per minute for these women.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "The median class is 74-77. Lower limit l = 74, N/2 = 15, cumulative frequency of preceding class cf = 9, frequency f = 8, class size h = 3.",
+                            "Median formula = l + [(N/2 - cf) / f] × h.",
+                            "Median = 74 + [(15 - 9) / 8] × 3 = 74 + [6 / 8] × 3.",
+                            "Median = 74 + 18/8 = 74 + 2.25 = 76.25 beats per minute."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "We identified the median class as 74-77. The parameters for the median formula are: lower limit (l) = 74, N/2 = 15, cumulative frequency of the class preceding the median class (cf) = 9, frequency of the median class (f) = 8, and class size (h) = 3. We apply the formula: Median = l + [(N/2 - cf) / f] × h. Inserting the values gives: Median = 74 + [(15 - 9) / 8] × 3 = 74 + (6 / 8) × 3 = 74 + 18/8. Since 18/8 = 2.25, the Median = 74 + 2.25 = 76.25. Therefore, the median heart rate is 76.25 beats per minute.",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "An image showing a normal ECG heartbeat rhythm waveform over a grid background.",
+            "solution": "Passage-based question set. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Statistics",
+            "topic": "Median and Mode of Grouped Data",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 38,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "एक मेज का शीर्ष आकार में षट्‌कोणीय है।\n... (चित्र)\nउपरोक्त सूचना के आधार पर, निम्न प्रश्नों के उत्तर दीजिए :",
+            "text_english": "The top of a table is hexagonal in shape.\n... (graph)\nOn the basis of the information given above, answer the following questions:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "A और B के निर्देशांक लिखिए ।",
+                    "text_english": "Write the coordinates of A and B.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "From the Cartesian plane graph, point A aligns with 1 on the x-axis and 9 on the y-axis.",
+                            "Point B aligns with 5 on the x-axis and 13 on the y-axis.",
+                            "Coordinates: A(1, 9) and B(5, 13)."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "To find the coordinates of a point, we look at its projection on the horizontal X-axis for its x-coordinate (abscissa) and on the vertical Y-axis for its y-coordinate (ordinate). Locating point A on the given grid, we drop a perpendicular to the X-axis which meets at 1, and to the Y-axis which meets at 9. Thus, A is (1, 9). Similarly for point B, the x-coordinate is 5 and the y-coordinate is 13. Thus, B is (5, 13).",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "C और D को जोड़ने वाले रेखाखंड के मध्य-बिंदु के निर्देशांक लिखिए ।",
+                    "text_english": "Write the coordinates of the mid-point of line segment joining C and D.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Identify coordinates of C as (9, 13) and D as (13, 9) from the graph.",
+                            "Midpoint formula = ((x1+x2)/2, (y1+y2)/2).",
+                            "Midpoint = ((9+13)/2, (13+9)/2) = (22/2, 22/2) = (11, 11)."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "First, we read the coordinates of points C and D from the graph. Point C aligns with x=9 and y=13, so C is (9, 13). Point D aligns with x=13 and y=9, so D is (13, 9). The formula for the midpoint of a line segment joining (x1, y1) and (x2, y2) is ((x1+x2)/2, (y1+y2)/2). Substituting the values, we get Midpoint = ((9+13)/2, (13+9)/2) = (22/2, 22/2) = (11, 11). Thus, the midpoint is (11, 11).",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii(a)",
+                    "text": "M और Q के बीच की दूरी ज्ञात कीजिए ।",
+                    "text_english": "Find the distance between M and Q.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Identify coordinates of M as (5, 11) and Q as (9, 3) from the graph.",
+                            "Distance formula d = √((x2 - x1)² + (y2 - y1)²).",
+                            "d = √((9 - 5)² + (3 - 11)²).",
+                            "d = √(4² + (-8)²) = √(16 + 64) = √80 = 4√5 units."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "From the provided Cartesian graph, the coordinates of point M are (5, 11) and the coordinates of point Q are (9, 3). We use the distance formula to find the distance between two points (x1, y1) and (x2, y2), which is d = √((x2 - x1)² + (y2 - y1)²). Plugging in the coordinates gives d = √((9 - 5)² + (3 - 11)²). Simplifying inside the root, we get d = √(4² + (-8)²) = √(16 + 64) = √80. The square root of 80 can be simplified to √(16 × 5) = 4√5 units. Therefore, the distance is 4√5 units.",
+                    "marks": 2
+                },
+                {
+                    "sub_id": "iii(b)",
+                    "text": "उस बिंदु के निर्देशांक ज्ञात कीजिए जो M और N को जोड़ने वाले रेखाखंड को 1:3 के अनुपात में आंतरिक रूप से विभाजित करता है।",
+                    "text_english": "Find the coordinates of the point which divides the line segment joining M and N in the ratio 1:3 internally.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Identify coordinates of M as (5, 11) and N as (9, 11).",
+                            "Section formula for ratio m:n is x = (mx2 + nx1)/(m+n), y = (my2 + ny1)/(m+n).",
+                            "Here m:n = 1:3. Therefore x = (1×9 + 3×5) / (1+3) = (9 + 15) / 4 = 24 / 4 = 6.",
+                            "For y coordinate, y = (1×11 + 3×11) / 4 = 44 / 4 = 11.",
+                            "The coordinates are (6, 11)."
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "By reading the graph, we determine the coordinates of M as (5, 11) and N as (9, 11). We need to find a point (x, y) dividing the segment MN in the ratio m:n = 1:3. We use the section formula: x = (mx2 + nx1)/(m+n) and y = (my2 + ny1)/(m+n). Substituting the values, for the x-coordinate we have x = (1 × 9 + 3 × 5) / (1 + 3) = (9 + 15) / 4 = 24 / 4 = 6. For the y-coordinate, y = (1 × 11 + 3 × 11) / (1 + 3) = (11 + 33) / 4 = 44 / 4 = 11. Thus, the coordinates of the dividing point are (6, 11).",
+                    "marks": 2
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "An image showing a 3D hexagonal prism (top of a table) and a 2D Cartesian plane (grid) with points plotted. Points A, B, C, D, E, F, G, H form an outer octagon. Points T, M, N, O, P, Q, R, S form an inner octagon. The center point is connected to the inner octagon points via dotted lines.",
+            "solution": "Passage-based question set. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Coordinate Geometry",
+            "topic": "Distance and Section Formula",
+            "difficulty": "Medium"
+        }
+    ]
+}

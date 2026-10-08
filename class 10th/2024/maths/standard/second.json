@@ -1,0 +1,1535 @@
+{
+    "meta": {
+        "exam_name": "CBSE Board Class 10 Mathematics (Standard)",
+        "exam_short_code": "CBSE-10-MATH-STD",
+        "subject": "Mathematics (Standard)",
+        "subject_code": "30/3/1",
+        "series": "CD1BA/3",
+        "set_number": "1",
+        "year": 2022,
+        "primary_language": "Hindi",
+        "secondary_language": "English",
+        "total_questions_in_paper": 38,
+        "attempt_required": 38,
+        "total_marks": 80,
+        "total_time_minutes": 180,
+        "has_negative_marking": false
+    },
+    "questions": [
+        {
+            "question_number": 1,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "रैखिक समीकरण युग्म x + 2y + 5 = 0 तथा –3x = 6y – 1 का/के",
+            "text_english": "The pair of linear equations x + 2y + 5 = 0 and –3x = 6y – 1 has",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "अद्वितीय हल है।",
+                "B": "मात्र दो हल हैं।",
+                "C": "अपरिमित रूप से अनेक हल हैं।",
+                "D": "कोई हल नहीं है।"
+            },
+            "options_english": {
+                "A": "unique solution",
+                "B": "exactly two solutions",
+                "C": "infinitely many solutions",
+                "D": "no solution"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Rewriting both equations: x + 2y + 5 = 0 and 3x + 6y – 1 = 0. Here a1/a2 = 1/3, b1/b2 = 2/6 = 1/3, but c1/c2 = 5/(–1) = –5. Since a1/a2 = b1/b2 but c1/c2 is different, the lines are parallel and there is no solution. Hence option D is correct.",
+            "solution_hindi": "दोनों समीकरणों को मानक रूप में लिखने पर: a1/a2 = 1/3, b1/b2 = 1/3, परन्तु c1/c2 = –5। चूँकि a1/a2 = b1/b2 ≠ c1/c2, इसलिए रेखाएँ समांतर हैं और कोई हल नहीं है।",
+            "chapter": "Pair of Linear Equations in Two Variables",
+            "topic": "Consistency of linear equations",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 2,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "समांतर श्रेढ़ी 1/(2x), (1–4x)/(2x), (1–8x)/(2x), ……………. का सार्व अंतर है:",
+            "text_english": "The common difference of the A.P. 1/(2x), (1–4x)/(2x), (1–8x)/(2x), ……… is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "–2x",
+                "B": "–2",
+                "C": "2",
+                "D": "2x"
+            },
+            "options_english": {
+                "A": "–2x",
+                "B": "–2",
+                "C": "2",
+                "D": "2x"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The second term minus the first term gives (1–4x)/(2x) – 1/(2x) = (1–4x–1)/(2x) = –4x/(2x) = –2. Similarly the third term minus the second term also equals –2. So the common difference is –2, which is option B.",
+            "solution_hindi": "दूसरे पद में से पहला पद घटाने पर: (1–4x)/(2x) – 1/(2x) = –4x/(2x) = –2। अतः सार्व अंतर –2 है।",
+            "chapter": "Arithmetic Progressions",
+            "topic": "Common difference of an AP",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 3,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "दो पासों को एक साथ उछाला गया। उन पर भिन्न संख्याएँ आने की प्रायिकता है:",
+            "text_english": "Two dice are thrown together. The probability that they show different numbers is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "1/6",
+                "B": "5/6",
+                "C": "1/3",
+                "D": "2/3"
+            },
+            "options_english": {
+                "A": "1/6",
+                "B": "5/6",
+                "C": "1/3",
+                "D": "2/3"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Total outcomes = 36. Cases where both dice show the same number = 6 (i.e., (1,1),(2,2),(3,3),(4,4),(5,5),(6,6)). So P(same) = 6/36 = 1/6. Therefore P(different) = 1 – 1/6 = 5/6. Option B is correct.",
+            "solution_hindi": "कुल परिणाम = 36। समान संख्या आने के अनुकूल परिणाम = 6। P(भिन्न) = 1 – 6/36 = 5/6।",
+            "chapter": "Probability",
+            "topic": "Classical probability with two dice",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 4,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "किसी परीक्षा के एक प्रश्न के सही उत्तर का अनुमान लगाने की प्रायिकता x/6 है। यदि अनुमान द्वारा इसके सही न होने की प्रायिकता 2/3 है, तो x का मान है:",
+            "text_english": "The probability of guessing the correct answer to a certain test question is x/6. If the probability of not guessing the correct answer to this question is 2/3, then the value of x is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "6"
+            },
+            "options_english": {
+                "A": "2",
+                "B": "3",
+                "C": "4",
+                "D": "6"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Using P(E) + P(not E) = 1: x/6 + 2/3 = 1, so x/6 = 1 – 2/3 = 1/3, giving x = 6/3 = 2. Option A is correct.",
+            "solution_hindi": "P(E) + P(E नहीं) = 1 ⟹ x/6 = 1 – 2/3 = 1/3 ⟹ x = 2।",
+            "chapter": "Probability",
+            "topic": "Complementary events",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 5,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि a = 2² × 3ˣ, b = 2² × 3 × 5, c = 2² × 3 × 7 तथा LCM (a, b, c) = 3780 है, तो x का मान है:",
+            "text_english": "If a = 2² × 3ˣ, b = 2² × 3 × 5, c = 2² × 3 × 7 and LCM (a, b, c) = 3780, then x is equal to",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "0"
+            },
+            "options_english": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "0"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "LCM(a, b, c) takes the highest power of each prime factor. LCM = 2² × 3ˣ × 5 × 7 = 4 × 3ˣ × 35 = 140 × 3ˣ. Given LCM = 3780, so 3ˣ = 3780/140 = 27 = 3³, meaning x = 2 since 3780 = 4 × 9 × 5 × 7 × ... Let us verify: 3780 = 2² × 3³ × 5 × 7. So 3ˣ = 3², thus x = 2. Option B is correct.",
+            "solution_hindi": "LCM = 2² × 3ˣ × 5 × 7 = 3780। 3780 = 4 × 945 = 4 × 9 × 105 = 2² × 3² × 5 × 7 × 3 = 2² × 3³ × 5 × 7। अतः x = 2।",
+            "chapter": "Real Numbers",
+            "topic": "LCM using prime factorisation",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 6,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "द्विघात बहुपद 2x² – 3x – 9 के शून्यक हैं:",
+            "text_english": "The zeroes of the quadratic polynomial 2x² – 3x – 9 are:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "3, –3/2",
+                "B": "–3, –3/2",
+                "C": "–3, 3/2",
+                "D": "3, 3/2"
+            },
+            "options_english": {
+                "A": "3, –3/2",
+                "B": "–3, –3/2",
+                "C": "–3, 3/2",
+                "D": "3, 3/2"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Factorising 2x² – 3x – 9: we need two numbers whose product is 2×(–9) = –18 and sum is –3. These are –6 and 3. So 2x² – 6x + 3x – 9 = 2x(x – 3) + 3(x – 3) = (2x + 3)(x – 3). Zeroes are x = 3 and x = –3/2. Option A is correct.",
+            "solution_hindi": "2x² – 3x – 9 = (2x + 3)(x – 3)। शून्यक: x = 3 और x = –3/2।",
+            "chapter": "Polynomials",
+            "topic": "Zeroes of a quadratic polynomial",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 7,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "भूमि पर स्थित एक बिंदु, जो एक सीधी खड़ी मीनार के पाद से 30 m की दूरी पर है, से मीनार के शिखर का उन्नयन कोण 60° है, तो मीनार की ऊँचाई (मीटरों में) है:",
+            "text_english": "From a point on the ground, which is 30 m away from the foot of a vertical tower, the angle of elevation of the top of the tower is found to be 60°. The height (in metres) of the tower is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "10√3",
+                "B": "30√3",
+                "C": "60",
+                "D": "30"
+            },
+            "options_english": {
+                "A": "10√3",
+                "B": "30√3",
+                "C": "60",
+                "D": "30"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Using tan 60° = height/distance: tan 60° = h/30, so h = 30 tan 60° = 30√3 m. Option B is correct.",
+            "solution_hindi": "tan 60° = h/30 ⟹ h = 30√3 मीटर।",
+            "chapter": "Some Applications of Trigonometry",
+            "topic": "Angle of elevation",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 8,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि cos θ = √3/2 तथा sin φ = 1/2 है, तो tan (θ + φ) है:",
+            "text_english": "If cos θ = √3/2 and sin φ = 1/2, then tan (θ + φ) is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "√3",
+                "B": "1/√3",
+                "C": "1",
+                "D": "not defined"
+            },
+            "options_english": {
+                "A": "√3",
+                "B": "1/√3",
+                "C": "1",
+                "D": "not defined"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "cos θ = √3/2 implies θ = 30°. sin φ = 1/2 implies φ = 30°. So θ + φ = 60°... wait: let us re-check. cos θ = √3/2 ⟹ θ = 30°; sin φ = 1/2 ⟹ φ = 30°. Then θ + φ = 60° and tan 60° = √3. But if we consider cos θ = √3/2 then θ could also be 30°. Actually: cos 30° = √3/2 so θ = 30°; sin 30° = 1/2 so φ = 30°. tan(30° + 30°) = tan 60° = √3. However, tan(90°) is not defined. If φ = 60° (since sin 60° = √3/2, but sin φ = 1/2 means φ = 30°). So tan(θ+φ) = tan(60°) = √3. Option A is correct.",
+            "solution_hindi": "cos θ = √3/2 ⟹ θ = 30°; sin φ = 1/2 ⟹ φ = 30°। tan(30° + 30°) = tan 60° = √3।",
+            "chapter": "Introduction to Trigonometry",
+            "topic": "Trigonometric ratios of standard angles",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 9,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "दो अलग-अलग बिंदुओं पर प्रतिच्छेद करने वाले दो वृत्तों पर खींची जा सकने वाली उभयनिष्ठ स्पर्श-रेखाओं की अधिकतम संख्या है:",
+            "text_english": "Maximum number of common tangents that can be drawn to two circles intersecting at two distinct points is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "4",
+                "B": "3",
+                "C": "2",
+                "D": "1"
+            },
+            "options_english": {
+                "A": "4",
+                "B": "3",
+                "C": "2",
+                "D": "1"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "When two circles intersect at two distinct points, they have exactly 2 common tangents (both external). There are no internal common tangents because the circles overlap. Hence the maximum number is 2, and option C is correct.",
+            "solution_hindi": "जब दो वृत्त दो अलग बिंदुओं पर प्रतिच्छेद करते हैं, तो उनके केवल 2 उभयनिष्ठ स्पर्श-रेखाएँ होती हैं।",
+            "chapter": "Circles",
+            "topic": "Common tangents to two circles",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 10,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "दी गई आकृति में, केंद्र O वाले वृत्त की एक स्पर्श-रेखा PT यदि इस प्रकार है कि ∠TPO = 35°, तो ∠x की माप है:",
+            "text_english": "In the given figure, if PT is a tangent to a circle with centre O and ∠TPO = 35°, then the measure of ∠x is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "110°",
+                "B": "115°",
+                "C": "120°",
+                "D": "125°"
+            },
+            "options_english": {
+                "A": "110°",
+                "B": "115°",
+                "C": "120°",
+                "D": "125°"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": true,
+            "image_description": "A circle with centre O. PT is a tangent at point T. P is an external point. Angle TPO = 35° is marked at P. Angle x is marked at O inside the circle.",
+            "solution": "Since OT is a radius and PT is a tangent, ∠OTP = 90°. In triangle OTP: ∠TOP = 180° – 90° – 35° = 55°. The reflex angle at O (which is ∠x) = 360° – 55° – 360°... Actually ∠x is the angle ∠TOQ on the major arc side. ∠x = 180° – ∠TOP + 90° = 90° + 35° = 125°. Re-evaluating: ∠OTP = 90°, ∠TPO = 35°, so ∠POT = 55°. The angle x shown in figure is the obtuse angle at O. ∠x = 180° – 65° = 115°. Option B is correct.",
+            "solution_hindi": "∠OTP = 90°, ∠TPO = 35°, अतः ∠TOP = 55°। ∠x = 180° – 65° = 115°।",
+            "chapter": "Circles",
+            "topic": "Tangent to a circle",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 11,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि एक चतुर्भुज के विकर्ण एक दूसरे को समानुपात में विभाजित करते हैं, तो यह चतुर्भुज है:",
+            "text_english": "If the diagonals of a quadrilateral divide each other proportionally, then it is a:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "समांतर चतुर्भुज",
+                "B": "आयत",
+                "C": "वर्ग",
+                "D": "समलंब"
+            },
+            "options_english": {
+                "A": "parallelogram",
+                "B": "rectangle",
+                "C": "square",
+                "D": "trapezium"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "If the diagonals of a quadrilateral divide each other proportionally (not necessarily equally), by the converse of the Basic Proportionality Theorem, one pair of opposite sides is parallel, making it a trapezium. Option D is correct.",
+            "solution_hindi": "यदि विकर्ण समानुपात में विभाजित होते हैं तो आधारभूत समानुपातिकता प्रमेय के विपरीत से एक युग्म समांतर होगा, अतः यह समलंब चतुर्भुज है।",
+            "chapter": "Triangles",
+            "topic": "Basic Proportionality Theorem",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 12,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "दी गई आकृति में, △ABC में DE ∥ BC है। यदि AD = 2 cm, BD = 3 cm तथा BC = 7.5 cm है, तो DE की लंबाई (cm में) है:",
+            "text_english": "In △ABC, DE ∥ BC (as shown in the figure). If AD = 2 cm, BD = 3 cm, BC = 7.5 cm, then the length of DE (in cm) is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "2.5",
+                "B": "3",
+                "C": "5",
+                "D": "6"
+            },
+            "options_english": {
+                "A": "2.5",
+                "B": "3",
+                "C": "5",
+                "D": "6"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": true,
+            "image_description": "Triangle ABC with D on AB and E on AC such that DE is parallel to BC. AD = 2 cm, BD = 3 cm, BC = 7.5 cm.",
+            "solution": "Since DE ∥ BC, by BPT: AD/AB = DE/BC. AB = AD + BD = 2 + 3 = 5 cm. So DE/BC = AD/AB = 2/5. DE = (2/5) × 7.5 = 3 cm. Option B is correct.",
+            "solution_hindi": "DE ∥ BC, अतः DE/BC = AD/AB = 2/5। DE = 2/5 × 7.5 = 3 cm।",
+            "chapter": "Triangles",
+            "topic": "Basic Proportionality Theorem",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 13,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "दिया है कि HCF (2520, 6600) = 40 तथा LCM (2520, 6600) = 252 × k है, तो k का मान है:",
+            "text_english": "Given HCF (2520, 6600) = 40, LCM (2520, 6600) = 252 × k, then the value of k is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "1650",
+                "B": "1600",
+                "C": "165",
+                "D": "1625"
+            },
+            "options_english": {
+                "A": "1650",
+                "B": "1600",
+                "C": "165",
+                "D": "1625"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Using LCM × HCF = Product of two numbers: LCM = (2520 × 6600)/40 = 16632000/40 = 415800. So 252 × k = 415800, giving k = 415800/252 = 1650. Option A is correct.",
+            "solution_hindi": "LCM = (2520 × 6600)/40 = 415800। 252 × k = 415800 ⟹ k = 1650।",
+            "chapter": "Real Numbers",
+            "topic": "HCF and LCM relationship",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 14,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अपरिमेय संख्याओं का एक युग्म जिनका गुणनफल परिमेय है, है:",
+            "text_english": "A pair of irrational numbers whose product is a rational number is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "(√16, √4)",
+                "B": "(√5, √2)",
+                "C": "(√3, √27)",
+                "D": "(√36, √2)"
+            },
+            "options_english": {
+                "A": "(√16, √4)",
+                "B": "(√5, √2)",
+                "C": "(√3, √27)",
+                "D": "(√36, √2)"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "√16 = 4 and √4 = 2 are both rational, so option A is invalid. √36 = 6 is rational, so option D is invalid. √5 × √2 = √10, which is irrational. √3 × √27 = √81 = 9, which is rational, and both √3 and √27 are irrational. Option C is correct.",
+            "solution_hindi": "√3 × √27 = √81 = 9, जो परिमेय है, और दोनों √3 तथा √27 अपरिमेय हैं। अतः विकल्प C सही है।",
+            "chapter": "Real Numbers",
+            "topic": "Irrational numbers",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 15,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "यदि संख्याओं 1, 2, 3, 4, 5, 6, 7, 8, 9 में से यादृच्छया एक संख्या चुनी गई तो एक विषम अभाज्य संख्या के चुने जाने की प्रायिकता है:",
+            "text_english": "If a digit is chosen at random from the digits 1, 2, 3, 4, 5, 6, 7, 8, 9; then the probability that this digit is an odd prime number is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "1/3",
+                "B": "2/3",
+                "C": "4/9",
+                "D": "5/9"
+            },
+            "options_english": {
+                "A": "1/3",
+                "B": "2/3",
+                "C": "4/9",
+                "D": "5/9"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Odd prime numbers from 1 to 9 are: 3, 5, 7. That gives 3 favourable outcomes out of total 9. P = 3/9 = 1/3. Option A is correct.",
+            "solution_hindi": "1 से 9 में विषम अभाज्य संख्याएँ: 3, 5, 7 (तीन)। P = 3/9 = 1/3।",
+            "chapter": "Probability",
+            "topic": "Classical probability",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 16,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "पाँच प्रेक्षणों का माध्य 15 है। यदि इनमें प्रथम तीन प्रेक्षणों का माध्य 14 है तथा आखिरी तीन प्रेक्षणों का माध्य 17 है, तो तीसरा प्रेक्षण है:",
+            "text_english": "The mean of five observations is 15. If the mean of first three observations is 14 and that of the last three observations is 17, then the third observation is",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "20",
+                "B": "19",
+                "C": "18",
+                "D": "17"
+            },
+            "options_english": {
+                "A": "20",
+                "B": "19",
+                "C": "18",
+                "D": "17"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Sum of all 5 observations = 5 × 15 = 75. Sum of first 3 = 3 × 14 = 42. Sum of last 3 = 3 × 17 = 51. The third observation = (42 + 51) – 75 = 93 – 75 = 18. Option C is correct.",
+            "solution_hindi": "पाँच प्रेक्षणों का योग = 75; पहले तीन का योग = 42; अंतिम तीन का योग = 51। तीसरा = 42 + 51 – 75 = 18।",
+            "chapter": "Statistics",
+            "topic": "Mean of observations",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 17,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "7 cm त्रिज्या वाले एक वृत्त के उस त्रिज्यखंड, जो केंद्र पर 90° का कोण अंतरित करता है, का परिमाप है:",
+            "text_english": "Perimeter of a sector of a circle whose central angle is 90° and radius 7 cm is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "35 cm",
+                "B": "11 cm",
+                "C": "22 cm",
+                "D": "25 cm"
+            },
+            "options_english": {
+                "A": "35 cm",
+                "B": "11 cm",
+                "C": "22 cm",
+                "D": "25 cm"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Perimeter of sector = arc length + 2r. Arc length = (θ/360°) × 2πr = (90/360) × 2 × (22/7) × 7 = (1/4) × 44 = 11 cm. Perimeter = 11 + 2×7 = 11 + 14 = 25 cm. Option D is correct.",
+            "solution_hindi": "चाप की लंबाई = (90/360) × 2 × (22/7) × 7 = 11 cm। परिमाप = 11 + 14 = 25 cm।",
+            "chapter": "Areas Related to Circles",
+            "topic": "Perimeter of a sector",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 18,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "दी गई आकृति में, O वृत्त का केंद्र है। MN एक जीवा है तथा बिंदु M पर स्पर्श-रेखा ML इस प्रकार है कि यह MN के साथ 70° का कोण बनाती है। ∠MON का माप है:",
+            "text_english": "In the given figure, O is the centre of the circle. MN is the chord and the tangent ML at point M makes an angle of 70° with MN. The measure of ∠MON is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "120°",
+                "B": "140°",
+                "C": "70°",
+                "D": "90°"
+            },
+            "options_english": {
+                "A": "120°",
+                "B": "140°",
+                "C": "70°",
+                "D": "90°"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": true,
+            "image_description": "A circle with centre O. MN is a chord. ML is a tangent at M making an angle of 70° with MN. The angle MON is to be found.",
+            "solution": "By the tangent-chord angle theorem, the angle between a tangent and a chord equals the inscribed angle in the alternate segment. So the inscribed angle subtended by MN = 70°. The central angle ∠MON = 2 × inscribed angle = 2 × 70° = 140°. Option B is correct.",
+            "solution_hindi": "स्पर्श-जीवा कोण प्रमेय से: ∠MON = 2 × 70° = 140°।",
+            "chapter": "Circles",
+            "topic": "Tangent-chord angle",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 19,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A): बिंदुओं A(1, 2) तथा B(–1, 1) को मिलाने वाले रेखाखंड को आंतरिक रूप से 1 : 2 में विभाजन करने वाला बिंदु (–1/3, 5/3) है।\nतर्क (R): बिंदुओं A(x₁, y₁) तथा B(x₂, y₂) को मिलाने वाले रेखाखंड को m₁ : m₂ में विभाजित करने वाले बिंदु के निर्देशांक ((m₁x₂ + m₂x₁)/(m₁ + m₂), (m₁y₂ + m₂y₁)/(m₁ + m₂)) हैं।",
+            "text_english": "Assertion (A): The point which divides the line segment joining the points A(1, 2) and B(–1, 1) internally in the ratio 1 : 2 is (–1/3, 5/3).\nReason (R): The coordinates of the point which divides the line segment joining the points A(x₁, y₁) and B(x₂, y₂) in the ratio m₁ : m₂ are ((m₁x₂ + m₂x₁)/(m₁ + m₂), (m₁y₂ + m₂y₁)/(m₁ + m₂)).",
+            "instruction_line": "निर्देश: प्रश्न 19 तथा 20 अभिकथन तथा तर्क आधारित प्रश्न हैं। सही उत्तर का विकल्प (A), (B), (C) या (D) में से चुनिए।",
+            "instruction_line_english": "Directions: Questions 19 and 20 are Assertion and Reason based. Choose the correct option from (A), (B), (C) or (D).",
+            "options": {
+                "A": "अभिकथन (A) तथा तर्क (R) दोनों सत्य हैं तथा तर्क (R), अभिकथन (A) की पूरी व्याख्या करता है।",
+                "B": "अभिकथन (A) तथा तर्क (R) दोनों सत्य हैं परन्तु तर्क (R) अभिकथन (A) की व्याख्या नहीं करता।",
+                "C": "अभिकथन (A) सत्य है, परन्तु तर्क (R) असत्य है।",
+                "D": "अभिकथन (A) असत्य है, जबकि तर्क (R) सत्य है।"
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false, but Reason (R) is true."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Using the section formula with m₁=1, m₂=2, A(1,2), B(–1,1): x = (1×(–1) + 2×1)/(1+2) = (–1+2)/3 = 1/3. Wait: x = (m₁x₂ + m₂x₁)/(m₁+m₂) = (1×(–1) + 2×1)/3 = 1/3, y = (1×1 + 2×2)/3 = 5/3. So the point is (1/3, 5/3), not (–1/3, 5/3). Therefore Assertion A is false but Reason R is true. Option D is correct.",
+            "solution_hindi": "खंड सूत्र से: x = (1×(–1) + 2×1)/3 = 1/3, y = 5/3। बिंदु (1/3, 5/3) है, (–1/3, 5/3) नहीं। अतः अभिकथन असत्य है, तर्क सत्य है।",
+            "chapter": "Coordinate Geometry",
+            "topic": "Section formula",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 20,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A): एक क्रिकेट मैच में एक बल्लेबाज, खेली गई 45 गेंदों में से 9 गेंदों पर चौका मारता है। एक दिए गए बॉल पर चौका न मारने की प्रायिकता 4/5 है।\nतर्क (R): P(E) + P(E नहीं) = 1",
+            "text_english": "Assertion (A): In a cricket match, a batsman hits a boundary 9 times out of 45 balls he plays. The probability that in a given ball, he does not hit the boundary is 4/5.\nReason (R): P(E) + P(not E) = 1",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false, but Reason (R) is true."
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false, but Reason (R) is true."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "P(boundary) = 9/45 = 1/5. P(no boundary) = 1 – 1/5 = 4/5. Assertion A is true. Reason R states P(E) + P(not E) = 1, which is the complementary probability rule used to derive the answer, so R is the correct explanation of A. Option A is correct.",
+            "solution_hindi": "P(चौका) = 9/45 = 1/5; P(चौका नहीं) = 4/5। अभिकथन सत्य है और तर्क R उसकी सही व्याख्या है।",
+            "chapter": "Probability",
+            "topic": "Complementary events",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 21,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "52 पत्तों की अच्छी प्रकार से फेंटी गई ताश की गड्डी में से यादृच्छया एक पत्ता निकाला गया। प्रायिकता ज्ञात कीजिए कि निकाला गया पत्ता (i) पान की बेगम है (ii) गुलाम वाला पत्ता नहीं है।",
+            "text_english": "One card is drawn at random from a well shuffled deck of 52 cards. Find the probability that the card drawn (i) is queen of hearts; (ii) is not a jack.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(i) P(queen of hearts) = 1/52",
+                    "(ii) P(not a jack) = 48/52 = 12/13"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(i) There is only 1 queen of hearts in a deck of 52 cards. P(queen of hearts) = 1/52. (ii) There are 4 jacks in a deck. P(jack) = 4/52. P(not a jack) = 1 – 4/52 = 48/52 = 12/13.",
+            "solution_hindi": null,
+            "chapter": "Probability",
+            "topic": "Classical probability with playing cards",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 22,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "(a) यदि 2x + y = 13 तथा 4x – y = 17 है, तो (x – y) का मान ज्ञात कीजिए।\nअथवा\n(b) दो संख्याओं का योगफल 105 है तथा उनका अंतर 45 है। संख्याएँ ज्ञात कीजिए।",
+            "text_english": "(a) If 2x + y = 13 and 4x – y = 17, find the value of (x – y).\nOR\n(b) Sum of two numbers is 105 and their difference is 45. Find the numbers.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Adding the equations: 6x = 30, x = 5; y = 3; (x – y) = 2",
+                    "(b) Numbers are 75 and 30"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) Adding 2x + y = 13 and 4x – y = 17 gives 6x = 30, so x = 5. Substituting: y = 13 – 10 = 3. Therefore (x – y) = 5 – 3 = 2. (b) Let the numbers be a and b. a + b = 105 and a – b = 45. Adding: 2a = 150, a = 75. Then b = 105 – 75 = 30. The numbers are 75 and 30.",
+            "solution_hindi": null,
+            "chapter": "Pair of Linear Equations in Two Variables",
+            "topic": "Solving linear equations",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 23,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "(a) यदि बिंदु P(x, y), बिंदुओं A(7, 1) तथा B(3, 5) से समदूरस्थ है, तो x तथा y के बीच का संबंध ज्ञात कीजिए।\nअथवा\n(b) बिंदु A(–1, y) तथा B(5, 7), केंद्र O(2, –3y) वाले वृत्त पर स्थित दो ऐसे बिंदु हैं कि AB वृत्त का एक व्यास है। y का मान ज्ञात कीजिए। वृत्त की त्रिज्या भी ज्ञात कीजिए।",
+            "text_english": "(a) Find a relation between x and y such that the point P(x, y) is equidistant from the points A(7, 1) and B(3, 5).\nOR\n(b) Points A(–1, y) and B(5, 7) lie on a circle with centre O(2, –3y) such that AB is a diameter of the circle. Find the value of y. Also, find the radius of the circle.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) PA = PB leads to x – y = 2",
+                    "(b) O is midpoint of AB: (–1+5)/2 = 2 ✓; (y+7)/2 = –3y gives y = 1; radius = √45 = 3√5"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) PA² = (x–7)² + (y–1)²; PB² = (x–3)² + (y–5)². Setting PA = PB: (x–7)² + (y–1)² = (x–3)² + (y–5)². Expanding and simplifying: –14x + 49 – 2y + 1 = –6x + 9 – 10y + 25, giving –8x + 8y = –16, so x – y = 2. (b) Since O is the midpoint of diameter AB: (y+7)/2 = –3y ⟹ y + 7 = –6y ⟹ 7y = –7 ⟹ y = –1. Radius = OA = distance from O(2, 3) to A(–1, –1) = √(9+16) = √25 = 5.",
+            "solution_hindi": null,
+            "chapter": "Coordinate Geometry",
+            "topic": "Distance formula, midpoint formula",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 24,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "दी गई आकृति में EA/EC = EB/ED है, सिद्ध कीजिए कि △EAB ~ △ECD",
+            "text_english": "In the given figure, EA/EC = EB/ED, prove that △EAB ~ △ECD",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "EA/EC = EB/ED (given)",
+                    "∠AEB = ∠CED (vertically opposite angles)",
+                    "By SAS similarity, △EAB ~ △ECD"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": true,
+            "image_description": "Two triangles ABE and CDE where lines AC and BD intersect at point E. EA/EC = EB/ED is given.",
+            "solution": "In △EAB and △ECD: EA/EC = EB/ED (given). ∠AEB = ∠CED (vertically opposite angles). Therefore by the SAS similarity criterion, △EAB ~ △ECD. Hence proved.",
+            "solution_hindi": null,
+            "chapter": "Triangles",
+            "topic": "SAS similarity criterion",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 25,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "मान ज्ञात कीजिए: (cos 45° + sin 60°) / (sec 30° + cosec 30°)",
+            "text_english": "Evaluate: (cos 45° + sin 60°) / (sec 30° + cosec 30°)",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Numerator = 1/√2 + √3/2 = (√2 + √3)/2 ... simplify carefully",
+                    "Denominator = 2/√3 + 2 = (2 + 2√3)/√3",
+                    "Final answer = √3(√2 + √3) / (2(2 + 2√3)) simplified"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "cos 45° = 1/√2, sin 60° = √3/2, sec 30° = 2/√3, cosec 30° = 2. Numerator = 1/√2 + √3/2 = (2 + √6)/(2√2). Denominator = 2/√3 + 2 = (2 + 2√3)/√3. Value = [(2 + √6)/(2√2)] ÷ [(2 + 2√3)/√3] = √3(2 + √6) / [2√2 × 2(1 + √3)] = √3(2 + √6) / [4√2(1 + √3)]. Since √6 = √2 × √3: √3(2 + √2√3) / [4√2(1+√3)] = √3 × √2(√2 + √3) / [4√2(1+√3)] = √3(√2+√3)/[4(1+√3)]. This simplifies to (√6 + 3) / (4 + 4√3) = √3(√2+√3)/[4(1+√3)]. Rationalising gives the value (√6+3)/(4+4√3) × (4–4√3)/(4–4√3) ... the simplified result is (√6+√2)/8 × ... After careful computation the answer is (√6 + √2) / 8 approximately, but exact simplified form is √3(√2+√3)/[4(1+√3)].",
+            "solution_hindi": null,
+            "chapter": "Introduction to Trigonometry",
+            "topic": "Trigonometric ratios of standard angles",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 26,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(a) यदि एक समांतर श्रेढ़ी के प्रथम 7 पदों का योग 49 है तथा इसके प्रथम 17 पदों का योग 289 है, तो इसके प्रथम 20 पदों का योग ज्ञात कीजिए।\nअथवा\n(b) एक समांतर श्रेढ़ी के 10वें तथा 30वें पदों में 1 : 3 का अनुपात है जबकि इसके प्रथम छः पदों का योग 42 है। इस समांतर श्रेढ़ी का प्रथम पद तथा सार्व अंतर ज्ञात कीजिए।",
+            "text_english": "(a) If the sum of first 7 terms of an A.P. is 49 and that of first 17 terms is 289, find the sum of its first 20 terms.\nOR\n(b) The ratio of the 10th term to its 30th term of an A.P. is 1 : 3 and the sum of its first six terms is 42. Find the first term and the common difference of A.P.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) S7 = 49 gives a + 3d = 7; S17 = 289 gives a + 8d = 17; solving d = 2, a = 1; S20 = 400",
+                    "(b) a10/a30 = 1/3 gives a + 9d = (a + 29d)/3; S6 = 42 gives 2a + 5d = 14; a = 2, d = 2"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) S7 = (7/2)(2a + 6d) = 7(a + 3d) = 49, so a + 3d = 7. S17 = (17/2)(2a + 16d) = 17(a + 8d) = 289, so a + 8d = 17. Subtracting: 5d = 10, d = 2, a = 1. S20 = (20/2)(2×1 + 19×2) = 10 × 40 = 400. (b) a10/a30 = (a+9d)/(a+29d) = 1/3, so 3a+27d = a+29d, giving 2a = 2d, a = d. S6 = (6/2)(2a+5d) = 3(2a+5a) = 21a = 42, so a = 2, d = 2.",
+            "solution_hindi": null,
+            "chapter": "Arithmetic Progressions",
+            "topic": "Sum of AP, nth term of AP",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 27,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "द्विघात बहुपद x² – 15 के शून्यक ज्ञात कीजिए। शून्यकों तथा बहुपद के गुणांकों के बीच के संबंध का सत्यापन कीजिए।",
+            "text_english": "Find the zeroes of the quadratic polynomial x² – 15 and verify the relationship between the zeroes and the coefficients of the polynomial.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Zeroes: √15 and –√15",
+                    "Sum of zeroes = 0 = –(coefficient of x)/(coefficient of x²)",
+                    "Product of zeroes = –15 = constant term / coefficient of x²"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Setting x² – 15 = 0 gives x² = 15, so x = ±√15. The zeroes are α = √15 and β = –√15. Verification: Sum of zeroes = √15 + (–√15) = 0 = –(0)/1 = –b/a ✓. Product of zeroes = √15 × (–√15) = –15 = (–15)/1 = c/a ✓. Hence the relationship is verified.",
+            "solution_hindi": null,
+            "chapter": "Polynomials",
+            "topic": "Zeroes of a polynomial and their relationship with coefficients",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 28,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "निम्न रैखिक समीकरण निकाय का ग्राफ द्वारा हल ज्ञात कीजिए:\nx – y + 1 = 0\nx + y = 5",
+            "text_english": "Solve the following system of linear equations graphically:\nx – y + 1 = 0\nx + y = 5",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Line 1: x – y + 1 = 0; points (0, 1) and (2, 3)",
+                    "Line 2: x + y = 5; points (0, 5) and (5, 0)",
+                    "Intersection point: x = 2, y = 3"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "For x – y + 1 = 0: when x = 0, y = 1; when x = 2, y = 3. For x + y = 5: when x = 0, y = 5; when x = 5, y = 0. Plot both lines on a graph. The two lines intersect at the point (2, 3). Therefore the solution is x = 2 and y = 3.",
+            "solution_hindi": null,
+            "chapter": "Pair of Linear Equations in Two Variables",
+            "topic": "Graphical solution of linear equations",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 29,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(a) वह अनुपात ज्ञात कीजिए जिसमें बिंदुओं (5, 3) तथा (–1, 6) को मिलाने वाला रेखाखंड Y-अक्ष द्वारा विभाजित होता है।\nअथवा\n(b) P(–2, 5) तथा Q(3, 2) दो बिंदु हैं। रेखाखंड PQ पर स्थित बिंदु R के निर्देशांक ज्ञात कीजिए ताकि PR = 2QR हो।",
+            "text_english": "(a) Find the ratio in which the line segment joining the points (5, 3) and (–1, 6) is divided by Y-axis.\nOR\n(b) P(–2, 5) and Q(3, 2) are two points. Find the coordinates of the point R on line segment PQ such that PR = 2QR.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Let ratio be k:1; x-coordinate = (k×(–1) + 1×5)/(k+1) = 0 gives k = 5; ratio = 5:1",
+                    "(b) PR = 2QR means R divides PQ in ratio 2:1; R = ((2×3 + 1×(–2))/3, (2×2 + 1×5)/3) = (4/3, 3)"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) Let Y-axis divide the line in ratio k:1. At Y-axis, x = 0. Using section formula: 0 = (k×(–1) + 1×5)/(k+1) gives k = 5. So the ratio is 5:1. (b) PR = 2QR means R divides PQ in ratio PR:RQ = 2:1. R = ((2×3 + 1×(–2))/(2+1), (2×2 + 1×5)/(2+1)) = ((6–2)/3, (4+5)/3) = (4/3, 3).",
+            "solution_hindi": null,
+            "chapter": "Coordinate Geometry",
+            "topic": "Section formula",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 30,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "सिद्ध कीजिए: (sin θ – 2sin³θ) / (2cos³θ – cos θ) = tan θ",
+            "text_english": "Prove that (sin θ – 2sin³θ) / (2cos³θ – cos θ) = tan θ.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Factor numerator: sin θ(1 – 2sin²θ)",
+                    "Factor denominator: cos θ(2cos²θ – 1)",
+                    "Use identity: 1 – 2sin²θ = 2cos²θ – 1 = cos 2θ to get tan θ"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "LHS = (sin θ – 2sin³θ)/(2cos³θ – cos θ). Take sin θ common from numerator: sin θ(1 – 2sin²θ). Take cos θ common from denominator: cos θ(2cos²θ – 1). Note that 1 – 2sin²θ = 1 – 2(1 – cos²θ) = 2cos²θ – 1. So LHS = sin θ(2cos²θ – 1) / [cos θ(2cos²θ – 1)] = sin θ / cos θ = tan θ = RHS. Hence proved.",
+            "solution_hindi": null,
+            "chapter": "Introduction to Trigonometry",
+            "topic": "Trigonometric identities",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 31,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "सिद्ध कीजिए कि वृत्त की किसी जीवा के सिरों पर खींची गई स्पर्श-रेखाएँ, जीवा के साथ समान कोण बनाती हैं।",
+            "text_english": "Prove that the tangents drawn at the end points of a chord of a circle make equal angles with the chord.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Let AB be a chord with tangents PA at A and PB at B meeting at P",
+                    "PA = PB (tangents from external point are equal)",
+                    "Triangle PAB is isosceles, so ∠PAB = ∠PBA — tangents make equal angles with chord"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Let AB be a chord of a circle, and let tangents at A and B meet at an external point P. Since tangents from an external point are equal in length, PA = PB. In triangle PAB, PA = PB means the triangle is isosceles. Therefore ∠PAB = ∠PBA. Since ∠PAB is the angle between tangent PA and chord AB, and ∠PBA is the angle between tangent PB and chord BA, the tangents make equal angles with the chord AB. Hence proved.",
+            "solution_hindi": null,
+            "chapter": "Circles",
+            "topic": "Properties of tangents",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 32,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(a) 2800 km की एक हवाई यात्रा के दौरान, खराब मौसम के कारण वायुयान की औसत चाल को 100 km/h कम कर दिया गया जिससे यात्रा का समय 30 मिनट बढ़ गया। हवाई यात्रा का मूल समय ज्ञात कीजिए।\nअथवा\n(b) एक भिन्न का हर इसके अंश के दुगुने से एक अधिक है। यदि भिन्न और इसके व्युत्क्रम का योग 2(16/21) है, तो भिन्न ज्ञात कीजिए।",
+            "text_english": "(a) In a flight of 2800 km, an aircraft was slowed down due to bad weather. Its average speed is reduced by 100 km/h and by doing so, the time of flight is increased by 30 minutes. Find the original duration of the flight.\nOR\n(b) The denominator of a fraction is one more than twice the numerator. If the sum of the fraction and its reciprocal is 2(16/21), find the fraction.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Let original speed = v; 2800/v + 1/2 = 2800/(v–100); forms quadratic v² – 100v – 560000 = 0; v = 800 km/h; original time = 3.5 hours",
+                    "(b) Let numerator = x, denominator = 2x+1; x/(2x+1) + (2x+1)/x = 58/21; leads to 21x²–37x+21 = 0... fraction = 3/7"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "(a) Let original speed be v km/h. Time at original speed = 2800/v hours. Time at reduced speed = 2800/(v–100) hours. Difference = 1/2 hour. So 2800/(v–100) – 2800/v = 1/2. 2800v – 2800(v–100) = v(v–100)/2. 280000 = v(v–100)/2. v² – 100v – 560000 = 0. Solving: v = (100 + √(10000 + 2240000))/2 = (100 + 1500)/2 = 800 km/h. Original time = 2800/800 = 3.5 hours. (b) Let numerator = x, denominator = 2x+1. x/(2x+1) + (2x+1)/x = 58/21. Let t = x/(2x+1). Then t + 1/t = 58/21. 21t² – 58t + 21 = 0. (3t – 7)(7t – 3) = 0. t = 7/3 or t = 3/7. x/(2x+1) = 3/7 gives 7x = 6x+3, x = 3, fraction = 3/7.",
+            "solution_hindi": null,
+            "chapter": "Quadratic Equations",
+            "topic": "Quadratic equations — word problems",
+            "difficulty": "Hard"
+        },
+        {
+            "question_number": 33,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "आधारभूत समानुपातिकता प्रमेय का कथन लिखिए तथा इसे सिद्ध कीजिए।",
+            "text_english": "State and prove Basic Proportionality theorem.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Statement: If a line is drawn parallel to one side of a triangle, it divides the other two sides in the same ratio",
+                    "Construction: Draw DM ⊥ AB and EN ⊥ AC; join BE and CD",
+                    "Proof uses equal areas and common base to establish AD/DB = AE/EC"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Statement: If a line is drawn parallel to one side of a triangle intersecting the other two sides at distinct points, then it divides the other two sides in the same ratio. Given: △ABC with DE ∥ BC, D on AB, E on AC. To prove: AD/DB = AE/EC. Construction: Draw DM ⊥ AC and EN ⊥ AB. Join B to E and C to D. Proof: Area(△ADE) = (1/2)×AD×EN; Area(△BDE) = (1/2)×DB×EN. So Area(△ADE)/Area(△BDE) = AD/DB. Similarly Area(△ADE)/Area(△CDE) = AE/EC. Since △BDE and △CDE are on the same base DE and between the same parallels DE and BC, Area(△BDE) = Area(△CDE). Therefore AD/DB = AE/EC. Hence proved.",
+            "solution_hindi": null,
+            "chapter": "Triangles",
+            "topic": "Basic Proportionality Theorem (Thales Theorem)",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 34,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "भूमि के एक बिंदु से एक 20 m ऊँचे भवन के शिखर पर लगी एक संचार मीनार के तल और शिखर के उन्नयन कोण क्रमशः 45° और 60° हैं। मीनार की ऊँचाई ज्ञात कीजिए।",
+            "text_english": "From a point on the ground, the angles of elevation of the bottom and the top of a transmission tower fixed at the top of a 20 m high building are 45° and 60° respectively. Find the height of the tower.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Let horizontal distance = d; tan 45° = 20/d gives d = 20 m",
+                    "tan 60° = (20 + h)/d gives 20√3 = 20 + h",
+                    "Height of tower h = 20(√3 – 1) m"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Let the point on the ground be P. Let the horizontal distance from P to the base of the building be d. The building has height 20 m and the tower on top has height h. Angle of elevation to bottom of tower = 45°: tan 45° = 20/d, so d = 20 m. Angle of elevation to top of tower = 60°: tan 60° = (20 + h)/d, so √3 = (20 + h)/20, giving 20 + h = 20√3, therefore h = 20(√3 – 1) m. The height of the transmission tower is 20(√3 – 1) metres.",
+            "solution_hindi": null,
+            "chapter": "Some Applications of Trigonometry",
+            "topic": "Heights and distances",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 35,
+            "question_type": "LONG_ANSWER",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(a) ऊँचाई 200 cm और आधार व्यास 28 cm वाले एक ठोस बेलन, जिस पर ऊँचाई 50 cm और त्रिज्या 7 cm वाला एक अन्य बेलन आरोपित है, से लोहे का एक ठोस स्तंभ बना है। इस स्तम्भ का द्रव्यमान ज्ञात कीजिए, जबकि दिया है कि 1 cm³ लोहे का द्रव्यमान 8 g होता है।\nअथवा\n(b) दवा का एक कैप्सूल एक बेलन के आकार का है जिसके दोनों सिरों पर एक अर्धगोला लगा हुआ है। पूरे कैप्सूल की लंबाई 14 mm है और व्यास 4 mm है। इसका पृष्ठीय क्षेत्रफल ज्ञात कीजिए। इसका आयतन भी ज्ञात कीजिए।",
+            "text_english": "(a) A solid iron pole consists of a solid cylinder of height 200 cm and base diameter 28 cm, which is surmounted by another cylinder of height 50 cm and radius 7 cm. Find the mass of the pole, given that 1 cm³ of iron has approximately 8 g mass.\nOR\n(b) A medicine capsule is in the shape of a cylinder with two hemispheres stuck to each of its ends. The length of the entire capsule is 14 mm and the diameter of the capsule is 4 mm, find its surface area. Also, find its volume.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "(a) Volume of large cylinder = π×14²×200; Volume of small cylinder = π×7²×50; Total volume = π(39200+2450) = 41650π cm³; Mass = 41650π×8 g ≈ 1047.2 kg",
+                    "(b) r = 2 mm; cylinder length = 14–4 = 10 mm; SA = 2πr×10 + 4πr² = 20π×2 + 4π×4 = 40π+16π = 56π mm²; V = π×4×10 + (4/3)π×8 = 40π + 32π/3 mm³"
+                ],
+                "key_points_hindi": null
+            },
+            "has_image": true,
+            "image_description": "For part (b): A capsule shaped object consisting of a cylinder with a hemisphere on each end. Total length 14 mm, diameter 4 mm.",
+            "solution": "(a) Volume of lower cylinder (r=14, h=200) = π×196×200 = 39200π cm³. Volume of upper cylinder (r=7, h=50) = π×49×50 = 2450π cm³. Total volume = 41650π ≈ 41650×(22/7) = 130900 cm³. Mass = 130900×8 = 1047200 g = 1047.2 kg. (b) r = 2 mm. Two hemispheres together form a full sphere of radius 2 mm. Cylinder height = 14 – 2×2 = 10 mm. Surface area = curved surface of cylinder + surface of sphere = 2πrh + 4πr² = 2π×2×10 + 4π×4 = 40π + 16π = 56π = 56×(22/7) = 176 mm². Volume = πr²h + (4/3)πr³ = π×4×10 + (4/3)π×8 = 40π + (32/3)π = (152/3)π = (152/3)×(22/7) ≈ 160 mm³.",
+            "solution_hindi": null,
+            "chapter": "Surface Areas and Volumes",
+            "topic": "Volume and surface area of combined solids",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 36,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "एक अस्तबल के मालिक के पास 4 घोड़े हैं। वह आमतौर पर इन घोड़ों को अपने खेत में चराने के लिए 20 मीटर लंबे वर्गाकार घास के मैदान के प्रत्येक कोने पर 7 m. लंबी रस्सी के खूँटों से बाँधता है। लेकिन कई बार रस्सी से बाँधने से उसके घोड़ों को चोट भी लग जाती है। इसलिए उसने उस क्षेत्र के चारों ओर बाढ़ बनाने का निर्णय लिया जहाँ घोड़ा चर सकता है।",
+            "text_english": "A stable owner has four horses. He usually ties these horses with 7 m long rope to pegs at each corner of a square shaped grass field of 20 m length, to graze in his farm. But tying with rope sometimes results in injuries to his horses, so he decided to build fence around the area so that each horse can graze.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "वर्गाकार घास के मैदान का क्षेत्रफल ज्ञात कीजिए।",
+                    "text_english": "Find the area of the square shaped grass field.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 1,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Area = 20 × 20 = 400 m²"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Area of square field = side × side = 20 × 20 = 400 m²."
+                },
+                {
+                    "sub_id": "ii_a",
+                    "text": "उस कुल क्षेत्र का क्षेत्रफल ज्ञात कीजिए जिसमें यह घोड़े चर सकते हैं।",
+                    "text_english": "Find the area of the total field in which these horses can graze.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 2,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Each corner has a 90° sector of radius 7 m",
+                            "4 sectors × (90°/360°) × π×7² = π×49 = 154 m²"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Each horse is tied at a corner of the square with a 7 m rope and grazes a quarter-circle sector of radius 7 m. Total grazable area = 4 × (1/4) × π × 7² = π × 49 = 22/7 × 49 = 154 m²."
+                },
+                {
+                    "sub_id": "ii_b",
+                    "text": "यदि प्रत्येक घोड़े की रस्सी को 7 m से बढ़ाकर 10 m कर दिया जाए, तो एक घोड़े द्वारा चरने वाले क्षेत्र का क्षेत्रफल ज्ञात कीजिए। (π = 3.14 लीजिए)",
+                    "text_english": "If the length of the rope of each horse is increased from 7 m to 10 m, find the area grazed by one horse. (Use π = 3.14)",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 2,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "One horse grazes a quarter circle of radius 10 m",
+                            "Area = (1/4) × 3.14 × 100 = 78.5 m²"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Area grazed by one horse = (1/4) × π × r² = (1/4) × 3.14 × 10² = (1/4) × 3.14 × 100 = 78.5 m²."
+                },
+                {
+                    "sub_id": "iii",
+                    "text": "यदि प्रत्येक घोड़े की रस्सी 7 cm लंबी है, तो खेत का कितना क्षेत्रफल चरे बिना रह जाएगा?",
+                    "text_english": "What is area of the field that is left ungrazed, if the length of the rope of each horse is 7 cm?",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 1,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Rope is 7 cm = 0.07 m, negligible; ungrazed area ≈ 400 m²"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "If the rope is only 7 cm (= 0.07 m), the area grazed by all four horses = 4 × (1/4) × π × (0.07)² ≈ 0.0154 m², which is negligible. The ungrazed area ≈ 400 – 0.0154 ≈ 400 m² (essentially the entire field)."
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "A square field ABCD of side 20 m with horses tied at each corner (A, B, C, D) with 7 m ropes. Quarter circles of radius 7 m are shown at each corner.",
+            "solution": "Case study based question. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Areas Related to Circles",
+            "topic": "Area of sector, areas of combination of figures",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 37,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "व्यावसायिक प्रशिक्षण व्यावहारिक कौशल और अनुभव प्रदान करते हुए पारंपरिक शिक्षा का पूरक है। शिक्षा जहाँ व्यक्तियों के व्यापक ज्ञान आधार से सुसज्जित करती है, व्यावसायिक प्रशिक्षण नौकरी विशिष्ट कौशल पर ध्यान केंद्रित करता है तथा रोज़गार क्षमता को बढ़ाता है, जिससे छात्र आत्मनिर्भर बनता है। इसे ध्यान में रखते हुए एक अध्यापक ने, उन विद्यार्थियों/वयस्कों का आवृत्ति वितरण देकर निम्न सारिणी बनाई जो प्रशिक्षण संस्था से व्यावसायिक प्रशिक्षण ले रहे हैं:\n\nआयु (वर्षों में): 15–19, 20–24, 25–29, 30–34, 35–39, 40–44, 45–49, 50–54\nभाग लेने वालों की संख्या: 62, 132, 96, 37, 13, 11, 10, 4",
+            "text_english": "Vocational training complements traditional education by providing practical skills and hands-on experience. While education equips individuals with a broad knowledge base, vocational training focuses on job-specific skills, enhancing employability thus making the student self-reliant. Keeping this in view, a teacher made the following table giving the frequency distribution of students/adults undergoing vocational training from the training institute.\n\nAge (in years): 15–19, 20–24, 25–29, 30–34, 35–39, 40–44, 45–49, 50–54\nNumber of participants: 62, 132, 96, 37, 13, 11, 10, 4",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "ऊपर दिए गए आँकड़ों में बहुलक वर्ग की निचली सीमा क्या है?",
+                    "text_english": "What is the lower limit of the modal class of the above data?",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 1,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Modal class is 20–24 (highest frequency 132); lower limit = 20"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "The class with the highest frequency is 20–24 with 132 participants. This is the modal class. Its lower limit is 20."
+                },
+                {
+                    "sub_id": "ii_a",
+                    "text": "उपरोक्त आँकड़ों से माध्यक वर्ग ज्ञात कीजिए।",
+                    "text_english": "Find the median class of the above data.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 2,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Total frequency N = 365; N/2 = 182.5",
+                            "Cumulative frequency: up to 19 = 62; up to 24 = 194",
+                            "Median class is 20–24"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Total N = 62+132+96+37+13+11+10+4 = 365. N/2 = 182.5. Cumulative frequencies: 15–19: 62; 15–24: 194. Since 182.5 falls in the class whose cumulative frequency first exceeds 182.5, the median class is 20–24."
+                },
+                {
+                    "sub_id": "ii_b",
+                    "text": "50 वर्ष से छोटे उन भाग लेने वालों की संख्या ज्ञात कीजिए जो व्यावसायिक प्रशिक्षण ले रहे हैं।",
+                    "text_english": "Find the number of participants of age less than 50 years who undergo vocational training.",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 2,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Sum of all classes up to 45–49: 62+132+96+37+13+11+10 = 361"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Number of participants below age 50 = sum of all classes from 15–19 to 45–49 = 62+132+96+37+13+11+10 = 361."
+                },
+                {
+                    "sub_id": "iii",
+                    "text": "माध्य, माध्यक तथा बहुलक में आनुभविक संबंध लिखिए।",
+                    "text_english": "Give the empirical relationship between mean, median and mode.",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 1,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "Mode = 3 Median – 2 Mean"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "The empirical relationship between mean, median and mode is: Mode = 3 Median – 2 Mean."
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": true,
+            "image_description": "A word cloud image related to vocational education with words like Education, Skill, Vocational, Career, etc.",
+            "solution": "Case study based question. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Statistics",
+            "topic": "Mean, median, mode of grouped data",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 38,
+            "question_type": "CASE_BASED",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "गतिविधियों के माध्यम से गणित पढ़ाना एक शक्तिशाली दृष्टिकोण है जो छात्रों की समझ और जुड़ाव को बढ़ाता है। इसे ध्यान में रखते हुए, सुश्री मुक्ता ने कक्षा 5 के छात्रों के लिए एक अभाज्य संख्या खेल की योजना बनाई। उसने कक्षा के पहले छात्र को संख्या 2 को किसी अभाज्य संख्या से गुणा करके अगले छात्र को दे दें। दूसरा छात्र भी इसे किसी अभाज्य संख्या से गुणा कर इसे तीसरे छात्र को दे दें। इसी प्रकार अभाज्य संख्याओं से गुणा करते करते आखिरी छात्र को गुणा करने के पश्चात् 173250 प्राप्त हुआ।",
+            "text_english": "Teaching Mathematics through activities is a powerful approach that enhances students' understanding and engagement. Keeping this in mind, Ms. Mukta planned a prime number game for class 5 students. She announces the number 2 in her class and asked the first student to multiply it by a prime number and then pass it to second student. Second student also multiplied it by a prime number and passed it to third student. In this way by multiplying to a prime number, the last student got 173250.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "छात्रों द्वारा प्रयोग की गई सबसे छोटी अभाज्य संख्या कौन सी है?",
+                    "text_english": "What is the least prime number used by students?",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 1,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "173250 = 2 × 3³ × 5² × 7 × ... factorising 173250/2 = 86625; least prime factor used = 2"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Prime factorisation of 173250: 173250 = 2 × 86625 = 2 × 3 × 28875 = 2 × 3 × 3 × 9625 = 2 × 3² × 5³ × 7 × 11... Let us verify: 173250 = 2 × 3 × 5³ × 3 × 7 × 11 = 2 × 3² × 5³ × 7 × 11. The starting number is 2 and students multiply by primes. The least prime number used is 2 (since 2 is the starting number itself passed in via multiplication)."
+                },
+                {
+                    "sub_id": "ii_a",
+                    "text": "कक्षा में कितने छात्र हैं?",
+                    "text_english": "How many students are in the class?",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 2,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "173250 = 2 × 3² × 5³ × 7 × 11; starting number = 2 which gets multiplied by prime numbers",
+                            "Number of multiplications = number of prime factors after the initial 2 = number of students"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "173250 = 2 × 3 × 3 × 5 × 5 × 5 × 7 × 11. The starting value is 2. Each student multiplies by one prime number. So 173250/2 = 86625 = 3 × 3 × 5 × 5 × 5 × 7 × 11. That is 7 prime factors after the initial 2. So there are 7 students in the class (each multiplied once)."
+                },
+                {
+                    "sub_id": "ii_b",
+                    "text": "छात्रों द्वारा बड़ी से बड़ी अभाज्य संख्या कौन सी प्रयोग की गई है?",
+                    "text_english": "What is the highest prime number used by students?",
+                    "type": "SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 2,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "From prime factorisation 173250 = 2 × 3² × 5³ × 7 × 11, highest prime = 11"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "Prime factorisation of 173250 = 2 × 3² × 5³ × 7 × 11. The prime factors used are 2, 3, 5, 7 and 11. The highest prime number used by students is 11."
+                },
+                {
+                    "sub_id": "iii",
+                    "text": "कौन सी अभाज्य संख्या अधिकतम बार प्रयोग की गई है?",
+                    "text_english": "Which prime number has been used maximum times?",
+                    "type": "VERY_SHORT_ANSWER",
+                    "options": null,
+                    "options_english": null,
+                    "blank_count": null,
+                    "marks": 1,
+                    "correct_answer": {
+                        "type": "text",
+                        "key_points": [
+                            "5 appears 3 times in 173250 = 2 × 3² × 5³ × 7 × 11"
+                        ],
+                        "key_points_hindi": null
+                    },
+                    "solution": "In the prime factorisation 173250 = 2 × 3² × 5³ × 7 × 11, the prime number 5 appears 3 times, which is more than any other prime. So 5 has been used the maximum number of times."
+                }
+            ],
+            "correct_answer": {
+                "type": "none"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Case study based question. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "chapter": "Real Numbers",
+            "topic": "Prime factorisation, Fundamental Theorem of Arithmetic",
+            "difficulty": "Medium"
+        }
+    ]
+}

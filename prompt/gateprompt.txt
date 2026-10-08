@@ -1,0 +1,102 @@
+You will be given TWO PDFs:
+1. A GATE question paper (contains all questions, options, and the official marking scheme/instructions)
+2. The official GATE answer key (contains Q.No, Q.Type, Section, Key/Range, and Marks for every question)
+
+Your task: extract every question from the question paper, attach the CORRECT option(s)/value from the answer key, write your OWN accurate step-by-step solution for each question, and return a single valid JSON object that EXACTLY matches the structure below. Do not add, remove, rename, or reorder any field. Do not change data types (keep null as null, numbers as numbers, booleans as booleans).
+
+IMPORTANT RULES BEFORE STARTING:
+* Cross-match every question using Q.No between the two PDFs — the answer key is the ONLY source of truth for correct_answer. Never guess an answer if it conflicts with the answer key.
+* The question paper PDF is the ONLY source of truth for question_text, options, code blocks, and images.
+* Read the marking-scheme/instructions section of the question paper (marks per question, negative marking per section) to fill subsection_marks/marks/negative_marks correctly — do not assume a fixed pattern, confirm it from the paper itself.
+* Write a complete, fully worked solution_text for every question — show formulas, intermediate steps, and the final answer. Never leave solution_text empty, vague, or just "Answer is X".
+* For MSQ-type answer key entries written like "B;C" → convert to an array ["B","C"]. For single-answer MCQ → a plain string like "A".
+* For NAT-type answer key entries given as a range (e.g. "13 to 13" or "0.70 to 0.80") → set "value" to the most precise correct numeric answer (midpoint or exact value as derived in your solution) and set "value_range" to {"min": <range_min>, "max": <range_max>} taken directly from the answer key. For MCQ/MSQ questions, value_range must be null (omit only if schema requires null, never remove the key for NAT).
+
+Follow this EXACT structure for every question:
+
+{
+  "meta": {
+    "exam_name": "",                 // e.g. "GATE"
+    "exam_short_code": "",           // e.g. "GATE-2024-CS1"
+    "year": 0,
+    "date": "",                      // YYYY-MM-DD
+    "branch": "",                    // full branch name
+    "branch_code": "",               // e.g. "CS"
+    "paper_code": "",                // e.g. "CS1"
+    "organizing_institute": "",
+    "total_marks": 100,
+    "total_time_minutes": 180,
+    "total_questions": 0,
+    "sections": [
+      {
+        "section_name": "",          // e.g. "General Aptitude"
+        "section_code": "",          // e.g. "GA"
+        "subsections": [
+          {
+            "question_range": "",    // e.g. "Q1-Q5"
+            "question_count": 0,
+            "marks_per_question": 0,
+            "negative_marks": { "MCQ": 0, "MSQ": 0, "NAT": 0 }
+          }
+        ]
+      }
+    ]
+  },
+
+  "questions": [
+    {
+      "question_id": "",             // format: {exam_short_code}-{section_code}-Q##, e.g. "GATE-2024-CS1-GA-Q1"
+      "question_number": 0,
+      "section": "",                 // section_code this question belongs to
+      "subsection_marks": 0,
+      "question_type": "",           // "MCQ" / "MSQ" / "NAT"
+      "marks": 0,
+      "negative_marks": 0,
+
+      "chapter": "",                 // subject chapter, e.g. "Operating Systems"
+      "topic": "",                   // specific topic within chapter
+      "difficulty": "",              // "Easy" / "Medium" / "Hard"
+
+      "has_question_image": false,
+      "question_image_url": null,    // if has_question_image is true, set this to "NEEDS_IMAGE"
+
+      "question_text": "",           // full question, LaTeX inside $...$ for math
+
+      "has_code_block": false,
+      "code_block": null,            // raw code exactly as in PDF if present, else null
+      "code_language": null,         // e.g. "c", else null
+
+      "options": [                   // null if question_type is "NAT"
+        {
+          "key": "A",
+          "text": "",
+          "has_image": false,
+          "image_url": null,         // "NEEDS_IMAGE" if option has a diagram/figure
+          "has_code": false,
+          "code": null
+        }
+      ],
+
+      "correct_answer": {
+        "type": "",                  // "single" (MCQ) / "multiple" (MSQ) / "nat" (NAT)
+        "value": "",                 // string for single, array of strings for multiple, number for nat
+        "value_range": null          // {"min": x, "max": x} ONLY for nat type, else null
+      },
+
+      "solution_text": "",           // MANDATORY: complete step-by-step solution
+      "solution_image_url": null
+    }
+  ]
+}
+
+ADDITIONAL RULES:
+* All math must use LaTeX inside $...$ (use $$...$$ only if the original is a display equation).
+* question_number and ordering must follow the original question paper numbering exactly.
+* Determine "section" for each question from the question paper's section headers (e.g. General Aptitude vs core subject), not by guessing.
+* If the question paper has no images visible to you but a figure is referenced ("as shown in the figure"), still set has_question_image: true and question_image_url: "NEEDS_IMAGE".
+* Preserve code blocks verbatim (indentation, syntax) inside code_block when has_code_block is true.
+* Do not skip any question, including GA (General Aptitude) questions.
+* Return ONLY the JSON object — no explanations, no markdown code fences, no extra text before or after.
+
+
+make sure i want the JSON output displayed directly in the chat so i can copy it, not hidden inside "Running command". Let me do that right now.

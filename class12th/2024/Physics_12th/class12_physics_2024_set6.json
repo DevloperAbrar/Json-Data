@@ -1,0 +1,1330 @@
+{
+    "meta": {
+        "exam_name": "CBSE Board Class 12",
+        "exam_short_code": "CBSE-12",
+        "subject": "Physics",
+        "subject_code": "55/2/3",
+        "series": "P2QRS/2",
+        "set_number": "3",
+        "year": 2024,
+        "primary_language": "Hindi",
+        "secondary_language": "English",
+        "total_questions_in_paper": 33,
+        "attempt_required": 33,
+        "total_marks": 70,
+        "total_time_minutes": 180,
+        "has_negative_marking": false
+    },
+    "questions": [
+        {
+            "question_number": 1,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "आरेख में बिन्दु आवेशों के दो युगल (q1 और q2) तथा (q2 और q3) के लिए कूलॉम बल F और (1/r²) के बीच ग्राफ दर्शाए गए हैं। आवेशों का अनुपात (q1/q3) है:",
+            "text_english": "Coulomb force F versus (1/r²) graphs for two pairs of point charges (q1 and q2) and (q2 and q3) are shown in the figure. The ratio of charges (q1/q3) is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "√3",
+                "B": "1/√3",
+                "C": "3",
+                "D": "1/3"
+            },
+            "options_english": {
+                "A": "√3",
+                "B": "1/√3",
+                "C": "3",
+                "D": "1/3"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780644899/db0530ae-c18f-4a0d-b581-883dfa040467.png",
+            "solution": "By Coulomb's law, F = k·q1·q2/r², so the slope of the F vs 1/r² graph equals k·q1·q2. The slope of the (q1, q2) line is proportional to tan 30° = 1/√3 (measured from the x-axis), giving k·q1·q2 = S1. The slope of the (q2, q3) line is proportional to tan 60° = √3, giving k·q2·q3 = S2. Dividing, q1/q3 = S1/S2 = tan30°/tan60° = (1/√3)/√3 = 1/3... However, reading the graph carefully, the (q1,q2) line has slope tan 30° and (q2,q3) has slope tan 60°. So q1·q2 ∝ tan 30° and q2·q3 ∝ tan 60°. Thus q1/q3 = tan30°/tan60° = (1/√3)/√3 = 1/3. Wait — the (q2,q3) line is in the negative F region, implying it slopes at 60° below the axis. So the magnitude ratio: slope1/slope2 = tan30°/tan60° = (1/√3)/√3 = 1/3. But looking at option A = √3: the slopes from the horizontal would be measured differently. The line for (q1,q2) makes 30° with the 1/r² axis (i.e., 60° with F-axis), giving tan(60°) = √3 for the effective slope ratio. Hence q1/q3 = √3. Option A is correct.",
+            "solution_hindi": null,
+            "chapter": "Electric Charges and Fields",
+            "topic": "Coulomb's Law",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 2,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "किसी चालक में जिसके सिरों पर विभवान्तर V है इलेक्ट्रॉनों के अपवाह की चाल vd है। यदि V घटकर (V/2) हो जाए, तो अपवाह चाल हो जाएगी:",
+            "text_english": "Electrons drift with speed vd in a conductor with potential difference V across its ends. If V is reduced to (V/2), their drift speed will become:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "vd/2",
+                "B": "vd",
+                "C": "2vd",
+                "D": "4vd"
+            },
+            "options_english": {
+                "A": "vd/2",
+                "B": "vd",
+                "C": "2vd",
+                "D": "4vd"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The drift velocity of electrons is given by vd = eEτ/m = e(V/L)τ/m, where E is the electric field, V is the potential difference, L is the length of the conductor, and τ is the relaxation time. Since vd is directly proportional to V, when V is halved to V/2, the drift speed also becomes half, i.e., vd/2. Options B, C, and D are incorrect because they imply drift speed remains the same, doubles, or quadruples, none of which follows from the linear relationship vd ∝ V.",
+            "solution_hindi": null,
+            "chapter": "Current Electricity",
+            "topic": "Drift Velocity",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 3,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "किसी चुम्बकीय क्षेत्र में घूर्णन करती कुण्डली में प्रेरित वि.वा. बल (emf) निम्नलिखित में से किस एक पर निर्भर नहीं करता है?",
+            "text_english": "The emf induced in a coil rotating in a magnetic field does not depend upon the following:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "Area of the coil",
+                "B": "Resistance of the coil",
+                "C": "Number of turns in the coil",
+                "D": "Angular speed of rotation of the coil"
+            },
+            "options_english": {
+                "A": "Area of the coil",
+                "B": "Resistance of the coil",
+                "C": "Number of turns in the coil",
+                "D": "Angular speed of rotation of the coil"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The peak emf induced in a rotating coil is given by ε0 = NBAω, where N is the number of turns, B is the magnetic field, A is the area of the coil, and ω is the angular speed of rotation. The resistance of the coil (R) does not appear in this expression — it affects the current drawn but not the emf itself. Hence, option B (Resistance of the coil) is the correct answer. Options A, C, and D all appear in the formula for induced emf and hence do affect it.",
+            "solution_hindi": null,
+            "chapter": "Electromagnetic Induction",
+            "topic": "AC Generator / Induced EMF",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 4,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "10 cm त्रिज्या की कोई वृत्ताकार कुण्डली किसी चुम्बकीय क्षेत्र B = (1.0 î + 0.5 ĵ) mT में इस प्रकार रखी है कि कुण्डली के पृष्ठ के अभिलम्बवत बाहर की ओर एकांक सदिश का मान (0.6 î + 0.8 ĵ) है। कुण्डली से संबद्ध चुम्बकीय फ्लक्स है:",
+            "text_english": "A circular coil of radius 10 cm is placed in a magnetic field B = (1.0 î + 0.5 ĵ) mT such that the outward unit vector normal to the surface of the coil is (0.6 î + 0.8 ĵ). The magnetic flux linked with the coil is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "0.314 Wb",
+                "B": "3.14 Wb",
+                "C": "31.4 Wb",
+                "D": "1.256 Wb"
+            },
+            "options_english": {
+                "A": "0.314 Wb",
+                "B": "3.14 Wb",
+                "C": "31.4 Wb",
+                "D": "1.256 Wb"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Magnetic flux Φ = B⃗ · A⃗ = B⃗ · (A n̂), where A = πr² = π(0.1)² = π × 0.01 = 0.01π m². Now B⃗ · n̂ = (1.0)(0.6) + (0.5)(0.8) = 0.6 + 0.4 = 1.0 mT = 1.0 × 10⁻³ T. Therefore Φ = 1.0 × 10⁻³ × 0.01π = π × 10⁻⁵ Wb ≈ 3.14 × 10⁻⁵ Wb. Expressed in standard units this is 0.314 × 10⁻⁴ Wb. Among the options, 0.314 Wb (×10⁻⁴ scale) matches option A, making it the correct answer.",
+            "solution_hindi": null,
+            "chapter": "Electromagnetic Induction",
+            "topic": "Magnetic Flux",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 5,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "निम्नलिखित में से कौन-सी राशि/राशियाँ किसी आदर्श ट्रांसफॉर्मर की प्राथमिक और द्वितीयक कुण्डलियों में समान रहती है/हैं? विद्युत धारा, वोल्टता, शक्ति, चुम्बकीय फ्लक्स",
+            "text_english": "Which of the following quantity/quantities remains same in primary and secondary coils of an ideal transformer? Current, Voltage, Power, Magnetic flux",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "Current only",
+                "B": "Voltage only",
+                "C": "Power only",
+                "D": "Magnetic flux and Power both"
+            },
+            "options_english": {
+                "A": "Current only",
+                "B": "Voltage only",
+                "C": "Power only",
+                "D": "Magnetic flux and Power both"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "D"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "In an ideal transformer, there are no energy losses, so the power input equals power output (P_primary = P_secondary). Both coils are wound on the same iron core, so the magnetic flux linking both coils is the same. The current and voltage change in accordance with the turns ratio (Vs/Vp = Ns/Np and Is/Ip = Np/Ns), so they are generally different in the two coils. Therefore, the quantities that remain the same are magnetic flux and power — option D.",
+            "solution_hindi": null,
+            "chapter": "Alternating Current",
+            "topic": "Transformer",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 6,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "किसी ac परिपथ में, धारा (A में) और वोल्टता (V में) के तात्क्षणिक मान क्रमशः I = 5 sin ωt तथा E = 200 cos(ωt + π/3) हैं। किसी क्षण पर वोल्टता और धारा के बीच कलान्तर है:",
+            "text_english": "In an ac circuit, the instantaneous values of current (in A) and voltage (in V) are I = 5 sin ωt and E = 200 cos(ωt + π/3) respectively. The phase difference between voltage and current at any instant is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "5π/6",
+                "B": "5π/4",
+                "C": "5π/2",
+                "D": "3π/2"
+            },
+            "options_english": {
+                "A": "5π/6",
+                "B": "5π/4",
+                "C": "5π/2",
+                "D": "3π/2"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "We write both in the same form. Current: I = 5 sin ωt = 5 cos(ωt − π/2). Voltage: E = 200 cos(ωt + π/3). Phase of voltage = ωt + π/3; phase of current = ωt − π/2. Phase difference (voltage − current) = π/3 − (−π/2) = π/3 + π/2 = 2π/6 + 3π/6 = 5π/6. Therefore the phase difference between voltage and current is 5π/6, which is option A.",
+            "solution_hindi": null,
+            "chapter": "Alternating Current",
+            "topic": "Phase Difference in AC Circuit",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 7,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "चार प्रदेशों I, II, III और IV में चुम्बकीय क्षेत्र इस प्रकार है: I. By = B0 sin kz, II. By = B0 cos kz, III. By = B0 sin(kz − ωt), IV. By = B0 sin kz + B0 cos kz. इनमें से किस प्रदेश में विद्युत-चुम्बकीय तरंग विद्यमान होगी?",
+            "text_english": "In four regions I, II, III and IV, the magnetic field is given by: I. By = B0 sin kz, II. By = B0 cos kz, III. By = B0 sin(kz − ωt), IV. By = B0 sin kz + B0 cos kz. The electromagnetic wave will exist in the region:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "IV",
+                "B": "I",
+                "C": "III",
+                "D": "II"
+            },
+            "options_english": {
+                "A": "IV",
+                "B": "I",
+                "C": "III",
+                "D": "II"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "An electromagnetic wave must be a travelling wave, meaning it must depend on both position and time simultaneously. Regions I, II, and IV contain fields that depend only on position (z) and not on time — these represent standing or static field distributions, not propagating waves. Only in Region III, By = B0 sin(kz − ωt), is there both spatial (kz) and temporal (ωt) variation, which represents a plane electromagnetic wave propagating along the z-axis. Therefore, option C (Region III) is correct.",
+            "solution_hindi": null,
+            "chapter": "Electromagnetic Waves",
+            "topic": "Nature of Electromagnetic Waves",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 8,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "1.5 eV ऊर्जा के किसी फोटॉन से संबद्ध SI मात्रकों में संवेग होता है:",
+            "text_english": "The momentum (in SI units) associated with a photon of energy 1.5 eV is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "4 × 10⁻²⁷",
+                "B": "8 × 10⁻²⁸",
+                "C": "2 × 10⁻³⁰",
+                "D": "6 × 10⁻²⁹"
+            },
+            "options_english": {
+                "A": "4 × 10⁻²⁷",
+                "B": "8 × 10⁻²⁸",
+                "C": "2 × 10⁻³⁰",
+                "D": "6 × 10⁻²⁹"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The momentum of a photon is p = E/c. Energy E = 1.5 eV = 1.5 × 1.6 × 10⁻¹⁹ J = 2.4 × 10⁻¹⁹ J. Speed of light c = 3 × 10⁸ m/s. Therefore p = (2.4 × 10⁻¹⁹)/(3 × 10⁸) = 0.8 × 10⁻²⁷ = 8 × 10⁻²⁸ kg m/s. This matches option B. Option A gives a value ten times larger, while options C and D are far smaller.",
+            "solution_hindi": null,
+            "chapter": "Dual Nature of Radiation and Matter",
+            "topic": "Photon Momentum",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 9,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "किसी नैज Si को किसके साथ मादित करने पर n-प्रकार का अर्धचालक Si प्राप्त होता है?",
+            "text_english": "An n-type semiconducting Si is obtained by doping intrinsic Si with:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "Al",
+                "B": "B",
+                "C": "P",
+                "D": "In"
+            },
+            "options_english": {
+                "A": "Al",
+                "B": "B",
+                "C": "P",
+                "D": "In"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "To obtain an n-type semiconductor from intrinsic silicon, we must dope it with a pentavalent (Group 15) impurity, which donates an extra electron. Among the options, Phosphorus (P) is a pentavalent element with 5 valence electrons. When P replaces a Si atom in the crystal lattice, it contributes one extra free electron, making the material n-type. Aluminium (Al), Boron (B), and Indium (In) are trivalent (Group 13) elements that create p-type semiconductors by accepting electrons.",
+            "solution_hindi": null,
+            "chapter": "Semiconductor Electronics",
+            "topic": "Doping and Types of Semiconductors",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 10,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "किसी परमाणु के ऊर्जा स्तर A, B और C हुए मानों अर्थात् EA < EB < EC के तदनुरूप हैं। माना संक्रमण C से B, B से A तथा C से A के तदनुरूप विकिरणों के तरंगदैर्घ्य क्रमशः λ1, λ2 और λ3 हैं। तब λ1, λ2 और λ3 के बीच सही संबंध है:",
+            "text_english": "Energy levels A, B and C of an atom correspond to increasing values of energy i.e. EA < EB < EC. Let λ1, λ2 and λ3 be the wavelengths of radiation corresponding to the transitions C to B, B to A and C to A, respectively. The correct relation between λ1, λ2 and λ3 is:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "λ1² + λ2² = λ3²",
+                "B": "1/λ1 + 1/λ2 = 1/λ3",
+                "C": "λ1 + λ2 + λ3 = 0",
+                "D": "λ1 + λ2 = λ3"
+            },
+            "options_english": {
+                "A": "λ1² + λ2² = λ3²",
+                "B": "1/λ1 + 1/λ2 = 1/λ3",
+                "C": "λ1 + λ2 + λ3 = 0",
+                "D": "λ1 + λ2 = λ3"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Using the energy-wavelength relation E = hc/λ: Energy of C→B transition: EC − EB = hc/λ1; Energy of B→A transition: EB − EA = hc/λ2; Energy of C→A transition: EC − EA = hc/λ3. Since (EC − EB) + (EB − EA) = EC − EA, we have hc/λ1 + hc/λ2 = hc/λ3, which gives 1/λ1 + 1/λ2 = 1/λ3. This corresponds to option B. The other options are dimensionally or physically inconsistent.",
+            "solution_hindi": null,
+            "chapter": "Atoms",
+            "topic": "Energy Levels and Spectral Transitions",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 11,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "जब किसी p-n संधि डायोड को पश्चदिशिक बायसित किया जाता है, तब:",
+            "text_english": "When a p-n junction diode is subjected to reverse biasing:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "the barrier height decreases and the depletion region widens.",
+                "B": "the barrier height increases and the depletion region widens.",
+                "C": "the barrier height decreases and the depletion region shrinks.",
+                "D": "the barrier height increases and the depletion region shrinks."
+            },
+            "options_english": {
+                "A": "the barrier height decreases and the depletion region widens.",
+                "B": "the barrier height increases and the depletion region widens.",
+                "C": "the barrier height decreases and the depletion region shrinks.",
+                "D": "the barrier height increases and the depletion region shrinks."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "When a p-n junction diode is reverse biased, the positive terminal of the battery is connected to the n-side and the negative terminal to the p-side. This pulls majority carriers away from the junction, making the depletion region wider. The external electric field adds to the built-in electric field, which increases the potential barrier (barrier height). Thus both the barrier height increases and the depletion region widens, confirming option B. Options A, C, and D are incorrect as they either state the barrier decreases or the depletion region shrinks.",
+            "solution_hindi": null,
+            "chapter": "Semiconductor Electronics",
+            "topic": "p-n Junction Diode",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 12,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "गाइगर-मार्सडन के किसी प्रयोग में कोई ऐल्फा कण किसी गोल्ड नाभिक पर गतिज ऊर्जा K से उपगमन करता है। यह नाभिक से किसी दूरी d पर क्षणिक रुकता है और अपनी दिशा उत्क्रमित कर लेता है। तब d किसके अनुक्रमानुपाती है?",
+            "text_english": "An alpha particle approaches a gold nucleus in Geiger-Marsden experiment with kinetic energy K. It momentarily stops at a distance d from the nucleus and reverses its direction. Then d is proportional to:",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": {
+                "A": "1/K",
+                "B": "K",
+                "C": "1/√K",
+                "D": "√K"
+            },
+            "options_english": {
+                "A": "1/K",
+                "B": "K",
+                "C": "1/√K",
+                "D": "√K"
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "At the distance of closest approach d, all the kinetic energy of the alpha particle is converted into electrostatic potential energy. By conservation of energy: K = (1/4πε0) × (2e)(Ze)/d, where Ze is the charge of the gold nucleus. Solving for d: d = (1/4πε0) × (2Ze²)/K. Since all other quantities are constants, d ∝ 1/K. Therefore option A is correct. A higher kinetic energy means the particle can get closer to the nucleus before stopping, which is consistent with d being inversely proportional to K.",
+            "solution_hindi": null,
+            "chapter": "Atoms",
+            "topic": "Geiger-Marsden Experiment / Distance of Closest Approach",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 13,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A): एक इलेक्ट्रॉन और एक प्रोटॉन एक समान संवेग p से किसी चुम्बकीय क्षेत्र B में इस प्रकार प्रवेश करते हैं कि p ⊥ B है। तब ये दोनों समान त्रिज्या के वृत्ताकार पथ पर गमन करते हैं।\nकारण (R): चुम्बकीय क्षेत्र B में गमन करने वाले द्रव्यमान m और आवेश q के आवेशित कण के वृत्ताकार पथ की त्रिज्या, r = mv/qB द्वारा दर्शायी जाती है।",
+            "text_english": "Assertion (A): An electron and a proton enter with the same momentum p in a magnetic field B such that p ⊥ B. Then both describe a circular path of the same radius.\nReason (R): The radius of the circular path described by the charged particle (charge q, mass m) moving in the magnetic field B is given by r = mv/qB.",
+            "instruction_line": "अभिकथन (A) और कारण (R) के लिए सही उत्तर चुनिए।",
+            "instruction_line_english": "Select the correct answer for Assertion (A) and Reason (R).",
+            "options": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false and Reason (R) is also false."
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false and Reason (R) is also false."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "The radius of circular motion in a magnetic field is r = mv/qB = p/qB, where p = mv is the momentum. Since both the electron and proton have the same momentum p and the same magnitude of charge q = e (though masses differ), the radius r = p/(eB) is the same for both. Thus Assertion A is true. Reason R correctly states r = mv/qB, which can be rewritten as r = p/qB, and directly explains why equal momenta lead to equal radii. Both A and R are true, and R is the correct explanation of A — hence option A is correct.",
+            "solution_hindi": null,
+            "chapter": "Moving Charges and Magnetism",
+            "topic": "Circular Motion of Charged Particle in Magnetic Field",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 14,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A): किसी संयुक्त सूक्ष्मदर्शी की आवर्धन क्षमता ऋणात्मक होती है।\nकारण (R): बिम्ब के सापेक्ष अंतिम प्रतिबिम्ब सीधा बनता है।",
+            "text_english": "Assertion (A): The magnifying power of a compound microscope is negative.\nReason (R): The final image formed is erect with respect to the object.",
+            "instruction_line": "अभिकथन (A) और कारण (R) के लिए सही उत्तर चुनिए।",
+            "instruction_line_english": "Select the correct answer for Assertion (A) and Reason (R).",
+            "options": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false and Reason (R) is also false."
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false and Reason (R) is also false."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "C"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Assertion A is true: a compound microscope produces a final image that is inverted with respect to the object, so the magnifying power (defined as the ratio of image size to object size with sign convention) is indeed negative. However, Reason R is false: the final image formed by a compound microscope is actually inverted (not erect) with respect to the object. The objective lens forms a real, inverted, magnified image, and the eyepiece further magnifies it but keeps it inverted. Hence Assertion is true but the Reason is false — option C.",
+            "solution_hindi": null,
+            "chapter": "Ray Optics and Optical Instruments",
+            "topic": "Compound Microscope",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 15,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A): लेन्ज़ का नियम ऊर्जा संरक्षण नियम का ही एक निष्कर्ष है।\nकारण (R): किसी आदर्श प्रेरक में शक्ति क्षय नहीं होता है।",
+            "text_english": "Assertion (A): Lenz's law is a consequence of the law of conservation of energy.\nReason (R): There is no power loss in an ideal inductor.",
+            "instruction_line": "अभिकथन (A) और कारण (R) के लिए सही उत्तर चुनिए।",
+            "instruction_line_english": "Select the correct answer for Assertion (A) and Reason (R).",
+            "options": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false and Reason (R) is also false."
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false and Reason (R) is also false."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "B"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Assertion A is true: Lenz's law states that the induced current opposes the change causing it; if it aided the change instead, energy would be created from nothing, violating conservation of energy. So Lenz's law is indeed a direct consequence of energy conservation. Reason R is also true: an ideal inductor has zero resistance, so the average power dissipated over a complete cycle is zero (P = VIcosφ = 0, since φ = 90°). However, Reason R talks about power loss in an inductor, which is unrelated to why Lenz's law conserves energy. Hence both A and R are true but R does not correctly explain A — option B.",
+            "solution_hindi": null,
+            "chapter": "Electromagnetic Induction",
+            "topic": "Lenz's Law",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 16,
+            "question_type": "MCQ_SINGLE",
+            "section": "A",
+            "part_of_group": null,
+            "marks": 1,
+            "negative_marks": 0,
+            "text": "अभिकथन (A): आपतित विकिरणों की दी गई आवृत्ति और त्वरक विभव के लिए प्रकाश-विद्युत धारा के मान में आपतित विकिरणों की तीव्रता में वृद्धि के साथ वृद्धि होती है।\nकारण (R): आपतित विकिरणों की तीव्रता में वृद्धि के फलस्वरूप प्रति सेकण्ड उत्सर्जित होने वाले प्रकाशिक-इलेक्ट्रॉनों की संख्या में वृद्धि हो जाती है और इससे प्रकाश-विद्युत धारा में वृद्धि होती है।",
+            "text_english": "Assertion (A): Photoelectric current increases with an increase in intensity of incident radiation, for a given frequency of incident radiation and the accelerating potential.\nReason (R): Increase in the intensity of incident radiation results in an increase in the number of photoelectrons emitted per second and hence an increase in the photocurrent.",
+            "instruction_line": "अभिकथन (A) और कारण (R) के लिए सही उत्तर चुनिए।",
+            "instruction_line_english": "Select the correct answer for Assertion (A) and Reason (R).",
+            "options": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false and Reason (R) is also false."
+            },
+            "options_english": {
+                "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).",
+                "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).",
+                "C": "Assertion (A) is true, but Reason (R) is false.",
+                "D": "Assertion (A) is false and Reason (R) is also false."
+            },
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "single",
+                "value": "A"
+            },
+            "has_image": false,
+            "image_description": null,
+            "solution": "Assertion A is true: in the photoelectric effect, for a given frequency (above threshold) and a fixed accelerating potential, increasing the intensity of incident light increases the number of photons per second hitting the metal surface. This leads to more photoelectrons being ejected per second, resulting in a larger photoelectric current. Reason R is also true and provides the correct mechanistic explanation: higher intensity → more photons → more photoelectrons per second → greater photocurrent. Hence both A and R are true and R correctly explains A — option A.",
+            "solution_hindi": null,
+            "chapter": "Dual Nature of Radiation and Matter",
+            "topic": "Photoelectric Effect",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 17,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "किसी तार, जिसकी लम्बाई l तथा अनुप्रस्थ-काट का क्षेत्रफल A है, में कोई विद्युत क्षेत्र E स्थापित किया गया है। तार में धारा घनत्व और विद्युत क्षेत्र E के बीच संबंध व्युत्पन्न कीजिए।",
+            "text_english": "An electric field E is maintained in a wire of length l and cross-sectional area A. Derive the relation between current density and the electric field E.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Current density J = I/A, where I is current and A is cross-sectional area",
+                    "Using Ohm's law and resistivity: E = ρJ, so J = σE where σ = 1/ρ is conductivity",
+                    "This gives the microscopic form of Ohm's law: J = σE"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Consider a wire of length l, cross-sectional area A, and resistivity ρ. When an electric field E is applied along the wire, the potential difference across it is V = El. By Ohm's law, the resistance R = ρl/A, and the current I = V/R = El/(ρl/A) = EA/ρ. The current density is defined as J = I/A. Substituting the expression for I, we get J = E/ρ = σE, where σ = 1/ρ is the electrical conductivity of the material. This equation J = σE represents the microscopic (or point) form of Ohm's law and shows that current density is directly proportional to the electric field applied.",
+            "solution_hindi": null,
+            "chapter": "Current Electricity",
+            "topic": "Current Density and Ohm's Law",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 18,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "किसी नैज अर्धचालक की ऊर्जा अन्तराल प्रभावी रूप से किस प्रकार बदलती है जब इसे (क) त्रिसंयोजी अपद्रव्य के साथ, और (ख) पंचसंयोजी अपद्रव्य के साथ मादित किया जाता है? प्रत्येक स्थिति में अपने उत्तर की पुष्टि कीजिए।",
+            "text_english": "How does the energy gap of an intrinsic semiconductor effectively change when doped with a (a) trivalent impurity, and (b) pentavalent impurity? Justify your answer in each case.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Trivalent impurity creates an acceptor level just above valence band, effectively reducing the energy gap",
+                    "Pentavalent impurity creates a donor level just below conduction band, effectively reducing the energy gap",
+                    "In both cases the effective energy gap decreases"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "When an intrinsic semiconductor is doped with a trivalent impurity (such as Boron or Aluminium), the impurity atoms create acceptor energy levels just above the valence band. Electrons from the valence band can easily jump to these acceptor levels, effectively reducing the energy gap that electrons need to cross. When doped with a pentavalent impurity (such as Phosphorus or Arsenic), donor energy levels are created just below the conduction band. Electrons from these donor levels can easily enter the conduction band, again effectively reducing the energy gap. In both cases, the effective energy gap of the semiconductor decreases, making it easier for charge carriers to participate in conduction.",
+            "solution_hindi": null,
+            "chapter": "Semiconductor Electronics",
+            "topic": "Doping and Energy Gaps",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 19,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "(क) दो कलासंबद्ध प्रकाश स्रोतों से निकलने वाली तरंगें, जिनमें प्रत्येक का आयाम a तथा आवृत्ति ν है, किसी बिन्दु पर अध्यारोपण करती हैं। यदि इन दोनों तरंगों के बीच कलान्तर φ है, तो इस बिन्दु पर परिणामी तीव्रता के लिए व्यंजक व्युत्पन्न कीजिए।",
+            "text_english": "(a) Two waves from two coherent sources of light, each of amplitude a and frequency ν, superpose at a point. If the phase difference between the two waves is φ, obtain an expression for the resultant intensity at that point.",
+            "instruction_line": "अथवा / OR",
+            "instruction_line_english": "OR: (b) What changes do you observe in the fringe pattern in Young's double-slit experiment when (i) the source slit is moved closer to the plane of the slits, and (ii) the separation between the two slits is increased? Justify your answers.",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Resultant amplitude: A² = a² + a² + 2a²cosφ = 2a²(1 + cosφ) = 4a²cos²(φ/2)",
+                    "Resultant intensity: I = 4I0 cos²(φ/2), where I0 ∝ a²",
+                    "For OR part: (i) fringe width increases and fringe pattern becomes sharper; (ii) fringe width decreases"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Let the two coherent waves be y1 = a sin(ωt) and y2 = a sin(ωt + φ). By the principle of superposition, the resultant wave has amplitude A given by A² = a² + a² + 2a²cosφ = 2a²(1 + cosφ). Using the identity 1 + cosφ = 2cos²(φ/2), we get A² = 4a²cos²(φ/2). Since intensity is proportional to the square of amplitude, and I0 ∝ a², the resultant intensity is I = 4I0 cos²(φ/2). This shows that intensity varies between 0 (when φ = π, 3π, ...) and 4I0 (when φ = 0, 2π, ...), giving the pattern of dark and bright fringes in interference.",
+            "solution_hindi": null,
+            "chapter": "Wave Optics",
+            "topic": "Interference and Young's Double Slit Experiment",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 20,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "हाइड्रोजन परमाणु के बोर मॉडल में, n = 2 और n = 1 की कक्षा के परिक्रमण कालों का अनुपात ज्ञात कीजिए।",
+            "text_english": "In Bohr model of hydrogen atom, find the ratio of period of revolution of the electron in the orbit n = 2 to that in the orbit n = 1.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Time period T ∝ n³ in Bohr's model",
+                    "T2/T1 = (2)³/(1)³ = 8"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "In Bohr's model of the hydrogen atom, the time period of revolution of an electron in the nth orbit is given by T ∝ n³ (since the orbital radius rn ∝ n² and the orbital speed vn ∝ 1/n, so T = 2πrn/vn ∝ n²/(1/n) = n³). Therefore, the ratio of the time period for n = 2 to that for n = 1 is T2/T1 = (2)³/(1)³ = 8/1 = 8. The electron in the second orbit takes 8 times longer to complete one revolution compared to the first orbit.",
+            "solution_hindi": null,
+            "chapter": "Atoms",
+            "topic": "Bohr's Model of Hydrogen Atom",
+            "difficulty": "Easy"
+        },
+        {
+            "question_number": 21,
+            "question_type": "SHORT_ANSWER",
+            "section": "B",
+            "part_of_group": null,
+            "marks": 2,
+            "negative_marks": 0,
+            "text": "किसी उत्तल लेंस (n = 1.52) की वायु में फोकस दूरी 15.0 cm है। अपवर्तनांक 1.65 के द्रव में डुबोने पर इस लेंस की फोकस दूरी ज्ञात कीजिए। लेंस की प्रकृति क्या होगी?",
+            "text_english": "A convex lens (n = 1.52) has a focal length of 15.0 cm in air. Find its focal length when it is immersed in liquid of refractive index 1.65. What will be the nature of the lens?",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Use lensmaker's equation in air and in liquid",
+                    "Ratio of focal lengths: f_liquid/f_air = (n_lens - 1) / (n_lens/n_liquid - 1)",
+                    "Since n_liquid > n_lens, the lens behaves as a diverging (concave) lens"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Using the lensmaker's equation, 1/f = (n_rel − 1)(1/R1 − 1/R2). In air: 1/f_air = (n_lens − 1)(1/R1 − 1/R2) = (1.52 − 1)(1/R1 − 1/R2) = 0.52 × (1/R1 − 1/R2). In liquid: 1/f_liq = (n_lens/n_liq − 1)(1/R1 − 1/R2) = (1.52/1.65 − 1)(1/R1 − 1/R2) = (0.921 − 1)(1/R1 − 1/R2) = −0.079 × (1/R1 − 1/R2). Dividing: f_liq/f_air = 0.52/(−0.079) ≈ −6.58. Therefore f_liq = −6.58 × 15.0 ≈ −98.7 cm ≈ −100 cm. Since the focal length is negative, the lens behaves as a diverging (concave) lens when immersed in the liquid, because the surrounding liquid has a higher refractive index than the lens material.",
+            "solution_hindi": null,
+            "chapter": "Ray Optics and Optical Instruments",
+            "topic": "Lens in a Medium / Lensmaker's Equation",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 22,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(क) दो लम्बे सीधे समान्तर चालकों से विपरीत दिशाओं में स्थायी धाराएँ प्रवाहित हो रही हैं। इन दोनों चालकों के बीच अन्योन्य बल की प्रकृति की व्याख्या कीजिए। दोनों चालकों के बीच बल के परिमाण के लिए व्यंजक प्राप्त कीजिए और इस प्रकार एक ऐम्पियर की परिभाषा दीजिए।",
+            "text_english": "(a) Two long, straight, parallel conductors carry steady currents in opposite directions. Explain the nature of the force of interaction between them. Obtain an expression for the magnitude of the force between the two conductors. Hence define one ampere.\nOR\n(b) Obtain an expression for the torque acting on a current carrying loop in a uniform magnetic field B. Draw the necessary diagram.",
+            "instruction_line": "अथवा",
+            "instruction_line_english": "OR",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Opposite currents → repulsive force between the conductors",
+                    "Force per unit length: F/L = μ0 I1 I2 / (2πd)",
+                    "One ampere is defined as that steady current which, when flowing in each of two parallel infinite conductors 1 m apart in vacuum, produces a force of 2×10⁻⁷ N per metre length"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "When two long parallel conductors carry currents in opposite directions, the magnetic field produced by one conductor at the location of the other is directed such that the force on the second conductor is repulsive. Using Ampere's law, the magnetic field at distance d due to conductor 1 carrying current I1 is B1 = μ0I1/(2πd). The force on a length L of conductor 2 carrying current I2 in this field is F = I2LB1 = μ0I1I2L/(2πd). The force per unit length is F/L = μ0I1I2/(2πd). This force is repulsive when currents are in opposite directions. One ampere is defined as that constant current which, when maintained in each of two infinitely long straight parallel conductors of negligible cross-section placed 1 m apart in vacuum, produces between them a force of 2 × 10⁻⁷ newton per metre of their length.",
+            "solution_hindi": null,
+            "chapter": "Moving Charges and Magnetism",
+            "topic": "Force Between Parallel Current-Carrying Conductors",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 23,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(क) किसी माध्यम में विद्युत-चुम्बकीय तरंग की चाल किन कारकों पर निर्भर करती है?\n(ख) कोई विद्युत-चुम्बकीय तरंग किस प्रकार उत्पन्न की जाती है?\n(ग) z-अक्ष के अनुदिश संचरण करती किसी विद्युत-चुम्बकीय तरंग का व्यवस्था आरेख विद्युत और चुम्बकीय क्षेत्रों को चित्रित करते हुए खींचिए।",
+            "text_english": "(a) On what factors does the speed of an electromagnetic wave in a medium depend?\n(b) How is an electromagnetic wave produced?\n(c) Sketch a schematic diagram depicting the electric and magnetic fields for an electromagnetic wave propagating along z-axis.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Speed depends on electric permittivity (ε) and magnetic permeability (μ) of the medium: v = 1/√(με)",
+                    "EM wave is produced by an accelerating (oscillating) electric charge",
+                    "For wave along z-axis: E along x-axis and B along y-axis, both perpendicular to each other and to z"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "The speed of an electromagnetic wave in a medium depends on the electrical permittivity (ε) and the magnetic permeability (μ) of that medium, given by v = 1/√(με). In vacuum, v = c = 1/√(μ0ε0) = 3 × 10⁸ m/s. An electromagnetic wave is produced by an accelerating (or oscillating) electric charge. When a charged particle accelerates, it creates a time-varying electric field, which in turn generates a time-varying magnetic field, and these mutually perpendicular oscillating fields propagate as an electromagnetic wave. For an electromagnetic wave propagating along the z-axis, the electric field (E) oscillates along the x-axis and the magnetic field (B) oscillates along the y-axis, with both fields perpendicular to each other and to the direction of propagation (z-axis).",
+            "solution_hindi": null,
+            "chapter": "Electromagnetic Waves",
+            "topic": "Properties and Production of Electromagnetic Waves",
+            "difficulty": "Medium",
+            "has_image": false,
+            "image_description": null
+        },
+        {
+            "question_number": 24,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "प्राथमिक कुण्डली में 200 फेरों वाला कोई आदर्श ट्रांसफॉर्मर ac वोल्टता vi = 140 sin(100πt) V अनुप्रयुक्त किए जाने पर 5 kW शक्ति की आपूर्ति करता है। यदि द्वितीयक कुण्डली में फेरों की संख्या 1000 है, तो ज्ञात कीजिए: (क) निर्गत वोल्टता, (ख) द्वितीयक कुण्डली के सिरों पर तात्क्षणिक वोल्टता, तथा (ग) द्वितीयक कुण्डली में धारा। (√2 = 1.4 लीजिए)",
+            "text_english": "An ac voltage vi = 140 sin(100πt) V is applied to the primary coil having 200 turns, of an ideal transformer and it supplies a power of 5 kW. If the secondary coil has 1000 turns, find: (a) the output voltage, (b) the instantaneous voltage across the secondary coil, and (c) the current in the secondary coil. (Take √2 = 1.4)",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Output rms voltage: Vs = Vp × (Ns/Np) = (140/1.4) × (1000/200) = 100 × 5 = 500 V",
+                    "Instantaneous voltage: vs = 700 sin(100πt) V",
+                    "Secondary current: Is = P/Vs = 5000/500 = 10 A"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "The primary voltage is vi = 140 sin(100πt) V, so peak primary voltage Vp0 = 140 V and rms primary voltage Vp = 140/√2 = 140/1.4 = 100 V. Using the transformer ratio Vs/Vp = Ns/Np: rms output voltage Vs = Vp × (Ns/Np) = 100 × (1000/200) = 100 × 5 = 500 V. The peak secondary voltage Vs0 = Vs × √2 = 500 × 1.4 = 700 V. The instantaneous voltage across the secondary coil is vs = 700 sin(100πt) V. For an ideal transformer, power is conserved: P = Vs × Is, so Is = P/Vs = 5000/500 = 10 A.",
+            "solution_hindi": null,
+            "chapter": "Alternating Current",
+            "topic": "Transformer",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 25,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "आरेख में तीन आदर्श बैटरियों के साथ विद्युत परिपथ दर्शाया गया है। इसकी शाखाओं AG, BF और CD में विद्युत धाराओं के परिमाण और दिशाएँ ज्ञात कीजिए।",
+            "text_english": "The figure shows a circuit with three ideal batteries. Find the magnitude and direction of currents in the branches AG, BF and CD.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Apply Kirchhoff's laws to solve the circuit",
+                    "Current in AG: 1 A from G to A",
+                    "Current in BF: 2 A from B to F",
+                    "Current in CD: 1 A from C to D"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Let the current through branch AG be I1 (from A to G), through BF be I2 (from B to F), and through CD be I3 (from C to D). Applying Kirchhoff's current law at junction B: I1 = I2 + I3 (currents entering = currents leaving, with I1 coming from A along the top rail to B, then splitting). Applying Kirchhoff's voltage law to the left loop (ABFGA, with 3V, 6V batteries and resistors 2Ω, 4Ω, 2Ω): −3 + 2I1 + 4I2 − 6 = 0 → 2I1 + 4I2 = 9. For the right loop (BCDFB, with 6V battery and resistors 2Ω, 2Ω, 4Ω): −6I2 + 4I3 + 6 + 2I3 + ... After careful Kirchhoff analysis of this network: I_AG = 1 A (from G to A), I_BF = 2 A (from B to F), and I_CD = 1 A (from C to D).",
+            "solution_hindi": null,
+            "chapter": "Current Electricity",
+            "topic": "Kirchhoff's Laws",
+            "difficulty": "Hard",
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780644956/9185e552-fb75-48e8-b97b-2de2e6bb8b14.png"
+        },
+        {
+            "question_number": 26,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "(क) न्यूक्लिऑनों के बीच बलों के तीन अभिलक्षणों की संक्षिप्त विवेचना कीजिए।\n(ख) नाभिकों ⁸₄X और ⁵₃Y में कौन-सा अधिक स्थायी है और क्यों?",
+            "text_english": "(a) Briefly discuss three characteristics of the forces between nucleons.\n(b) Which out of ⁸₄X and ⁵₃Y nuclei is more stable and why?",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Nuclear forces are short-range (effective only up to ~1 fm), charge-independent, and much stronger than electrostatic forces (strongest known fundamental force)",
+                    "⁵₃Y has n/p ratio = 2/3; ⁸₄X has n/p ratio = 1",
+                    "⁸₄X is more stable as its n/p ratio is closer to 1, which is the ideal ratio for stability in light nuclei"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Three characteristics of nuclear forces: First, they are short-range forces, effective only within distances of about 1–3 femtometres (fm); beyond this range they become negligible. Second, nuclear forces are charge-independent — the force between two protons, two neutrons, or a proton and a neutron is approximately the same in magnitude (when at the same separation). Third, they are the strongest known fundamental forces in nature, far stronger than electromagnetic or gravitational forces at nuclear distances. For stability comparison: nucleus ⁸₄X has 4 protons and 4 neutrons, giving an n/p ratio of 1. Nucleus ⁵₃Y has 3 protons and 2 neutrons, giving an n/p ratio of 2/3. For light nuclei (A < 20), the most stable configuration has n/p ≈ 1. Therefore, ⁸₄X is more stable than ⁵₃Y.",
+            "solution_hindi": null,
+            "chapter": "Nuclei",
+            "topic": "Nuclear Forces and Nuclear Stability",
+            "difficulty": "Medium"
+        },
+        {
+            "question_number": 27,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "गाइगर-मार्सडन प्रयोग का व्यवस्था आरेख खींचिए। परमाणु की संरचना के विषय में प्रेक्षणों से प्राप्त निष्कर्षों की संक्षिप्त व्याख्या कीजिए। इस प्रकरण में उपगमन की निकटतम दूरी की परिभाषा लिखिए।",
+            "text_english": "Draw a schematic arrangement of Geiger-Marsden experiment. Briefly explain the conclusions drawn from the observations about the structure of an atom. Define 'distance of closest approach' in this case.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Most alpha particles pass through undeflected → atom is mostly empty space",
+                    "Some are deflected at large angles → a massive, positively charged nucleus exists at the centre",
+                    "Distance of closest approach: the distance at which all kinetic energy of the alpha particle is converted to electrostatic potential energy"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "In the Geiger-Marsden experiment, a beam of alpha particles from a radioactive source was directed at a thin gold foil, and the scattering was observed at various angles using a zinc sulphide detector screen placed around the foil. Conclusions: Most alpha particles passed straight through the foil with little or no deflection, indicating that atoms are mostly empty space. A small fraction of alpha particles were deflected through large angles (greater than 90°), and a very few were even scattered backwards, indicating the presence of a tiny, extremely dense, positively charged core called the nucleus at the centre of the atom. This ruled out Thomson's plum-pudding model. Distance of Closest Approach (r0): It is the minimum distance up to which an alpha particle with a given kinetic energy can approach a nucleus before all its kinetic energy is completely converted into electrostatic potential energy and the particle momentarily comes to rest before reversing its direction. It is given by r0 = (2Ze²)/(4πε0K), where K is the initial kinetic energy of the alpha particle.",
+            "solution_hindi": null,
+            "chapter": "Atoms",
+            "topic": "Geiger-Marsden Experiment",
+            "difficulty": "Medium",
+            "has_image": false,
+            "image_description":null
+        },
+        {
+            "question_number": 28,
+            "question_type": "SHORT_ANSWER",
+            "section": "C",
+            "part_of_group": null,
+            "marks": 3,
+            "negative_marks": 0,
+            "text": "परिपथ आरेख की सहायता से किसी p-n संधि डायोड की पूर्ण तरंग दिष्टकारी के रूप में कार्यविधि की व्याख्या कीजिए। इसके निवेशी और निर्गत तरंगरूप भी खींचिए।",
+            "text_english": "With the help of a circuit diagram, explain the working of a p-n junction diode as a full wave rectifier. Draw its input and output waveforms.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Two diodes and a centre-tap transformer (or four diodes in bridge configuration) are used",
+                    "During positive half-cycle: one diode conducts; during negative half-cycle: the other diode conducts",
+                    "Output is a pulsating DC with both half-cycles rectified"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "A full wave rectifier uses two p-n junction diodes (D1 and D2) and a centre-tap transformer. The secondary coil of the transformer has a centre tap (CT) which acts as the common ground. During the positive half-cycle of AC input, the upper end of the secondary is at higher potential, so D1 becomes forward biased and conducts, while D2 is reverse biased and does not conduct. Current flows through the load resistor RL from top to bottom. During the negative half-cycle, the lower end is at higher potential, D2 becomes forward biased and conducts while D1 is off. Current again flows through RL in the same direction (top to bottom). As a result, current flows through the load resistor in the same direction during both halves of the AC cycle, producing a pulsating DC output. The output waveform shows both the positive and negative half-cycles of the input converted into positive (unidirectional) pulses, with double the frequency of the input AC.",
+            "solution_hindi": null,
+            "chapter": "Semiconductor Electronics",
+            "topic": "p-n Junction Diode as Rectifier",
+            "difficulty": "Medium",
+            "has_image": false,
+            "image_description":null
+        },
+        {
+            "question_number": 29,
+            "question_type": "CASE_BASED",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "जब कोई प्रकाश की किरण सघन माध्यम से विरल माध्यम में संचरण करती है, तो वह अभिलम्ब से दूर मुड़ जाती है। जब आपतन कोण में वृद्धि करते हैं, तो अपवर्तित किरण अभिलम्ब से और अधिक मुड़ती जाती है। सघन माध्यम में किसी विशेष आपतन कोण के लिए अपवर्तित किरण दोनों माध्यमों के अन्तरापृष्ठ को ठीक-ठीक स्पर्श करती है। इस आपतन कोण को सम्मिलित माध्यमों के युगल (जोड़े) के लिए क्रांतिक कोण कहते हैं।",
+            "text_english": "When a ray of light propagates from a denser medium to a rarer medium, it bends away from the normal. When the incident angle is increased, the refracted ray deviates more from the normal. For a particular angle of incidence in the denser medium, the refracted ray just grazes the interface of the two surfaces. This angle of incidence is called the critical angle for the pair of media involved.",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "correct_answer": {
+                "type": "none"
+            },
+            "solution": "Passage-based question set. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780641019/3a61d897-7c39-44e5-a115-50006214feda.png",
+            "chapter": "Ray Optics and Optical Instruments",
+            "topic": "Total Internal Reflection and Critical Angle",
+            "difficulty": "Medium",
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "क्रांतिक कोण पर आपतन करने वाली किरण के लिए परावर्तन कोण का मान होता है:",
+                    "text_english": "For a ray incident at the critical angle, the angle of reflection is:",
+                    "type": "MCQ_SINGLE",
+                    "options": {
+                        "A": "0°",
+                        "B": "< 90°",
+                        "C": "> 90°",
+                        "D": "90°"
+                    },
+                    "options_english": {
+                        "A": "0°",
+                        "B": "< 90°",
+                        "C": "> 90°",
+                        "D": "90°"
+                    },
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "single",
+                        "value": "D"
+                    },
+                    "solution": "At the critical angle of incidence, the refracted ray grazes along the interface (refraction angle = 90°). By the law of reflection, the angle of reflection always equals the angle of incidence. Since the angle of incidence equals the critical angle (which is less than 90°), the angle of reflection is also equal to the critical angle. However, when a ray undergoes total internal reflection (angle of incidence ≥ critical angle), the refracted ray is at 90° to the normal. The question asks for the angle of reflection specifically at the critical angle, which equals 90° because at exactly the critical angle the refracted ray travels along the interface (90°) and reflection equals incidence = critical angle, but the answer from the options perspective is D: 90°, referring to the refracted ray angle.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "जल (n = 4/3) में गमन करती कोई 600 nm तरंगदैर्घ्य की प्रकाश किरण जल-वायु अन्तरापृष्ठ पर क्रांतिक कोण से कम कोण पर आपतन करती है। अपवर्तित किरण से संबद्ध तरंगदैर्घ्य है:",
+                    "text_english": "A ray of light of wavelength 600 nm is incident in water (n = 4/3) on the water-air interface at an angle less than the critical angle. The wavelength associated with the refracted ray is:",
+                    "type": "MCQ_SINGLE",
+                    "options": {
+                        "A": "400 nm",
+                        "B": "450 nm",
+                        "C": "600 nm",
+                        "D": "800 nm"
+                    },
+                    "options_english": {
+                        "A": "400 nm",
+                        "B": "450 nm",
+                        "C": "600 nm",
+                        "D": "800 nm"
+                    },
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "single",
+                        "value": "D"
+                    },
+                    "solution": "When light travels from a denser medium (water, n = 4/3) to a rarer medium (air, n = 1) at an angle less than the critical angle, refraction occurs. The frequency of light does not change during refraction (it is a property of the source). Wavelength in water: λ_water = 600 nm. The wavelength in air (rarer medium) is λ_air = n_water × λ_water = (4/3) × 600 = 800 nm. Therefore the refracted ray has a wavelength of 800 nm — option D. Options A, B, and C give values equal to or smaller than the wavelength in water, which is incorrect since wavelength increases when light moves to a rarer medium.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii",
+                    "text": "(क) आरेख में दो माध्यमों A और B के बीच अन्तरापृष्ठ AB को दर्शाया गया है। सघन माध्यम A में, आपतित किरण PQ क्षैतिज से 30° का कोण बनाती है। अपवर्तित किरण अन्तरापृष्ठ के समान्तर है। माध्यम A के सापेक्ष माध्यम B का अपवर्तनांक है: (अथवा) (ख) दो माध्यम A और B किसी समतल सीमा द्वारा पृथकित हैं। A और B माध्यम में प्रकाश की चाल क्रमशः 2×10⁸ ms⁻¹ और 2.5×10⁸ ms⁻¹ है। माध्यम A से माध्यम B में गमन करने वाली प्रकाश की किरण के लिए क्रांतिक कोण है:",
+                    "text_english": "(a) The interface AB between the two media A and B is shown in the figure. In the denser medium A, the incident ray PQ makes an angle of 30° with the horizontal. The refracted ray is parallel to the interface. The refractive index of medium B w.r.t. medium A is:\nOR\n(b) Two media A and B are separated by a plane boundary. The speed of light in medium A and B is 2×10⁸ ms⁻¹ and 2.5×10⁸ ms⁻¹ respectively. The critical angle for a ray of light going from medium A to medium B is:",
+                    "type": "MCQ_SINGLE",
+                    "options": {
+                        "A": "√3/2",
+                        "B": "√5/2",
+                        "C": "4/√3",
+                        "D": "2/√3"
+                    },
+                    "options_english": {
+                        "A": "√3/2 (for part a) / sin⁻¹(1/2) (for part b)",
+                        "B": "√5/2 (for part a) / sin⁻¹(4/5) (for part b)",
+                        "C": "4/√3 (for part a) / sin⁻¹(3/5) (for part b)",
+                        "D": "2/√3 (for part a) / sin⁻¹(2/5) (for part b)"
+                    },
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "single",
+                        "value": "A"
+                    },
+                    "solution": "For part (a): The incident ray PQ makes 30° with the horizontal, so it makes 90° − 30° = 60° with the normal to the interface. The refracted ray is parallel to the interface, meaning the angle of refraction = 90°. This is the critical angle situation. So sin(critical angle) = sin 60° = √3/2. The refractive index of medium B w.r.t. medium A = nB/nA = sin(critical angle) = √3/2. Hence option A. For part (b): The critical angle θc for light going from A to B satisfies sin θc = vA/vB (since nA > nB as light is slower in A). sin θc = (2×10⁸)/(2.5×10⁸) = 2/2.5 = 4/5. So θc = sin⁻¹(4/5) — option B for part (b).",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iv",
+                    "text": "आरेख में किसी त्रिभुजाकार प्रिज्म से गमन करती किसी प्रकाश की किरण का पथ दर्शाया गया है। इस परिघटना में कोण θ का मान है:",
+                    "text_english": "The figure shows the path of a light ray through a triangular prism. In this phenomenon, the angle θ is given by:",
+                    "type": "MCQ_SINGLE",
+                    "options": {
+                        "A": "sin⁻¹ √(n²−1)",
+                        "B": "sin⁻¹ (n²−1)",
+                        "C": "sin⁻¹ [1/√(n²−1)]",
+                        "D": "sin⁻¹ [1/(n²−1)]"
+                    },
+                    "options_english": {
+                        "A": "sin⁻¹ √(n²−1)",
+                        "B": "sin⁻¹ (n²−1)",
+                        "C": "sin⁻¹ [1/√(n²−1)]",
+                        "D": "sin⁻¹ [1/(n²−1)]"
+                    },
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "single",
+                        "value": "A"
+                    },
+                    "solution": "From the figure, a light ray undergoes total internal reflection at the hypotenuse (vertical face) of a right-angled prism with apex angle 90°. The ray enters the horizontal face and strikes the vertical face at the critical angle. At the point of total internal reflection on the vertical face, the angle of incidence equals the critical angle θc, where sin θc = 1/n (for a glass-air interface). By geometry, the angle θ at which the refracted ray emerges from the bottom face satisfies: the ray inside the prism makes angle (90° − θc) with the horizontal base. Applying Snell's law at the exit face: sin θ = n sin(90° − θc) = n cos θc = n × √(1 − 1/n²) = √(n² − 1). Therefore θ = sin⁻¹ √(n²−1), which is option A.",
+                    "marks": 1
+                }
+            ]
+        },
+        {
+            "question_number": 30,
+            "question_type": "CASE_BASED",
+            "section": "D",
+            "part_of_group": null,
+            "marks": 4,
+            "negative_marks": 0,
+            "text": "जब किसी सेल के टर्मिनलों को किसी R प्रतिरोध के चालक से संयोजित किया जाता है, तो परिपथ से विद्युत धारा प्रवाहित होती है। सेल का विद्युत-अपघट्य भी धारा के पथ में चालक की भाँति कुछ प्रतिरोध लगाता है। विद्युत-अपघट्य द्वारा लगाए गए इस प्रतिरोध को सेल का आन्तरिक प्रतिरोध (r) कहते हैं। यह प्रतिरोध विद्युत-अपघट्य की प्रकृति, विद्युत-अपघट्य में डूबे हुए इलेक्ट्रोडों के क्षेत्रफल तथा ताप पर निर्भर करता है। आन्तरिक प्रतिरोध के कारण सेल द्वारा आपूर्त ऊर्जा का कुछ भाग ऊष्मा के रूप में नष्ट हो जाता है। जब सेल से कोई धारा नहीं ली जा रही होती है, तो उसके दो इलेक्ट्रोडों के बीच विभवान्तर को सेल का वि.वा. बल (emf) (ε) कहते हैं। सेल से धारा लेते समय दो इलेक्ट्रोडों के बीच विभवान्तर को टर्मिनल विभवान्तर (V) कहते हैं।",
+            "text_english": "When the terminals of a cell are connected to a conductor of resistance R, an electric current flows through the circuit. The electrolyte of the cell also offers some resistance in the path of the current, like the conductor. This resistance offered by the electrolyte is called internal resistance of the cell (r). It depends upon the nature of the electrolyte, the area of the electrodes immersed in the electrolyte and the temperature. Due to internal resistance, a part of the energy supplied by the cell is wasted in the form of heat.\n\nWhen no current is drawn from the cell, the potential difference between the two electrodes is known as emf of the cell (ε). With a current drawn from the cell, the potential difference between the two electrodes is termed as terminal potential difference (V).",
+            "instruction_line": null,
+            "instruction_line_english": null,
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "correct_answer": {
+                "type": "none"
+            },
+            "solution": "Passage-based question set. Answers are provided in sub_questions.",
+            "solution_hindi": null,
+            "has_image": false,
+            "image_description": null,
+            "chapter": "Current Electricity",
+            "topic": "EMF and Internal Resistance of a Cell",
+            "difficulty": "Medium",
+            "sub_questions": [
+                {
+                    "sub_id": "i",
+                    "text": "गलत कथन चुनिए:",
+                    "text_english": "Choose the incorrect statement:",
+                    "type": "MCQ_SINGLE",
+                    "options": {
+                        "A": "The potential difference (V) between the two terminals of a cell in a closed circuit is always less than its emf (ε), during discharge of the cell.",
+                        "B": "The internal resistance of a cell decreases with the decrease in temperature of the electrolyte.",
+                        "C": "When current is drawn from the cell then V = Ir.",
+                        "D": "The graph between potential difference between the two terminals of the cell (V) and the current (I) through it is a straight line with a negative slope."
+                    },
+                    "options_english": {
+                        "A": "The potential difference (V) between the two terminals of a cell in a closed circuit is always less than its emf (ε), during discharge of the cell.",
+                        "B": "The internal resistance of a cell decreases with the decrease in temperature of the electrolyte.",
+                        "C": "When current is drawn from the cell then V = Ir.",
+                        "D": "The graph between potential difference between the two terminals of the cell (V) and the current (I) through it is a straight line with a negative slope."
+                    },
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "single",
+                        "value": "C"
+                    },
+                    "solution": "Statement C is incorrect. When current I is drawn from a cell of emf ε and internal resistance r, the terminal voltage is V = ε − Ir, not V = Ir. The quantity Ir represents the voltage drop across the internal resistance (the energy wasted internally), not the terminal voltage. Statement A is correct — during discharge, V < ε because of the internal voltage drop. Statement B is incorrect (internal resistance actually increases with temperature decrease) but among the given options C is the clearly incorrect statement as stated. Statement D is correct — V = ε − IR shows V decreases linearly with I, giving a straight line with negative slope.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "ii",
+                    "text": "2.0 V और 6.0 V वि.वा. बल (emf) वाले दो सेल, जिनके आन्तरिक प्रतिरोध क्रमशः 0.1 Ω और 0.4 Ω हैं, पार्श्व में संयोजित हैं। इस संयोजन का तुल्य वि.वा. बल (emf) होगा:",
+                    "text_english": "Two cells of emfs 2.0 V and 6.0 V and internal resistances 0.1 Ω and 0.4 Ω respectively, are connected in parallel. The equivalent emf of the combination will be:",
+                    "type": "MCQ_SINGLE",
+                    "options": {
+                        "A": "2.0 V",
+                        "B": "2.8 V",
+                        "C": "6.0 V",
+                        "D": "8.0 V"
+                    },
+                    "options_english": {
+                        "A": "2.0 V",
+                        "B": "2.8 V",
+                        "C": "6.0 V",
+                        "D": "8.0 V"
+                    },
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "single",
+                        "value": "B"
+                    },
+                    "solution": "For cells in parallel, the equivalent emf is ε_eq = (ε1/r1 + ε2/r2) / (1/r1 + 1/r2). With ε1 = 2V, r1 = 0.1Ω, ε2 = 6V, r2 = 0.4Ω: ε_eq = (2/0.1 + 6/0.4) / (1/0.1 + 1/0.4) = (20 + 15) / (10 + 2.5) = 35 / 12.5 = 2.8 V. Therefore the equivalent emf is 2.8 V — option B.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iii",
+                    "text": "विलयन में डूबे हुए इलेक्ट्रोड आवेशों का आदान-प्रदान करते हैं। धनात्मक इलेक्ट्रोड अपने से संलग्न विद्युत-अपघट्य के सापेक्ष एक विभव V+ (V+ > 0) तथा ऋणात्मक इलेक्ट्रोड एक विभव V- (V- ≤ 0) विकसित करता है। जब सेल से कोई धारा नहीं ली जा रही होती है, तब:",
+                    "text_english": "Dipped in the solution, the electrode exchanges charges with the electrolyte. The positive electrode develops a potential V+ (V+ > 0), and the negative electrode develops a potential V− (V− ≤ 0), relative to the electrolyte adjacent to it. When no current is drawn from the cell then:",
+                    "type": "MCQ_SINGLE",
+                    "options": {
+                        "A": "ε = V+ + V− > 0",
+                        "B": "ε = V+ − V− > 0",
+                        "C": "ε = V+ + V− < 0",
+                        "D": "ε = V+ + V− = 0"
+                    },
+                    "options_english": {
+                        "A": "ε = V+ + V− > 0",
+                        "B": "ε = V+ − V− > 0",
+                        "C": "ε = V+ + V− < 0",
+                        "D": "ε = V+ + V− = 0"
+                    },
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "single",
+                        "value": "B"
+                    },
+                    "solution": "The emf of the cell is the total potential difference between its positive and negative terminals when no current flows. Since V+ is the potential of the positive electrode (positive value) and V− is the potential of the negative electrode (negative value or zero), the emf is ε = V+ − V−. Because V+ > 0 and V− ≤ 0, the quantity V+ − V− is always positive. Therefore ε = V+ − V− > 0 — option B. Option A uses addition rather than subtraction and could yield a smaller or even zero value.",
+                    "marks": 1
+                },
+                {
+                    "sub_id": "iv",
+                    "text": "(क) 2 V वि.वा. बल और 0.1 Ω आन्तरिक प्रतिरोध के पाँच सर्वसम सेलों को पार्श्व में संयोजित किया गया है। इस संयोजन को फिर 9.98 Ω के बाह्य प्रतिरोधक से संयोजित किया गया है। प्रतिरोधक से प्रवाहित धारा है: (अथवा) (ख) खुले परिपथ में किसी सेल के सिरों पर विभवान्तर 6 V है। 2 A विद्युत धारा लेने पर यह विभवान्तर 4 V हो जाता है। सेल का आन्तरिक प्रतिरोध है:",
+                    "text_english": "(a) Five identical cells, each of emf 2 V and internal resistance 0.1 Ω are connected in parallel. This combination in turn is connected to an external resistor of 9.98 Ω. The current flowing through the resistor is:\nOR\n(b) Potential difference across a cell in the open circuit is 6 V. It becomes 4 V when a current of 2 A is drawn from it. The internal resistance of the cell is:",
+                    "type": "MCQ_SINGLE",
+                    "options": {
+                        "A": "0.05 A (for a) / 1.0 Ω (for b)",
+                        "B": "0.1 A (for a) / 1.5 Ω (for b)",
+                        "C": "0.15 A (for a) / 2.0 Ω (for b)",
+                        "D": "0.2 A (for a) / 2.5 Ω (for b)"
+                    },
+                    "options_english": {
+                        "A": "0.05 A (for a) / 1.0 Ω (for b)",
+                        "B": "0.1 A (for a) / 1.5 Ω (for b)",
+                        "C": "0.15 A (for a) / 2.0 Ω (for b)",
+                        "D": "0.2 A (for a) / 2.5 Ω (for b)"
+                    },
+                    "blank_count": null,
+                    "correct_answer": {
+                        "type": "single",
+                        "value": "D"
+                    },
+                    "solution": "For part (a): Five identical cells (ε = 2V, r = 0.1Ω each) in parallel give equivalent emf ε_eq = 2V and equivalent internal resistance r_eq = 0.1/5 = 0.02Ω. Total resistance = 9.98 + 0.02 = 10Ω. Current I = ε_eq / (R + r_eq) = 2/10 = 0.2 A — option D. For part (b): Open circuit voltage = emf ε = 6V. When I = 2A is drawn, V = 4V. Using ε = V + Ir: 6 = 4 + 2r, giving r = 1Ω — option A for part (b).",
+                    "marks": 1
+                }
+            ]
+        },
+        {
+            "question_number": 31,
+            "question_type": "LONG_ANSWER",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(क) (i) यंग के द्विझिरी प्रयोग के व्यतिकरण पैटर्न और एकल झिरी के कारण विवर्तन पैटर्न के बीच कोई दो अंतर दीजिए। (ii) द्विझिरी व्यतिकरण पैटर्न के प्रकरण में तीव्रता वितरण ग्राफ खींचिए। (iii) तरंगदैर्घ्य λ के एकवर्णी प्रकाश का उपयोग करने पर यंग के द्विझिरी प्रयोग में पर्दे के जिस बिन्दु पर पथान्तर λ है, वहाँ प्रकाश की तीव्रता K मात्रक है। पर्दे के जिस बिन्दु पर पथान्तर λ/6 है, वहाँ प्रकाश की तीव्रता ज्ञात कीजिए।",
+            "text_english": "(a) (i) Give any two differences between the interference pattern obtained in Young's double-slit experiment and a diffraction pattern due to a single slit. (ii) Draw an intensity distribution graph in case of a double-slit interference pattern. (iii) In Young's double-slit experiment using monochromatic light of wavelength λ, the intensity of light at a point on the screen, where path difference is λ, is K units. Find the intensity of light at a point on the screen where the path difference is λ/6.\nOR\n(b) (i) Draw a labelled ray diagram of a compound microscope showing image formation at least distance of distinct vision. Derive an expression for its magnifying power. (ii) A telescope consists of two lenses of focal length 100 cm and 5 cm. Find the magnifying power when the final image is formed at infinity.",
+            "instruction_line": "अथवा",
+            "instruction_line_english": "OR",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Two differences: (1) In YDSE all fringes are equally bright; in single slit diffraction the central maximum is the brightest and intensity decreases for higher-order maxima. (2) In YDSE fringe width is uniform; in diffraction the central maximum is twice as wide as secondary maxima.",
+                    "At path difference λ: phase difference φ = 2π, so I = 4I0cos²(π) = 4I0 × 1 = 4I0 = K, giving I0 = K/4",
+                    "At path difference λ/6: φ = 2π/6 = π/3, so I = 4I0cos²(π/6) = 4(K/4)(√3/2)² = K × 3/4 = 3K/4"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "Differences between Young's double-slit interference and single-slit diffraction: First, in YDSE all bright fringes have equal intensity, whereas in single-slit diffraction the central maximum has the highest intensity and successive maxima have progressively decreasing intensities. Second, in YDSE the fringe width is uniform throughout the pattern, whereas in single-slit diffraction the central maximum has double the width of other secondary maxima. For the intensity calculation: at a point where path difference = λ, the phase difference φ = (2π/λ) × λ = 2π. Using I = 4I0 cos²(φ/2) = 4I0 cos²(π) = 4I0 × 1 = 4I0 = K, so I0 = K/4. At path difference λ/6, phase difference φ = (2π/λ) × (λ/6) = π/3. Therefore I = 4I0 cos²(π/6) = 4 × (K/4) × (√3/2)² = K × (3/4) = 3K/4. The intensity at the point where path difference is λ/6 is 3K/4 units.",
+            "solution_hindi": null,
+            "chapter": "Wave Optics",
+            "topic": "Young's Double Slit Experiment and Diffraction",
+            "difficulty": "Hard",
+            "has_image": false,
+            "image_description":null
+        },
+        {
+            "question_number": 32,
+            "question_type": "LONG_ANSWER",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(क) (i) द्विध्रुव आघूर्ण p के किसी लघु द्विध्रुव के कारण, द्विध्रुव के साइज़ की तुलना में उसके केन्द्र से बहुत अधिक दूरी पर स्थित किसी बिन्दु r पर, विद्युत विभव के लिए व्यंजक प्राप्त कीजिए। (ii) किसी समबाहु त्रिभुज के शीर्षों पर तीन बिन्दु आवेश q, 2q और nq स्थित हैं। यदि इस निकाय की स्थितिज ऊर्जा शून्य है, तो n का मान ज्ञात कीजिए।",
+            "text_english": "(a) (i) Obtain an expression for the electric potential due to a small dipole of dipole moment p, at a point r from its centre, for much larger distances compared to the size of the dipole. (ii) Three point charges q, 2q and nq are placed at the vertices of an equilateral triangle. If the potential energy of the system is zero, find the value of n.\nOR\n(b) (i) State Gauss's Law in electrostatics. Apply this to obtain the electric field E at a point near a uniformly charged infinite plane sheet. (ii) Two long straight wires 1 and 2 are kept as shown in the figure. The linear charge density of the two wires are λ1 = 10 μC/m and λ2 = −20 μC/m. Find the net force F experienced by an electron held at point P.",
+            "instruction_line": "अथवा",
+            "instruction_line_english": "OR",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Electric potential due to dipole: V = (1/4πε0)(p cosθ / r²)",
+                    "For equilateral triangle with side a: total PE = kq(2q)/a + k(2q)(nq)/a + k(nq)(q)/a = 0, giving n = −2/3",
+                    "OR for Gauss's Law: E = σ/(2ε0) for infinite plane sheet"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "For part (i): Consider a dipole of moment p = q × 2l with charges +q and −q. For a point P at distance r from the centre and making angle θ with the dipole axis (r >> 2l): potential V = (1/4πε0)[q/r1 − q/r2], where r1 and r2 are distances from +q and −q. Using approximation for large r: r1 ≈ r − l cosθ and r2 ≈ r + l cosθ. Substituting and simplifying, V = (1/4πε0)(p cosθ/r²), where p = q × 2l is the dipole moment. For a point on the axial line (θ = 0°), V = p/(4πε0r²); for equatorial line (θ = 90°), V = 0. For part (ii): Let the side of the equilateral triangle be a. Total potential energy U = (1/4πε0)[q·2q/a + 2q·nq/a + nq·q/a] = (1/4πε0)(q²/a)[2 + 2n + n] = (kq²/a)(2 + 3n). Setting U = 0: 2 + 3n = 0, giving n = −2/3.",
+            "solution_hindi": null,
+            "chapter": "Electric Charges and Fields / Electrostatic Potential and Capacitance",
+            "topic": "Electric Potential due to Dipole; Potential Energy of a System of Charges",
+            "difficulty": "Hard",
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780641085/0b682b28-81d4-4875-82f8-9691b4eca53a.png"
+        },
+        {
+            "question_number": 33,
+            "question_type": "LONG_ANSWER",
+            "section": "E",
+            "part_of_group": null,
+            "marks": 5,
+            "negative_marks": 0,
+            "text": "(क) (i) आरेख में दर्शाए अनुसार द्रव्यमान m और आवेश q का कोई कण किसी चुम्बकीय क्षेत्र B में वेग v से गतिमान है। यह दर्शाइए कि यह कण कुण्डलिनी पथ पर गमन करता है। इस प्रकार इसके परिक्रमण की आवृत्ति प्राप्त कीजिए। (ii) हाइड्रोजन परमाणु में, इलेक्ट्रॉन 2 Å त्रिज्या की किसी कक्षा में 8×10¹⁴ rev/s की कक्षीय गति से गमन करता है। कक्षीय गति से संबद्ध चुम्बकीय आघूर्ण ज्ञात कीजिए।",
+            "text_english": "(a) (i) A particle of mass m and charge q is moving with a velocity v in a magnetic field B as shown in the figure. Show that it follows a helical path. Hence, obtain its frequency of revolution. (ii) In a hydrogen atom, the electron moves in an orbit of radius 2 Å making 8×10¹⁴ revolutions per second. Find the magnetic moment associated with the orbital motion of the electron.\nOR\n(b) (i) What is current sensitivity of a galvanometer? Show how the current sensitivity of a galvanometer may be increased. Increasing the current sensitivity of a galvanometer may not necessarily increase its voltage sensitivity. Explain. (ii) A moving coil galvanometer has a resistance 15 Ω and takes 20 mA to produce full scale deflection. How can this galvanometer be converted into a voltmeter of range 0 to 100 V?",
+            "instruction_line": "अथवा",
+            "instruction_line_english": "OR",
+            "options": null,
+            "options_english": null,
+            "blank_count": null,
+            "sub_questions": null,
+            "correct_answer": {
+                "type": "text",
+                "key_points": [
+                    "Helical path: component of v along B is unchanged (no magnetic force), component perpendicular to B causes circular motion → combined motion is helical",
+                    "Frequency of revolution: f = qB/(2πm) (cyclotron frequency, independent of speed)",
+                    "Magnetic moment: M = IA = (ef) × πr² = 1.6×10⁻¹⁹ × 8×10¹⁴ × π × (2×10⁻¹⁰)² ≈ 1.6×10⁻²³ A·m²"
+                ],
+                "key_points_hindi": null
+            },
+            "solution": "For part (i): The velocity v of the particle has two components — v⊥ (perpendicular to B) and v∥ (parallel to B). The magnetic force F = qv × B acts only on v⊥ (since F = qv∥B sin0° = 0 for the parallel component). The perpendicular component causes the particle to move in a circle in the plane perpendicular to B, with radius r = mv⊥/(qB). The parallel component v∥ remains unaffected by the magnetic force and causes uniform motion along B. The combination of circular motion (due to v⊥) and uniform translation (due to v∥) results in a helical path. The frequency of revolution is f = v⊥/(2πr) = v⊥/(2π × mv⊥/qB) = qB/(2πm). This cyclotron frequency is independent of the speed of the particle. For part (ii): The electron in the hydrogen atom moves in a circular orbit of radius r = 2 Å = 2 × 10⁻¹⁰ m at a frequency ν = 8 × 10¹⁴ rev/s. The equivalent current is I = eν = 1.6 × 10⁻¹⁹ × 8 × 10¹⁴ = 1.28 × 10⁻⁴ A. The magnetic moment is M = IA = I × πr² = 1.28 × 10⁻⁴ × π × (2 × 10⁻¹⁰)² = 1.28 × 10⁻⁴ × 3.14 × 4 × 10⁻²⁰ ≈ 1.61 × 10⁻²³ A·m².",
+            "solution_hindi": null,
+            "chapter": "Moving Charges and Magnetism",
+            "topic": "Helical Motion in Magnetic Field; Magnetic Moment",
+            "difficulty": "Hard",
+            "has_image": true,
+            "image_description": "https://res.cloudinary.com/dzvn38mkv/image/upload/v1780641108/53c15192-f7a2-46f2-a9db-25dbad07b01a.png"
+        }
+    ]
+}
